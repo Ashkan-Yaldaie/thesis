@@ -14,7 +14,7 @@ Thesis
     - [Objectives and deliverables of the project](#objectives-and-deliverables-of-the-project)
     - [Out of scope](#out-of-scope)
     - [Project organization and stakeholders](#project-organization-and-stakeholders)
-    - [Project’s budget and schedule](#project’s-budget-and-schedule)
+    - [Project’s budget and schedule](#projects-budget-and-schedule)
     - [Risks of the project and preconditions for the success of the project](#risks-of-the-project-and-preconditions-for-the-success-of-the-project)
 2. [The working plan](#the-working-plan)
     - [Phasing and timing of the work](#phasing-and-timing-of-the-work)
