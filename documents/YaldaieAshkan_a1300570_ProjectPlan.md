@@ -137,4 +137,6 @@ The methods are the implementation of the system, testing the project and report
 
 ## Appendix 1 Pictures of the project’s current state
 
+![Alt text](https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/p1.jpg)
+
 ## Appendix 2 Phasing and timing of the project
