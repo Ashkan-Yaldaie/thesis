@@ -16,6 +16,7 @@ Thesis
     - Project organization and stakeholders
     - Project’s budget and schedule
     - Risks of the project and preconditions for the success of the project
+&nbsp;  
 2. The working plan
     - Phasing and timing of the work
     - Project management
