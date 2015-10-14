@@ -20,7 +20,7 @@ Thesis
     - Phasing and timing of the work
     - Project management
     - Methods used in the thesis project  
-    Appendix 1	Pictures of the project’s current state  
-    Appendix 2	Phasing and timing of the project
+> Appendix 1	Pictures of the project’s current state  
+> Appendix 2	Phasing and timing of the project
     
 ## Project definition
