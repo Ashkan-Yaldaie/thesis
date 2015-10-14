@@ -9,7 +9,7 @@ Thesis
 ## Table of contents
 1.  [Project definition](#project-definition)
     - [The background of the project](#the-background-of-the-project)
-    - [Potential Sources](#potential-sources)
+    - [Potential sources](#potential-sources)
     - [Work statement](#work-statement)
     - [Objectives and deliverables of the project](#objectives-and-deliverables-of-the-project)
     - [Out of scope](#out-of-scope)
@@ -40,7 +40,7 @@ A prototype for the project has been already created. Currently, the system is a
 
 Testing and some additional research is required in order to improve the final results and make a full demonstration of how the system performs.
 
-### Potential Sources
+### Potential sources
 
 The following book offers useful information that can be used for the project's imple-mentation. The book explains how Python can be used to work with GPIOs and it can be useful for this project.
 * Getting Started with Raspberry Pi (By Matt Richardson and Shawn Wallace)
@@ -64,4 +64,28 @@ Additional resources will be used for this project, so the complete list of sour
 
 This project is set to create a fully modified and personalized home automation and se-curity system with the Raspberry Pi, some additional sensors and external devices. 
 
-Some pictures from the current state of the project are attached at the end of this doc-ument ([Appendix 1](#appendix-1)).
+Some pictures from the current state of the project are attached at the end of this doc-ument ([Appendix 1](#appendix-1-pictures-of-the-project’s-current-state)).
+
+### Objectives and deliverables of the project
+
+The home automation and security system that set to be created will have the following functionalities.
+
+Home automation:
+* Ability to switch on/off some home devices
+* The system can measure home and outside temperature
+* System will be able to control home devices based on the home temperature
+* The home automation system will be able to set time for turning on/off home devices.
+
+Security system:
+* The system will trigger an alarm in the case of home intrusion
+* The system also will capture a short video clip of the incident
+* The security system will upload the video to an online server
+* It must be able to send notifications to the homeowner via SMS and e-mail
+* In case of emergency if someone is home alone, there will be a panic button which can be utilized to notify other residents
+
+Finally, a web-server and PHP server will be implemented to serve for the graphical user interphase of the project.
+
+The purpose of this thesis is to examine different ways of using the Raspberry Pi as a multifunctional device in particular as a basic home automation and security system. An-swering to the following questions will help to reach goals of this bachelor thesis:
+* What are the possibilities to create a programmable home automation and securi-ty system using the Pi?
+    - Will such a system provide expected functionalities which are mentioned above in the subchapter 1.4?
+    - What is the money cost for completing the project?
