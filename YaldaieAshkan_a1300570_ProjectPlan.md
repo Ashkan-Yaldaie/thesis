@@ -134,3 +134,7 @@ All the decisions which are related to the thesis project, including the accepta
 ### Methods used in the thesis project
 In order to complete the paper, a working system must be implemented. To test the sys-tem, real-life situations and scenarios will be created and tested. The information will be collected from the books and instructions, of course, some things must be modified to be compatible with the available hardware and personal needs.
 The methods are the implementation of the system, testing the project and reporting the results.
+
+## Appendix 1 Pictures of the project’s current state
+
+## Appendix 2 Phasing and timing of the project
