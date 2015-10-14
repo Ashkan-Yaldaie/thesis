@@ -11,18 +11,18 @@ Thesis
     - [The background of the project](#the-background-of-the-project)
     - [Potential Sources](#potential-sources)
     - [Work statement](#work-statement)
-    - Objectives and deliverables of the project
-    - Out of scope
-    - Project organization and stakeholders
-    - Project’s budget and schedule
-    - Risks of the project and preconditions for the success of the project
-2. The working plan
-    - Phasing and timing of the work
-    - Project management
-    - Methods used in the thesis project
+    - [Objectives and deliverables of the project](#objectives-and-deliverables-of-the-project)
+    - [Out of scope](#out-of-scope)
+    - [Project organization and stakeholders](project-organization-and-stakeholders)
+    - [Project’s budget and schedule](project’s-budget-and-schedule)
+    - [Risks of the project and preconditions for the success of the project](risks-of-the-project-and-preconditions-for-the-success-of-the-project)
+2. [The working plan](the-working-plan)
+    - [Phasing and timing of the work](phasing-and-timing-of-the-work)
+    - [Project management](project-management)
+    - [Methods used in the thesis project](methods-used-in-the-thesis-project)
 
-&nbsp;Appendix 1 Pictures of the project’s current state  
-&nbsp;Appendix 2 Phasing and timing of the project
+&nbsp;[Appendix 1 Pictures of the project’s current state](appendix-1-pictures-of-the-project’s-current-state)  
+&nbsp;[Appendix 2 Phasing and timing of the project](appendix-2-phasing-and-timing-of-the-project)
     
 ## Project definition
 
