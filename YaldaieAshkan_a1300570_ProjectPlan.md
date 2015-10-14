@@ -21,7 +21,7 @@ Thesis
     - [Project management](#project-management)
     - [Methods used in the thesis project](#methods-used-in-the-thesis-project)
 
-&nbsp;[Appendix 1 Pictures of the project’s current state](#appendix-1-pictures-of-the-project’s-current-state)  
+&nbsp;[Appendix 1 Pictures of the project’s current state](#appendix-1-pictures-of-the-projects-current-state)  
 &nbsp;[Appendix 2 Phasing and timing of the project](#appendix-2-phasing-and-timing-of-the-project)
     
 ## Project definition
@@ -64,7 +64,7 @@ Additional resources will be used for this project, so the complete list of sour
 
 This project is set to create a fully modified and personalized home automation and se-curity system with the Raspberry Pi, some additional sensors and external devices. 
 
-Some pictures from the current state of the project are attached at the end of this doc-ument ([Appendix 1](#appendix-1-pictures-of-the-project’s-current-state)).
+Some pictures from the current state of the project are attached at the end of this doc-ument ([Appendix 1](#appendix-1-pictures-of-the-projects-current-state)).
 
 ### Objectives and deliverables of the project
 
