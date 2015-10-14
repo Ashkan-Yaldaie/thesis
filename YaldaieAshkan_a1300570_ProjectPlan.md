@@ -13,16 +13,16 @@ Thesis
     - [Work statement](#work-statement)
     - [Objectives and deliverables of the project](#objectives-and-deliverables-of-the-project)
     - [Out of scope](#out-of-scope)
-    - [Project organization and stakeholders](project-organization-and-stakeholders)
-    - [Project’s budget and schedule](project’s-budget-and-schedule)
-    - [Risks of the project and preconditions for the success of the project](risks-of-the-project-and-preconditions-for-the-success-of-the-project)
-2. [The working plan](the-working-plan)
-    - [Phasing and timing of the work](phasing-and-timing-of-the-work)
-    - [Project management](project-management)
-    - [Methods used in the thesis project](methods-used-in-the-thesis-project)
+    - [Project organization and stakeholders](#project-organization-and-stakeholders)
+    - [Project’s budget and schedule](#project’s-budget-and-schedule)
+    - [Risks of the project and preconditions for the success of the project](#risks-of-the-project-and-preconditions-for-the-success-of-the-project)
+2. [The working plan](#the-working-plan)
+    - [Phasing and timing of the work](#phasing-and-timing-of-the-work)
+    - [Project management](#project-management)
+    - [Methods used in the thesis project](#methods-used-in-the-thesis-project)
 
-&nbsp;[Appendix 1 Pictures of the project’s current state](appendix-1-pictures-of-the-project’s-current-state)  
-&nbsp;[Appendix 2 Phasing and timing of the project](appendix-2-phasing-and-timing-of-the-project)
+&nbsp;[Appendix 1 Pictures of the project’s current state](#appendix-1-pictures-of-the-project’s-current-state)  
+&nbsp;[Appendix 2 Phasing and timing of the project](#appendix-2-phasing-and-timing-of-the-project)
     
 ## Project definition
 
@@ -125,7 +125,7 @@ Working and testing external devices is the next stage. Writing and modifying so
 
 Finally, a graphical user interphase will be created and the project will be tested using the real life scenarios over some period of time.
 
-The phasing is presented in more details in [Appendix 2](appendix-2-phasing-and-timing-of-the-project).
+The phasing is presented in more details in [Appendix 2](#appendix-2-phasing-and-timing-of-the-project).
 
 ### Project management
 
