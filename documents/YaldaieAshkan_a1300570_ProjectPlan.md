@@ -146,3 +146,17 @@ The methods are the implementation of the system, testing the project and report
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/p5.png" width="200" height="491">
 
 ## Appendix 2 Phasing and timing of the project
+
+|Task|Completion time (week number)
+| ------------- | ------------- |
+|Preparation of the starting meeting|40|
+|Having the first meeting and working on the project plan|41|
+|Having the second meeting and completing the project plan|42|
+|Completing the table of contents for the final paper|43|
+|Working on the prototype issues|44|
+|Completing the development phase and testing|45-49|
+|Having a control meeting|50|
+|Continuing to write the final paper|51|
+|70% of the paper is complete by now + Seminar presentation|52|
+|Having a control meeting|53|
+|Completing the paper|54-1|
