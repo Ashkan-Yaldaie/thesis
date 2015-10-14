@@ -10,7 +10,7 @@ Thesis
 1.  [Project definition](#project-definition)
     - [The background of the project](#the-background-of-the-project)
     - [Potential Sources](#potential-sources)
-    - Work statement
+    - [Work statement](#work-statement)
     - Objectives and deliverables of the project
     - Out of scope
     - Project organization and stakeholders
@@ -59,3 +59,9 @@ Some online instructions will also be included as sources for this paper.
 * Tero Karvinen URL: http://terokarvinen.com/
 
 Additional resources will be used for this project, so the complete list of sources will be provided in the final paper. 
+
+### Work statement
+
+This project is set to create a fully modified and personalized home automation and se-curity system with the Raspberry Pi, some additional sensors and external devices. 
+
+Some pictures from the current state of the project are attached at the end of this doc-ument ([Appendix 1](#appendix-1)).
