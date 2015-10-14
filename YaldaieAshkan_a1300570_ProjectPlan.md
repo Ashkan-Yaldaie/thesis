@@ -6,7 +6,7 @@ Project plan
 Thesis  
 14 October 2015  
 ## Table of contents 
-1.  [Project definition](#Project-definition)  
+1.  [Project definition](#project-definition)  
     1. The background of the project  
     2.	Potential Sources  
     3.	Work statement  
