@@ -89,3 +89,48 @@ The purpose of this thesis is to examine different ways of using the Raspberry P
 * What are the possibilities to create a programmable home automation and securi-ty system using the Pi?
     - Will such a system provide expected functionalities which are mentioned above in the subchapter 1.4?
     - What is the money cost for completing the project?
+
+### Out of scope
+
+Basics will be covered very briefly in the final paper such as Linux installation and con-figuration for the Raspberry Pi.
+At this stage, this project is for a personal home usage, so such functionalities that are more useful for a firm will be excluded from this thesis work. An online video stream-ing of the area can be mentioned as an excluded functionality.
+
+### Project organization and stakeholders
+
+School’s advisor of the thesis: Tero Karvinen
+
+Since at this stage the project is for home usage, the potential target group includes home and small business owners.
+
+### Project’s budget and schedule
+
+Any instruction available in books and web articles contain a list of hardware. In order to complete the project, the available hardware to the developer will be used. Purchase of any extra devices will be avoided if it is not really necessarily. However, a list of used devices for this project will be provided to calculate the budget.
+
+The starting date and the ending date of the project are: 1 October 2015 – 29 February 2016.
+
+### Risks of the project and preconditions for the success of the project
+One of the purposes of this project is to control home devices and since they work with high voltage from 100v to 240v, it is required to be an electrician to deal with high cur-rent. Due to this, radio remote control sockets will be used for this project.
+
+Buying sensors from the local shops will be avoided due to the high prices. Sensors and additional devices will be bought mostly from China. The internet shop “ebay.com” will be used to make purchases.
+
+The only obstacles to be faced if goods are bought from China are a long waiting peri-od and lack of quality. However, to avoid such problems items will be bought from known sellers and will be ordered beforehand.
+
+## The working plan
+
+### Phasing and timing of the work
+After studying the goals of the project, the work will continue by creating a list of devic-es that need to be bought.
+
+The next stage will be studying about the safety measures of working with high current and start configuring the Raspberry Pi and its operating system. A list of software will be created to be installed on the Raspberry Pi.
+
+Working and testing external devices is the next stage. Writing and modifying some codes is also required to personalize some functionalities.
+
+Finally, a graphical user interphase will be created and the project will be tested using the real life scenarios over some period of time.
+
+The phasing is presented in more details in [Appendix 2](appendix-2-phasing-and-timing-of-the-project).
+
+### Project management
+
+All the decisions which are related to the thesis project, including the acceptance of re-sults, are made in a steering group. After starting the meeting, the date and place of the next steering group meeting is agreed on at the previous meeting. The project manager sends the material which is dealt with in the meeting to the members of the steering group three weekdays before the meeting. A notice of a meeting is sent to all the meet-ings. The material of the beginning meeting is a project plan, the material of control meetings is a status report and the results that have been shown in the project plan are delivered to the final meeting. If the project cannot be promoted, for one reason or another, according to the one that has been designed in the project plan, the project manager convenes an extraordinary steering meeting and proposes the amendment drawn up by it. It contains the proposal for the updated project plan. The steering group decides about the changes. After the steering meetings, the project manager will deliver minutes within three weekdays from the meeting to the steering group. The pro-ject manager will be responsible for the communication between the separate parties, in other words, the interest groups of the project for the work, if anything else is not de-cided in the steering meeting.
+
+### Methods used in the thesis project
+In order to complete the paper, a working system must be implemented. To test the sys-tem, real-life situations and scenarios will be created and tested. The information will be collected from the books and instructions, of course, some things must be modified to be compatible with the available hardware and personal needs.
+The methods are the implementation of the system, testing the project and reporting the results.
