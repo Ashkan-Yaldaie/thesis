@@ -8,7 +8,7 @@ Thesis
 
 ## Table of contents
 1.  [Project definition](#project-definition)
-    - The background of the project
+    - [The background of the project](#the-background-of-the-project)
     - Potential Sources
     - Work statement
     - Objectives and deliverables of the project
@@ -25,6 +25,7 @@ Thesis
 &nbsp;Appendix 2 Phasing and timing of the project
     
 ## Project definition
+### The background of the project
 The goal of this thesis is to create a fully functional home automation and security sys-tem.
 
 The subject of home automation has been talked about over the past years, but some-times these systems are not as useful as they are supposed to be. For example, is not it easier to switch on or off the coffee machine or light the traditional way than to use a smartphone or browser to do these simple tasks.
