@@ -87,7 +87,7 @@ Finally, a web-server and PHP server will be implemented to serve for the graphi
 
 The purpose of this thesis is to examine different ways of using the Raspberry Pi as a multifunctional device in particular as a basic home automation and security system. An-swering to the following questions will help to reach goals of this bachelor thesis:
 * What are the possibilities to create a programmable home automation and securi-ty system using the Pi?
-    - Will such a system provide expected functionalities which are mentioned above in the subchapter 1.4?
+    - Will such a system provide expected functionalities which are mentioned [above](#objectives-and-deliverables-of-the-project)?
     - What is the money cost for completing the project?
 
 ### Out of scope
