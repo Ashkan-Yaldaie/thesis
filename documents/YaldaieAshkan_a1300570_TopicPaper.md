@@ -16,7 +16,7 @@ The goal of this thesis is to create a fully functional home automation and secu
 
 The subject of home automation has been talked about over the past years, but sometimes these systems are not as useful as they are supposed to be. For example, is not it easier to switch on or off the coffee machine or light the traditional way than to use a smartphone or browser to do these simple tasks.
 
-In the bachelor thesis the solution to the mentioned problem and similar ones will be suggested and in order to do so the system will be tested based on the real life scenarios.
+In the bachelor thesis, the solution to the mentioned problem and similar ones will be suggested and in order to do so the system will be tested based on the real life scenarios.
 
 It is possible to collect data from the environment using the Raspberry Pi sensors but how can such information be used to control the home devices.
 
