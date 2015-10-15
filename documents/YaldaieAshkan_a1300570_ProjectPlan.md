@@ -147,7 +147,7 @@ The methods are the implementation of the system, testing the project and report
 
 ## Appendix 2 Phasing and timing of the project
 
-|Task|Completion time (week number)
+|Task|Completion time (week number)|
 | ------------- | ------------- |
 |Preparation of the starting meeting|40|
 |Having the first meeting and working on the project plan|41|
