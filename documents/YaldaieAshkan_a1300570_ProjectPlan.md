@@ -83,7 +83,7 @@ Security system:
 * It must be able to send notifications to the homeowner via SMS and e-mail
 * In case of emergency if someone is home alone, there will be a panic button which can be utilized to notify other residents
 
-Finally, a web-server and PHP server will be implemented to serve for the graphical user interphase of the project.
+Finally, a web-server and PHP server will be implemented to serve for the graphical user interface of the project.
 
 The purpose of this thesis is to examine different ways of using the Raspberry Pi as a multifunctional device in particular as a basic home automation and security system. Answering to the following questions will help to reach goals of this bachelor thesis:
 * What are the possibilities to create a programmable home automation and security system using the Pi?
@@ -123,7 +123,7 @@ The next stage will be studying about the safety measures of working with high c
 
 Working and testing external devices is the next stage. Writing and modifying some codes is also required to personalize some functionalities.
 
-Finally, a graphical user interphase will be created and the project will be tested using the real life scenarios over some period of time.
+Finally, a graphical user interface will be created and the project will be tested using the real life scenarios over some period of time.
 
 The phasing is presented in more details in [Appendix 2](#appendix-2-phasing-and-timing-of-the-project).
 
