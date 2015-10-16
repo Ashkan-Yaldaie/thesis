@@ -7,7 +7,8 @@
   - Introduction to the Raspberry Pi
   - Home automation
   - Security system
-4. Implementation of a home automation and security system
+4. Methodology
+5. Implementation of a home automation and security system
   - Setting up the Raspberry Pi
   - List of required sensors and other devices
   - Home automation
@@ -25,8 +26,8 @@
     - Capturing a video clip of an intrusion and uploading it to the cloud
     - Controlling the security system via Bluetooth
   - Creating a graphical user interphase for the system
-5. How to improve future implementations
-6. Conclusion
+6. How to improve future implementations
+7. Conclusion
 
 &nbsp;References  
 &nbsp;Appendix
