@@ -6,8 +6,7 @@
   - Methodology
 3. Theoretical Overview
   - Introduction to the Raspberry Pi
-  - Home automation
-  - Security system
+  - Home automation and security system
 5. Implementation of a home automation and security system
   - Setting up the Raspberry Pi
   - List of required sensors and other devices
