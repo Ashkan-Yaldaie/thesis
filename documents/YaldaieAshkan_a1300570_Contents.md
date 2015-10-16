@@ -9,7 +9,7 @@
   - Home automation and security system
 5. Implementation of a home automation and security system
   - Setting up the Raspberry Pi
-  - List of required sensors and other devices
+  - List of required sensors and devices
   - Home automation
     - WIFI sockets
     - Radio frequency sockets
