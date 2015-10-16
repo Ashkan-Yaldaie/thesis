@@ -1,7 +1,7 @@
 # Table of contetnts
 1. Introduction
   - Project questions and objectives
-  - Project's purpose
+  - Project's purpose and scope
   - Definition of terms
 2. Theoretical Overview
   - Introduction to the Raspberry Pi
