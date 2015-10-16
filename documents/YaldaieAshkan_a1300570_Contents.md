@@ -19,10 +19,11 @@
   - Security system
     - Adding a wired motion sensor
     - Adding a wireless motion sensor
-    - Sending SMS, e-mail and triggering an alarm if motion is detected
+    - Sending SMS and triggering an alarm if motion is detected
     - Implementation of a panic button
     - Connecting a camera to the system
-    - Capturing a video clip of an intrusion and uploading it to the cloud
+    - Capturing a video clip of an intrusion
+    - Uploading the video to the cloud and sending a notification e-mail
     - Controlling the security system via Bluetooth
   - Creating a graphical user interface for the system
 6. Ways to improve future implementations
