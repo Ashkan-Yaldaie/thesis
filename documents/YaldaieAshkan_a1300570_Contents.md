@@ -20,7 +20,7 @@
   - Adding a wireless motion sensor
   - Sending SMS, e-mail and triggering an alarm if motion is detected
   - Implementation of a panic button
-  - Connection the system to a camera
+  - Connection a camera to the system
   - Capturing a video clip of an intrusion and  uploading it to cloud
   - Controlling the security system via Bluetooth
 7. Creating a graphical user interphase for the system
