@@ -1,4 +1,4 @@
-# Table of contetnts
+# Table of contents
 1. Introduction
   - Project questions and objectives
   - Project's purpose and scope
