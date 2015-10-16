@@ -2,7 +2,7 @@
 1. Introduction
 2. Project questions and objectives
 3. Theoretical Overview
-  - Introduction to Raspberry Pi
+  - Introduction to the Raspberry Pi
   - Home automation
   - Security system
 4. The research method
