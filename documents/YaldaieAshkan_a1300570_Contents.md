@@ -1,12 +1,13 @@
 # Table of contetnts
 1. Introduction
-2. Project questions and objectives
-3. Theoretical Overview
+  - Project questions and objectives
+  - Project's purpose
+  - Definition of terms
+2. Theoretical Overview
   - Introduction to the Raspberry Pi
   - Home automation
   - Security system
-4. Project's purpose
-5. Implementation of a home automation and security system
+3. Implementation of a home automation and security system
   - Setting up the Raspberry Pi
   - List of required sensors and other devices
   - Home automation
@@ -24,9 +25,8 @@
     - Capturing a video clip of an intrusion and uploading it to the cloud
     - Controlling the security system via Bluetooth
   - Creating a graphical user interphase for the system
-8. How to improve future implementations
-9. Conclusion
+4. How to improve future implementations
+5. Conclusion
 
 &nbsp;References  
 &nbsp;Appendix
-
