@@ -159,4 +159,4 @@ The methods are the implementation of the system, testing the project and report
 |Continuing to write the final paper|51|
 |70% of the paper is complete by now + Seminar presentation|52|
 |Having a control meeting|53|
-|Completing the paper|54-1|
+|Completing the paper|1-6|
