@@ -5,7 +5,7 @@
   - Introduction to the Raspberry Pi
   - Home automation
   - Security system
-4. The research method
+4. Methods used in the thesis project
 5. Implementation of a home automation and security system
   - Setting up the Raspberry Pi
   - List of required sensors and other devices
