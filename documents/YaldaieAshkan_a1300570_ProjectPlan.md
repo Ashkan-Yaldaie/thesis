@@ -72,7 +72,7 @@ The home automation and security system that set to be created will have the fol
 
 Home automation:
 * Ability to switch on/off some home devices
-* The system can measure home and outside temperature
+* The system can measure home temperature
 * System will be able to control home devices based on the home temperature
 * The home automation system will be able to set time for turning on/off home devices.
 
