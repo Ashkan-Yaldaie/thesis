@@ -15,15 +15,15 @@
     - Control a socket using home temperature
     - Control a socket using timer
     - voice control
-6. Security system
-  - Adding a wired motion sensor
-  - Adding a wireless motion sensor
-  - Sending SMS, e-mail and triggering an alarm if motion is detected
-  - Implementation of a panic button
-  - Connection a camera to the system
-  - Capturing a video clip of an intrusion and  uploading it to cloud
-  - Controlling the security system via Bluetooth
-7. Creating a graphical user interphase for the system
+  - Security system
+    - Adding a wired motion sensor
+    - Adding a wireless motion sensor
+    - Sending SMS, e-mail and triggering an alarm if motion is detected
+    - Implementation of a panic button
+    - Connection a camera to the system
+    - Capturing a video clip of an intrusion and  uploading it to cloud
+    - Controlling the security system via Bluetooth
+  - Creating a graphical user interphase for the system
 8. How to improve future implementations
 9. Conclusion
 
