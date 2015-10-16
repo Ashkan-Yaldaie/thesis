@@ -17,7 +17,7 @@
     - Control a socket using timer
     - Voice control
   - Security system
-    - Adding a wired and a wireless motion sensor
+    - Adding a wireless motion sensor
     - Sending SMS and triggering an alarm if motion is detected
     - Implementation of a panic button
     - Connecting a camera to the system
