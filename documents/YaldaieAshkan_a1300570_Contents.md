@@ -25,7 +25,7 @@
     - Capturing a video clip of an intrusion and uploading it to the cloud
     - Controlling the security system via Bluetooth
   - Creating a graphical user interface for the system
-6. How to improve future implementations
+6. Ways to improve future implementations
 7. Conclusion
 
 &nbsp;References  
