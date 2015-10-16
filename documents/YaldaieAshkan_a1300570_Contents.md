@@ -26,6 +26,7 @@
 * Creating a graphical user interphase for the system
 * How to improve future implementations
 * Conclusion
-References
-Appendix
+
+&nbsp;References  
+&nbsp;Appendix
 
