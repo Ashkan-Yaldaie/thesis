@@ -14,7 +14,7 @@
     - Radio frequency sockets
     - Control a socket using home temperature
     - Control a socket using timer
-    - voice control
+    - Voice control
   - Security system
     - Adding a wired motion sensor
     - Adding a wireless motion sensor
