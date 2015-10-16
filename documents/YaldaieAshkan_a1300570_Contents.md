@@ -3,11 +3,11 @@
 2. Introduction
   - Project questions and objectives
   - Project's purpose and scope
+  - Methodology
 3. Theoretical Overview
   - Introduction to the Raspberry Pi
   - Home automation
   - Security system
-4. Methodology
 5. Implementation of a home automation and security system
   - Setting up the Raspberry Pi
   - List of required sensors and other devices
