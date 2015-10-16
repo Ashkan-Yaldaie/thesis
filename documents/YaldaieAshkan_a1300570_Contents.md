@@ -24,7 +24,7 @@
     - Connecting a camera to the system
     - Capturing a video clip of an intrusion and uploading it to the cloud
     - Controlling the security system via Bluetooth
-  - Creating a graphical user interphase for the system
+  - Creating a graphical user interface for the system
 6. How to improve future implementations
 7. Conclusion
 
