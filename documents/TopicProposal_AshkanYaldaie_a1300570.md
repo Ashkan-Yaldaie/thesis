@@ -3,7 +3,7 @@
 ## Student’s name, contact information and student number
 
 * Name: Ashkan Yaldaie (a1300570)
-* E-mail: a1300570 (at) myy.haaga-helia.fi
+* E-mail: a1300570 (a) myy.haaga-helia.fi
 * Phone: XXXXXXXXXX
 
 ## Name of the thesis
