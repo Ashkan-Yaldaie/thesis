@@ -15,7 +15,8 @@ Tero Karvinen, thesis advisor
 Ashkan Yaldaie, student
 
 ### Decisions
-The meeting started with student delivering the first version of the project plan and discussing some issues pointed out by the advisor.
+The meeting started with student delivering the first version of the project plan and discussing some issues pointed out by the advisor.  
+  
 Thesis advisor shared some useful ideas about how to publish the thesis. He also answered some questions raised by the student.
 
 ### Next meeting
