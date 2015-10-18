@@ -149,7 +149,7 @@ The methods are the implementation of the system, testing the project and report
 
 |Task|Completion time (week number)|
 | ------------- | ------------- |
-|Preparation of the starting meeting|40|
+|Preparation for the first meeting|40|
 |Having the first meeting and working on the project plan|41|
 |Having the second meeting and completing the project plan|42|
 |Completing the table of contents for the final paper|43|
