@@ -1,4 +1,4 @@
-# Home automation and security system with the Raspberry Pi
+# Home automation and security system with the Raspberry Pi (Ashkan Yaldaie)
 
 ## Subject/Scope    
 
