@@ -1,5 +1,5 @@
 # Table of contents
-1. Abbreviations and Terms
+1. Abbreviations and terms
 2. Introduction
   - Project questions and objectives
   - Project's purpose and scope
