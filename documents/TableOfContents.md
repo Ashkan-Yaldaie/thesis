@@ -26,8 +26,8 @@ Home automation and security system with the Raspberry Pi (Ashkan Yaldaie)
     - Capturing a video clip of an intrusion
     - Uploading the video to the cloud and sending an email notification
     - Controlling the security system via Bluetooth
-  - Testing
   - Creating a graphical user interface for the system
+  - Testing
 5. Ways to improve future implementations
 6. Conclusion
 
