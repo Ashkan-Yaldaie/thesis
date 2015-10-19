@@ -22,7 +22,7 @@
     - Implementation of a panic button
     - Connecting a camera to the system
     - Capturing a video clip of an intrusion
-    - Uploading the video to the cloud and sending a notification e-mail
+    - Uploading the video to the cloud and sending an email notification
     - Controlling the security system via Bluetooth
   - Creating a graphical user interface for the system
 6. Ways to improve future implementations
