@@ -6,7 +6,7 @@ Home automation and security system with the Raspberry Pi (Ashkan Yaldaie)
   - Project questions and objectives
   - Project's purpose and scope
   - Methodology
-3. Theoretical Overview
+3. Background
   - Why Raspberry Pi?
   - Home automation and security system
 4. Implementation of a home automation and security system
