@@ -11,7 +11,7 @@ Ashkan Yaldaie (a1300570)
 HAAGA-HELIA (Pasila campus)
 
 ### Attendees
-Tero Karvinen, thesis advisor
+Tero Karvinen, thesis advisor  
 Ashkan Yaldaie, student
 
 ### Decisions
