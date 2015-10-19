@@ -9,7 +9,7 @@ Home automation and security system with the Raspberry Pi (Ashkan Yaldaie)
 3. Theoretical Overview
   - Introduction to the Raspberry Pi
   - Home automation and security system
-5. Implementation of a home automation and security system
+4. Implementation of a home automation and security system
   - Setting up the Raspberry Pi
   - List of required sensors and devices
   - Home automation
@@ -26,9 +26,10 @@ Home automation and security system with the Raspberry Pi (Ashkan Yaldaie)
     - Capturing a video clip of an intrusion
     - Uploading the video to the cloud and sending an email notification
     - Controlling the security system via Bluetooth
+  - Testing
   - Creating a graphical user interface for the system
-6. Ways to improve future implementations
-7. Conclusion
+5. Ways to improve future implementations
+6. Conclusion
 
 &nbsp;References  
 &nbsp;Appendix
