@@ -147,7 +147,7 @@ The methods are the implementation of the system, testing the project and report
 
 ## Appendix 2 Phasing and timing of the project
 
-|Milestones|Week number|Deliverables|
+|Milestone|Week number|Deliverable|
 | --- | --- | --- |
 |Preparation for the first meeting|40|Topic proposal and topic paper|
 |Having the first meeting and working on the project plan|41|First version of the project plan|
