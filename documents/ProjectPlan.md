@@ -162,4 +162,4 @@ The methods are the implementation of the system, testing the project and report
 |Having a control meeting|53|80% of the paper completed|
 |Working on the paper’s remaining issues|1-2|90% of the paper completed|
 |Discussion with the thesis advisor|3|Corrected version of the paper|
-|Completing the paper|4-6|99% of the thesis paper completed|
+|Completing and preparing the paper|4-6|99% of the thesis paper completed|
