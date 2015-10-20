@@ -10,8 +10,8 @@ Home automation and security system with the Raspberry Pi (Ashkan Yaldaie)
   - Why Raspberry Pi?
   - Home automation and security system
 4. Implementation of a home automation and security system
-  - Setting up the Raspberry Pi
   - List of required sensors and devices
+  - Setting up the Raspberry Pi
   - Home automation
     - WIFI sockets
     - Radio frequency sockets
