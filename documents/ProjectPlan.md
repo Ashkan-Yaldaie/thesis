@@ -147,16 +147,19 @@ The methods are the implementation of the system, testing the project and report
 
 ## Appendix 2 Phasing and timing of the project
 
-|Task|Completion time (week number)|
-| ------------- | ------------- |
-|Preparation for the first meeting|40|
-|Having the first meeting and working on the project plan|41|
-|Having the second meeting and completing the project plan|42|
-|Completing the table of contents for the final paper|43|
-|Working on the prototype issues|44|
-|Completing the development phase and testing|45-49|
-|Having a control meeting|50|
-|Continuing to write the final paper|51|
-|70% of the paper is complete by now + Seminar presentation|52|
-|Having a control meeting|53|
-|Completing the paper|1-6|
+|Task|Week number|Deliverables|
+| ---------- | ---------- |----------|
+|Preparation for the first meeting|40|Topic proposal and topic paper|
+|Having the first meeting and working on the project plan|41|First version of the project plan|
+|Having the second meeting and completing the project plan|42|Plan for the full thesis project|
+|Completing the table of contents for the final paper|43|Table of contents|
+|Working on the prototype issues|44|Radio frequency sockets working|
+|Completing the development phase|45-46|A working system with all the features|
+|Testing and fixing the remaining issues|47-49|A working system without visible errors|
+|Having a control meeting|50|50% of the paper completed|
+|Continuing to write the final paper|51|70% of the paper completed|
+|Completing the seminar presentation|52|Seminar presentation|
+|Having a control meeting|53|80% of the paper completed|
+|Working on the paper’s remaining issues|1-2|90% of the paper completed|
+|Discussion with the thesis advisor|3|Corrected version of the paper|
+|Completing the paper|4-6|99% of the thesis paper completed|
