@@ -147,7 +147,7 @@ The methods are the implementation of the system, testing the project and report
 
 ## Appendix 2 Phasing and timing of the project
 
-|Task|Week number|Deliverables|
+|Milestones|Week number|Deliverables|
 | --- | --- | --- |
 |Preparation for the first meeting|40|Topic proposal and topic paper|
 |Having the first meeting and working on the project plan|41|First version of the project plan|
@@ -155,7 +155,7 @@ The methods are the implementation of the system, testing the project and report
 |Completing the table of contents for the final paper|43|Table of contents|
 |Working on the prototype issues|44|Radio frequency sockets working|
 |Completing the development phase|45-46|Required features of the system|
-|Testing and fixing the remaining issues|47-49|System is working without visible errors|
+|Testing and fixing the remaining issues|47-49|System without visible errors|
 |Having a control meeting|50|50% of the paper completed|
 |Continuing to write the final paper|51|70% of the paper completed|
 |Completing the seminar presentation|52|Seminar presentation|
