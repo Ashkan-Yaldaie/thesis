@@ -1,3 +1,5 @@
-# Home automation and security system with the Raspberry Pi
+# Bachelor Thesis
+
+### Home automation and security system with the Raspberry Pi
 
 © 2015 Ashkan Yaldaie
