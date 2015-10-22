@@ -150,16 +150,16 @@ The methods are the implementation of the system, testing the project and report
 |Milestone|Week number|Deliverable|
 | --- | --- | --- |
 |Preparation for the first meeting|40|Topic proposal and topic paper|
-|Having the first meeting and working on the project plan|41|First version of the project plan|
-|Having the second meeting and completing the project plan|42|Plan for the full thesis project|
-|Completing the table of contents for the final paper|43|Table of contents|
+|First meeting and working on the project plan|41|First version of the project plan|
+|Second meeting and completing the project plan|42|Plan for the full thesis project|
+|Completing the table of contents|43|Table of contents|
 |Working on the prototype issues|44|Radio frequency sockets working|
 |Completing the development phase|45-46|Required features of the system|
 |Testing and fixing all discovered issues|47-49|A system without visible errors|
-|Having a control meeting|50|50% of the paper completed|
+|Having a control meeting|50|Half of the paper completed|
 |Continuing to write the final paper|51|70% of the paper completed|
 |Completing the seminar presentation|52|Seminar presentation|
-|Having a control meeting|53|80% of the paper completed|
+|Having a control meeting|53|Chapter four is finished|
 |Working on the paper’s remaining issues|1-2|90% of the paper completed|
 |Discussion with the thesis advisor|3|Corrected version of the paper|
 |Completing and preparing the paper|4-6|99% of the thesis paper completed|
