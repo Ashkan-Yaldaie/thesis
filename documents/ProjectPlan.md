@@ -155,11 +155,11 @@ The methods are the implementation of the system, testing the project and report
 |Completing the table of contents|43|Table of contents|
 |Working on the prototype issues|44|Radio frequency sockets working|
 |Completing the development phase|45-46|Required features of the system|
-|Testing and fixing all possible issues|47-49|A system without visible errors|
-|Having a control meeting|50|Half of the paper|
-|Continuing to write the final paper|51|70% of the paper completed|
-|Completing the seminar presentation|52|Seminar presentation|
-|Having a control meeting|53|Chapter four is finished|
-|Working on the paper’s remaining issues|1-2|90% of the paper|
-|Discussion with the thesis advisor|3|Corrected version of the paper|
-|Completing and preparing the paper|4-6|99% of the thesis paper|
+|Testing and fixing all possible issues|47-48|A system without visible errors|
+|Having a control meeting|49|Half of the paper|
+|Continuing to write the final paper|50|70% of the paper completed|
+|Completing the seminar presentation|51|Seminar presentation|
+|Having a control meeting|52|Chapter four is finished|
+|Working on the paper’s remaining issues|53-1|90% of the paper|
+|Discussion with the thesis advisor|2|Corrected version of the paper|
+|Completing and preparing the paper|3-5|99% of the thesis paper|
