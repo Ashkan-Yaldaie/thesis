@@ -2,14 +2,14 @@ Home automation and security system with the Raspberry Pi (Ashkan Yaldaie)
 
 # Table of contents
 1. Abbreviations and terms
-- Introduction
+1. Introduction
   - Project questions and objectives
   - Project's purpose and scope
   - Methodology
-- Background
+1. Background
   - Why Raspberry Pi?
   - Home automation and security system
-- Implementation of a home automation and security system
+1. Implementation of a home automation and security system
   - List of required sensors and devices
   - Setting up the Raspberry Pi
   - Home automation
@@ -28,8 +28,8 @@ Home automation and security system with the Raspberry Pi (Ashkan Yaldaie)
     - Controlling the security system via Bluetooth
   - Creating a graphical user interface for the system
   - Testing
-- Ways to improve future implementations
-- Conclusion
+1. Ways to improve future implementations
+1. Conclusion
 
 &nbsp;References  
 &nbsp;Appendix
