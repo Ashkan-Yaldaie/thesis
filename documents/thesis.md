@@ -7,8 +7,7 @@ Haaga-Helia University of Applied Sciences
 2 November 2015
 
 # Table of contents
-&nbsp;Abbreviations and terms
-
+&nbsp;Abbreviations and terms  
 1. Introduction
   - Project questions and objectives
   - Project's purpose and scope
