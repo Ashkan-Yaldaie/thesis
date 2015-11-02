@@ -19,7 +19,7 @@ Thesis
 2. [The working plan](#the-working-plan)
     - [Phasing and timing of the work](#phasing-and-timing-of-the-work)
     - [Project management](#project-management)
-    - [Methods used in the thesis project](#methods-used-in-the-thesis-project)
+    - [Methods to be used in the thesis project](#methods-to-be-used-in-the-thesis-project)
 
 &nbsp;[Appendix 1 Pictures of the project’s current state](#appendix-1-pictures-of-the-projects-current-state)  
 &nbsp;[Appendix 2 Phasing and timing of the project](#appendix-2-phasing-and-timing-of-the-project)
@@ -108,6 +108,7 @@ Any instruction available in books and web articles contain a list of hardware. 
 The starting date and the ending date of the project are: 1 October 2015 – 29 February 2016.
 
 ### Risks of the project and preconditions for the success of the project
+
 One of the purposes of this project is to control home devices and since they work with high voltage from 100v to 240v, it is required to be an electrician to deal with high current. Due to this, radio remote control sockets will be used for this project.
 
 Buying sensors from the local shops will be avoided due to the high prices. Sensors and additional devices will be bought mostly from China. The internet shop “ebay.com” will be used to make purchases.
@@ -117,6 +118,7 @@ The only obstacles to be faced if goods are bought from China are a long waiting
 ## The working plan
 
 ### Phasing and timing of the work
+
 After studying the goals of the project, the work will continue by creating a list of devices that need to be bought.
 
 The next stage will be studying about the safety measures of working with high current and start configuring the Raspberry Pi and its operating system. A list of software will be created to be installed on the Raspberry Pi.
@@ -131,7 +133,8 @@ The phasing is presented in more details in [Appendix 2](#appendix-2-phasing-and
 
 All the decisions which are related to the thesis project, including the acceptance of results, are made in a steering group. After starting the meeting, the date and place of the next steering group meeting is agreed on at the previous meeting. The project manager sends the material which is dealt with in the meeting to the members of the steering group three weekdays before the meeting. A notice of a meeting is sent to all the meetings. The material of the beginning meeting is a project plan, the material of control meetings is a status report and the results that have been shown in the project plan are delivered to the final meeting. If the project cannot be promoted, for one reason or another, according to the one that has been designed in the project plan, the project manager convenes an extraordinary steering meeting and proposes the amendment drawn up by it. It contains the proposal for the updated project plan. The steering group decides about the changes. After the steering meetings, the project manager will deliver minutes within three weekdays from the meeting to the steering group. The project manager will be responsible for the communication between the separate parties, in other words, the interest groups of the project for the work, if anything else is not decided in the steering meeting.
 
-### Methods used in the thesis project
+### Methods to be used in the thesis project
+
 In order to complete the paper, a working system must be implemented. To test the system, real-life situations and scenarios will be created and tested. The information will be collected from the books and instructions, of course, some things must be modified to be compatible with the available hardware and personal needs.
 The methods are the implementation of the system, testing the project and reporting the results.
 
