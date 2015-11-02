@@ -13,7 +13,7 @@ Haaga-Helia University of Applied Sciences
   - Project questions and objectives
   - Project's purpose and scope
   - Methodology
-1. Background
+1. [Background](#background)
   - Why Raspberry Pi?
   - Home automation and security system
 1. Implementation of a home automation and security system
@@ -40,3 +40,5 @@ Haaga-Helia University of Applied Sciences
 
 &nbsp;References  
 &nbsp;Appendix
+
+## Background
