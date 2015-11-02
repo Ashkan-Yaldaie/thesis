@@ -2,5 +2,7 @@
 
 Ashkan Yaldaie
 
+
 Bachelor thesis  
+Haaga-Helia University of Applied Sciences  
 2 November 2015
