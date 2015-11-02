@@ -108,7 +108,7 @@ Any instruction available in books and web articles contain a list of hardware. 
 The starting date and the ending date of the project are: 1 October 2015 – 29 February 2016.
 
 ### Risks of the project and preconditions for the success of the project
-One of the purposes of this project is to control home devices and since they work with high voltage from 100v to 240v, it is required to be an electrician to deal with high cur-rent. Due to this, radio remote control sockets will be used for this project.
+One of the purposes of this project is to control home devices and since they work with high voltage from 100v to 240v, it is required to be an electrician to deal with high current. Due to this, radio remote control sockets will be used for this project.
 
 Buying sensors from the local shops will be avoided due to the high prices. Sensors and additional devices will be bought mostly from China. The internet shop “ebay.com” will be used to make purchases.
 
