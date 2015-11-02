@@ -60,6 +60,8 @@ HAAGA-HELIA University of Applied Sciences
 
 ### Methodology
 
+In order to complete the paper, a working system must be implemented. To test the system, real-life situations and scenarios will be created and tested. The information will be collected from the books and instructions, of course, some things must be modified to be compatible with the available hardware and personal needs. The methods are the implementation of the system, testing the project and reporting the results.
+
 ## Background
 
 This chapter will introduce the RasPi and its advantages over other cheap single board computers. The reader can find the answer to this question: Why RasPi is chosen for this thesis project?
