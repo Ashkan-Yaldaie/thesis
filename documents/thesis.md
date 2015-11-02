@@ -45,14 +45,14 @@ HAAGA-HELIA University of Applied Sciences
 
 ## Introduction
 
-### Project questions and objectives
+### &nbsp;Project questions and objectives
 
-### Project's purpose and scope
+### &nbsp;Project's purpose and scope
 
-### Methodology
+### &nbsp;Methodology
 
 ## Background
 
-### Why Raspberry Pi?
+### &nbsp;Why Raspberry Pi?
 
-### Home automation and security system
+### &nbsp;Home automation and security system
