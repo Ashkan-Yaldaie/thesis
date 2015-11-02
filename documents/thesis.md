@@ -15,7 +15,7 @@ Haaga-Helia University of Applied Sciences
   - [Methodology](#methodology)
 1. [Background](#background)
   - [Why Raspberry Pi?](#why-raspberry-pi?)
-  - [Home automation and security system](home-automation-and-security-system)
+  - [Home automation and security system](#home-automation-and-security-system)
 1. Implementation of a home automation and security system
   - List of required sensors and devices
   - Setting up the Raspberry Pi
