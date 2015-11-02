@@ -95,7 +95,7 @@ HAAGA-HELIA University of Applied Sciences
 
 ### Testing
 
-## Ways to improve future implementation
+## Ways to improve future implementations
 
 ## Conclusion
 
