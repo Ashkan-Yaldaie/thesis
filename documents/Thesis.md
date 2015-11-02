@@ -60,7 +60,7 @@ HAAGA-HELIA University of Applied Sciences
 
 ### Methodology
 
-In order to complete the paper, a working system is implemented. To test the system, real-life situations and scenarios is created and tested base of the information that is collected from the books and instructions, of course, some things is modified to be compatible with the available hardware and personal needs. The methods are the implementation of the system, testing the project and documentation of the results.
+In order to complete the paper, a working system is implemented. To test the system, real-life situations and scenarios is created and tested base on the information that is collected from the books and instructions, of course, some things is modified to be compatible with the available hardware and personal needs. The methods are the implementation of the system, testing the project and documentation of the results.
 
 ## Background
 
