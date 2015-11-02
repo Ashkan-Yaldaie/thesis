@@ -7,12 +7,12 @@ Haaga-Helia University of Applied Sciences
 2 November 2015
 
 ## Table of contents
-&nbsp;Abbreviations and terms
+&nbsp;[Abbreviations and terms](#abbreviations-and-terms)
 
-1. Introduction
-  - Project questions and objectives
-  - Project's purpose and scope
-  - Methodology
+1. [Introduction](#introduction)
+  - [Project questions and objectives](#project-questions-and-objectives)
+  - [Project's purpose and scope](#projects-purpose-and-scope)
+  - [Methodology](#methodology)
 1. [Background](#background)
   - Why Raspberry Pi?
   - Home automation and security system
@@ -40,5 +40,15 @@ Haaga-Helia University of Applied Sciences
 
 &nbsp;References  
 &nbsp;Appendix
+
+## Abbreviations and terms
+
+## Introduction
+
+### Project questions and objectives
+
+### Project's purpose and scope
+
+### Methodology
 
 ## Background
