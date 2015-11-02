@@ -7,7 +7,8 @@ HAAGA-HELIA University of Applied Sciences
 2 November 2015
 
 ## Table of contents
-&nbsp;[Abbreviations and terms](#abbreviations-and-terms)<br/>
+&nbsp;[Abbreviations and terms](#abbreviations-and-terms)
+
 1. [Introduction](#introduction)
   - [Project questions and objectives](#project-questions-and-objectives)
   - [Project's purpose and scope](#projects-purpose-and-scope)
