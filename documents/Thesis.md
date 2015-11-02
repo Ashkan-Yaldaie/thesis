@@ -7,8 +7,7 @@ HAAGA-HELIA University of Applied Sciences
 2 November 2015
 
 ## Table of contents
-&nbsp;[Abbreviations and terms](#abbreviations-and-terms)
-
+&nbsp;[Abbreviations and terms](#abbreviations-and-terms)<br/>
 1. [Introduction](#introduction)
   - [Project questions and objectives](#project-questions-and-objectives)
   - [Project's purpose and scope](#projects-purpose-and-scope)
@@ -42,6 +41,8 @@ HAAGA-HELIA University of Applied Sciences
 &nbsp;[Appendix](#appendix)
 
 ## Abbreviations and terms
+
+**RasPi** Raspberry Pi, a single chip computer.
 
 ## Introduction
 
