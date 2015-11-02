@@ -19,7 +19,7 @@ HAAGA-HELIA University of Applied Sciences
 1. [Implementation of a home automation and security system](#implementation-of-a-home-automation-and-security-system)
   - [List of required sensors and devices](#list-of-required-sensors-and-devices)
   - [Setting up the Raspberry Pi](#setting-up-the-raspberry-pi)
-  - [Home automation](#home automation)
+  - [Home automation](#home-automation)
     - [WIFI sockets](#wifi-sockets)
     - [Radio frequency sockets](#radio-frequency-sockets)
     - [Control a socket using home temperature](#control-a-socket-using-home-temperature)
