@@ -14,7 +14,7 @@ Haaga-Helia University of Applied Sciences
   - [Project's purpose and scope](#projects-purpose-and-scope)
   - [Methodology](#methodology)
 1. [Background](#background)
-  - [Why Raspberry Pi?](#why-raspberry-pi?)
+  - [Why Raspberry Pi?](#why-raspberry-pi)
   - [Home automation and security system](#home-automation-and-security-system)
 1. Implementation of a home automation and security system
   - List of required sensors and devices
