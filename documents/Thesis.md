@@ -46,7 +46,7 @@ HAAGA-HELIA University of Applied Sciences
 <table>
   <tbody>
     <tr>
-      <td>**RasPi**</td>
+      <td>RasPi</td>
       <td>Raspberry Pi, a single chip computer.</td>
     </tr>
   </tbody>
