@@ -6,7 +6,7 @@ Bachelor thesis
 Haaga-Helia University of Applied Sciences  
 2 November 2015
 
-# Table of contents
+## Table of contents
 &nbsp;Abbreviations and terms
 
 1. Introduction
