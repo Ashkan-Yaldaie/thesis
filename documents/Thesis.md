@@ -43,7 +43,7 @@ HAAGA-HELIA University of Applied Sciences
 
 ## Abbreviations and terms
 
-**RasPi** Raspberry Pi, a single chip computer.
+**RasPi**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Raspberry Pi, a single chip computer.
 
 ## Introduction
 
