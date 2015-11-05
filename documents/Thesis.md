@@ -66,6 +66,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>HDMI</td>
       <td>High-Definition Multimedia Interface</td>
     </tr>
+    <tr>
+      <td>SMS</td>
+      <td>Short Message Service</td>
+    </tr>
   </tbody>
 </table>
 
