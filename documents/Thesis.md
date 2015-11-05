@@ -7,7 +7,7 @@ HAAGA-HELIA University of Applied Sciences
 2 November 2015
 
 ## Table of contents
-&nbsp;[Tables and Figures](#tables-and-figures)
+&nbsp;[Tables and Figures](#tables-and-figures)  
 &nbsp;[Abbreviations and terms](#abbreviations-and-terms)
 
 1. [Introduction](#introduction)
