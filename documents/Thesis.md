@@ -70,6 +70,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>SMS</td>
       <td>Short Message Service</td>
     </tr>
+    <tr>
+      <td>PC</td>
+      <td>Personal Computer</td>
+    </tr>
   </tbody>
 </table>
 
