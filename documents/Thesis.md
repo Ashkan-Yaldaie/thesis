@@ -81,7 +81,8 @@ The subject of home automation has been talked about over the past years. This c
 
 The Raspberry Pi despite its small size is a functional computer capable of handling simple and complex projects due to its microprocessor. The board itself is about the size of a credit card, but it can process both video and audio. The RasPi has connectors that are used to communicate to other devices and the outside world connectors such as Universal Serial Bus (USB), High-Definition Multimedia Interface (HDMI) and of course General Purpose Input/Output (GPIO) connectors. (Norris 2014, 1-5)
 
-<a name="figure-1"><img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/connectors.jpg"></a>  
+<a name="figure-1"></a>
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/connectors.jpg">  
 Figure 1: The Raspberry Pi and its connectors
 
 Each GPIO can be controlled using a programming language like python. A GPIO can be used as an input or output pin. Although RasPi’s operating voltage is 5V DC, it is important to remember that 3.3V DC is the maximum voltage a GPIO can be subjected to. Connecting a 5V supply to a GPIO will damage the RasPi. (Upton & Halfacree. 2014, 222-223)
