@@ -74,6 +74,12 @@ The subject of home automation has been talked about over the past years. This c
 
 ### Why Raspberry Pi?
 
+The Raspberry Pi despite its small size is a functional computer capable of handling simple and complex projects due to its microprocessor. The board itself is about the size of a credit card, but it can process both video and audio. The RasPi has connectors that are used to communicate to other devices and the outside world connectors such as Universal Serial Bus (USB), High-Definition Multimedia Interface (HDMI) and of course General Purpose Input/Output (GPIO) connectors. (Norris 2014, 1-5)
+
+Each GPIO can be controlled using a programming language like python. A GPIO can be used as an input or output pin. Although RasPi’s operating voltage is 5V DC, it is important to remember a GPIO can be subjected to 3.3V DC. Connecting a 5V supply to a GPIO will damage the RasPi. (Upton & Halfacree. 2014, 222-223)
+
+Raspbian is an operating system based on the Linux distributions, Debian. It is the recommended and supported operating system for the RasPi by the Raspberry Pi Foundation. Linux is open source which means there is no need to pay extra and buy its license. Linux is designed to be user-friendly and easy to learn that is why Linux applications contain a help file known as “man page” which stands for manual page in order to provide details of how to use the software. (Upton & Halfacree. 2014, 45-48)
+
 ### Home automation and security system
 
 ## Implementation of a home automation and security system
