@@ -44,6 +44,8 @@ HAAGA-HELIA University of Applied Sciences
 
 ## Tables and Figures
 
+Figure 1: The Raspberry Pi and its connectors
+
 ## Abbreviations and terms
 
 <table>
