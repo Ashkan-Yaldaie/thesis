@@ -120,4 +120,8 @@ The subject of home automation has been talked about over the past years. This c
 
 ## References
 
+Norris, Donald. 2014. Raspberry Pi Projects for the Evil Genius. McGraw-Hill Education.
+
+Upton, Eben & Halfacree, Gareth. 2014. Raspberry Pi User Guide 2nd ed. John Wiley & Sons Ltd.
+
 ## Appendix
