@@ -101,6 +101,8 @@ Each GPIO can be controlled using a programming language like python. A GPIO can
 
 Raspbian is an operating system based on the Linux distributions, Debian. It is the recommended and supported operating system for the RasPi by the Raspberry Pi Foundation. Linux is open source which means there is no need to pay extra and buy its license. Linux is designed to be user-friendly and easy to learn that is why Linux applications contain a help file in order to provide details of how to use the software known as “man page” which is short for manual page. (Upton & Halfacree. 2014, 45-48)
 
+So what can be done with the RasPi? There are new ideas people come up with all the time but, in general, it is possible to use the RasPi to build camera projects, games, set up a media center and do things that can be done with a regular computer. The advantage of the RasPi over a desktop PC is its GPIO pins. It is much more difficult to start a robotic project using a PC because of the lack of GPIOs. With the RasPi, such projects can be done straight away. The point is that the RasPi does not need to be dedicated to just one project, it can be used to accomplish several projects at the same time. (Upton & Halfacree. 2014, 8-9)
+
 ### Home automation and security system
 
 ## Implementation of a home automation and security system
