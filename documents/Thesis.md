@@ -49,6 +49,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>RasPi</td>
       <td>Raspberry Pi is a single-board computer</td>
     </tr>
+    <tr>
+      <td>GPIO</td>
+      <td>General Purpose Input/Output</td>
+    </tr>
   </tbody>
 </table>
 
