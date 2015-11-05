@@ -58,6 +58,14 @@ HAAGA-HELIA University of Applied Sciences
       <td>GPIO</td>
       <td>General Purpose Input/Output</td>
     </tr>
+    <tr>
+      <td>USB</td>
+      <td>Universal Serial Bus</td>
+    </tr>
+    <tr>
+      <td>HDMI</td>
+      <td>High-Definition Multimedia Interface</td>
+    </tr>
   </tbody>
 </table>
 
