@@ -97,7 +97,7 @@ The subject of home automation has been talked about over the past years. This c
 
 Today’s computer science students do not have the same skills like students in 1990’s, that is how Eben Upton felt. It might be due to the rise of more powerful computers and game consoles, so people do not have the programming skills of the earlier generation. That was the reason for the RasPi to come into the world with the help of Eben's colleagues at the Cambridge University. (Richardson & Wallace. 2013, vii)
 
-The Raspberry Pi despite its small size is a functional computer capable of handling simple and complex projects due to its microprocessor. The board itself is about the size of a credit card, but it can process both video and audio. The RasPi has connectors that are used to communicate to other devices and the outside world connectors such as Universal Serial Bus (USB), High-Definition Multimedia Interface (HDMI) and of course General Purpose Input/Output (GPIO) connectors. (Norris 2014, 1-5)
+The Raspberry Pi despite its small size is a functional computer capable of handling simple and complex projects due to its microprocessor. The board itself is about the size of a credit card, but it can process both video and audio. The RasPi has connectors that are used to communicate to the other devices and the outside world, connectors such as Universal Serial Bus (USB), High-Definition Multimedia Interface (HDMI) and of course General Purpose Input/Output (GPIO) connectors. (Norris 2014, 1-5)
 
 <a name="figure-1"></a>
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/connectors.jpg">  
