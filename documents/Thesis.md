@@ -157,6 +157,8 @@ So what can be done with the RasPi? There are new ideas people come up with all 
 
 Norris, Donald. 2014. Raspberry Pi Projects for the Evil Genius. McGraw-Hill Education.
 
+Richardson, Matt & Wallace, Shawn. 2013. Getting Started with Raspberry Pi.
+
 Upton, Eben & Halfacree, Gareth. 2014. Raspberry Pi User Guide 2nd ed. John Wiley & Sons Ltd.
 
 ## Appendix
