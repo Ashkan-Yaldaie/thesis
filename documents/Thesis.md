@@ -113,6 +113,10 @@ Raspbian is an operating system based on the Linux distributions, Debian. It is 
 
 So what can be done with the RasPi? There are new ideas people come up with all the time but, in general, it is possible to use the RasPi to build camera projects, games, set up a media center and do things that can be done with a regular computer. The advantage of the RasPi over a desktop PC is its GPIO pins. It is much more difficult to start a robotic project using a PC because of the lack of GPIOs. With the RasPi, such projects can be done straight away. The point is that the RasPi does not need to be dedicated to just one project, it can be used to accomplish several projects at the same time. (Upton & Halfacree 2014, 8-9)
 
+Except the RasPi, there are other single board computers available to accomplish DIY projects. Boards like the Arduino and the BeagleBone but how to figure out which one is the best for a particular project. The best way, of course, is to look at these board’s features and abilities to choose the correct one. Let’s start with the board that is for beginners and used for single-purpose projects. The Arduino costs about €24, it is open source and consumes a little power. (Klosowski 2013)
+
+The Arduino does not have a graphical interface and it can be programmed using a computer.  As mentioned above the board is capable of doing simple single-purpose projects like controlling light. It is easy to find support for the Arduino since it is very popular. Despite the fact that it is designed for beginners, it still takes some times to get used to it. (Klosowski 2013)
+
 ### Home automation and security system
 
 ## Implementation of a home automation and security system
