@@ -159,6 +159,8 @@ So what can be done with the RasPi? There are new ideas people come up with all 
 
 ## References
 
+Klosowski, Thorin. 2013. How to Pick the Right Electronics Board for Your DIY Project. URL: http://lifehacker.com/how-to-pick-the-right-electronics-board-for-your-diy-pr-742869540. Accessed: 06.11.2015
+
 Norris, Donald. 2014. Raspberry Pi Projects for the Evil Genius. McGraw-Hill Education.
 
 Richardson, Matt & Wallace, Shawn. 2013. Getting Started with Raspberry Pi.
