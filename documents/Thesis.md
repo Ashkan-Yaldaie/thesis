@@ -74,6 +74,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>PC</td>
       <td>Personal Computer</td>
     </tr>
+    <tr>
+      <td>DIY</td>
+      <td>Do It Yourself</td>
+    </tr>
   </tbody>
 </table>
 
