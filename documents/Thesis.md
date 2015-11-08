@@ -46,6 +46,8 @@ HAAGA-HELIA University of Applied Sciences
 
 [Figure 1](#figure-1): The Raspberry Pi and its connectors
 
+[Table 1](#table-1): Raspberry Pi 2 vs Beaglebone hardware chart
+
 ## Abbreviations and terms
 
 <table>
@@ -124,6 +126,19 @@ The Arduino does not have a graphical interface and it can be programmed using a
 The BeagleBone costs about $50 compared to the $35 RasPi. Unlike the RasPi, it does not need to be connected to a display in order to setup, because it is shipped with a pre-installed operating system. The board is designed for more advanced users, this is why it is not widely used for educational purposes. The BeagleBone has a wide range of GPIOs which can be used to connect external sensors and devices. (Gus 2015; Klosowski 2013)
 
 Compared to the RasPi, the BeagleBone does not have as many USB connectors. It also does not include a camera connector or a display connector. The BeagleBone community is not as active as the RasPi community which means fewer tutorials and project ideas. If the project requires stronger processor and more RAM, the RasPi is advised but, on the other hand, a project that needs a lot of GPIOs is better created with the BeagleBone. (Gus 2015; Klosowski 2013)
+
+<a name="table-1"></a>
+||Raspberry Pi 2|Beaglebone Black Rev C|
+|---|---|---|
+|Processor|900Mhz Quad Core ARM|1Ghz ARM Processor|
+|RAM|1 Gb|512MB DDR3|
+|Storage|Micro SD Card (Required) Expandable via USB|4 GB on board flash storage. Expandable by USB & Micro SD|
+|Audio|Stereo over HDMI or 3.5mm Jack|Stereo over HDMI|
+|GPIO|26/40 Pins|65/92 Pins|
+|HDMI|Full Size HDMI port|Micro HDMI|
+|Peripherals|4 USB ports, 1 10/100 Ethernet port|1 USB port, 1  10/100 Ethernet port|
+|Power Source|Micro USB|Micro USB or 5VDC connection|  
+Table 1: Raspberry Pi 2 vs Beaglebone hardware chart (Gus 2015)
 
 So, back to the main question of this part: Why the RasPi is chosen for this thesis project? Based on the background presented above the RasPi community is more vibrant and the board is designed for educational purposes, which unlike for the BeagleBone leads to more tutorials and ideas. Compared to the Arduino, the RasPi is capable of handling several tasks at the same time and that feature is a must for this thesis project. (Gus 2015; Klosowski 2013)
 
