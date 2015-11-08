@@ -1,3 +1,5 @@
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/haaga-helia.png">
+
 # Home automation and security system with the Raspberry Pi
 
 Ashkan Yaldaie
