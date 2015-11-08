@@ -84,6 +84,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>RAM</td>
       <td>Random Access Memory</td>
     </tr>
+    <tr>
+      <td>MicroSD</td>
+      <td>Micro Secure Digital</td>
+    </tr>
   </tbody>
 </table>
 
@@ -133,7 +137,7 @@ Compared to the RasPi, the BeagleBone does not have as many USB connectors. It a
 |---|---|---|
 |Processor|900Mhz Quad Core ARM|1Ghz ARM Processor|
 |RAM|1 Gb|512MB DDR3|
-|Storage|Micro SD Card (Required) Expandable via USB|4 GB on board flash storage Expandable by USB & Micro SD|
+|Storage|MicroSD Card (Required) Expandable via USB|4 GB on board flash storage Expandable by USB & MicroSD|
 |Audio|Stereo over HDMI or 3.5mm Jack|Stereo over HDMI|
 |GPIO|26/40 Pins|65/92 Pins|
 |HDMI|Full Size HDMI port|Micro HDMI|
