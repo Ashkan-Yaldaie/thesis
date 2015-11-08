@@ -78,6 +78,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>DIY</td>
       <td>Do It Yourself</td>
     </tr>
+    <tr>
+      <td>RAM</td>
+      <td>Random Access Memory</td>
+    </tr>
   </tbody>
 </table>
 
