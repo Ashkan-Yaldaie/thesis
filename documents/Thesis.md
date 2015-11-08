@@ -113,7 +113,7 @@ Today’s computer science students do not have the same skills like students in
 
 The Raspberry Pi despite its small size is a functional computer capable of handling simple and complex projects due to its microprocessor. The board itself is about the size of a credit card, but it can process both video and audio. The RasPi has connectors that are used to communicate to other devices and the outside world, connectors such as Universal Serial Bus (USB), High-Definition Multimedia Interface (HDMI) and, of course, General Purpose Input/Output (GPIO) connectors. (Norris 2014, 1-5)
 
-<a name="figure-1"></a>
+<a name="figure-1" />
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/connectors.jpg">  
 Figure 1: The Raspberry Pi and its connectors
 
@@ -127,7 +127,7 @@ Except the RasPi, there are other single board computers available to accomplish
 
 The BeagleBone costs about $50 compared to the $35 RasPi. Unlike the RasPi, it does not need to be connected to a display in order to setup, because it is shipped with a pre-installed operating system. The board is designed for more advanced users, this is why it is not widely used for educational purposes. The BeagleBone has many GPIO pins which can be used to connect to a large number of external sensors and devices. Compared to the RasPi, the BeagleBone does not have as many USB connectors. It also does not include a camera connector or a display connector. The BeagleBone community is not as active as the RasPi community which means fewer tutorials and project ideas. If the project requires stronger processor and more RAM, the RasPi is advised but, on the other hand, a project that needs a lot of GPIOs is better carried out with the BeagleBone. (Gus 2015; Klosowski 2013) The main differences between the two devices are shown in Table 1.
 
-<a name="table-1"></a>
+<a name="table-1" />
 
 ||Raspberry Pi 2|Beaglebone Black Rev C|
 |---|---|---|
