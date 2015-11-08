@@ -129,7 +129,7 @@ The Arduino does not have a graphical interface and it can be programmed using a
 
 The BeagleBone costs about $50 compared to the $35 RasPi. Unlike the RasPi, it does not need to be connected to a display in order to setup, because it is shipped with a pre-installed operating system. The board is designed for more advanced users, this is why it is not widely used for educational purposes. The BeagleBone has a wide range of GPIOs which can be used to connect external sensors and devices. (Gus 2015; Klosowski 2013)
 
-Compared to the RasPi, the BeagleBone does not have as many USB connectors. It also does not include a camera connector or a display connector. The BeagleBone community is not as active as the RasPi community which means fewer tutorials and project ideas. If the project requires stronger processor and more RAM, the RasPi is advised but, on the other hand, a project that needs a lot of GPIOs is better created with the BeagleBone. (Gus 2015; Klosowski 2013) The main difference between the two devices is shown in the Table 1.
+Compared to the RasPi, the BeagleBone does not have as many USB connectors. It also does not include a camera connector or a display connector. The BeagleBone community is not as active as the RasPi community which means fewer tutorials and project ideas. If the project requires stronger processor and more RAM, the RasPi is advised but, on the other hand, a project that needs a lot of GPIOs is better created with the BeagleBone. (Gus 2015; Klosowski 2013) The main differences between the two devices is shown in the Table 1.
 
 <a name="table-1"></a>
 
