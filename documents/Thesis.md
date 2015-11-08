@@ -138,7 +138,7 @@ Compared to the RasPi, the BeagleBone does not have as many USB connectors. It a
 |Processor|900MHz ARM Quad Core|1GHz ARM|
 |RAM|1GB|512MB|
 |Storage|MicroSD Card (Required) Expandable via USB|4GB on-board flash storage Expandable by USB & MicroSD|
-|Audio|Stereo over HDMI, Stereo from 3.5 mm jack|Stereo over HDMI|
+|Audio|Stereo over HDMI, Stereo from 3.5mm jack|Stereo over HDMI|
 |GPIO|26/40 Pins|65/92 Pins|
 |HDMI|Full Size HDMI port|Mini-HDMI|
 |Peripherals|4 USB ports, 1 10/100 Ethernet port, Camera & Display interface port|1 USB port, 1  10/100 Ethernet port|
