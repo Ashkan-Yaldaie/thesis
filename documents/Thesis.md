@@ -173,7 +173,7 @@ Klosowski, Thorin. 2013. How to Pick the Right Electronics Board for Your DIY Pr
 
 Norris, Donald. 2014. Raspberry Pi Projects for the Evil Genius. McGraw-Hill Education.
 
-Richardson, Matt & Wallace, Shawn. 2013. Getting Started with Raspberry Pi.
+Richardson, Matt & Wallace, Shawn. 2013. Getting Started with Raspberry Pi. O'Reilly Media, Inc, USA.
 
 Upton, Eben & Halfacree, Gareth. 2014. Raspberry Pi User Guide 2nd ed. John Wiley & Sons Ltd.
 
