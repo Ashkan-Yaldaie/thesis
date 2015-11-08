@@ -53,40 +53,40 @@ HAAGA-HELIA University of Applied Sciences
 <table>
   <tbody>
     <tr>
-      <td>RasPi</td>
-      <td>Raspberry Pi is a single-board computer</td>
+      <td>DIY</td>
+      <td>Do It Yourself</td>
     </tr>
     <tr>
       <td>GPIO</td>
       <td>General Purpose Input/Output</td>
     </tr>
     <tr>
-      <td>USB</td>
-      <td>Universal Serial Bus</td>
-    </tr>
-    <tr>
       <td>HDMI</td>
       <td>High-Definition Multimedia Interface</td>
     </tr>
     <tr>
-      <td>SMS</td>
-      <td>Short Message Service</td>
+      <td>MicroSD</td>
+      <td>Micro Secure Digital</td>
     </tr>
     <tr>
       <td>PC</td>
       <td>Personal Computer</td>
     </tr>
     <tr>
-      <td>DIY</td>
-      <td>Do It Yourself</td>
-    </tr>
     <tr>
       <td>RAM</td>
       <td>Random Access Memory</td>
     </tr>
+      <td>RasPi</td>
+      <td>Raspberry Pi is a single-board computer</td>
+    </tr>
     <tr>
-      <td>MicroSD</td>
-      <td>Micro Secure Digital</td>
+      <td>SMS</td>
+      <td>Short Message Service</td>
+    </tr>
+    <tr>
+      <td>USB</td>
+      <td>Universal Serial Bus</td>
     </tr>
   </tbody>
 </table>
