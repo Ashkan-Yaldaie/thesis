@@ -46,7 +46,7 @@ HAAGA-HELIA University of Applied Sciences
 
 [Figure 1](#figure-1): The Raspberry Pi and its connectors
 
-[Table 1](#table-1): Raspberry Pi 2 vs Beaglebone hardware chart
+[Table 1](#table-1): &nbsp;&nbsp;Raspberry Pi 2 vs Beaglebone hardware chart
 
 ## Abbreviations and terms
 
