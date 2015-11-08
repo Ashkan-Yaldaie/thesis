@@ -142,7 +142,7 @@ Compared to the RasPi, the BeagleBone does not have as many USB connectors. It a
 |GPIO|26/40 Pins|65/92 Pins|
 |HDMI|Full Size HDMI port|Mini-HDMI|
 |Peripherals|4 USB ports, 1 10/100 Ethernet port, Camera & Display interface port|1 USB port, 1  10/100 Ethernet port|
-|Power Source|Micro USB|Micro USB or 5VDC connection|  
+|Power Source|Micro USB|Micro USB or 2.1mm jack|  
 Table 1: Raspberry Pi 2 vs Beaglebone hardware chart (Gus 2015)
 
 So, back to the main question of this part: Why the RasPi is chosen for this thesis project? Based on the background presented above the RasPi community is more vibrant and the board is designed for educational purposes, which unlike for the BeagleBone leads to more tutorials and ideas. Compared to the Arduino, the RasPi is capable of handling several tasks at the same time and that feature is a must for this thesis project. (Gus 2015; Klosowski 2013)
