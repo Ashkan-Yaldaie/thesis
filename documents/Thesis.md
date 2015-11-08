@@ -133,11 +133,11 @@ Compared to the RasPi, the BeagleBone does not have as many USB connectors. It a
 |---|---|---|
 |Processor|900Mhz Quad Core ARM|1Ghz ARM Processor|
 |RAM|1 Gb|512MB DDR3|
-|Storage|Micro SD Card (Required) Expandable via USB|4 GB on board flash storage. Expandable by USB & Micro SD|
+|Storage|Micro SD Card (Required) Expandable via USB|4 GB on board flash storage Expandable by USB & Micro SD|
 |Audio|Stereo over HDMI or 3.5mm Jack|Stereo over HDMI|
 |GPIO|26/40 Pins|65/92 Pins|
 |HDMI|Full Size HDMI port|Micro HDMI|
-|Peripherals|4 USB ports, 1 10/100 Ethernet port|1 USB port, 1  10/100 Ethernet port|
+|Peripherals|4 USB ports & 1 10/100 Ethernet port|1 USB port & 1  10/100 Ethernet port|
 |Power Source|Micro USB|Micro USB or 5VDC connection|  
 Table 1: Raspberry Pi 2 vs Beaglebone hardware chart (Gus 2015)
 
