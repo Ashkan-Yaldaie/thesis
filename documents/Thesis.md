@@ -163,6 +163,8 @@ The Arduino does not have a graphical interface and it can be programmed using a
 
 ## References
 
+Gus. 2015. Beaglebone Vs Raspberry Pi 2: Choosing The Right Board. URL: http://pimylifeup.com/beaglebone-vs-raspberry-pi/. Accessed: 06.11.2015
+
 Klosowski, Thorin. 2013. How to Pick the Right Electronics Board for Your DIY Project. URL: http://lifehacker.com/how-to-pick-the-right-electronics-board-for-your-diy-pr-742869540. Accessed: 06.11.2015
 
 Norris, Donald. 2014. Raspberry Pi Projects for the Evil Genius. McGraw-Hill Education.
