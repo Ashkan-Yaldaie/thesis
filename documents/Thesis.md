@@ -154,7 +154,7 @@ The 21st century is already the age of smart homes from the point of view of a p
 
 The home automation system should not have any negative effect on human health. It is not a bad practice to stand up once in a while to make coffee or switch on the light traditional way using a light switch. New research shows that sitting more than six hours per day causes a premature death. While sitting the body will reduce burning fat by ninety percent,  the risk of diabetes increases by 24 percent and activity in leg muscles shuts down. (Johnson 2012)
 
-Tellstick’s product is available in the market today. The label on the package says: “create your smart home”. The price of €169 includes the package which contains:
+Tellstick’s product is available in the market today. The label on the box says: “create your smart home”. The price of €169 includes the package which contains:
 
 - Two remotely controlled sockets
 - A thermometer
