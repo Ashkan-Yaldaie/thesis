@@ -154,7 +154,8 @@ The 21st century is already the age of smart homes from the point of view of a p
 
 Tellstick’s product is available in the market today. The label on the package says: “create your smart home”. The price of €169 includes the package which contains:
 
-- Two remotely controlled sockets, a thermometer
+- Two remotely controlled sockets
+- A thermometer
 - One remotely controlled switch with dimming functionality
 - A sensor that determines whether a door is open or closed
 
