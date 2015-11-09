@@ -159,7 +159,7 @@ Tellstick’s product is available in the market today. The label on the package
 - One remotely controlled switch with dimming functionality
 - A sensor that determines whether a door is open or closed
 
-Another package that costs €209 contains three extra distantly controlled sockets plus a thermometer for the refrigerator. The user is able to control these devices locally and remotely. (clas ohlson 2015)
+Another package that costs €209 contains three extra distantly controlled sockets plus a thermometer for the refrigerator. product's users are able to control these devices locally and remotely. (clas ohlson 2015)
 
 ## Implementation of a home automation and security system
 
