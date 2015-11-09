@@ -152,7 +152,13 @@ So, back to the main question of this part: Why the RasPi is chosen for this the
 
 The 21st century is already the age of smart homes from the point of view of a person who lived in the 70s comparing the washing board or igniting a gas lamp to the washing machine and the light switch. So, are not we living in a smart home already? There is no need to touch a switch to turn on light, nowadays, a computer can do it automatically. But there is a difference between what someone needs and what someone wants. The bottom line is: a smart home must be able to save money. It is simple to automate the light for an extra cost, but is it really needed or does it really work as expected? The following examples help us to answer these questions: Walking into a room can turn on the light automatically but imagine someone is already sleeping in this room or while the wife is watching television, a system automatically dims the light, in the darkness, it will be pretty difficult for the husband to find a book from the bookshelf. But automation is needed at some level, for example, to turn off all extra lights and the heating system automatically when no one is home might be a good idea. (Velte & Elsenpeter 2003, 3-7; Jenson 2014)
 
-Tellstick’s product is available in the market today. The label on the package says: “create your smart home”. The price of €169 includes the package containing two remotely controlled sockets, a thermometer, one remotely controlled switch with dimming functionality and a sensor that determines whether a door is open or closed. Another package that costs €209 contains three extra distance controlled sockets plus a thermometer for the refrigerator. The user is able to control these devices locally and remotely. (clas ohlson 2015)
+Tellstick’s product is available in the market today. The label on the package says: “create your smart home”. The price of €169 includes the package which contains:
+
+- Two remotely controlled sockets, a thermometer
+- One remotely controlled switch with dimming functionality
+- A sensor that determines whether a door is open or closed
+
+Another package that costs €209 contains three extra distance controlled sockets plus a thermometer for the refrigerator. The user is able to control these devices locally and remotely. (clas ohlson 2015)
 
 ## Implementation of a home automation and security system
 
