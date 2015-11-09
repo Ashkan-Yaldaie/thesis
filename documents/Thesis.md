@@ -196,6 +196,8 @@ The 21st century is already the age of smart homes from the point of view of a p
 
 ## References
 
+clas ohlson. 2015. URL: http://www.clasohlson.com/fi/b/S%C3%A4hk%C3%B6/%C3%84lykoti/Aloituspaketit. Accessed: 09.11.2015
+
 Gus. 2015. Beaglebone Vs Raspberry Pi 2: Choosing The Right Board. URL: http://pimylifeup.com/beaglebone-vs-raspberry-pi/. Accessed: 06.11.2015
 
 Jenson, Scott. 2014. The home automation paradox. URL: http://radar.oreilly.com/2014/02/the-home-automation-paradox.html. Accessed: 09.11.2015
