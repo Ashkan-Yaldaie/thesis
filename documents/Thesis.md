@@ -211,6 +211,8 @@ Gus. 2015. Beaglebone Vs Raspberry Pi 2: Choosing The Right Board. URL: http://p
 
 Jenson, Scott. 2014. The home automation paradox. URL: http://radar.oreilly.com/2014/02/the-home-automation-paradox.html. Accessed: 09.11.2015
 
+Johnson, Dave. 2012. Why sitting all day is killing you. URL: http://www.cbsnews.com/news/why-sitting-all-day-is-killing-you/. Accessed: 09.11.2015
+
 Klosowski, Thorin. 2013. How to Pick the Right Electronics Board for Your DIY Project. URL: http://lifehacker.com/how-to-pick-the-right-electronics-board-for-your-diy-pr-742869540. Accessed: 06.11.2015
 
 Norris, Donald. 2014. Raspberry Pi Projects for the Evil Genius. McGraw-Hill Education.
