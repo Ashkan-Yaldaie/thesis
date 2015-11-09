@@ -163,7 +163,7 @@ Tellstick’s product is available in the market today. The label on its box say
 
 Another package that costs €209 contains three extra distantly controlled sockets plus a thermometer for the refrigerator. Product's users are able to control these devices locally and remotely. (Clas ohlson 2015)
 
-The arrival of the RasPi changed the concept of home automation drastically, it has the power of a PC and also can communicate with the environment around. The combination of the RasPi and a smartphone makes it possible to create cheap devices that are able to interact with some other home devices like the television. Smartphones can act as a remote controller for systems created using the RasPi. Thanks to the RasPi, programmers are able to create software that manipulates their environment. The good news is that the RasPi allows customization which leads to a personalized and a programmable home automation system. (Dennis 2013)
+The arrival of the RasPi changed the concept of the home automation drastically, it has the power of a PC and also can communicate with the environment around. It is possible to create cheap devices that are able to interact with some other home devices like the television by using the RasPi and a smartphone combined. Smartphones can act as a remote controller for systems created using the RasPi. Thanks to the RasPi, programmers are able to create software that manipulates their environment. The good news is that the RasPi allows customization which leads to a personalized and a programmable home automation system. (Dennis 2013)
 
 ## Implementation of a home automation and security system
 
