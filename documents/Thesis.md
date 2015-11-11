@@ -169,6 +169,17 @@ But a smart home is not just about controlling light or some sockets. Here is an
 
 The arrival of the RasPi changed the concept of the home automation drastically, it has the power of a PC and also can communicate with the environment around. It is possible to create cheap devices that are able to interact with some other home devices like the television by using the RasPi and a smartphone combined. Smartphones can act as a remote controller for these systems. Thanks to the RasPi, programmers are able to create software that manipulates their environment. The good news is that it also allows customization which leads to a personalized and a programmable home automation system. (Dennis 2013, 21)
 
+A smart home is not much without a security system, but usually security systems are sold as a stand-alone service. There are ways, in general, to set up a security system: letting the security system take care of some automation like turning on the light or having the security functionality as a part of the smart home, so both systems can collaborate with each other. For example, it is possible to make the house look as if it is lived in by using some sensors to turn on the stereo and some lights if an intrusion occurs, even if the residents are on the other side of the world. The stereo can play a recording of a barking dog while the main lights are switched on. (Velte & Elsenpeter 2003, 9)
+
+G4S is a company that offers home security services for €39.90 per month. The price includes:
+
+- Three sensors that determine whether the doors are opened or closed
+- One motion sensor
+- A motion sensor with camera
+- Remote devices and smartphone application in order to control the security system
+
+The price for each extra detail will be the following: one motion sensor is €55, a motion sensor with a camera is €120, a door sensor is €55, an extra remote is €30 and for a smoke detector is €90. The customer must sign a contract for at least 24 months. It will cost €957.60 for the basic package. (G4S Kotiturva 2015)
+
 ## Implementation of a home automation and security system
 
 ### List of required sensors and devices
