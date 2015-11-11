@@ -161,7 +161,7 @@ Tellstick’s product is available in the market today. The label on its box say
 - Two remotely controlled sockets
 - A thermometer
 - One remotely controlled switch with dimming functionality
-- A sensor that determines whether a door is opened or closed
+- A sensor that determines whether a door is opened
 
 Another package that costs €209 contains three extra distantly controlled sockets plus a thermometer for the refrigerator. Product's users are able to control these devices locally and remotely. (Clas ohlson 2015)
 
@@ -173,7 +173,7 @@ A smart home is not much without a security system, but usually security systems
 
 G4S is a company that offers home security services for €39.90 per month. The price includes:
 
-- Three sensors that determine whether the doors are opened or closed
+- Three sensors that determine whether the doors are opened
 - One motion sensor
 - A motion sensor with camera
 - Remote devices and smartphone application in order to control the security system
