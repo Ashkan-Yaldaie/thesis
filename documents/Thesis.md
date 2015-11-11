@@ -148,7 +148,7 @@ The BeagleBone costs about €60 compared to the €40 RasPi. Unlike the RasPi, 
 |Audio|Stereo over HDMI, Stereo from 3.5mm jack|Stereo over HDMI|
 |GPIO|26/40 Pins|65/92 Pins|
 |HDMI|Full Size HDMI port|Mini-HDMI|
-|Peripherals|4 USB ports, 1 10/100 Ethernet port, Camera & Display interface port|1 USB port, 1  10/100 Ethernet port|
+|Peripherals|4 USB ports, 1 10/100 Ethernet port, interface ports for Camera & Display|1 USB port, 1  10/100 Ethernet port|
 |Power Source|Micro USB|Micro USB or 2.1mm jack|  
 Table 1: Raspberry Pi 2 vs Beaglebone hardware chart (Gus 2015)
 
