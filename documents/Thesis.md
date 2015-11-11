@@ -178,7 +178,7 @@ G4S is a company that offers home security services for €39.90 per month. The 
 - A motion sensor with camera
 - Remote devices and smartphone application in order to control the security system
 
-The price for each extra detail will be the following: one motion sensor is €55, a motion sensor with a camera is €120, a door sensor is €55, an extra remote is €30 and for a smoke detector is €90. The customer must sign a contract for at least 24 months. It will cost €957.60 for the basic package. (G4S Kotiturva 2015)
+The price for each extra detail will be the following: one motion sensor is €55, a motion sensor with a camera is €120, a door sensor costs €55, an extra remote is €30 and the price for a smoke detector is €90. The customer must sign a contract for at least 24 months. It will cost €957.60 in total for the basic package. (G4S Kotiturva 2015)
 
 ## Implementation of a home automation and security system
 
