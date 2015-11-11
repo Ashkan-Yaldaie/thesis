@@ -224,21 +224,21 @@ The price for each extra detail will be the following: one motion sensor is €5
 
 ## References
 
-Craig, Caroline. 2015. Smart home or dumb security risk?. URL: http://www.infoworld.com/article/2893600/mobile-technology/smart-home-or-dumb-security-risk.html. Accessed: 11.11.2015
+Craig, Caroline. 2015. Smart home or dumb security risk?. URL: http://www.infoworld.com/article/2893600/mobile-technology/smart-home-or-dumb-security-risk.html. Accessed: 11.11.2015.
 
-Clas ohlson. 2015. URL: http://www.clasohlson.com/fi/b/S%C3%A4hk%C3%B6/%C3%84lykoti/Aloituspaketit. Accessed: 09.11.2015
+Clas ohlson. 2015. URL: http://www.clasohlson.com/fi/b/S%C3%A4hk%C3%B6/%C3%84lykoti/Aloituspaketit. Accessed: 09.11.2015.
 
 Dennis, Andrew. 2013. Raspberry Pi Home Automation with Arduino. Packt Publishing Ltd.
 
-G4S Kotiturva. 2015. URL: http://www.kotiturva.fi/. Accessed: 11.11.2015
+G4S Kotiturva. 2015. URL: http://www.kotiturva.fi/. Accessed: 11.11.2015.
 
-Gus. 2015. Beaglebone Vs Raspberry Pi 2: Choosing The Right Board. URL: http://pimylifeup.com/beaglebone-vs-raspberry-pi/. Accessed: 06.11.2015
+Gus. 2015. Beaglebone Vs Raspberry Pi 2: Choosing The Right Board. URL: http://pimylifeup.com/beaglebone-vs-raspberry-pi/. Accessed: 06.11.2015.
 
-Jenson, Scott. 2014. The home automation paradox. URL: http://radar.oreilly.com/2014/02/the-home-automation-paradox.html. Accessed: 09.11.2015
+Jenson, Scott. 2014. The home automation paradox. URL: http://radar.oreilly.com/2014/02/the-home-automation-paradox.html. Accessed: 09.11.2015.
 
-Johnson, Dave. 2012. Why sitting all day is killing you. URL: http://www.cbsnews.com/news/why-sitting-all-day-is-killing-you/. Accessed: 09.11.2015
+Johnson, Dave. 2012. Why sitting all day is killing you. URL: http://www.cbsnews.com/news/why-sitting-all-day-is-killing-you/. Accessed: 09.11.2015.
 
-Klosowski, Thorin. 2013. How to Pick the Right Electronics Board for Your DIY Project. URL: http://lifehacker.com/how-to-pick-the-right-electronics-board-for-your-diy-pr-742869540. Accessed: 06.11.2015
+Klosowski, Thorin. 2013. How to Pick the Right Electronics Board for Your DIY Project. URL: http://lifehacker.com/how-to-pick-the-right-electronics-board-for-your-diy-pr-742869540. Accessed: 06.11.2015.
 
 Norris, Donald. 2014. Raspberry Pi Projects for the Evil Genius. McGraw-Hill Education.
 
