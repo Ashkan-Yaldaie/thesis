@@ -224,6 +224,8 @@ The price for each extra detail will be the following: one motion sensor is €5
 
 ## References
 
+Craig, Caroline. 2015. Smart home or dumb security risk?. URL: http://www.infoworld.com/article/2893600/mobile-technology/smart-home-or-dumb-security-risk.html. Accessed: 11.11.2015
+
 Clas ohlson. 2015. URL: http://www.clasohlson.com/fi/b/S%C3%A4hk%C3%B6/%C3%84lykoti/Aloituspaketit. Accessed: 09.11.2015
 
 Dennis, Andrew. 2013. Raspberry Pi Home Automation with Arduino. Packt Publishing Ltd.
