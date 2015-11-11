@@ -171,7 +171,7 @@ The arrival of the RasPi changed the concept of the home automation drastically,
 
 A smart home is not much without a security system, but usually security systems are sold as a stand-alone service. There are ways, in general, to set up a security system: letting the security system take care of some automation like turning on the light or having the security functionality as a part of the smart home, so both systems can collaborate with each other. For example, it is possible to make the house look as if it is lived in by using some sensors to turn on the stereo and some lights if an intrusion occurs, even if the residents are on the other side of the world. The stereo can play a recording of a barking dog while the main lights are switched on. (Velte & Elsenpeter 2003, 9)
 
-G4S is a company that offers home security services for €39.90 per month. The price includes:
+G4S is a company that offers home security services for €39.90 per month. In addition to the company's services the price also includes:
 
 - Three sensors that determine whether the doors are opened
 - One motion sensor
