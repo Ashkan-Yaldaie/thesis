@@ -97,9 +97,40 @@ HAAGA-HELIA University of Applied Sciences
 
 ## Introduction
 
+Smart homes are gaining in popularity. Nowadays people prefer to automate the common everyday tasks to make the life more comfortable. Moreover, many people are thinking about the security of their houses and choose to acquire a system that can protect their dwellings. There is a wide choice of home automation and security systems which can match with any budget. However, more or less functional ones are rather expensive and not necessarily meet all the needs of a customer. What is more, such systems are usually rented to a customer for a monthly fee but as soon as the client decides to stop using the system, it will be taken away by the company. And since most of the well-functional systems cost a lot, cheaper examples which could compete with them are in demand, that is why there is a room for the system represented in the thesis.
+
+The system in question is going to be more affordable than other similar ones, however, it will give the user the opportunity to combine both a home automation and security system. The system is build using a Raspberry Pi and the paper gives the understanding of how useful it can be.
+
+The market of home automation is rather new and there is a great room for development. There was a shifting from carrying out quite basic tasks to more complicated ones. Nowadays nobody is going to be surprised by switching off light with clapping or automatically running water from the tap when hands are placed under it, but still there are so many other things which can be done.
+
+No doubt, that building of such complicated things like a smart cooker or a robot that can feed your pet requires funding to be created, but most of the people would be happy to have at least basic features available at the affordable price.
+
 ### Project questions and objectives
 
+The paper's objectives are to check what kind of functions the Raspberry Pi can offer in relation to the building of a home automation and security system and what are its benefits.  Answering to the following questions will help to understand how wide the scope is when working with this tiny computer:
+
+- What are the possibilities to create a programmable home automation and security system by using the RasPi?
+ - What is the money cost for completing the project?
+ - Will such a system provide expected functionalities which are listed below?
+
+Home automation:
+
+Ability to switch on/off some home devices
+The system can measure home temperature
+System will be able to control home devices based on the home temperature
+The home automation system will be able to set time for turning on/off home devices.
+
+Security system:
+
+The system will trigger an alarm in the case of home intrusion
+The system also will capture a short video clip of the incident
+The security system will upload the video to an online server
+It must be able to send notifications to the homeowner via SMS and e-mail
+In case of emergency if someone is home alone, there will be a panic button which can be utilized to notify other residents
+
 ### Project's purpose and scope
+
+The purpose of this thesis is to give the insight about different ways of using the Raspberry Pi as a multifunctional device in particular as a basic home automation and a security system. For this reason, the Raspberry Pi capacities will be researched, as well as the main features of the device. There will be a detailed insight into the technical part of the project, special attention will be paid to the way the home automation and home security was created. Moreover, the information about the costs of the project will be provided.
 
 ### Methodology
 
