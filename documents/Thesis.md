@@ -22,8 +22,8 @@ HAAGA-HELIA University of Applied Sciences
   - [Why Raspberry Pi?](#why-raspberry-pi)
   - [Home automation and security system](#home-automation-and-security-system)
 3. [Planning](#planning)
-4. [Implementation of a home automation and security system](#implementation-of-a-home-automation-and-security-system)
   - [List of required sensors and devices](#list-of-required-sensors-and-devices)
+4. [Implementation of a home automation and security system](#implementation-of-a-home-automation-and-security-system)
   - [Setting up the Raspberry Pi](#setting-up-the-raspberry-pi)
   - [Home automation](#home-automation)
     - [WIFI sockets](#wifi-sockets)
@@ -235,9 +235,9 @@ The price for each extra detail will be the following: one motion sensor is €5
 
 ## Planning
 
-## Implementation of a home automation and security system
-
 ### List of required sensors and devices
+
+## Implementation of a home automation and security system
 
 ### Setting up the Raspberry Pi
 
