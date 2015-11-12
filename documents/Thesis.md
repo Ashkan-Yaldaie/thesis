@@ -151,7 +151,7 @@ The paper's objectives are to check what kind of functions the Raspberry Pi can 
       <td>It must be able to send notifications to the homeowner via SMS and e-mail</td>
     </tr>
         <tr>
-      <td>In case of emergency if someone is home alone, there will be a panic button which can be utilized to notify other residents</td>
+      <td>There will be a panic button which can be utilized to notify somebody in emergency situations</td>
     </tr>
   </tbody>
 </table>
