@@ -127,7 +127,7 @@ Security system:
 - The system also will capture a short video clip of the incident
 - The security system will upload the video to an online server
 - It must be able to send notifications to the homeowner via SMS and e-mail
-- In case of emergency if someone is home alone, there will be a panic button which can be utilized to notify other residents
+- There will be a panic button which can be utilized to notify somebody in emergency situations
 
 ### Project's purpose and scope
 
