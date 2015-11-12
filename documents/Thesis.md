@@ -21,7 +21,8 @@ HAAGA-HELIA University of Applied Sciences
 2. [Background](#background)
   - [Why Raspberry Pi?](#why-raspberry-pi)
   - [Home automation and security system](#home-automation-and-security-system)
-3. [Implementation of a home automation and security system](#implementation-of-a-home-automation-and-security-system)
+3. [Planning](#planning)
+4. [Implementation of a home automation and security system](#implementation-of-a-home-automation-and-security-system)
   - [List of required sensors and devices](#list-of-required-sensors-and-devices)
   - [Setting up the Raspberry Pi](#setting-up-the-raspberry-pi)
   - [Home automation](#home-automation)
@@ -39,9 +40,9 @@ HAAGA-HELIA University of Applied Sciences
     - [Uploading the video to the cloud and sending an email notification](#uploading-the-video-to-the-cloud-and-sending-an-email-notification)
     - [Controlling the security system via Bluetooth](#controlling-the-security-system-via-bluetooth)
   - [Creating a graphical user interface for the system](#creating-a-graphical-user-interface-for-the-system)
-4. [Testing](#testing)
-5. [Ways to improve future implementations](#ways-to-improve-future-implementations)
-6. [Conclusion](#conclusion)
+5. [Testing](#testing)
+6. [Ways to improve future implementations](#ways-to-improve-future-implementations)
+7. [Conclusion](#conclusion)
 
 &nbsp;[References](#references)  
 &nbsp;[Appendix](#appendix)
@@ -226,6 +227,8 @@ G4S is a company that offers home security services for €39.90 per month. In a
 - Smartphone application and additional devices in order to control the security system
 
 The price for each extra detail will be the following: one motion sensor is €55, a motion sensor with a camera is €120, a door sensor costs €55, an extra remote is €30 and the price for a smoke detector is €90. The customer must sign a contract for at least 24 months. It will cost €957.60 in total for the basic package. (G4S Kotiturva 2015)
+
+## Planning
 
 ## Implementation of a home automation and security system
 
