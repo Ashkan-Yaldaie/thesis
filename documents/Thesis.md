@@ -140,9 +140,9 @@ Having completed the preparatory work, the system was implemented and testing ba
 
 ## Background
 
-This chapter will introduce the RasPi and its advantages over two other cheap single board computers. The reader can find the answer to this question: Why the RasPi is chosen for this thesis project?
+This chapter will introduce the RasPi and its advantages for this project over two other cheap single board computers. Having familiarized oneself with the background information, the reader can find the answer to this question why the RasPi was chosen for this thesis project.
 
-The subject of home automation has been talked about over the past years. This chapter will briefly go through the concepts of home automation and home security. There are home automation products available off-the-shelf. The problem is that they are expensive and sometimes do not offer a solution to some personal needs. The chapter elaborates some of these problems.
+The subject of home automation has been talked about over the past years. This chapter will briefly go through the concepts of the home automation and security. There are home automation products available off-the-shelf. The problem is that they are expensive and sometimes do not offer a solution to some personal needs. The chapter elaborates some of these problems.
 
 ### Why Raspberry Pi?
 
@@ -185,7 +185,7 @@ The BeagleBone costs about €60 compared to the €40 RasPi. Unlike the RasPi, 
 |Power Source|Micro USB|Micro USB or 2.1mm jack|  
 Table 1: Raspberry Pi 2 vs Beaglebone hardware chart (Gus 2015)
 
-Back to the main question of this part: Why the RasPi is chosen for this thesis project? Based on the background presented above the RasPi community is more vibrant and the board is designed for educational purposes, which unlike for the BeagleBone leads to more tutorials and ideas. Compared to the Arduino, the RasPi is capable of handling several tasks at the same time and that feature is a must for this thesis project.
+Back to the main question of this part: Why the RasPi was chosen for this thesis project? Based on the background presented above the RasPi community is more vibrant and the board is designed for educational purposes, which unlike for the BeagleBone leads to more tutorials and ideas. Compared to the Arduino, the RasPi is capable of handling several tasks at the same time and that feature is a must for this thesis project.
 
 ### Home automation and security system
 
