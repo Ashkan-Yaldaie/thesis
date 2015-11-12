@@ -39,9 +39,9 @@ HAAGA-HELIA University of Applied Sciences
     - [Uploading the video to the cloud and sending an email notification](#uploading-the-video-to-the-cloud-and-sending-an-email-notification)
     - [Controlling the security system via Bluetooth](#controlling-the-security-system-via-bluetooth)
   - [Creating a graphical user interface for the system](#creating-a-graphical-user-interface-for-the-system)
-  - [Testing](#testing)
-4. [Ways to improve future implementations](#ways-to-improve-future-implementations)
-5. [Conclusion](#conclusion)
+4. [Testing](#testing)
+5. [Ways to improve future implementations](#ways-to-improve-future-implementations)
+6. [Conclusion](#conclusion)
 
 &nbsp;[References](#references)  
 &nbsp;[Appendix](#appendix)
@@ -261,7 +261,7 @@ The price for each extra detail will be the following: one motion sensor is €5
 
 ### Creating a graphical user interface for the system
 
-### Testing
+## Testing
 
 ## Ways to improve future implementations
 
