@@ -58,39 +58,43 @@ HAAGA-HELIA University of Applied Sciences
 <table>
   <tbody>
     <tr>
-      <td>DIY</td>
+      <td><strong>DIY</strong></td>
       <td>Do It Yourself</td>
     </tr>
     <tr>
-      <td>GPIO</td>
+      <td><strong>GPIO</strong></td>
       <td>General Purpose Input/Output</td>
     </tr>
     <tr>
-      <td>HDMI</td>
+      <td><strong>HDMI</strong></td>
       <td>High-Definition Multimedia Interface</td>
     </tr>
+     <tr>
+-      <td><strong>HTTP</strong></td>
+-      <td>The Hypertext Transfer Protocol</td>
+-    </tr>
     <tr>
-      <td>MicroSD</td>
+      <td><strong>MicroSD</strong></td>
       <td>Micro Secure Digital</td>
     </tr>
     <tr>
-      <td>PC</td>
+      <td><strong>PC</strong></td>
       <td>Personal Computer</td>
     </tr>
     <tr>
     <tr>
-      <td>RAM</td>
+      <td><strong>RAM</strong></td>
       <td>Random Access Memory</td>
     </tr>
-      <td>RasPi</td>
+      <td><strong>RasPi</strong></td>
       <td>Raspberry Pi is a single-board computer</td>
     </tr>
     <tr>
-      <td>SMS</td>
+      <td><strong>SMS</strong></td>
       <td>Short Message Service</td>
     </tr>
     <tr>
-      <td>USB</td>
+      <td><strong>USB</strong></td>
       <td>Universal Serial Bus</td>
     </tr>
   </tbody>
