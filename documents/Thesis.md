@@ -70,9 +70,9 @@ HAAGA-HELIA University of Applied Sciences
       <td>High-Definition Multimedia Interface</td>
     </tr>
      <tr>
--      <td><strong>HTTP</strong></td>
--      <td>The Hypertext Transfer Protocol</td>
--    </tr>
+      <td><strong>HTTP</strong></td>
+      <td>The Hypertext Transfer Protocol</td>
+    </tr>
     <tr>
       <td><strong>MicroSD</strong></td>
       <td>Micro Secure Digital</td>
