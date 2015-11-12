@@ -58,43 +58,39 @@ HAAGA-HELIA University of Applied Sciences
 <table>
   <tbody>
     <tr>
-      <td><strong>DIY</strong></td>
+      <td>DIY</td>
       <td>Do It Yourself</td>
     </tr>
     <tr>
-      <td><strong>GPIO</strong></td>
+      <td>GPIO</td>
       <td>General Purpose Input/Output</td>
     </tr>
     <tr>
-      <td><strong>HDMI</strong></td>
+      <td>HDMI</td>
       <td>High-Definition Multimedia Interface</td>
     </tr>
     <tr>
-      <td><strong>HTTP</strong></td>
-      <td>The Hypertext Transfer Protocol</td>
-    </tr>
-    <tr>
-      <td><strong>MicroSD</strong></td>
+      <td>MicroSD</td>
       <td>Micro Secure Digital</td>
     </tr>
     <tr>
-      <td><strong>PC</strong></td>
+      <td>PC</td>
       <td>Personal Computer</td>
     </tr>
     <tr>
     <tr>
-      <td><strong>RAM</strong></td>
+      <td>RAM</td>
       <td>Random Access Memory</td>
     </tr>
-      <td><strong>RasPi</strong></td>
+      <td>RasPi</td>
       <td>Raspberry Pi is a single-board computer</td>
     </tr>
     <tr>
-      <td><strong>SMS</strong></td>
+      <td>SMS</td>
       <td>Short Message Service</td>
     </tr>
     <tr>
-      <td><strong>USB</strong></td>
+      <td>USB</td>
       <td>Universal Serial Bus</td>
     </tr>
   </tbody>
@@ -118,43 +114,20 @@ The paper's objectives are to check what kind of functions the Raspberry Pi can 
  - What is the money cost for completing the project?
  - Will such a system provide expected functionalities which are listed below?
 
-<table>
-  <tbody>
-    <tr>
-      <td><strong>Home automation</strong></td>
-    </tr>
-    <tr>
-      <td>Ability to switch on/off some home devices</td>
-    </tr>
-    <tr>
-      <td>The system can measure home temperature</td>
-    </tr>
-    <tr>
-      <td>System will be able to control home devices based on the home temperature</td>
-    </tr>
-    <tr>
-      <td>The home automation system will be able to set time for turning on/off home devices</td>
-    </tr>
-    <tr>
-      <td><strong>Security system</strong></td>
-    </tr>
-    <tr>
-      <td>The system will trigger an alarm in the case of home intrusion</td>
-    </tr>
-    <tr>
-      <td>The system also will capture a short video clip of the incident</td>
-    </tr>
-    <tr>
-      <td>The security system will upload the video to an online server</td>
-    </tr>
-    <tr>
-      <td>It must be able to send notifications to the homeowner via SMS and e-mail</td>
-    </tr>
-        <tr>
-      <td>There will be a panic button which can be utilized to notify somebody in emergency situations</td>
-    </tr>
-  </tbody>
-</table>
+Home automation:
+
+- Ability to switch on/off some home devices
+- The system can measure home temperature
+- System will be able to control home devices based on the home temperature
+- The home automation system will be able to set time for turning on/off home devices.
+
+Security system:
+
+- The system will trigger an alarm in the case of home intrusion
+- The system also will capture a short video clip of the incident
+- The security system will upload the video to an online server
+- It must be able to send notifications to the homeowner via SMS and e-mail
+- In case of emergency if someone is home alone, there will be a panic button which can be utilized to notify other residents
 
 ### Project's purpose and scope
 
