@@ -115,18 +115,18 @@ The paper's objectives are to check what kind of functions the Raspberry Pi can 
 
 Home automation:
 
-Ability to switch on/off some home devices
-The system can measure home temperature
-System will be able to control home devices based on the home temperature
-The home automation system will be able to set time for turning on/off home devices.
+- Ability to switch on/off some home devices
+- The system can measure home temperature
+- System will be able to control home devices based on the home temperature
+- The home automation system will be able to set time for turning on/off home devices.
 
 Security system:
 
-The system will trigger an alarm in the case of home intrusion
-The system also will capture a short video clip of the incident
-The security system will upload the video to an online server
-It must be able to send notifications to the homeowner via SMS and e-mail
-In case of emergency if someone is home alone, there will be a panic button which can be utilized to notify other residents
+- The system will trigger an alarm in the case of home intrusion
+- The system also will capture a short video clip of the incident
+- The security system will upload the video to an online server
+- It must be able to send notifications to the homeowner via SMS and e-mail
+- In case of emergency if someone is home alone, there will be a panic button which can be utilized to notify other residents
 
 ### Project's purpose and scope
 
