@@ -99,6 +99,10 @@ HAAGA-HELIA University of Applied Sciences
       <td><strong>USB</strong></td>
       <td>Universal Serial Bus</td>
     </tr>
+    <tr>
+      <td><strong>WIFI</strong></td>
+      <td>Wireless Fidelity, a local area wireless computer network</td>
+    </tr>
   </tbody>
 </table>
 
