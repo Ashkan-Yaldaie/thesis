@@ -241,20 +241,28 @@ The price for each extra detail will be the following: one motion sensor is €5
 
 ## Planning
 
-One of the most important parts of any project is planning, it is essential to know what must be done in order to make the list of requirements a reality. The requirements are presented in the  subchapter "Project questions and objectives".
+One of the most important parts of any project is planning. It is essential to know what must be done in order to turn the list of requirements into a reality. The requirements are presented in the subchapter "Project questions and objectives".
 
-The first item on the list says, "Ability to switch on/off some home devices", to complete this the system should be able to control some power sockets and a professional license is needed in order to work with the main current. Due to the absence of the license, there are two alternatives left, either to use the radio frequency or WIFI controlled outlets.
+Le’s go through the list of requirements and see what is needed to be done to fulfill each of them. The first item on the list says, "Ability to switch on/off some home devices", to complete this, the system should be able to control some power sockets. Moreover, a professional license is needed to work with the main current. Due to the absence of the license, there are two alternatives left, either to use the radio frequency or WIFI controlled outlets.
 
-As for measuring the temperature, if this option is not used, then there is no need to have it. But in case the house owner has pets, it is important to keep them at the temperature that is not that hot, for instance, not higher than 24 degrees Celsius. So one of the outlets must be programmed to switch on a cooling device if the temperature rises above 24 degrees.
+As for measurement of the temperature, if the option is not used, then there is no need to have it. But in case the house owner has pets, it is important to keep them at the temperature that is not too hot, for instance, not higher than 24 degrees Celsius. For this purpose, one of the outlets must be programmed to switch on a cooling device if the temperature rises above 24 degrees.
 
-The list mentions setting time for turning on/off home devices. If the residents of the apartment travel quite often, the timing feature is needed in order to show as if someone is home by switching on the light at a particular time. This is a way to protect the house from the  potential thieves. This can be also useful to automate Christmas lights, so they just switch on when it is dark. To control the smart home system, creating a website is required. That can be done using the RasPi as a web-server by installing the Apache and PHP. It is easy to manage the system from a long distance by using a website, but to control the system locally a voice control is required. The home automation must be simple because nobody is going to log on to a website to turn on a fan if it is two meters away. In this situation, a voice controlled switch can come in handy.
+Another requirement is setting time to turn on and off some home devices. If the residents of the apartment travel quite often, the timing feature is needed in order to show as if someone is home by switching on the light at a particular time. This is a way to protect the house from the potential thieves. This option can also be quite useful if we want to save up and automate the Christmas lights, so they just switch on when it is dark.
 
-Security system requirements are to trigger an alarm and capture a video of an incident in the case of  home intrusion. It is not wise to keep the video on the RasPi's storage, so the system must upload the data to an online server. Those people who tend to travel a lot, sometimes may lack the internet connection and, in this case, it is not enough to send an email notification about the home intrusion, but an SMS has to be sent as well. If the surrounding area is not safe enough, a panic button can be really useful in order to notify somebody in the case of emergency.
+To control the smart home system, creating a website is required. That can be done using the RasPi as a web-server by installing the Apache and PHP. It is easy to manage the system from a long distance through a website, but to control the system locally a voice control is required. The home automation must be simple because nobody is going to log on to a website to turn on a fan if it is just two meters away. In this situation, a voice controlled switch can come in handy.
+
+Security system requirements are to trigger an alarm and capture a video of an incident if the home intrusion occurs. It is not wise to keep the video on the RasPi's storage, so the system must upload the data to an online server. Those people who tend to travel a lot, sometimes may lack the internet connection and, in this case, it is not enough to send an email notification about the home intrusion, but an SMS has to be sent as well. If the surrounding area is not safe enough or lacks a good reputation, a panic button can be really useful in order to notify somebody in the case of emergency.
 
 <a name="figure-2" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/plan.jpg">  
 Figure 2: An example of a floor plan that shows the position of the security devices
+
+Figure 2 is an example of an apartment that accommodates two people. The building has two floors and the apartment is located on the second floor. The staircase from the street leads to the entrance. In this example, the most probable way for a thief is to enter through the main door marked as (a) or to break the window marked as (b). The bedroom and the living room windows are more difficult to reach due to the height of the building.
+
+This is why the main attention is given to the hallway. The motion sensor marked as (c) and the camera marked as (d) are facing the window and the door. For the security reasons the camera is pointed at the corner that the owner is concerned about, it does not capture any video of the bedroom or the living room.
+
+The other requirement is to switch on the camera and the security system only when nobody is home. There is no need to enter any code or press any button to enable/disable the security system, that can be done by using a phone’s Bluetooth. The smart home system can recognize that nobody is home, if there is no authorized Bluetooth device found, this is how it switches on the security system and the camera.
 
 ### List of required sensors and devices
 
