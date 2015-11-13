@@ -258,7 +258,7 @@ Security system requirements are to trigger an alarm and capture a video of an i
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/plan.jpg">  
 Figure 2: An example of a floor plan that shows the position of the security devices
 
-Figure 2 is an example of an apartment that accommodates two people. The building has two floors and the apartment is located on the second floor. The staircase from the street leads to the entrance. In this example, the most probable way for a thief is to enter through the main door marked as (a) or to break the window marked as (b). The bedroom and the living room windows are more difficult to reach due to the height of the building.
+An example of an apartment that accommodates two people is shown in Figure 2. The building has two floors and the apartment is located on the second floor. The staircase from the street leads to the entrance. In this example, the most probable way for a thief is to enter through the main door marked as (a) or to break the window marked as (b). The bedroom and the living room windows are more difficult to reach due to the height of the building.
 
 This is why the main attention is given to the hallway. The motion sensor marked as (c) and the camera marked as (d) are facing the window and the door. For the security reasons the camera is pointed at the corner that the owner is concerned about, it does not capture any video of the bedroom or the living room.
 
