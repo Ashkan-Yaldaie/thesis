@@ -152,7 +152,7 @@ Having completed the preparatory work, the system was implemented and testing ba
 
 ## Background
 
-This chapter will introduce the RasPi and its advantages for this project over two other cheap single board computers. Having familiarized oneself with the background information, the reader can find the answer to this question why the RasPi was chosen for this thesis project.
+This chapter will introduce the RasPi and its advantages for this project over two other cheap single board computers. Having familiarized oneself with the background information, the reader can find the answer to the question why the RasPi was chosen for this thesis project.
 
 The subject of home automation has been talked about over the past years. This chapter will briefly go through the concepts of the home automation and security. There are home automation products available off-the-shelf. The problem is that they are expensive and sometimes do not offer a solution to some personal needs. The chapter elaborates some of these problems.
 
