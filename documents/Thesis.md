@@ -51,7 +51,7 @@ HAAGA-HELIA University of Applied Sciences
 
 [Figure 1](#figure-1): The Raspberry Pi and its connectors
 
-[Figure 2](#figure-2):
+[Figure 2](#figure-2): An example of a floor plan that shows the position of the security devices
 
 &nbsp;[Table 1](#table-1): Raspberry Pi 2 vs Beaglebone hardware chart
 
@@ -250,7 +250,7 @@ Security system requirements are to trigger an alarm and capture a video of an i
 <a name="figure-2" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/plan.jpg">  
-Figure 2:
+Figure 2: An example of a floor plan that shows the position of the security devices
 
 ### List of required sensors and devices
 
