@@ -235,6 +235,16 @@ The price for each extra detail will be the following: one motion sensor is €5
 
 ## Planning
 
+One of the most important parts of any project is planning, it is essential to know what must be done in order to make the list of requirements a reality. The requirements are presented in the  subchapter "Project questions and objectives".
+
+The first item on the list says, "Ability to switch on/off some home devices", to complete this the system should be able to control some power sockets and a professional license is needed in order to work with the main current. Due to the absence of the license, there are two alternatives left, either to use the radio frequency or WIFI controlled outlets.
+
+As for measuring the temperature, if this option is not used, then there is no need to have it. But in case the house owner has pets, it is important to keep them at the temperature that is not that hot, for instance, not higher than 24 degrees Celsius. So one of the outlets must be programmed to switch on a cooling device if the temperature rises above 24 degrees.
+
+The list mentions setting time for turning on/off home devices. If the residents of the apartment travel quite often, the timing feature is needed in order to show as if someone is home by switching on the light at a particular time. This is a way to protect the house from the  potential thieves. This can be also useful to automate Christmas lights, so they just switch on when it is dark. To control the smart home system, creating a website is required. That can be done using the RasPi as a web-server by installing the Apache and PHP. It is easy to manage the system from a long distance by using a website, but to control the system locally a voice control is required. The home automation must be simple because nobody is going to log on to a website to turn on a fan if it is two meters away. In this situation, a voice controlled switch can come in handy.
+
+Security system requirements are to trigger an alarm and capture a video of an incident in the case of  home intrusion. It is not wise to keep the video on the RasPi's storage, so the system must upload the data to an online server. Those people who tend to travel a lot, sometimes may lack the internet connection and, in this case, it is not enough to send an email notification about the home intrusion, but an SMS has to be sent as well. If the surrounding area is not safe enough, a panic button can be really useful in order to notify somebody in the case of emergency.
+
 ### List of required sensors and devices
 
 ## Implementation of a home automation and security system
