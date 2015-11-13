@@ -51,6 +51,8 @@ HAAGA-HELIA University of Applied Sciences
 
 [Figure 1](#figure-1): The Raspberry Pi and its connectors
 
+[Figure 2](#figure-2):
+
 &nbsp;[Table 1](#table-1): Raspberry Pi 2 vs Beaglebone hardware chart
 
 ## Abbreviations and terms
@@ -244,6 +246,11 @@ As for measuring the temperature, if this option is not used, then there is no n
 The list mentions setting time for turning on/off home devices. If the residents of the apartment travel quite often, the timing feature is needed in order to show as if someone is home by switching on the light at a particular time. This is a way to protect the house from the  potential thieves. This can be also useful to automate Christmas lights, so they just switch on when it is dark. To control the smart home system, creating a website is required. That can be done using the RasPi as a web-server by installing the Apache and PHP. It is easy to manage the system from a long distance by using a website, but to control the system locally a voice control is required. The home automation must be simple because nobody is going to log on to a website to turn on a fan if it is two meters away. In this situation, a voice controlled switch can come in handy.
 
 Security system requirements are to trigger an alarm and capture a video of an incident in the case of  home intrusion. It is not wise to keep the video on the RasPi's storage, so the system must upload the data to an online server. Those people who tend to travel a lot, sometimes may lack the internet connection and, in this case, it is not enough to send an email notification about the home intrusion, but an SMS has to be sent as well. If the surrounding area is not safe enough, a panic button can be really useful in order to notify somebody in the case of emergency.
+
+<a name="figure-2" />
+
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/plan.jpg">  
+Figure 2:
 
 ### List of required sensors and devices
 
