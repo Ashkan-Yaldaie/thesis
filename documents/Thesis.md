@@ -268,6 +268,11 @@ The other requirement is to switch on the camera and the security system only wh
 
 Besides RasPi, a variety of devices and sensors is used to complete this thesis project. Nowadays some of the components like the RasPi’s power adapter or the webcam exist in every household, that is why there was no need to buy all the required devices. Since the project had to be affordable, purchasing of any unnecessary device was avoided. Any price that is listed in this part is approximate and not the only one available in the market.
 
+<a name="figure-3" />
+
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/wireless-pir.jpg">  
+Figure 3:
+
 ## Implementation of a home automation and security system
 
 ### Setting up the Raspberry Pi
