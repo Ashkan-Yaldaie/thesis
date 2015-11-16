@@ -53,6 +53,8 @@ HAAGA-HELIA University of Applied Sciences
 
 [Figure 2](#figure-2): An example of a floor plan that shows the position of the security devices
 
+[Figure 3](#figure-3): Items used to create the wireless motion sensor
+
 &nbsp;[Table 1](#table-1): Raspberry Pi 2 vs Beaglebone hardware chart
 
 ## Abbreviations and terms
@@ -271,7 +273,7 @@ Besides RasPi, a variety of devices and sensors is used to complete this thesis 
 <a name="figure-3" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/wireless-pir.jpg">  
-Figure 3:
+Figure 3: Items used to create the wireless motion sensor
 
 ## Implementation of a home automation and security system
 
