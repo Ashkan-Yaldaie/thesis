@@ -86,6 +86,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>Personal Computer</td>
     </tr>
     <tr>
+      <td><strong>PIR</strong></td>
+      <td>Passive Infrared Sensor</td>
+    </tr>
+    <tr>
     <tr>
       <td><strong>RAM</strong></td>
       <td>Random Access Memory</td>
