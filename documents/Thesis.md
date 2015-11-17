@@ -393,7 +393,7 @@ Huawei E303 3G USB stick with a regular SIM card shown as number (8) in Figure 4
     <td>K-market</td>
   </tr>
   <tr>
-    <td>RF Remote Control Power Socket</td>
+    <td>RF Remote Control Power Socket Set</td>
     <td>€12.99</td>
     <td>Clas Ohlson</td>
   </tr>
