@@ -322,101 +322,111 @@ Figure 4 includes other items: the 433Mhz RF transmitter and receiver kit module
 Huawei E303 3G USB stick with a regular SIM card shown as number (8) in Figure 4 has three modes: CD mode, web mode and serial mode. In order to use the Huawei E303 to send SMS, the device must be configured to the serial mode. The 3G modem needs a 5V power supply just for itself that is why items (9) and (10) which are a USB Hub with a power adapter, dedicated to the Huawei E303. Item (5) is a normal 5V smartphone power adapter used to switch on the RasPi.The DS18B20 temperature sensor module marked as number (11) is used to measure the house temperature and this data will be used to control a socket.
 
 <table>
-  <tr>
-    <td><strong>Item</strong></td>
-    <td><strong>Price</strong></td>
-    <td><strong>Bought from</strong></td>
-  </tr>
-  <tr>
-    <td>Raspberry Pi 2 - Model B</td>
-    <td>€36.90</td>
-    <td>eBay</td>
-  </tr>
-  <tr>
-    <td>Kingston 16GB MicroSD</td>
-    <td>€6.98</td>
-    <td>eBay</td>
-  </tr>
-  <tr>
-    <td>DS18B20 Temperature Sensor Module</td>
-    <td>€2.07</td>
-    <td>eBay</td>
-  </tr>
-  <tr>
-    <td>ORVIBO S20 WIFI Power Socket</td>
-    <td>€20.00</td>
-    <td>eBay</td>
-  </tr>
-  <tr>
-    <td>Huawei E303 3G Modem</td>
-    <td>€20.53</td>
-    <td>eBay</td>
-  </tr>
-  <tr>
-    <td>4 Channel RF Remote Control Kit</td>
-    <td>€2.38</td>
-    <td>eBay</td>
-  </tr>
-  <tr>
-    <td>HC-SR501 PIR Motion Sensor</td>
-    <td>€0.91</td>
-    <td>eBay</td>
-  </tr>
-  <tr>
-    <td>Mixed Resistors, 100 Pieces</td>
-    <td>€1.81</td>
-    <td>eBay</td>
-  </tr>
-  <tr>
-    <td>50 Pieces, 2N2222 NPN Transistor</td>
-    <td>€0.92</td>
-    <td>eBay</td>
-  </tr>
-  <tr>
-    <td>Breadboard and Jumper cable wires</td>
-    <td>€2.89</td>
-    <td>eBay</td>
-  </tr>
-  <tr>
-    <td>433Mhz RF Transmitter And Receiver Kit</td>
-    <td>€1.09</td>
-    <td>eBay</td>
-  </tr>
-  <tr>
-    <td>Push Button</td>
-    <td>€0.69</td>
-    <td>eBay</td>
-  </tr>
-  <tr>
-    <td>9V Battery</td>
-    <td>€1.50</td>
-    <td>K-market</td>
-  </tr>
-  <tr>
-    <td>RF Remote Control Power Socket Set</td>
-    <td>€12.99</td>
-    <td>Clas Ohlson</td>
-  </tr>
-  <tr>
-    <td>Logitech C170 Webcam</td>
-    <td>€15.95</td>
-    <td>Eldorado</td>
-  </tr>
-  <tr>
-    <td>Bluetooth Dongle</td>
-    <td>€3.63</td>
-    <td>eBay</td>
-  </tr>
-  <tr>
-    <td>USB Hub with a power adapter</td>
-    <td>€5.84</td>
-    <td>eBay</td>
-  </tr>
-  <tr>
-    <td>Power Adapter For Raspberry Pi</td>
-    <td>€4.05</td>
-    <td>eBay</td>
-  </tr>
+  <tbody>
+    <tr>
+      <td><strong>Item</strong></td>
+      <td><strong>Price</strong></td>
+      <td><strong>Bought from</strong></td>
+    </tr>
+    <tr>
+      <td>Raspberry Pi 2 - Model B</td>
+      <td>€36.90</td>
+      <td>eBay</td>
+    </tr>
+    <tr>
+      <td>Kingston 16GB MicroSD</td>
+      <td>€6.98</td>
+      <td>eBay</td>
+    </tr>
+    <tr>
+      <td>DS18B20 Temperature Sensor Module</td>
+      <td>€2.07</td>
+      <td>eBay</td>
+    </tr>
+    <tr>
+      <td>ORVIBO S20 WIFI Power Socket</td>
+      <td>€20.00</td>
+      <td>eBay</td>
+    </tr>
+    <tr>
+      <td>Huawei E303 3G Modem</td>
+      <td>€20.53</td>
+      <td>eBay</td>
+    </tr>
+    <tr>
+      <td>4 Channel RF Remote Control Kit</td>
+      <td>€2.38</td>
+      <td>eBay</td>
+    </tr>
+    <tr>
+      <td>HC-SR501 PIR Motion Sensor</td>
+      <td>€0.91</td>
+      <td>eBay</td>
+    </tr>
+    <tr>
+      <td>Mixed Resistors, 100 Pieces</td>
+      <td>€1.81</td>
+      <td>eBay</td>
+    </tr>
+    <tr>
+      <td>50 Pieces, 2N2222 NPN Transistor</td>
+      <td>€0.92</td>
+      <td>eBay</td>
+    </tr>
+    <tr>
+      <td>Breadboard and Jumper cable wires</td>
+      <td>€2.89</td>
+      <td>eBay</td>
+    </tr>
+    <tr>
+      <td>433Mhz RF Transmitter And Receiver Kit</td>
+      <td>€1.09</td>
+      <td>eBay</td>
+    </tr>
+    <tr>
+      <td>Push Button</td>
+      <td>€0.69</td>
+      <td>eBay</td>
+    </tr>
+    <tr>
+      <td>9V Battery</td>
+      <td>€1.50</td>
+      <td>K-market</td>
+    </tr>
+    <tr>
+      <td>RF Remote Control Power Socket Set</td>
+      <td>€12.99</td>
+      <td>Clas Ohlson</td>
+    </tr>
+    <tr>
+      <td>Logitech C170 Webcam</td>
+      <td>€15.95</td>
+      <td>Eldorado</td>
+    </tr>
+    <tr>
+      <td>Bluetooth Dongle</td>
+      <td>€3.63</td>
+      <td>eBay</td>
+    </tr>
+    <tr>
+      <td>USB Hub with a power adapter</td>
+      <td>€5.84</td>
+      <td>eBay</td>
+    </tr>
+    <tr>
+      <td>Power Adapter For Raspberry Pi</td>
+      <td>€4.05</td>
+      <td>eBay</td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        (w) The item is bought from eBay<br />
+        (x) The item is bought from K-market<br />
+        (y) The item is bought from Clas Ohlson<br />
+        (z) The item is bought from Eldorado
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 ## Implementation of a home automation and security system
