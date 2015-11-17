@@ -419,12 +419,24 @@ Huawei E303 3G USB stick with a regular SIM card shown as number (8) in Figure 4
       <td>Eldorado</td>
     </tr>
     <tr>
-      <td colspan="3">
-        eBay URL: http://www.ebay.com/<br />
-        K-market URL: http://www.k-market.fi/<br />
-        Clas Ohlson URL: http://www.clasohlson.com/fi/<br />
-        Eldorado URL:http://www.eldorado.ru/
-      </td>
+      <td><strong>Shop</strong></td>
+      <td colspan="2"><strong>Link</strong></td>
+    </tr>
+    <tr>
+      <td>eBay</td>
+      <td colspan="2">www.ebay.com</td>
+    </tr>
+    <tr>
+      <td>K-market</td>
+      <td colspan="2">www.k-market.fi</td>
+    </tr>
+    <tr>
+      <td>Clas Ohlson</td>
+      <td colspan="2">www.clasohlson.com/fi</td>
+    </tr>
+    <tr>
+      <td>Eldorado</td>
+      <td colspan="2">www.eldorado.ru</td>
     </tr>
   </tbody>
 </table>
