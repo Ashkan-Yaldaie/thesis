@@ -333,6 +333,8 @@ Johnson, Dave. 2012. Why sitting all day is killing you. URL: http://www.cbsnews
 
 Klosowski, Thorin. 2013. How to Pick the Right Electronics Board for Your DIY Project. URL: http://lifehacker.com/how-to-pick-the-right-electronics-board-for-your-diy-pr-742869540. Accessed: 06.11.2015.
 
+ModMyPi, 2015. URL: http://www.modmypi.com/search/. Accessed: 17.11.2015.
+
 Norris, Donald. 2014. Raspberry Pi Projects for the Evil Genius. McGraw-Hill Education.
 
 Richardson, Matt & Wallace, Shawn. 2013. Getting Started with Raspberry Pi. O'Reilly Media, Inc, USA.
