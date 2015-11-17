@@ -55,6 +55,8 @@ HAAGA-HELIA University of Applied Sciences
 
 [Figure 3](#figure-3): Items used to create a wireless motion sensor
 
+[Figure 4](#figure-4): Devices used for creating the smart home functionality
+
 &nbsp;[Table 1](#table-1): Raspberry Pi 2 vs Beaglebone hardware chart
 
 ## Abbreviations and terms
@@ -288,7 +290,7 @@ The other items in Figure 3 are resistors marked as (g) and a 2N2222 NPN transis
 <a name="figure-4" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/items-collection.jpg">  
-Figure 4:
+Figure 4: Devices used for creating the smart home functionality
 
 ## Implementation of a home automation and security system
 
