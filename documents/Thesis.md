@@ -420,10 +420,10 @@ Huawei E303 3G USB stick with a regular SIM card shown as number (8) in Figure 4
     </tr>
     <tr>
       <td colspan="3">
-        eBay<br />
-        K-market<br />
-        Clas Ohlson<br />
-        Eldorado
+        eBay URL: http://www.ebay.com/<br />
+        K-market URL: http://www.k-market.fi/<br />
+        Clas Ohlson URL: http://www.clasohlson.com/fi/<br />
+        Eldorado URL:http://www.eldorado.ru/
       </td>
     </tr>
   </tbody>
