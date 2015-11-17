@@ -224,7 +224,7 @@ Back to the main question of this part: Why the RasPi was chosen for this thesis
 
 ### Home automation and security system
 
-The home automation system should not have any negative effect on human health. It is not a bad practice to stand up once in a while to make coffee or switch on the light traditional way using a light switch. New research shows that sitting more than six hours per day causes a premature death. While sitting the body will reduce burning fat by ninety percent,  the risk of diabetes increases by twenty-four percent and activitiy of leg muscles stops. (Johnson 2012)
+The home automation system should not have any negative effects on human health. It is not a bad habit to stand up once in a while to make some coffee or switch on the light traditional way using a light switch. New research shows that sitting more than six hours per day causes a premature death. While sitting the body will reduce burning fat by ninety percent,  the risk of diabetes increases by twenty-four percent and activitiy of leg muscles stops. (Johnson 2012)
 
 The 21st century is already the age of smart homes from the point of view of a person who lived in 1797 comparing the washing board or igniting a gas lamp to the washing machine and the light switch. So, are not we living in a smart home already? There is no need to touch a switch to turn on light, nowadays, a computer can do it automatically. But there is a difference between what someone needs and what someone wants to automate. The bottom line is: a smart home must be able to save money. (Velte & Elsenpeter 2003, 3-7; Jenson 2014)
 
