@@ -279,6 +279,12 @@ Besides RasPi, a variety of devices and sensors is used to complete this thesis 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/wireless-pir.jpg">  
 Figure 3: Items used to create a wireless motion sensor
 
+Figure 3 shows the items needed to create the wireless motion sensor that is marked as (e). It is also referred to as PIR or passive infrared sensor that can detect motions based on  the radiation measurement of the area. For example, the room's temperature will changes slightly if a human enters and that will trigger the PIR to send a high signal. The "HC-SR501" motion sensor used for this project needs an input voltage of 4.5V - 20V and it sends a high signal of 3.3V, so it can be connected directly to the RasPi.(ModMyPi 2015) Since the goal is to create a wireless motion sensor the PIR cannot drain the power from the RasPi, the 9V battery market as (f) used as a power supply for the PIR.
+
+Moving on through the items in Figure 3,  a 4-button keyfob remote marked as (b) works with its receiver marked as (c). They can communicate with each other through a fixed radio frequency code. But to create the wireless PIR a breadboard  marked as (h) alongside with some jumper cables marked as (a) can be used, the breadboard can be cut into two halves to serve for both receiver and the transmitter module, therefore, there is no need to buy two breadboards.
+
+The other items in Figure 3 are resistors marked as (g) and a 2N2222 NPN transistor marked as (d). Two resistors required for this project are a 1k and a 10k ohm. Resistors are used to limit the flow of current in order to protect components, in this case, to prevent the 5V current from reaching the GPIO pin of the RasPi. There are different types of transistors that can be used for other purposes. The NPN transistor used for this project is acting as a switch for the wireless PIR. More details about this are given in the implementation part of the paper.
+
 ## Implementation of a home automation and security system
 
 ### Setting up the Raspberry Pi
