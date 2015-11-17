@@ -49,16 +49,6 @@ HAAGA-HELIA University of Applied Sciences
 
 ## Tables and Figures
 
-[Figure 1](#figure-1): The Raspberry Pi and its connectors
-
-[Figure 2](#figure-2): An example of a floor plan that shows the position of the security devices
-
-[Figure 3](#figure-3): Items used to create a wireless motion sensor
-
-[Figure 4](#figure-4): Devices used for creating the smart home functionality
-
-&nbsp;[Table 1](#table-1): Raspberry Pi 2 vs Beaglebone hardware chart
-
 <table>
   <tbody>
     <tr>
