@@ -73,7 +73,7 @@ HAAGA-HELIA University of Applied Sciences
     </tr>
     <tr>
       <td><a href="#table-2">Table 2</a></td>
-      <td>List of the devices used for this project and their purchase information</td>
+      <td>List of the devices used for this project and the purchase information</td>
     </tr>
   </tbody>
 </table>
@@ -447,7 +447,7 @@ Huawei E303 3G USB stick with a regular SIM card shown as number (8) in Figure 4
   </tbody>
 </table>
 
-Table 2: List of the devices used for this project and their purchase information
+Table 2: List of the devices used for this project and the purchase information
 
 ## Implementation of a home automation and security system
 
