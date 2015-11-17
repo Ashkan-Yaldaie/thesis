@@ -346,7 +346,7 @@ Huawei E303 3G USB stick with a regular SIM card shown as number (8) in Figure 4
     <tr>
       <td><strong>Item</strong></td>
       <td><strong>Price</strong></td>
-      <td><strong>Bought from</strong></td>
+      <td><strong>Purchased From</strong></td>
     </tr>
     <tr>
       <td>Raspberry Pi 2 - Model B</td>
