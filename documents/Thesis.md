@@ -401,7 +401,7 @@ Huawei E303 3G USB stick with a regular SIM card shown as number (8) in Figure 4
       <td>€4.05</td>
     </tr>
     <tr>
-      <td colspan="3">
+      <td colspan="2">
         (w) The item is bought from eBay<br />
         (x) The item is bought from K-market<br />
         (y) The item is bought from Clas Ohlson<br />
