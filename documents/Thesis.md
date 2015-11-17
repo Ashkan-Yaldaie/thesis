@@ -324,6 +324,26 @@ Huawei E303 3G USB stick with a regular SIM card shown as number (8) in Figure 4
 <table>
   <tbody>
     <tr>
+      <td><strong>Shop</strong></td>
+      <td colspan="2"><strong>Link</strong></td>
+    </tr>
+    <tr>
+      <td>eBay</td>
+      <td colspan="2">www.ebay.com</td>
+    </tr>
+    <tr>
+      <td>K-market</td>
+      <td colspan="2">www.k-market.fi</td>
+    </tr>
+    <tr>
+      <td>Clas Ohlson</td>
+      <td colspan="2">www.clasohlson.com/fi</td>
+    </tr>
+    <tr>
+      <td>Eldorado</td>
+      <td colspan="2">www.eldorado.ru</td>
+    </tr>
+    <tr>
       <td><strong>Item</strong></td>
       <td><strong>Price</strong></td>
       <td><strong>Bought from</strong></td>
@@ -417,26 +437,6 @@ Huawei E303 3G USB stick with a regular SIM card shown as number (8) in Figure 4
       <td>Logitech C170 Webcam</td>
       <td>€15.95</td>
       <td>Eldorado</td>
-    </tr>
-    <tr>
-      <td><strong>Shop</strong></td>
-      <td colspan="2"><strong>Link</strong></td>
-    </tr>
-    <tr>
-      <td>eBay</td>
-      <td colspan="2">www.ebay.com</td>
-    </tr>
-    <tr>
-      <td>K-market</td>
-      <td colspan="2">www.k-market.fi</td>
-    </tr>
-    <tr>
-      <td>Clas Ohlson</td>
-      <td colspan="2">www.clasohlson.com/fi</td>
-    </tr>
-    <tr>
-      <td>Eldorado</td>
-      <td colspan="2">www.eldorado.ru</td>
     </tr>
   </tbody>
 </table>
