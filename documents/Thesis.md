@@ -389,21 +389,6 @@ Huawei E303 3G USB stick with a regular SIM card shown as number (8) in Figure 4
       <td>eBay</td>
     </tr>
     <tr>
-      <td>9V Battery</td>
-      <td>€1.50</td>
-      <td>K-market</td>
-    </tr>
-    <tr>
-      <td>RF Remote Control Power Socket Set</td>
-      <td>€12.99</td>
-      <td>Clas Ohlson</td>
-    </tr>
-    <tr>
-      <td>Logitech C170 Webcam</td>
-      <td>€15.95</td>
-      <td>Eldorado</td>
-    </tr>
-    <tr>
       <td>Bluetooth Dongle</td>
       <td>€3.63</td>
       <td>eBay</td>
@@ -419,11 +404,26 @@ Huawei E303 3G USB stick with a regular SIM card shown as number (8) in Figure 4
       <td>eBay</td>
     </tr>
     <tr>
-      <td colspan="2">
-        (w) The item is bought from eBay<br />
-        (x) The item is bought from K-market<br />
-        (y) The item is bought from Clas Ohlson<br />
-        (z) The item is bought from Eldorado
+      <td>9V Battery</td>
+      <td>€1.50</td>
+      <td>K-market</td>
+    </tr>
+    <tr>
+      <td>RF Remote Control Power Socket Set</td>
+      <td>€12.99</td>
+      <td>Clas Ohlson</td>
+    </tr>
+    <tr>
+      <td>Logitech C170 Webcam</td>
+      <td>€15.95</td>
+      <td>Eldorado</td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        eBay<br />
+        K-market<br />
+        Clas Ohlson<br />
+        Eldorado
       </td>
     </tr>
   </tbody>
