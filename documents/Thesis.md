@@ -329,94 +329,76 @@ Huawei E303 3G USB stick with a regular SIM card shown as number (8) in Figure 4
       <td><strong>Bought from</strong></td>
     </tr>
     <tr>
-      <td>Raspberry Pi 2 - Model B</td>
+      <td>(w) Raspberry Pi 2 - Model B</td>
       <td>€36.90</td>
-      <td>eBay</td>
     </tr>
     <tr>
-      <td>Kingston 16GB MicroSD</td>
+      <td>(w) Kingston 16GB MicroSD</td>
       <td>€6.98</td>
-      <td>eBay</td>
     </tr>
     <tr>
-      <td>DS18B20 Temperature Sensor Module</td>
+      <td>(w) DS18B20 Temperature Sensor Module</td>
       <td>€2.07</td>
-      <td>eBay</td>
     </tr>
     <tr>
-      <td>ORVIBO S20 WIFI Power Socket</td>
+      <td>(w) ORVIBO S20 WIFI Power Socket</td>
       <td>€20.00</td>
-      <td>eBay</td>
     </tr>
     <tr>
-      <td>Huawei E303 3G Modem</td>
+      <td>(w) Huawei E303 3G Modem</td>
       <td>€20.53</td>
-      <td>eBay</td>
     </tr>
     <tr>
-      <td>4 Channel RF Remote Control Kit</td>
+      <td>(w) 4 Channel RF Remote Control Kit</td>
       <td>€2.38</td>
-      <td>eBay</td>
     </tr>
     <tr>
-      <td>HC-SR501 PIR Motion Sensor</td>
+      <td>(w) HC-SR501 PIR Motion Sensor</td>
       <td>€0.91</td>
-      <td>eBay</td>
     </tr>
     <tr>
-      <td>Mixed Resistors, 100 Pieces</td>
+      <td>(w) Mixed Resistors, 100 Pieces</td>
       <td>€1.81</td>
-      <td>eBay</td>
     </tr>
     <tr>
-      <td>50 Pieces, 2N2222 NPN Transistor</td>
+      <td>(w) 50 Pieces, 2N2222 NPN Transistor</td>
       <td>€0.92</td>
-      <td>eBay</td>
     </tr>
     <tr>
-      <td>Breadboard and Jumper cable wires</td>
+      <td>(w) Breadboard and Jumper cable wires</td>
       <td>€2.89</td>
-      <td>eBay</td>
     </tr>
     <tr>
-      <td>433Mhz RF Transmitter And Receiver Kit</td>
+      <td>(w) 433Mhz RF Transmitter And Receiver Kit</td>
       <td>€1.09</td>
-      <td>eBay</td>
     </tr>
     <tr>
-      <td>Push Button</td>
+      <td>(w) Push Button</td>
       <td>€0.69</td>
-      <td>eBay</td>
     </tr>
     <tr>
-      <td>9V Battery</td>
+      <td>(x) 9V Battery</td>
       <td>€1.50</td>
-      <td>K-market</td>
     </tr>
     <tr>
-      <td>RF Remote Control Power Socket Set</td>
+      <td>(y) RF Remote Control Power Socket Set</td>
       <td>€12.99</td>
-      <td>Clas Ohlson</td>
     </tr>
     <tr>
-      <td>Logitech C170 Webcam</td>
+      <td>(z) Logitech C170 Webcam</td>
       <td>€15.95</td>
-      <td>Eldorado</td>
     </tr>
     <tr>
-      <td>Bluetooth Dongle</td>
+      <td>(w) Bluetooth Dongle</td>
       <td>€3.63</td>
-      <td>eBay</td>
     </tr>
     <tr>
-      <td>USB Hub with a power adapter</td>
+      <td>(w) USB Hub with a power adapter</td>
       <td>€5.84</td>
-      <td>eBay</td>
     </tr>
     <tr>
-      <td>Power Adapter For Raspberry Pi</td>
+      <td>(w) Power Adapter For Raspberry Pi</td>
       <td>€4.05</td>
-      <td>eBay</td>
     </tr>
     <tr>
       <td colspan="3">
