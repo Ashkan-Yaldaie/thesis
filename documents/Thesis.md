@@ -285,6 +285,11 @@ Moving on through the items in Figure 3,  a 4-button keyfob remote marked as (b)
 
 The other items in Figure 3 are resistors marked as (g) and a 2N2222 NPN transistor marked as (d). Two resistors required for this project are a 1k and a 10k ohm. Resistors are used to limit the flow of current in order to protect components, in this case, to prevent the 5V current from reaching the GPIO pin of the RasPi. There are different types of transistors that can be used for other purposes. The NPN transistor used for this project is acting as a switch for the wireless PIR. More details about this are given in the implementation part of the paper.
 
+<a name="figure-4" />
+
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/items-collection.jpg">  
+Figure 4:
+
 ## Implementation of a home automation and security system
 
 ### Setting up the Raspberry Pi
