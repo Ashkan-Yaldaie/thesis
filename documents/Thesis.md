@@ -315,6 +315,8 @@ The other items in Figure 3 are resistors marked as (g) and a 2N2222 NPN transis
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/items-collection.jpg">  
 Figure 4: Devices used for creating the smart home functionality
 
+The webcam shown in Figure 4 is a Logitech C170 webcam. It has two objectives to be carried out concerning this project: to be used as a microphone for the voice control and a recording device for the security system. Item (2) is a WIFI controlled socket. It is not required to use WIFI sockets for home automation since they are quite expensive in comparison with the item (3) which is a set of three radio frequency controlled outlets. However, it is possible to find the current status of a WIFI socket by sending a UDP package to it. this is something that RF sockets lack.
+
 ## Implementation of a home automation and security system
 
 ### Setting up the Raspberry Pi
