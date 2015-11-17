@@ -319,7 +319,7 @@ The webcam shown in Figure 4 is a Logitech C170 webcam. It has two objectives to
 
 Figure 4 includes other items: the 433Mhz RF transmitter and receiver kit module marked as (4), it is used to find out and transmit the on/off codes for RF sockets. This way the sockets can be controlled with the RasPi. Item (6) is a Bluetooth USB stick used to recognize if someone is at home or not through the connection to another Bluetooth device, like the one in a cell phone. It is required to use a push switch numbered as (7) for the panic button since on/off switches do not serve well for this purpose.
 
-Huawei E303 3G USB stick shown as number (8) in Figure 4 has three modes: CD mode, web mode and serial mode. In order to use the Huawei E303 to send SMS, the device must be configured to the serial mode. The 3G modem needs a 5V power supply just for itself that is why items (9) and (10) which are a USB Hub with a power adapter, dedicated to the Huawei E303. Item (5) is a normal 5V smartphone power adapter used to switch on the RasPi.
+Huawei E303 3G USB stick with a SIM card shown as number (8) in Figure 4 has three modes: CD mode, web mode and serial mode. In order to use the Huawei E303 to send SMS, the device must be configured to the serial mode. The 3G modem needs a 5V power supply just for itself that is why items (9) and (10) which are a USB Hub with a power adapter, dedicated to the Huawei E303. Item (5) is a normal 5V smartphone power adapter used to switch on the RasPi.
 
 ## Implementation of a home automation and security system
 
