@@ -115,8 +115,16 @@ HAAGA-HELIA University of Applied Sciences
       <td>Raspberry Pi is a single-board computer</td>
     </tr>
     <tr>
+      <td><strong>RF</strong></td>
+      <td>Radio Frequency</td>
+    </tr>
+    <tr>
       <td><strong>SMS</strong></td>
       <td>Short Message Service</td>
+    </tr>
+    <tr>
+      <td><strong>UDP</strong></td>
+      <td>User Datagram Protocol</td>
     </tr>
     <tr>
       <td><strong>USB</strong></td>
