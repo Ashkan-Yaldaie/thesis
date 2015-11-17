@@ -321,6 +321,8 @@ Figure 4 includes other items: the 433Mhz RF transmitter and receiver kit module
 
 Huawei E303 3G USB stick with a regular SIM card shown as number (8) in Figure 4 has three modes: CD mode, web mode and serial mode. In order to use the Huawei E303 to send SMS, the device must be configured to the serial mode. The 3G modem needs a 5V power supply just for itself that is why items (9) and (10) which are a USB Hub with a power adapter, dedicated to the Huawei E303. Item (5) is a normal 5V smartphone power adapter used to switch on the RasPi.The DS18B20 temperature sensor module marked as number (11) is used to measure the house temperature and this data will be used to control a socket.
 
+<a name="table-2" />
+
 <table>
   <tbody>
     <tr>
@@ -440,6 +442,8 @@ Huawei E303 3G USB stick with a regular SIM card shown as number (8) in Figure 4
     </tr>
   </tbody>
 </table>
+
+Table 2:
 
 ## Implementation of a home automation and security system
 
