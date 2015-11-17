@@ -65,6 +65,22 @@ HAAGA-HELIA University of Applied Sciences
       <td><a href="#figure-1">Figure 1</a></td>
       <td>The Raspberry Pi and its connectors</td>
     </tr>
+    <tr>
+      <td><a href="#figure-2">Figure 2</a></td>
+      <td>An example of a floor plan that shows the position of the security devices</td>
+    </tr>
+    <tr>
+      <td><a href="#figure-3">Figure 3</a></td>
+      <td>Items used to create a wireless motion sensor</td>
+    </tr>
+    <tr>
+      <td><a href="#figure-4">Figure 4</a></td>
+      <td>Devices used for creating the smart home functionality</td>
+    </tr>
+    <tr>
+      <td><a href="#table-1">Table 1</a></td>
+      <td>Raspberry Pi 2 vs Beaglebone hardware chart</td>
+    </tr>
   </tbody>
 </table>
 
