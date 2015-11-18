@@ -45,7 +45,8 @@ HAAGA-HELIA University of Applied Sciences
 7. [Conclusion](#conclusion)
 
 &nbsp;[References](#references)  
-&nbsp;[Appendices](#appendices)
+&nbsp;[Appendices](#appendices)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Appendix 1](appendix-1)
 
 ## Tables and Figures
 
