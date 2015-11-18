@@ -181,7 +181,7 @@ The purpose of this thesis is to give the insight about different ways of using 
 
 ### Methodology
 
-The current thesis is a project paper. In order to be completed, the following stages were gone through: planning, implementation, testing and documenting of the results. During the planning phase, the scope of the project was decided and some insight into the resources was done. Moreover, for the better understanding of the different functions that can be included into the system build, different sources, like books and other instructions were looked through. 
+The current thesis is a project paper. In order to be completed, the following stages were gone through: planning, implementation, testing and documenting the results. During the planning phase, the scope of the project was decided and some insight into the resources was done. Moreover, for the better understanding of the different functions that can be included into the system build, different sources, like books and other instructions were looked through. 
 
 Having completed the preparatory work, the system was implemented and testing based on the real-life situations and scenarios was done. Mainly the details needed to build the system were bought from the internet shops. The budget was quite flexible, but it was taken care that it does not exceed the reasonable sum. There were some obstacles which were causing some disruption for the project plans. These were mostly due to the slow work of the internet shops and sometimes because of the poor quality of the purchased components.
 
