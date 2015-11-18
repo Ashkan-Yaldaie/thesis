@@ -449,6 +449,8 @@ Huawei E303 3G USB stick with a regular SIM card shown as number (8) in Figure 4
 
 Table 2: List of the devices used for this project and the purchase information
 
+The total cost of all the details and devices used to complete the bachelor thesis project can be calculated based on Table 2. Listing the prices of a particular detail is quite useful because it allows to calculate the cost of each function of the system separately. For example, adding a new wireless PIR will cost roughly about €7. Table 2 also gives the information about the shops that items were purchased from. Most of the items were bought from eBay which is a digital marketplace that enables transactions both between customer to customer and business to customers. Concerning the prices, usage of RF sockets is more cost-efficient, since three of them can be bought at the price of one WIFI socket. Having chosen the parts at the most reasonable prices, which are reflected in Table 2, the total cost of the project is about €142.
+
 ## Implementation of a home automation and security system
 
 ### Setting up the Raspberry Pi
