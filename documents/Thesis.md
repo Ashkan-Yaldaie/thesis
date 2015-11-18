@@ -46,7 +46,7 @@ HAAGA-HELIA University of Applied Sciences
 
 &nbsp;[References](#references)  
 &nbsp;[Appendices](#appendices)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Appendix 1. List of the devices used for this project and the purchase information](appendix-1)
+&nbsp;&nbsp;&nbsp;&nbsp;[Appendix 1. List of the devices used for this project and the purchase information](#appendix-1-list-of-the-devices-used-for-this-project-and-the-purchase-information)
 
 ## Tables and Figures
 
