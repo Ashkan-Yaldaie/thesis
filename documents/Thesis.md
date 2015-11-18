@@ -322,7 +322,81 @@ Figure 4 includes other items: the 433Mhz RF transmitter and receiver kit module
 
 Huawei E303 3G USB stick with a regular SIM card shown as number (8) in Figure 4 has three modes: CD mode, web mode and serial mode. In order to use the Huawei E303 to send SMS, the device must be configured to the serial mode. The 3G modem needs a 5V power supply just for itself that is why items (9) and (10) which are a USB Hub with a power adapter, dedicated to the Huawei E303. Item (5) is a normal 5V smartphone power adapter used to switch on the RasPi.The DS18B20 temperature sensor module marked as number (11) is used to measure the house temperature and this data will be used to control a socket.
 
-<a name="table-2" />
+The total cost of all the details and devices used to complete the bachelor thesis project can be calculated based on Table 2. Listing the prices of a particular detail is quite useful because it allows to calculate the cost of each function of the system separately. For example, adding a new wireless PIR will cost roughly about €7. Table 2 also gives the information about the shops that items were purchased from. Most of the items were bought from eBay which is a digital marketplace that enables transactions both between customer to customer and business to customers. Concerning the prices, usage of RF sockets is more cost-efficient, since three of them can be bought at the expense of one WIFI socket. Having chosen the parts at the most reasonable prices, which are reflected in Table 2, the total cost of the project is about €142.
+
+## Implementation of a home automation and security system
+
+### Setting up the Raspberry Pi
+
+### Home automation
+
+#### WIFI sockets
+
+#### Radio frequency sockets
+
+#### Control a socket using home temperature
+
+#### Control a socket using timer
+
+#### Voice control
+
+### Security system
+
+#### Adding a wireless motion sensor
+
+#### Sending SMS and triggering an alarm if motion is detected
+
+#### Implementation of a panic button
+
+#### Connecting a camera to the system
+
+#### Capturing a video clip of an intrusion
+
+#### Uploading the video to the cloud and sending an email notification
+
+#### Controlling the security system via Bluetooth
+
+### Creating a graphical user interface for the system
+
+## Testing
+
+## Ways to improve future implementations
+
+## Conclusion
+
+## References
+
+Craig, Caroline. 2015. Smart home or dumb security risk?. URL: http://www.infoworld.com/article/2893600/mobile-technology/smart-home-or-dumb-security-risk.html. Accessed: 11.11.2015.
+
+Clas ohlson. 2015. URL: http://www.clasohlson.com/fi/b/S%C3%A4hk%C3%B6/%C3%84lykoti/Aloituspaketit. Accessed: 09.11.2015.
+
+Dennis, Andrew. 2013. Raspberry Pi Home Automation with Arduino. Packt Publishing Ltd.
+
+G4S Kotiturva. 2015. URL: http://www.kotiturva.fi/. Accessed: 11.11.2015.
+
+Gus. 2015. Beaglebone Vs Raspberry Pi 2: Choosing The Right Board. URL: http://pimylifeup.com/beaglebone-vs-raspberry-pi/. Accessed: 06.11.2015.
+
+Jenson, Scott. 2014. The home automation paradox. URL: http://radar.oreilly.com/2014/02/the-home-automation-paradox.html. Accessed: 09.11.2015.
+
+Johnson, Dave. 2012. Why sitting all day is killing you. URL: http://www.cbsnews.com/news/why-sitting-all-day-is-killing-you/. Accessed: 09.11.2015.
+
+Klosowski, Thorin. 2013. How to Pick the Right Electronics Board for Your DIY Project. URL: http://lifehacker.com/how-to-pick-the-right-electronics-board-for-your-diy-pr-742869540. Accessed: 06.11.2015.
+
+ModMyPi, 2015. URL: http://www.modmypi.com/. Accessed: 17.11.2015.
+
+Norris, Donald. 2014. Raspberry Pi Projects for the Evil Genius. McGraw-Hill Education.
+
+Richardson, Matt & Wallace, Shawn. 2013. Getting Started with Raspberry Pi. O'Reilly Media, Inc, USA.
+
+Velte, Toby & Elsenpeter, Robert. 2003. Build Your Own Smart Home. The McGraw-Hill Companies.
+
+Upton, Eben & Halfacree, Gareth. 2014. Raspberry Pi User Guide 2nd ed. John Wiley & Sons Ltd.
+
+Widman, Jake. 2015. How to keep your connected home safe: 7 steps you can take to boost home security. URL: http://www.techhive.com/article/2894258/how-to-keep-your-connected-home-safe-7-steps-you-can-take-to-boost-home-security.html. Accessed: 11.11.2015.
+
+## Appendices
+
+### Appendix 1. Devices used for this project and the purchase information
 
 <table>
   <tbody>
@@ -443,81 +517,3 @@ Huawei E303 3G USB stick with a regular SIM card shown as number (8) in Figure 4
     </tr>
   </tbody>
 </table>
-
-Table 2: List of the devices used for this project and the purchase information
-
-The total cost of all the details and devices used to complete the bachelor thesis project can be calculated based on Table 2. Listing the prices of a particular detail is quite useful because it allows to calculate the cost of each function of the system separately. For example, adding a new wireless PIR will cost roughly about €7. Table 2 also gives the information about the shops that items were purchased from. Most of the items were bought from eBay which is a digital marketplace that enables transactions both between customer to customer and business to customers. Concerning the prices, usage of RF sockets is more cost-efficient, since three of them can be bought at the expense of one WIFI socket. Having chosen the parts at the most reasonable prices, which are reflected in Table 2, the total cost of the project is about €142.
-
-## Implementation of a home automation and security system
-
-### Setting up the Raspberry Pi
-
-### Home automation
-
-#### WIFI sockets
-
-#### Radio frequency sockets
-
-#### Control a socket using home temperature
-
-#### Control a socket using timer
-
-#### Voice control
-
-### Security system
-
-#### Adding a wireless motion sensor
-
-#### Sending SMS and triggering an alarm if motion is detected
-
-#### Implementation of a panic button
-
-#### Connecting a camera to the system
-
-#### Capturing a video clip of an intrusion
-
-#### Uploading the video to the cloud and sending an email notification
-
-#### Controlling the security system via Bluetooth
-
-### Creating a graphical user interface for the system
-
-## Testing
-
-## Ways to improve future implementations
-
-## Conclusion
-
-## References
-
-Craig, Caroline. 2015. Smart home or dumb security risk?. URL: http://www.infoworld.com/article/2893600/mobile-technology/smart-home-or-dumb-security-risk.html. Accessed: 11.11.2015.
-
-Clas ohlson. 2015. URL: http://www.clasohlson.com/fi/b/S%C3%A4hk%C3%B6/%C3%84lykoti/Aloituspaketit. Accessed: 09.11.2015.
-
-Dennis, Andrew. 2013. Raspberry Pi Home Automation with Arduino. Packt Publishing Ltd.
-
-G4S Kotiturva. 2015. URL: http://www.kotiturva.fi/. Accessed: 11.11.2015.
-
-Gus. 2015. Beaglebone Vs Raspberry Pi 2: Choosing The Right Board. URL: http://pimylifeup.com/beaglebone-vs-raspberry-pi/. Accessed: 06.11.2015.
-
-Jenson, Scott. 2014. The home automation paradox. URL: http://radar.oreilly.com/2014/02/the-home-automation-paradox.html. Accessed: 09.11.2015.
-
-Johnson, Dave. 2012. Why sitting all day is killing you. URL: http://www.cbsnews.com/news/why-sitting-all-day-is-killing-you/. Accessed: 09.11.2015.
-
-Klosowski, Thorin. 2013. How to Pick the Right Electronics Board for Your DIY Project. URL: http://lifehacker.com/how-to-pick-the-right-electronics-board-for-your-diy-pr-742869540. Accessed: 06.11.2015.
-
-ModMyPi, 2015. URL: http://www.modmypi.com/. Accessed: 17.11.2015.
-
-Norris, Donald. 2014. Raspberry Pi Projects for the Evil Genius. McGraw-Hill Education.
-
-Richardson, Matt & Wallace, Shawn. 2013. Getting Started with Raspberry Pi. O'Reilly Media, Inc, USA.
-
-Velte, Toby & Elsenpeter, Robert. 2003. Build Your Own Smart Home. The McGraw-Hill Companies.
-
-Upton, Eben & Halfacree, Gareth. 2014. Raspberry Pi User Guide 2nd ed. John Wiley & Sons Ltd.
-
-Widman, Jake. 2015. How to keep your connected home safe: 7 steps you can take to boost home security. URL: http://www.techhive.com/article/2894258/how-to-keep-your-connected-home-safe-7-steps-you-can-take-to-boost-home-security.html. Accessed: 11.11.2015.
-
-## Appendices
-
-### Appendix 1. Devices used for this project and the purchase information
