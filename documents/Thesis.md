@@ -519,3 +519,5 @@ Upton, Eben & Halfacree, Gareth. 2014. Raspberry Pi User Guide 2nd ed. John Wile
 Widman, Jake. 2015. How to keep your connected home safe: 7 steps you can take to boost home security. URL: http://www.techhive.com/article/2894258/how-to-keep-your-connected-home-safe-7-steps-you-can-take-to-boost-home-security.html. Accessed: 11.11.2015.
 
 ## Appendices
+
+### Appendix 1. List of the devices used for this project and the purchase information
