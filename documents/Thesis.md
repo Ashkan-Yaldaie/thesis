@@ -72,10 +72,6 @@ HAAGA-HELIA University of Applied Sciences
       <td><a href="#table-1">Table 1</a></td>
       <td>Raspberry Pi 2 vs Beaglebone hardware chart</td>
     </tr>
-    <tr>
-      <td><a href="#table-2">Table 2</a></td>
-      <td>List of the devices used for this project and the purchase information</td>
-    </tr>
   </tbody>
 </table>
 
