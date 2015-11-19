@@ -409,6 +409,10 @@ Widman, Jake. 2015. How to keep your connected home safe: 7 steps you can take t
       <td colspan="2">www.ebay.com</td>
     </tr>
     <tr>
+      <td>DNA</td>
+      <td colspan="2">www.dna.fi</td>
+    </tr>
+    <tr>
       <td>K-market</td>
       <td colspan="2">www.k-market.fi</td>
     </tr>
@@ -499,6 +503,11 @@ Widman, Jake. 2015. How to keep your connected home safe: 7 steps you can take t
       <td>Power Adapter For Raspberry Pi</td>
       <td>€4.05</td>
       <td>eBay</td>
+    </tr>
+    <tr>
+      <td>DNA Super Prepaid</td>
+      <td>€4.90</td>
+      <td>DNA</td>
     </tr>
     <tr>
       <td>9V Battery</td>
