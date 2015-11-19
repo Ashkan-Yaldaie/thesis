@@ -326,6 +326,8 @@ The total cost of all the details and devices used to complete the bachelor thes
 
 ## Implementation of a home automation and security system
 
+Project background and the planning phase is followed with the description of the implementation of a basic smart home system. The chapter is divided into four major parts. The first part is about setting up the RasPi, the second one is dedicated to the home automation features of the project, another subchapter is about creating the security system and the last section covers the creation of a graphical user interface.
+
 ### Setting up the Raspberry Pi
 
 ### Home automation
