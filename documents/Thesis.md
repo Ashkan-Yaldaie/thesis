@@ -224,7 +224,7 @@ The BeagleBone costs about €60 compared to the €40 RasPi. Unlike the RasPi, 
 <table>
   <tbody>
     <tr>
-      <th></th>
+      <th> </th>
       <th>Raspberry Pi 2</th>
       <th>Beaglebone Black Rev C</th>
     </tr>
