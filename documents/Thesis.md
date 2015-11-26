@@ -451,8 +451,8 @@ Widman, Jake. 2015. How to keep your connected home safe: 7 steps you can take t
 <table>
   <tbody>
     <tr>
-      <td><strong>Shop</strong></td>
-      <td colspan="2"><strong>Link</strong></td>
+      <th>Shop</th>
+      <th colspan="2">Link</th>
     </tr>
     <tr>
       <td>eBay</td>
@@ -475,9 +475,9 @@ Widman, Jake. 2015. How to keep your connected home safe: 7 steps you can take t
       <td colspan="2">www.eldorado.ru</td>
     </tr>
     <tr>
-      <td><strong>Item</strong></td>
-      <td><strong>Price</strong></td>
-      <td><strong>Purchased From</strong></td>
+      <th>Item</th>
+      <th>Price</th>
+      <th>Purchased From</th>
     </tr>
     <tr>
       <td>Raspberry Pi 2 - Model B</td>
