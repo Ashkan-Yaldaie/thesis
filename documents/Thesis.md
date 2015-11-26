@@ -434,6 +434,8 @@ ModMyPi, 2015. URL: http://www.modmypi.com/. Accessed: 17.11.2015.
 
 Norris, Donald. 2014. Raspberry Pi Projects for the Evil Genius. McGraw-Hill Education.
 
+Raspberry Pi Foundation. 2015. URL: https://www.raspberrypi.org/. Accessed: 26.11.2015.
+
 Richardson, Matt & Wallace, Shawn. 2013. Getting Started with Raspberry Pi. O'Reilly Media, Inc, USA.
 
 Velte, Toby & Elsenpeter, Robert. 2003. Build Your Own Smart Home. The McGraw-Hill Companies.
