@@ -221,16 +221,55 @@ The BeagleBone costs about €60 compared to the €40 RasPi. Unlike the RasPi, 
 
 <a name="table-1" />
 
-||Raspberry Pi 2|Beaglebone Black Rev C|
-|---|---|---|
-|Processor|900MHz ARM Quad Core|1GHz ARM|
-|RAM|1GB|512MB|
-|Storage|MicroSD Card (Required) Expandable via USB|4GB on-board flash storage Expandable by USB & MicroSD|
-|Audio|Stereo over HDMI, Stereo from 3.5mm jack|Stereo over HDMI|
-|GPIO|26/40 Pins|65/92 Pins|
-|HDMI|Full Size HDMI port|Mini-HDMI|
-|Peripherals|4 USB ports, 1 10/100 Ethernet port, interface ports for Camera & Display|1 USB port, 1  10/100 Ethernet port|
-|Power Source|Micro USB|Micro USB or 2.1mm jack|  
+<table>
+  <tbody>
+    <tr>
+      <th></th>
+      <th>Raspberry Pi 2</th>
+      <th>Beaglebone Black Rev C</th>
+    </tr>
+    <tr>
+      <td>Processor</td>
+      <td>900MHz ARM Quad Core</td>
+      <td>1GHz ARM</td>
+    </tr>
+    <tr>
+      <td>RAM</td>
+      <td>1GB</td>
+      <td>512MB</td>
+    </tr>
+    <tr>
+      <td>Storage</td>
+      <td>MicroSD Card (Required) Expandable via USB</td>
+      <td>4GB on-board flash storage Expandable by USB & MicroSD</td>
+    </tr>
+    <tr>
+      <td>Audio</td>
+      <td>Stereo over HDMI, Stereo from 3.5mm jack</td>
+      <td>Stereo over HDMI</td>
+    </tr>
+    <tr>
+      <td>GPIO</td>
+      <td>26/40 Pins</td>
+      <td>65/92 Pins</td>
+    </tr>
+    <tr>
+      <td>HDMI</td>
+      <td>Full Size HDMI port</td>
+      <td>Mini-HDMI</td>
+    </tr>
+    <tr>
+      <td>Peripherals</td>
+      <td>4 USB ports, 1 10/100 Ethernet port, interface ports for Camera & Display</td>
+      <td>1 USB port, 1 10/100 Ethernet port</td>
+    </tr>
+    <tr>
+      <td>Power Source</td>
+      <td>Micro USB</td>
+      <td>Micro USB or 2.1mm jack</td>
+    </tr>
+  </tbody>
+</table> 
 Table 1: Raspberry Pi 2 vs Beaglebone hardware chart (Gus 2015)
 
 Back to the main question of this part: Why the RasPi was chosen for this thesis project? Based on the background presented above the RasPi community is more vibrant and the board is designed for educational purposes, which unlike for the BeagleBone leads to more tutorials and ideas. Compared to the Arduino, the RasPi is capable of handling several tasks at the same time and that feature is a must for this thesis project.
