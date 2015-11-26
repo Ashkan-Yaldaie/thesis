@@ -12,7 +12,7 @@ HAAGA-HELIA University of Applied Sciences
 
 ## Table of contents
 &nbsp;[Tables and Figures](#tables-and-figures)  
-&nbsp;[Abbreviations and terms](#abbreviations-and-terms)
+&nbsp;[Abbreviations](#abbreviations)
 
 1. [Introduction](#introduction)
   - [Project questions and objectives](#project-questions-and-objectives)
@@ -75,7 +75,7 @@ HAAGA-HELIA University of Applied Sciences
   </tbody>
 </table>
 
-## Abbreviations and terms
+## Abbreviations
 
 <table>
   <tbody>
