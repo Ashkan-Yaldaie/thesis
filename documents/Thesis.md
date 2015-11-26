@@ -100,6 +100,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>Micro Secure Digital</td>
     </tr>
     <tr>
+      <td><strong>OS</strong></td>
+      <td>Operating System</td>
+    </tr>
+    <tr>
       <td><strong>PC</strong></td>
       <td>Personal Computer</td>
     </tr>
