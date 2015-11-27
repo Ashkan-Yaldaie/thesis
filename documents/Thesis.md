@@ -69,6 +69,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>Devices used for creating the smart home functionality</td>
     </tr>
     <tr>
+      <td><a href="#figure-5">Figure 5</a></td>
+      <td>Output of the `df -h` command</td>
+    </tr>
+    <tr>
       <td><a href="#table-1">Table 1</a></td>
       <td>Raspberry Pi 2 vs Beaglebone hardware chart</td>
     </tr>
