@@ -391,7 +391,7 @@ Figure 5: Output of the df -h command
 dd bs=4M if=2015-05-05-raspbian-wheezy.img of=/dev/mmcblk0
 ```
 
-The input file `if=` is the downloaded `.img` file from the Raspberry Pi Foundation's website and the output file `of=` is the address of the MicroSD card. It is recommended to enter the command `sync` after the image is completely copied and before taking the MicroSD card out of its slot, the command ensures that the write cache is flushed to the card.
+The input file `if=` is the downloaded `.img` file from the Raspberry Pi Foundation's website and the output file `of=` is the address of the MicroSD card. It is recommended to enter the command `sync` after the image is completely copied and before taking the MicroSD card out of its slot, the command ensures that the cache is flushed to the card.
 
 ### Home automation
 
