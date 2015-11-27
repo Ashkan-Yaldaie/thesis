@@ -70,7 +70,7 @@ HAAGA-HELIA University of Applied Sciences
     </tr>
     <tr>
       <td><a href="#figure-5">Figure 5</a></td>
-      <td>Output of the `df -h` command</td>
+      <td>Output of the df -h command</td>
     </tr>
     <tr>
       <td><a href="#table-1">Table 1</a></td>
