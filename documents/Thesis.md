@@ -382,7 +382,7 @@ RasPi does not come with an OS preinstalled on it, so to start working with the 
 
 <a name="figure-5" />
 
-<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/wireless-pir.jpg">  
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/df-h.jpg">  
 Figure 5: Output of the df -h command
 
 ### Home automation
