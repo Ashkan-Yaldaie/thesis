@@ -385,6 +385,14 @@ RasPi does not come with an OS preinstalled on it, so to start working with the 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/df-h.jpg">  
 Figure 5: Output of the df -h command
 
+(Raspberry Pi Foundation 2015) Have a complete documentation on the subject. The `.img` file can be copied to the MicroSD card using the `dd` tool. In order to find the name and address of the MicroSD card, `df -h` command is used, one thing to pay attention to is that the image must be copied to the whole card not just to a partition. The `df -h` commands output `/dev/mmcblk0p1` is shown in Figure 5, but the image must be copied to `/dev/mmcblk0` since `p1` stands for partition one. It is important to unmount the MicroSD card by using the command `umount /dev/mmcblk0p1` before proceeding further. The complete terminal command for copying the image is the following:
+
+``` bash
+dd bs=4M if=2015-05-05-raspbian-wheezy.img of=/dev/mmcblk0
+```
+
+The input file `if=` is the downloaded `.img` file from the Raspberry Pi Foundation's website and the output file `of=` is the address of the MicroSD card. It is recommended to enter the command `sync` after the image is completely copied and before taking the MicroSD card out of its slot, the command ensures that the write cache is flushed to the card.
+
 ### Home automation
 
 #### WIFI sockets
