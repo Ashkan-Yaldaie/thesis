@@ -100,6 +100,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>The Hypertext Transfer Protocol</td>
     </tr>
     <tr>
+      <td><strong>LED</strong></td>
+      <td>Light-Emitting Diode</td>
+    </tr>
+    <tr>
       <td><strong>MicroSD</strong></td>
       <td>Micro Secure Digital</td>
     </tr>
