@@ -99,6 +99,10 @@ HAAGA-HELIA University of Applied Sciences
       <td><strong>HTTP</strong></td>
       <td>The Hypertext Transfer Protocol</td>
     </tr>
+     <tr>
+      <td><strong>IP</strong></td>
+      <td>Internet Protocol</td>
+    </tr>
     <tr>
       <td><strong>LED</strong></td>
       <td>Light-Emitting Diode</td>
