@@ -401,6 +401,10 @@ dd bs=4M if=2015-05-05-raspbian-wheezy.img of=/dev/mmcblk0
 
 The input file `if=` is the downloaded `.img` file from the Raspberry Pi Foundation's website and the output file `of=` is the address of the MicroSD card. It is recommended to enter the command `sync` after the image is completely copied and before taking the MicroSD card out of its slot, the command ensures that the cache is flushed to the card.
 
+The RasPi does not have any on/off switch, after inserting the prepared MicroSD it is enough to use a power adapter to turn the device on. The RasPi has two LEDs, the red one is the power LED and the green light shows the MicroSD's activity, so everything is correct if the red light is on and green light is flashing.
+
+The current project does not require to have a display since it is possible to configure and modify everything using `ssh` connection. The RasPi can be connected to the local area network  just by attaching an ethernet cable to it. To use `ssh` for connection, the IP address of the RasPi must be found. The command `nmap -sP` will do the trick, Ubuntu Linux's terminal is used for entering the command, the output is shown in Figure 6.
+
 ### Home automation
 
 #### WIFI sockets
