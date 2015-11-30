@@ -73,6 +73,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>Output of the df -h command</td>
     </tr>
     <tr>
+      <td><a href="#figure-6">Figure 6</a></td>
+      <td>Output of the nmap command</td>
+    </tr>
+    <tr>
       <td><a href="#table-1">Table 1</a></td>
       <td>Raspberry Pi 2 vs Beaglebone hardware chart</td>
     </tr>
@@ -404,6 +408,11 @@ The input file `if=` is the downloaded `.img` file from the Raspberry Pi Foundat
 The RasPi does not have any on/off switch, after inserting the prepared MicroSD it is enough to use a power adapter to turn the device on. The RasPi has two LEDs, the red one is the power LED and the green light shows the MicroSD's activity, so everything is correct if the red light is on and green light is flashing.
 
 The current project does not require to have a display since it is possible to configure and modify everything using `ssh` connection. The RasPi can be connected to the local area network  just by attaching an ethernet cable to it. To use `ssh` for connection, the IP address of the RasPi must be found. The command `nmap -sP` will do the trick, Ubuntu Linux's terminal is used for entering the command, the output is shown in Figure 6.
+
+<a name="figure-6" />
+
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/nmap.jpg">  
+Figure 6: Output of the nmap command
 
 ### Home automation
 
