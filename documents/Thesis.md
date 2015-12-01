@@ -623,7 +623,7 @@ Widman, Jake. 2015. How to keep your connected home safe: 7 steps you can take t
       <td>eBay</td>
     </tr>
     <tr>
-      <td>Breadboard and Jumper cable wires</td>
+      <td>Breadboard and Jumper Cable Wires</td>
       <td>€2.89</td>
       <td>eBay</td>
     </tr>
@@ -643,7 +643,7 @@ Widman, Jake. 2015. How to keep your connected home safe: 7 steps you can take t
       <td>eBay</td>
     </tr>
     <tr>
-      <td>USB Hub with a power adapter</td>
+      <td>USB Hub With A Power Adapter</td>
       <td>€5.84</td>
       <td>eBay</td>
     </tr>
