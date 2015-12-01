@@ -456,6 +456,8 @@ Craig, Caroline. 2015. Smart home or dumb security risk?. URL: http://www.infowo
 
 Clas ohlson. 2015. URL: http://www.clasohlson.com/fi/b/S%C3%A4hk%C3%B6/%C3%84lykoti/Aloituspaketit. Accessed: 09.11.2015.
 
+Hows, David & Membrey, Peter. 2012. Learn Raspberry Pi with Linux. Apress.
+
 Dennis, Andrew. 2013. Raspberry Pi Home Automation with Arduino. Packt Publishing Ltd.
 
 G4S Kotiturva. 2015. URL: http://www.kotiturva.fi/. Accessed: 11.11.2015.
