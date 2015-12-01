@@ -472,7 +472,7 @@ The cron table can be used in order to execute a command at a given time. These 
 
 Table 2: Example of a crontab command (Hows & Membrey 2012, 107)
 
-The example presented in Table 2 `10 6 * * 0 sudo reboot` will reboot the system once per week on Sunday 6:10 AM. In order to update the time and date once per hour the following cron job is entered to the cron table; `0 * * * * sudo dpkg-reconfigure ntp`.
+The example presented in Table 2 `10 6 * * 0 sudo reboot` will reboot the system once per week on Sunday 6:10 AM. In order to update the time and date once per hour the following cron job is entered to the cron table; `0 * * * * sudo dpkg-reconfigure ntp`. This concludes the basic setup for the RasPi, of course, the rest of installations is covered in the related sections of the paper.
 
 ### Home automation
 
