@@ -457,7 +457,7 @@ The cron table can be used in order to execute a command at a given time. These 
       <td>*</td>
       <td>*</td>
       <td>0</td>
-      <td>sudo apt-get update</td>
+      <td>sudo reboot</td>
     </tr>
     <tr>
       <td>10th minute</td>
