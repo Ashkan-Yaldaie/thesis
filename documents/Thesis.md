@@ -465,7 +465,7 @@ The cron table can be used in order to execute a command at a given time. These 
       <td>Every Day</td>
       <td>Every Month</td>
       <td>On Sunday</td>
-      <td>Command To Execute</td>
+      <td></td>
     </tr>
   </tbody>
 </table>
