@@ -11,7 +11,7 @@ HAAGA-HELIA University of Applied Sciences
 26 November 2015
 
 ## Table of contents
-&nbsp;[Tables and Figures](#tables-and-figures)  
+&nbsp;[Figures and Tables](#figures-and-tables)  
 &nbsp;[Abbreviations](#abbreviations)
 
 1. [Introduction](#introduction)
@@ -48,7 +48,7 @@ HAAGA-HELIA University of Applied Sciences
 &nbsp;[Appendices](#appendices)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Appendix 1. Devices used for this project and the purchase information](#appendix-1-devices-used-for-this-project-and-the-purchase-information)
 
-## Tables and Figures
+## Figures and Tables
 
 <table>
   <tbody>
