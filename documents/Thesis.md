@@ -433,7 +433,7 @@ The RasPi does not have a Real Time Clock (RTC), so the time and date must be up
 `crontab -l // Displaying the cron table`  
 `crontab -e // Opening the cron table for editing`
 
-The cron table can be used in order to execute a command at a given time. These commands can be set for each user by using the `crontab` command. The system will check the table regularly to see if there is a new command scheduled to be executed. The cron table syntax is shown in Table 2. (Hows & Membrey 2012, 107)
+The cron table can be used in order to execute a command at a given time. These commands can be set for each user by using the `crontab` command. The system will check the table regularly to see if there is a new command scheduled to be executed. An example of the cron table syntax is shown in Table 2. (Hows & Membrey 2012, 107)
 
 ### Home automation
 
