@@ -449,6 +449,7 @@ The cron table can be used in order to execute a command at a given time. These 
       <th>Day of Month (1 - 31)</th>
       <th>Month (1 - 12)</th>
       <th>Day of Week (0 - 6)</th>
+      <th>Command</th>
     </tr>
     <tr>
       <td>10</td>
@@ -456,6 +457,7 @@ The cron table can be used in order to execute a command at a given time. These 
       <td>*</td>
       <td>*</td>
       <td>0</td>
+      <td>sudo apt-get update</td>
     </tr>
     <tr>
       <td>10th minute</td>
@@ -463,6 +465,7 @@ The cron table can be used in order to execute a command at a given time. These 
       <td>Every Day</td>
       <td>Every Month</td>
       <td>On Sunday</td>
+      <td>Command To Execute</td>
     </tr>
   </tbody>
 </table>
