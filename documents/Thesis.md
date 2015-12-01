@@ -434,8 +434,8 @@ After rebooting the device with the command `sudo reboot` it is a good idea to u
 
 The RasPi does not have a Real Time Clock (RTC), so the time and date must be updated if the RasPi is unplugged from its power source. That can be done manually as well, but cron command is used to automate the task for this project. It is necessary to have a brief explanation about the cron table since it is used often for this thesis work. It is possible to display or edit the cron table by using the following terminal commands:
 
-`crontab -l // Displaying the cron table`  
-`crontab -e // Opening the cron table for editing`
+`crontab -e // Opening the cron table for editing`  
+`crontab -l // Displaying the cron table`
 
 The cron table can be used in order to execute a command at a given time. These commands can be set for each user by using the `crontab` command. The system will check the table regularly to see if there is a new command scheduled to be executed. An example of the cron table syntax is shown in Table 2. (Hows & Membrey 2012, 107)
 
