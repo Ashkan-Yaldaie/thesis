@@ -414,6 +414,27 @@ The current project does not require to have a display since it is possible to c
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/nmap.jpg">  
 Figure 6: Output of the nmap command
 
+In order to establish a connection to the RasPi for the first time, the default username "pi" and the password "raspberry" is used. The command `ssh pi@10.0.0.102` creates the connection. Having connected to the RasPi the following configuration is made by using the command `sudo raspi-config` that will open the "Configuration Tool" software:
+
+- Expanding the file system
+- Changing the user password
+- Regional settings
+
+After rebooting the device with the command `sudo reboot` it is a good idea to update the system by entering these commands in the following order:
+
+`sudo apt-get update`  
+`sudo apt-get upgrade`  
+`sudo rpi-update`  
+`sudo reboot`  
+`sudo apt-get autoremove`
+
+The RasPi does not have a Real Time Clock (RTC), so the time and date must be updated if the RasPi is unplugged from its power source. That can be done manually as well, but cron command is used to automate the task for this project. It is necessary to have a brief explanation about the cron table since it is used often for this thesis work. It is possible to display or edit the cron table by using the following terminal commands:
+
+`crontab -l // Displaying the cron table`  
+`crontab -e // Opening the cron table for editing`
+
+The cron table can be used in order to execute a command at a given time. These commands can be set for each user by using the `crontab` command. The system will check the table regularly to see if there is a new command scheduled to be executed. The cron table syntax is shown in Table 2. (Hows & Membrey 2012, 107)
+
 ### Home automation
 
 #### WIFI sockets
