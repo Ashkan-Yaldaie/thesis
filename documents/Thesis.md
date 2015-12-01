@@ -80,6 +80,10 @@ HAAGA-HELIA University of Applied Sciences
       <td><a href="#table-1">Table 1</a></td>
       <td>Raspberry Pi 2 vs Beaglebone hardware chart</td>
     </tr>
+    <tr>
+      <td><a href="#table-2">Table 2</a></td>
+      <td>Example of a crontab command</td>
+    </tr>
   </tbody>
 </table>
 
@@ -434,6 +438,36 @@ The RasPi does not have a Real Time Clock (RTC), so the time and date must be up
 `crontab -e // Opening the cron table for editing`
 
 The cron table can be used in order to execute a command at a given time. These commands can be set for each user by using the `crontab` command. The system will check the table regularly to see if there is a new command scheduled to be executed. An example of the cron table syntax is shown in Table 2. (Hows & Membrey 2012, 107)
+
+<a name="table-2" />
+
+<table>
+  <tbody>
+    <tr>
+      <th>Min (0 - 59)</th>
+      <th>Hour (0 - 23)</th>
+      <th><p align="center">Day of Month (1 - 31)</th>
+      <th>Month (1 - 12)</th>
+      <th>Day of Week (0 - 6)</th>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>6</td>
+      <td>*</td>
+      <td>*</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>10th minute</td>
+      <td>6:00 AM</td>
+      <td>Every Day</td>
+      <td>Every Month</td>
+      <td>On Sunday</td>
+    </tr>
+  </tbody>
+</table>
+
+Table 2: Example of a crontab command (Hows & Membrey 2012, 107)
 
 ### Home automation
 
