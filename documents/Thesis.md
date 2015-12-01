@@ -460,7 +460,7 @@ The cron table can be used in order to execute a command at a given time. These 
       <td>sudo reboot</td>
     </tr>
     <tr>
-      <td>10th minute</td>
+      <td>10th Minute</td>
       <td>6:00 AM</td>
       <td>Every Day</td>
       <td>Every Month</td>
