@@ -446,7 +446,7 @@ The cron table can be used in order to execute a command at a given time. These 
     <tr>
       <th>Min (0 - 59)</th>
       <th>Hour (0 - 23)</th>
-      <th><p align="center">Day of Month (1 - 31)</th>
+      <th>Day of Month (1 - 31)</th>
       <th>Month (1 - 12)</th>
       <th>Day of Week (0 - 6)</th>
     </tr>
