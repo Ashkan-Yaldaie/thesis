@@ -77,6 +77,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>Output of the nmap command</td>
     </tr>
     <tr>
+      <td><a href="#figure-7">Figure 7</a></td>
+      <td>Communication with the WIFI socket</td>
+    </tr>
+    <tr>
       <td><a href="#table-1">Table 1</a></td>
       <td>Raspberry Pi 2 vs Beaglebone hardware chart</td>
     </tr>
@@ -112,8 +116,17 @@ HAAGA-HELIA University of Applied Sciences
       <td>Internet Protocol</td>
     </tr>
     <tr>
+      <td><strong>LAN</strong></td>
+      <td>Local-Area Network</td>
+    </tr>
+    <tr>
       <td><strong>LED</strong></td>
       <td>Light-Emitting Diode</td>
+    </tr>
+    <tr>
+    <tr>
+      <td><strong>MAC address</strong></td>
+      <td>Media Access Control address</td>
     </tr>
     <tr>
       <td><strong>MicroSD</strong></td>
@@ -472,11 +485,20 @@ The cron table can be used in order to execute a command at a given time. These 
 
 Table 2: Example of a crontab command (Hows & Membrey 2012, 107)
 
-The example presented in Table 2 `10 6 * * 0 sudo reboot` will reboot the system once per week on Sunday 6:10 AM. In order to update the time and date once per hour the following cron job is entered to the cron table; `0 * * * * sudo dpkg-reconfigure ntp`. This concludes the basic setup for the RasPi, of course, the rest of installations is covered in the related sections of the paper.
+The example presented in Table 2 `10 6 * * 0 sudo reboot` will reboot the system once per week on Sunday 6:10 AM. In order to update the time and date once per hour the following cron job is entered to the cron table: `0 * * * * sudo dpkg-reconfigure ntp`. This concludes the basic setup for the RasPi, of course, the rest of installations is covered in the related sections of the paper.
 
 ### Home automation
 
+This subchapter is devoted to the development of the home automation part of the project. It contains the description about how to manage remote controlled power sockets with the RasPi as well as how to use the home temperature and time in order to control some home devices. The part also explains how to handle home automation's functionalities with voice commands.
+
 #### WIFI sockets
+
+Slang (2015) offers a description about the device used for this project. As stated earlier it is possible for the RasPi to use UDP as a mean of communication with a WIFI socket. The difficult part is to find out about the content of these packages. That can be done by monitoring the LAN while turning the device on/off using its related application. Wireshark is a free and open source application that can be used to monitor the home network's activity. Figure 7 shows the UDP packages that are captured using the Wireshark packet analyzer. The blurred area contains the MAC address of the WIFI socket.
+
+<a name="figure-7" />
+
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/wifi-socket.jpg">  
+Figure 7: Communication with the WIFI socket
 
 #### Radio frequency sockets
 
@@ -537,6 +559,8 @@ Norris, Donald. 2014. Raspberry Pi Projects for the Evil Genius. McGraw-Hill Edu
 Raspberry Pi Foundation. 2015. URL: https://www.raspberrypi.org/. Accessed: 26.11.2015.
 
 Richardson, Matt & Wallace, Shawn. 2013. Getting Started with Raspberry Pi. O'Reilly Media, Inc, USA.
+
+Slange. 2015. Orvibo S20 WIFI Power Socket. URL: http://blog.slange.co.uk/author/slange-b/. Accessed: 2.12.2015. 
 
 Velte, Toby & Elsenpeter, Robert. 2003. Build Your Own Smart Home. The McGraw-Hill Companies.
 
