@@ -28,8 +28,7 @@ HAAGA-HELIA University of Applied Sciences
   - [Home automation](#home-automation)
     - [WIFI sockets](#wifi-sockets)
     - [Radio frequency sockets](#radio-frequency-sockets)
-    - [Control a socket using home temperature](#control-a-socket-using-home-temperature)
-    - [Control a socket using timer](#control-a-socket-using-timer)
+    - [Control a socket using home temperature and timer](#control-a-socket-using-home-temperature-and-timer)
     - [Voice control](#voice-control)
   - [Security system](#security-system)
     - [Adding a wireless motion sensor](#adding-a-wireless-motion-sensor)
@@ -522,9 +521,7 @@ Here is an example of a MAC address 00:0a:95:9d:68:16. According to the code abo
 
 #### Radio frequency sockets
 
-#### Control a socket using home temperature
-
-#### Control a socket using timer
+#### Control a socket using home temperature and timer
 
 #### Voice control
 
