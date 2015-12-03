@@ -504,9 +504,6 @@ Once the packages are discovered, it is possible to use the Terminal in order to
 
 ``` bash
 #!/bin/bash
-
-# wifi-socket.sh
-
 if [ "$1" = "on" ]; then
 	echo '686400176463<MAC>2020202020200000000001' | xxd -r -p \
 	| nc -n -4u -w1 '10.0.0.104' '10000'
