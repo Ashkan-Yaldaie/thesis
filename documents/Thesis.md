@@ -518,6 +518,8 @@ else
 fi
 ```
 
+Here is an example of a MAC address 00:0a:95:9d:68:16. According to the code above, the package that discovers the current status, needs the MAC address in reverse which will look like this 16:68:9d:95:0a:00.
+
 #### Radio frequency sockets
 
 #### Control a socket using home temperature
