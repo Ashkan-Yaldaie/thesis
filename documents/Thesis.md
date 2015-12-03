@@ -500,6 +500,25 @@ Slang (2015) offers a description about the device used for this project. As sta
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/wifi-socket.jpg">  
 Figure 7: Communication with the WIFI socket
 
+Once the packages are discovered, it is possible to use the Terminal in order to control the socket. The shell script below can do the task, the script accepts arguments which can turn on/off the device. Executing the script without any argument will return the current status of the WIFI socket.
+
+``` bash
+#!/bin/bash
+
+# wifi-socket.sh
+
+if [ "$1" = "on" ]; then
+	echo '686400176463<MAC>2020202020200000000001' | xxd -r -p \
+	| nc -n -4u -w1 '10.0.0.104' '10000'
+elif [ "$1" = "off" ]; then
+	echo '686400176463<MAC>2020202020200000000000' | xxd -r -p \
+	| nc -n -4u -w1 '10.0.0.104' '10000'
+else
+	echo '6864001e636c<MAC>202020202020<Reverse MAC>202020202020' \
+	| xxd -r -p | nc -u -w2 -p '10000' '10.0.0.104' '10000' | xxd -p | cut -c47-49
+fi
+```
+
 #### Radio frequency sockets
 
 #### Control a socket using home temperature
