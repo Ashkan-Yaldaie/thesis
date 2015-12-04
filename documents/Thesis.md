@@ -527,9 +527,9 @@ Here is an example of a MAC address 00:0a:95:9d:68:16. According to the code abo
 
 There are some challenges in the way of building a smart home, one of them is to discover a way to control the home devices. Of course, some routine tasks can be automated like turning on the air conditioner when the home temperature rises or to turn on/off the fish tank's air pump at the specific time. But wait about turning on the printer in the other room while working with a laptop or to turn off the desktop PC in the bedroom while cooking in the kitchen. It is necessary to have some sort of controlling scheme for the smart home.
 
-The first thing that comes to mind when talking about controlling devices is to have infrared remote control, but this method is not very useful for a 21st century smart home. There is no place for an extra infrared remote in our busy life even today's television can be controlled by waving a hand. So having an infrared remote for this project is out of the question.
+The first thing that comes to mind when talking about controlling devices is to have infrared remote control, but this method is not very useful for a 21st century smart home. There is no place for an extra infrared remote in our busy life, even today's television can be controlled by waving a hand. So having an infrared remote for this project is out of the question.
 
-It makes sense to control the home automation system using the web interface from a distance but using a smartphone to control the system locally does not make sense. That is why a voice control function is added to the project in order to control the home devices locally.
+It makes sense to control the home automation system using the web interface from a distance but using a mobile web browser to control the system locally does not make sense. That is why a voice control function is added to the project in order to control the home devices locally.
 
 ### Security system
 
