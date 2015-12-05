@@ -180,7 +180,7 @@ Automating processes make everyday life easier and tasks are carried out faster.
 
 The system in question is a programmable smart home system, it will give the opportunity to combine both a home automation and security system. The system is built using a Raspberry Pi and the paper gives the understanding of how useful it can be.
 
-The market of home automation is rather new and there is a great room for development. There was a shifting from carrying out quite basic tasks to more complicated ones. Nowadays people can get the running water from the tap automatically just by placing their hands under it. There are also more smart devices like smartphones or smart televisions for sale but still there are so many other things which can be created.
+The market of home automation is rather new and there is a great room for development. There was a shifting from carrying out quite basic tasks to more complicated ones. Nowadays people can get the running water from the tap automatically just by placing their hands under it. There are also more smart devices like smartphones and smart televisions for sale but still there are so many other things which can be created.
 
 Building the more complicated things like a smart cooker or an advanced robot requires funding to be created, but even a simple devices for automating some routine tasks at the affordable price may satisfy the customers.
 
