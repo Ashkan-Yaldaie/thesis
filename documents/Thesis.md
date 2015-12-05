@@ -176,13 +176,13 @@ HAAGA-HELIA University of Applied Sciences
 
 ## Introduction
 
-Smart homes are gaining in popularity. Nowadays people prefer to automate the common everyday tasks to make the life more comfortable. Moreover, many people are thinking about the security of their houses and choose to acquire a system that can protect their dwellings. There is a wide choice of home automation and security systems which can match with any budget. However, more or less functional ones are rather expensive and not necessarily meet all the needs of a customer. What is more, such systems are usually rented to a customer for a monthly fee but as soon as the client decides to stop using the system, it will be taken away by the company. And since most of the well-functional systems cost a lot, cheaper examples which could compete with them are in demand, that is why there is a room for the system represented in the thesis.
+Automating processes make everyday life easier and tasks are carried out faster. Smart homes do not just make the life more comfortable but also provide the security for the people’s dwellings. Sometimes it may be difficult to make a decision what system to acquire. There is a wide choice of home automation and security systems which can match with any budget, from simple alarms to a fully-equipped home automation system. However, more or less functional ones are rather expensive and not necessarily meet all the needs of a customer. What is more, such systems are usually rented to a customer for a monthly fee. The system that represented for this thesis project is for personal use, however, if developed further, there is a room for such a system to be introduced to the market.
 
-The system in question is going to be more affordable than other similar ones, however, it will give the user the opportunity to combine both a home automation and security system. The system is built using a Raspberry Pi and the paper gives the understanding of how useful it can be.
+The system in question is going to be a programmable smart home system, it will give the opportunity to combine both a home automation and security system. The system is built using a Raspberry Pi and the paper gives the understanding of how useful it can be.
 
 The market of home automation is rather new and there is a great room for development. There was a shifting from carrying out quite basic tasks to more complicated ones. Nowadays nobody is going to be surprised by switching off light with clapping or automatically running water from the tap when hands are placed under it, but still there are so many other things which can be done.
 
-No doubt, that building of such complicated things like a smart cooker or a robot that can feed your pet requires funding to be created, but most of the people would be happy to have at least basic features available at the affordable price.
+Building the more complicated things like a smart cooker or an advanced robot requires funding to be created, but even a simple devices for automating some routine tasks at the affordable price may satisfy the customers.
 
 ### Project questions and objectives
 
