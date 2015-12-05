@@ -190,7 +190,7 @@ The paper's objectives are to check what kind of functions the Raspberry Pi can 
 
 - What are the possibilities to create a programmable home automation and security system by using the RasPi?
  - What is the money cost for completing the project?
- - Will such a system provide expected functionalities which are listed below?
+ - The product in question is set to have the functionalities listed below. The question is if the system is able to meet the expectations or not?
 
 Home automation:
 
