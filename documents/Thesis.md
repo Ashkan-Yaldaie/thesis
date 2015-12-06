@@ -590,6 +590,8 @@ Raspberry Pi Foundation. 2015. URL: https://www.raspberrypi.org/. Accessed: 26.1
 
 Richardson, Matt & Wallace, Shawn. 2013. Getting Started with Raspberry Pi. O'Reilly Media, Inc, USA.
 
+Securitas 24Koti. 2015. URL: https://www.securitas.com/fi/fi/turvallisuuspalvelut/kodin-turvallisuuspalvelut/24koti/.  Accessed: 06.12.2015.
+
 Slange. 2015. Orvibo S20 WIFI Power Socket. URL: http://blog.slange.co.uk/author/slange-b/. Accessed: 2.12.2015. 
 
 Velte, Toby & Elsenpeter, Robert. 2003. Build Your Own Smart Home. The McGraw-Hill Companies.
