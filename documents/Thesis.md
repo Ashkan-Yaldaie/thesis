@@ -571,6 +571,8 @@ Jenson, Scott. 2014. The home automation paradox. URL: http://radar.oreilly.com/
 
 Klosowski, Thorin. 2013. How to Pick the Right Electronics Board for Your DIY Project. URL: http://lifehacker.com/how-to-pick-the-right-electronics-board-for-your-diy-pr-742869540. Accessed: 06.11.2015.
 
+Kyas, Othmar. 2013. How To Smart Home. Key Concept Press.
+
 ModMyPi, 2015. URL: http://www.modmypi.com/. Accessed: 17.11.2015.
 
 Norris, Donald. 2014. Raspberry Pi Projects for the Evil Genius. McGraw-Hill Education.
