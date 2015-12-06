@@ -176,13 +176,13 @@ HAAGA-HELIA University of Applied Sciences
 
 ## Introduction
 
-Automation of processes make everyday life easier and tasks are carried out faster. Smart homes do not just make the life more comfortable and help to save energy but also provide the security for the people’s dwellings. (Othmar 2013, 13-14) Sometimes it may be difficult to make a decision what system to acquire. There is a wide choice of home automation and security systems which can match with any budget, from simple alarms to a fully-equipped home automation system. However, more or less functional ones are rather expensive and not necessarily meet all the needs of a customer. What is more, security systems are given to a customer for a monthly fee, examples are listed in the subchapter "Home automation and security system". The system that is represented in this thesis project is for the personal use, however, if developed further, there can be a room for such a system to be introduced to the market.
+Automation of the processes makes everyday life easier and tasks are carried out faster. Smart homes do not just make the life more comfortable and help to save energy but also provide the security for the people’s dwellings. (Othmar 2013, 13-14) Sometimes it may be difficult to make a decision what system to acquire. There is a wide choice of home automation and security systems which can match with any budget, from simple alarms to fully-equipped home automation systems. However, more or less functional ones are rather expensive and not necessarily meet all the needs of a customer. What is more, security systems are given to a customer for a monthly fee, examples are listed in the subchapter "Home automation and security system". The system that is represented in this thesis project is for the personal use, however, if developed further, there can be a room for such a system to be introduced to the market.
 
-The system in question is a programmable smart home system, it will give the opportunity to combine both a home automation and security system. The system is built using a Raspberry Pi and the paper gives the understanding of how useful it can be.
+The system in question is a programmable smart home, it will give the opportunity to combine both home automation and security provision. It is built using a Raspberry Pi and the paper gives the understanding of how useful it can be.
 
 The market of home automation is rather new and there is a great room for development. There was a shifting from carrying out quite basic tasks to more complicated ones. Nowadays people can get the running water from the tap automatically just by placing their hands under it. There are also more smart devices like smartphones and smart televisions for sale but still there are so many other things which can be created. (Othmar 2013, 13-14)
 
-Building the more complicated things like a smart cooker or an advanced robot requires funding to be created, but even a simple devices for automating some routine tasks at the affordable price may satisfy the customers.
+Building the more complicated things like a smart cooker or an advanced robot requires funding to be invented, but even simple devices for automating some routine tasks at the affordable price may satisfy the customers.
 
 ### Project questions and objectives
 
