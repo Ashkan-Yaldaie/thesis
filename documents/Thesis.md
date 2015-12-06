@@ -345,7 +345,7 @@ G4S is a company that offers home security services for €39.90 per month. In a
 
 The price for each extra detail will be the following: one motion sensor is €55, a motion sensor with a camera is €120, a door sensor costs €55, an extra remote is €30 and the price for a smoke detector is €90. The customer must sign a contract for at least 24 months. It will cost €957.60 in total for the basic package. (G4S Kotiturva 2015)
 
-Securitas is another security company in Finland that offers security packages one of them is called "24Koti" with an activation fee of €250 plus €31.50 monthly charge. In addition to the company's services, the price also includes:
+Securitas is another security company in Finland that offers security packages, one of them is called "24Koti" with an activation fee of €250 plus €31.50 monthly charge. In addition to the company's services, the price also includes:
 
 - One smoke detector
 - A sensor that determines whether a door is opened
