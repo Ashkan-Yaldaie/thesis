@@ -733,7 +733,7 @@ Upton, Eben & Halfacree, Gareth. 2014. Raspberry Pi User Guide 2nd ed. John Wile
       <td>Eldorado</td>
     </tr>
     <tr>
-      <td>Computer Speaker</td>
+      <td>Defender SPK-170 Speaker</td>
       <td>€5.50</td>
       <td>Eldorado</td>
     </tr>
