@@ -584,7 +584,7 @@ Klosowski, Thorin. 2013. How to Pick the Right Electronics Board for Your DIY Pr
 
 Kyas, Othmar. 2013. How To Smart Home. Key Concept Press.
 
-Lutz, Mark. 2013. Learning Python. O'Reilly Media. 
+Lutz, Mark. 2013. Learning Python. 5th ed. O'Reilly Media. 
 
 Norris, Donald. 2014. Raspberry Pi Projects for the Evil Genius. McGraw-Hill Education.
 
