@@ -455,8 +455,8 @@ For the security reasons,  the internet cable remained disconnected from the rou
 
 The RasPi does not have a Real Time Clock (RTC), so the time and date must be updated if the RasPi is unplugged from its power source. That can be done manually as well, but cron command is used to automate the task for this project. It is necessary to have a brief explanation about the cron table since it is used often for this thesis work. It is possible to display or edit the cron table by using the following terminal commands:
 
-`crontab -e // Opening the cron table for editing`  
-`crontab -l // Displaying the cron table`
+`crontab -e # Opening the cron table for editing`  
+`crontab -l # Displaying the cron table`
 
 The cron table can be used in order to execute a command at a given time. These commands can be set for each user by using the `crontab` command. The system will check the table regularly to see if there is a new command scheduled to be executed. An example of the cron table syntax is shown in Table 2. (Hows & Membrey 2012, 107)
 
@@ -512,17 +512,18 @@ It is possible to use the terminal in order to control the socket, once the pack
 
 ``` bash
 #!/bin/bash
-echo '6864001e636c<MAC>202020202020<Reverse-MAC>202020202020' \
-| xxd -r -p | nc -u -w2 -p '10000' '10.0.0.104' '10000' | xxd -r
+# WIFI socket's IP address 10.0.0.104
+echo '6864001e636c<MAC>202020202020<Reverse-MAC>202020202020' | xxd -r -p \
+| nc -u -w2 -p '10000' '10.0.0.104' '10000' | xxd -r
 if [ "$1" = "on" ]; then
 	echo '686400176463<MAC>2020202020200000000001' | xxd -r -p \
-	| nc -n -4u -w1 '10.0.0.104' '10000'
+| nc -n -4u -w1 '10.0.0.104' '10000'
 elif [ "$1" = "off" ]; then
 	echo '686400176463<MAC>2020202020200000000000' | xxd -r -p \
-	| nc -n -4u -w1 '10.0.0.104' '10000'
+| nc -n -4u -w1 '10.0.0.104' '10000'
 else
-	echo '6864001e636c<MAC>202020202020<Reverse-MAC>202020202020' \
-	| xxd -r -p | nc -u -w2 -p '10000' '10.0.0.104' '10000' | xxd -p | cut -c47-49
+	echo '6864001e636c<MAC>202020202020<Reverse-MAC>202020202020' | xxd -r -p \
+| nc -u -w2 -p '10000' '10.0.0.104' '10000' | xxd -p | cut -c47-49
 fi
 ```
 
