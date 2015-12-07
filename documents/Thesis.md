@@ -584,13 +584,13 @@ Klosowski, Thorin. 2013. How to Pick the Right Electronics Board for Your DIY Pr
 
 Kyas, Othmar. 2013. How To Smart Home. Key Concept Press.
 
-ModMyPi, 2015. URL: http://www.modmypi.com/. Accessed: 17.11.2015.
-
 Norris, Donald. 2014. Raspberry Pi Projects for the Evil Genius. McGraw-Hill Education.
 
 Raspberry Pi Foundation. 2015. URL: https://www.raspberrypi.org/. Accessed: 26.11.2015.
 
 Richardson, Matt & Wallace, Shawn. 2013. Getting Started with Raspberry Pi. O'Reilly Media, Inc, USA.
+
+Schmidt, Maik. 2014. Raspberry Pi: A Quick-Start Guide. 2nd ed. Pragmatic Bookshelf.
 
 Securitas 24Koti. 2015. URL: https://www.securitas.com/fi/fi/turvallisuuspalvelut/kodin-turvallisuuspalvelut/24koti/.  Accessed: 06.12.2015.
 
