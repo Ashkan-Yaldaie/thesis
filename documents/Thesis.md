@@ -443,7 +443,7 @@ In order to establish a connection to the RasPi for the first time, the default 
 
 - Expanding the file system
 - Changing the user password
-- Regional settings
+- Location and timezone settings
 
 After rebooting the device with the command `sudo reboot` it is a good idea to update the system by entering these commands in the following order:
 
