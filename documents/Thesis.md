@@ -586,6 +586,8 @@ Kyas, Othmar. 2013. How To Smart Home. Key Concept Press.
 
 Lutz, Mark. 2013. Learning Python. 5th ed. O'Reilly Media. 
 
+Netcraft, 2015. Web Server Survey. URL: http://news.netcraft.com/archives/category/most-popular/. Accessed: 07.12.2015.
+
 Norris, Donald. 2014. Raspberry Pi Projects for the Evil Genius. McGraw-Hill Education.
 
 Raspberry Pi Foundation. 2015. URL: https://www.raspberrypi.org/. Accessed: 26.11.2015.
@@ -594,7 +596,7 @@ Richardson, Matt & Wallace, Shawn. 2013. Getting Started with Raspberry Pi. O'Re
 
 Schmidt, Maik. 2014. Raspberry Pi: A Quick-Start Guide. 2nd ed. Pragmatic Bookshelf.
 
-Securitas 24Koti. 2015. URL: https://www.securitas.com/fi/fi/turvallisuuspalvelut/kodin-turvallisuuspalvelut/24koti/.  Accessed: 06.12.2015.
+Securitas 24Koti. 2015. URL: https://www.securitas.com/fi/fi/turvallisuuspalvelut/kodin-turvallisuuspalvelut/24koti/. Accessed: 06.12.2015.
 
 Slange. 2015. Orvibo S20 WIFI Power Socket. URL: http://blog.slange.co.uk/author/slange-b/. Accessed: 2.12.2015. 
 
