@@ -501,7 +501,7 @@ This subchapter is devoted to the development of the home automation part of the
 
 #### WIFI sockets
 
-Slange (2015) offers a description about the device used for this project. As stated earlier it is possible for the RasPi to use UDP as a mean of communication with a WIFI socket. The difficult part is to find out about the content of these packages. That can be done by monitoring the LAN while turning the device on/off using its related application. Wireshark is a free and open source application that can be used to monitor the home network's activity. Figure 7 shows the UDP packages that are captured specifically for this paper by using the Wireshark packet analyzer. The blurred area contains the MAC address of the WIFI socket.
+Slange (2015) offers a description about the device used for this project. As stated earlier it is possible for the RasPi to use UDP as a mean of communication with a WIFI socket. The difficult part is to find out about the content of these packages. That can be done by monitoring the LAN while turning the device on/off using its related application. Wireshark is a free and open source application that can be used to monitor the home network's activity. Figure 7 shows the UDP packages that are captured specifically for this paper by using the Wireshark packet analyzer. The blurred area contains some confidential information like the MAC address of the WIFI socket and should not be shared.
 
 <a name="figure-7" />
 
