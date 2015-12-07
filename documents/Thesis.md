@@ -732,5 +732,10 @@ Upton, Eben & Halfacree, Gareth. 2014. Raspberry Pi User Guide 2nd ed. John Wile
       <td>€15.95</td>
       <td>Eldorado</td>
     </tr>
+    <tr>
+      <td>Computer Speaker</td>
+      <td>€5.50</td>
+      <td>Eldorado</td>
+    </tr>
   </tbody>
 </table>
