@@ -334,9 +334,9 @@ A smart home is not much without a security system, but usually security systems
 
 Based on the recent research smart homes are vulnerable and faulty sometimes. The real question is what we give up in order to sit more on the couch? There are no security standards to follow when it comes to home automation. It can take minimum about 15 seconds for a hacker to modify a remote controlled thermostat. While a compromised thermostat is not very harmful, imagine a stranger gaining access to the door lock or furthermore using a surveillance camera to spy on the children. Security attacks that a PC is more or less immune to can become harmful for today's smart devices like refrigerators or even the security systems. It is true that due to the immature technology our homes are less secure than a mobile phone or a PC. (Caroline 2015)
 
-One of the test reports shows that ten out of ten security systems that are tested are not immune to the risk of unauthorized access. But there are steps that if taken can reduce the security risks. It is essential to use a very strong password and change all the product’s default passwords since it can be found easily on the internet or from the manual of the product in question. Wireless internet access is another vulnerability that should be paid attention to, a good password is also strongly advised in this case. Some of the modern routers allow the user to have more than one access point, it is a good practice to have an access point just for the home automation system. (Widman 2015)
+Security study report done by HP on the home security systems shows that ten out of ten security systems that are tested are not immune to the risk of unauthorized access. But there are steps that if taken can reduce the security risks. It is essential to use a very strong password and change all the product’s default passwords since they can be found easily on the internet or from the manual of the product in question. WIFI is another vulnerability that should be paid attention to, a good password is also strongly advised in this case. Some of the modern routers allow the user to have more than one access point. It is a good practice to have an access point just for the home automation system and separate it from the rest of the network . (HP 2015)
 
-Do not let any unauthorized person modify or even touch the system. A simple act of pressing “Restore Factory Defaults” button can open all the doors to a hacker. It is very important to make sure the homeowner is the only one who has access to the camera’s captured view, sometimes the data travels through a third party’s server and the remote control functionality is better to be switched off if not needed. It is good to mention that there is no foolproof method to guarantee the security, but let’s not make it too easy for the hackers. (Widman 2015)
+Do not let any unauthorized person modify or even touch the system. A simple act of pressing “Restore Factory Defaults” button can open all the doors to a hacker. It is very important to make sure the homeowner is the only one who has access to the camera’s captured view, sometimes the data travels through a third party’s server and the remote control functionality is better to be switched off if not needed. It is good to mention that there is no foolproof method to guarantee the security, but let’s not make it too easy for the hackers. (HP 2015)
 
 G4S is a company that offers home security services for €39.90 per month. In addition to the company's services the price also includes:
 
@@ -578,6 +578,8 @@ Gus. 2015. Beaglebone Vs Raspberry Pi 2: Choosing The Right Board. URL: http://p
 
 Hows, David & Membrey, Peter. 2012. Learn Raspberry Pi with Linux. Apress.
 
+HP, 2015. Internet of Things  Security Study:  Home Security Systems Report.
+
 Jenson, Scott. 2014. The home automation paradox. URL: http://radar.oreilly.com/2014/02/the-home-automation-paradox.html. Accessed: 09.11.2015.
 
 Klosowski, Thorin. 2013. How to Pick the Right Electronics Board for Your DIY Project. URL: http://lifehacker.com/how-to-pick-the-right-electronics-board-for-your-diy-pr-742869540. Accessed: 06.11.2015.
@@ -599,8 +601,6 @@ Slange. 2015. Orvibo S20 WIFI Power Socket. URL: http://blog.slange.co.uk/author
 Velte, Toby & Elsenpeter, Robert. 2003. Build Your Own Smart Home. The McGraw-Hill Companies.
 
 Upton, Eben & Halfacree, Gareth. 2014. Raspberry Pi User Guide 2nd ed. John Wiley & Sons Ltd.
-
-Widman, Jake. 2015. How to keep your connected home safe: 7 steps you can take to boost home security. URL: http://www.techhive.com/article/2894258/how-to-keep-your-connected-home-safe-7-steps-you-can-take-to-boost-home-security.html. Accessed: 11.11.2015.
 
 ## Appendices
 
