@@ -505,7 +505,7 @@ Slange (2015) offers a description about the device used for this project. As st
 
 <a name="figure-7" />
 
-<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/wifi-socket.jpg">  
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/wireshark.jpg">  
 Figure 7: Communication with the WIFI socket
 
 It is possible to use the terminal in order to control the socket, once the packages are discovered. The shell script below can do the task, the script accepts arguments which can turn on/off the device. Executing the script without any argument will return the current status of the WIFI socket.
