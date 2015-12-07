@@ -512,7 +512,7 @@ It is possible to use the terminal in order to control the socket, once the pack
 
 ``` bash
 #!/bin/bash
-echo '6864001e636cAC:CF:23:53:5B:1420202020202014:5B:53:23:CF:AC202020202020' \
+echo '6864001e636c<MAC>202020202020<Reverse-MAC>202020202020' \
 | xxd -r -p | nc -u -w2 -p '10000' '10.0.0.104' '10000' | xxd -r
 if [ "$1" = "on" ]; then
 	echo '686400176463<MAC>2020202020200000000001' | xxd -r -p \
