@@ -332,8 +332,6 @@ The arrival of the RasPi changed the concept of the home automation drastically,
 
 A smart home is not much without a security system, but usually security systems are sold as a stand-alone service. There are ways, in general, to set up a security system: letting the security system take care of some automation like turning on the light or having the security functionality as a part of the smart home, so both systems can collaborate with each other. For example, it is possible to make the house look as if it is lived in by using some sensors to turn on the stereo and some lights if an intrusion occurs, even if the residents are on the other side of the world. The stereo can play a recording of a barking dog while the main lights are switched on. (Velte & Elsenpeter 2003, 9)
 
-Based on the recent research smart homes are vulnerable and faulty sometimes. The real question is what we give up in order to sit more on the couch? There are no security standards to follow when it comes to home automation. It can take minimum about 15 seconds for a hacker to modify a remote controlled thermostat. While a compromised thermostat is not very harmful, imagine a stranger gaining access to the door lock or furthermore using a surveillance camera to spy on the children. Security attacks that a PC is more or less immune to can become harmful for today's smart devices like refrigerators or even the security systems. It is true that due to the immature technology our homes are less secure than a mobile phone or a PC. (Caroline 2015)
-
 Security study report done by HP on the home security systems shows that ten out of ten security systems that are tested are not immune to the risk of unauthorized access. But there are steps that if taken can reduce the security risks. It is essential to use a very strong password and change all the product’s default passwords since they can be found easily on the internet or from the manual of the product in question. WIFI is another vulnerability that should be paid attention to, a good password is also strongly advised in this case. Some of the modern routers allow the user to have more than one access point. It is a good practice to have an access point just for the home automation system and separate it from the rest of the network . (HP 2015)
 
 Do not let any unauthorized person modify or even touch the system. A simple act of pressing “Restore Factory Defaults” button can open all the doors to a hacker. It is very important to make sure the homeowner is the only one who has access to the camera’s captured view, sometimes the data travels through a third party’s server and the remote control functionality is better to be switched off if not needed. It is good to mention that there is no foolproof method to guarantee the security, but let’s not make it too easy for the hackers. (HP 2015)
@@ -565,8 +563,6 @@ It makes sense to control the home automation system using the web interface fro
 ## Conclusion
 
 ## References
-
-Craig, Caroline. 2015. Smart home or dumb security risk?. URL: http://www.infoworld.com/article/2893600/mobile-technology/smart-home-or-dumb-security-risk.html. Accessed: 11.11.2015.
 
 Clas ohlson. 2015. URL: http://www.clasohlson.com/fi/b/S%C3%A4hk%C3%B6/%C3%84lykoti/Aloituspaketit. Accessed: 09.11.2015.
 
