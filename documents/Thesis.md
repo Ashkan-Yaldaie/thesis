@@ -307,7 +307,7 @@ The BeagleBone costs about €60 compared to the €40 RasPi. Unlike the RasPi, 
 
 Table 1: Raspberry Pi 2 vs Beaglebone hardware chart (Gus 2015)
 
-Based on the background presented above the RasPi community is more vibrant and the board is designed for educational purposes, which unlike for the BeagleBone leads to more tutorials and ideas. Compared to the Arduino, the RasPi is capable of handling several tasks at the same time and that feature is a must for this thesis project.
+Based on the background presented above, the RasPi has a large community and the board is designed for educational purposes, which unlike for the BeagleBone leads to more tutorials and ideas. Compared to the Arduino, the RasPi is capable of handling several tasks at the same time and that feature is a must for this thesis project. (Gus 2015; Klosowski 2013)
 
 ### Home automation and security system
 
