@@ -443,7 +443,7 @@ In order to establish a connection to the RasPi for the first time, the default 
 - Changing the user password
 - Location and timezone settings
 
-For security reasons,  the internet cable remained disconnected from the router before changing the password, the cable can be connected again after rebooting the device. `sudo reboot` is the terminal command for restarting the RasPi. The next step is to update the system by entering these commands in the following order:
+For security reasons,  the internet cable remained disconnected from the router before changing the password, the cable is connected again after rebooting the device. `sudo reboot` is the terminal command for restarting the RasPi. The next step is to update the system by entering these commands in the following order:
 
 `sudo apt-get update`  
 `sudo apt-get upgrade`  
