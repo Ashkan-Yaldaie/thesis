@@ -234,6 +234,8 @@ It might be interesting to know where the name "Raspberry Pi" came from? The pro
 
 Python is one of a high-level programming languages, such languages are closer to a human language like English. It is developed by Guido van Rossum. Python’s goal is to provide a clear understandable syntax, which makes it a helpful tool for anyone who wants to learn to code. The programming language can be used on Windows, Linux and OS X. Python is available for free because it is published under an open-source license. (Upton & Halfacree 2014, 174)
 
+Performance may be a downside of the Python since it does not run as fast as languages like C and C++. But this issue seems not to effect the Python's popularity because this programming language is used by corporations like Google, CCP Games, ESRI and many other software developers which value its qualities such as support libraries and program portability. (Lutz 2013, 23)
+
 One of the ways to interact with the RasPi through the internet is by means of the HTTP protocol, to accomplish that a web server like Apache can be used. The Apache web server is developed in 1995 by Rob McCool. Apache is open source software and the most popular web server on the market. In addition to Apache, there are other web servers that can be installed on the RasPi like Lighttpd which is designed to use less memory. installing a web server is enough to create a simple website but for developing a dynamic and more complex web pages a scripting programming language like PHP can be used. (Dennis 2013, 94; Upton & Halfacree 2014, 149)
 
 The Raspberry Pi despite its small size is a functional computer capable of handling simple and complex projects due to its microprocessor. According to the Raspberry Pi Foundation (2015), the board itself is about the size of a credit card, but it can process both video and audio. The RasPi has connectors that are used to communicate to other devices and the outside world, connectors such as Universal Serial Bus (USB), High-Definition Multimedia Interface (HDMI) and, of course, General Purpose Input/Output (GPIO) connectors. (Norris 2014, 1-5)
@@ -582,11 +584,13 @@ Klosowski, Thorin. 2013. How to Pick the Right Electronics Board for Your DIY Pr
 
 Kyas, Othmar. 2013. How To Smart Home. Key Concept Press.
 
+Lutz, Mark. 2013. Learning Python. O'Reilly Media. 
+
 Norris, Donald. 2014. Raspberry Pi Projects for the Evil Genius. McGraw-Hill Education.
 
 Raspberry Pi Foundation. 2015. URL: https://www.raspberrypi.org/. Accessed: 26.11.2015.
 
-Richardson, Matt & Wallace, Shawn. 2013. Getting Started with Raspberry Pi. O'Reilly Media, Inc, USA.
+Richardson, Matt & Wallace, Shawn. 2013. Getting Started with Raspberry Pi. O'Reilly Media.
 
 Schmidt, Maik. 2014. Raspberry Pi: A Quick-Start Guide. 2nd ed. Pragmatic Bookshelf.
 
