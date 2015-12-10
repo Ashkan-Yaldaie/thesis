@@ -171,6 +171,10 @@ HAAGA-HELIA University of Applied Sciences
       <td><strong>WIFI</strong></td>
       <td>Wireless Fidelity, a local area wireless computer network</td>
     </tr>
+    <tr>
+      <td><strong>WOL</strong></td>
+      <td>Wake-On-LAN</td>
+    </tr>
   </tbody>
 </table>
 
