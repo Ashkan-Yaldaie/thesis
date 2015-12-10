@@ -580,6 +580,8 @@ G4S Kotiturva. 2015. URL: http://www.kotiturva.fi/. Accessed: 11.11.2015.
 
 Gus. 2015. Beaglebone Vs Raspberry Pi 2: Choosing The Right Board. URL: http://pimylifeup.com/beaglebone-vs-raspberry-pi/. Accessed: 06.11.2015.
 
+Hickson, Steven. 2015. Voice Command v2.0 for the Raspberry Pi. URL: http://stevenhickson.blogspot.fi/2013/05/voice-command-v20-for-raspberry-pi.html. Accessed: 10.12.2015.
+
 Hows, David & Membrey, Peter. 2012. Learn Raspberry Pi with Linux. Apress.
 
 HP, 2015. Internet of Things  Security Study:  Home Security Systems Report.
