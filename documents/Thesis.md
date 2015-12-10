@@ -548,10 +548,10 @@ It makes sense to control the home automation system using the web interface fro
 
 In order to add the voice control feature to the project a microphone is required. As stated in the subchapter "List of required sensors and devices", a webcam is used for this purpose. The other requirements are a speaker and an open source software "PiAUISuite" that is provided by Hickson (2015). After connecting the webcam and the speaker to the RasPi, the software is installed:
 
-`sudo apt-get update`
-`sudo apt-get install git-core`
-`git clone git://github.com/StevenHickson/PiAUISuite.git`
-`cd PiAUISuite/Install/`
+`sudo apt-get update`  
+`sudo apt-get install git-core`  
+`git clone git://github.com/StevenHickson/PiAUISuite.git`  
+`cd PiAUISuite/Install/`  
 `./InstallAUISuite.sh`
 
 The suite "PiAUISuite" contains several applications, but this project uses the "Voicecommand". To configure it, the `voicecommand -s` command is entered and to change the configuration manually `voicecommand -e` is used. The config file contains the following:
