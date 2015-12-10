@@ -512,6 +512,7 @@ It is possible to use the terminal in order to control the socket, once the pack
 
 ``` bash
 #!/bin/bash
+#sockets.sh
 # WIFI socket's IP address is 10.0.0.104
 echo '6864001e636c<MAC>202020202020<Reverse-MAC>202020202020' | xxd -r -p \
 | nc -u -w2 -p '10000' '10.0.0.104' '10000' | xxd -r
