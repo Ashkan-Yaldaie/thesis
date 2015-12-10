@@ -598,6 +598,8 @@ if con == 'off':
 		time.sleep(5)
 ```
 
+During the project development, it is discovered that most of the time the PC does not switch off by sending just one shutdown package to it, that is why in the code a for-loop will send the package three times.
+
 ### Security system
 
 #### Adding a wireless motion sensor
