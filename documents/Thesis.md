@@ -562,9 +562,9 @@ The suite "PiAUISuite" contains several applications, but this project uses the 
 !ignore==1
 !filler==0
 !thresh==9.019652
+!keyword==voice
 !response==Yes
 !improper==I didn't get the command
-!keyword==voice
 ```
 
 Since now the voice control installation is completed, commands can be added to the config file, for example: 
