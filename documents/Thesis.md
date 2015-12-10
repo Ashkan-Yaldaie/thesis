@@ -546,6 +546,58 @@ The first thing that comes to mind when talking about controlling devices is to 
 
 It makes sense to control the home automation system using the web interface from a distance but using a mobile web browser to control the system locally does not make sense. That is why a voice control function is added to the project in order to control the home devices locally.
 
+In order to add the voice control feature to the project a microphone is required. As stated in the subchapter "List of required sensors and devices", a webcam is used for this purpose. The other requirements are a speaker and an open source software "PiAUISuite" that is provided by Hickson (2015). After connecting the webcam and the speaker to the RasPi, the software is installed:
+
+`sudo apt-get update`
+`sudo apt-get install git-core`
+`git clone git://github.com/StevenHickson/PiAUISuite.git`
+`cd PiAUISuite/Install/`
+`./InstallAUISuite.sh`
+
+The suite "PiAUISuite" contains several applications, but this project uses the "Voicecommand". To configure it, the `voicecommand -s` command is entered and to change the configuration manually `voicecommand -e` is used. The config file contains the following:
+
+```
+!continuous==1
+!verify==1
+!ignore==1
+!filler==0
+!thresh==9.019652
+!response==Yes
+!improper==I didn't get the command
+!keyword==voice
+```
+
+Since now the voice control installation is completed, commands can be added to the config file, for example: 
+
+```
+turn on lamp==sudo sh /home/pi/sockets.sh on;tts "done"
+turn on lamp==sudo sh /home/pi/sockets.sh off;tts "done"
+turn on PC==sudo python /home/pi/wol.py on;tts "done"
+turn off PC==sudo python /home/pi/wol.py off;tts "done"
+```
+
+If the WIFI socket is connected to a desk lamp, it will be turned on by saying "turn on lamp". The program will reply "done" after turning on the lamp. And the same process is valid for turning off the lamp.
+
+There are other things that can be done using the voice control, for instance, turning on/off a desktop PC, if both RasPi and the PC are in the same LAN. This can be done with the following code:
+
+``` python
+#!/usr/bin/env python
+#wol.py
+import socket
+from sys import argv
+import os
+import time
+none, con = argv
+if con == 'on':
+	s=socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+	s.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
+	s.sendto('\xff'*6+'<PC-MAC>'*16, ("255.255.255.255",9))
+if con == 'off':
+	for i in range(0, 3):
+		os.system('net rpc shutdown -I 10.0.0.100 -U user%password)
+		time.sleep(5)
+```
+
 ### Security system
 
 #### Adding a wireless motion sensor
