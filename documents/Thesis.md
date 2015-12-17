@@ -596,8 +596,8 @@ The suite "PiAUISuite" contains several applications, but this project uses the 
 Since now the voice control installation is completed, commands can be added to the config file, for example: 
 
 ```
-turn on lamp==sudo sh /home/pi/sockets.sh on;tts "done"  
-turn on lamp==sudo sh /home/pi/sockets.sh off;tts "done"  
+turn on lamp==sudo sh /home/pi/sockets.sh 1 on;tts "done"  
+turn on lamp==sudo sh /home/pi/sockets.sh 1 off;tts "done"  
 turn on PC==sudo python /home/pi/wol.py on;tts "done"  
 turn off PC==sudo python /home/pi/wol.py off;tts "done"
 ```
