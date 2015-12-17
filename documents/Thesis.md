@@ -554,6 +554,8 @@ The RF codes are needed to control the sockets shown in Figure 4 as item number 
 
 After installing the software and its dependencies, the RF transmitter and the receiver are connected to the RasPi as shown in Figure 8 with their data pins attached to the GPIO 0 and the GPIO 2. The receiver is just needed to record the RF codes transmitted by the sockets remote control and it can be disconnected from the RasPi once the data is captured.
 
+The next step is to press each of the six buttons on the remote control that is included into the RF socket set. Each button will produce a code and it can be captured by using the terminal command `sudo 433Utils/RPi_utils/RFSniffer`. The command's output is something like this: `Received 5592332`. The code is then noted and used with the next command: `sudo 433Utils/RPi_utils/codesend 5592512` to switch on/off a socket.
+
 <a name="figure-8" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/rf-connection.jpg">  
