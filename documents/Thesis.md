@@ -559,7 +559,7 @@ After installing the software and its dependencies, the RF transmitter and the r
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/rf-connection.jpg">  
 Figure 8: 433MHz RF transmitter and receiver's connection to the RasPi
 
-The next step is to press each of the six buttons on the remote control that is included into the RF socket set. Each button will produce a code and it can be captured by using the terminal command `sudo 433Utils/RPi_utils/RFSniffer`. The command's output is something like this: `Received 5592332`. The codes are then written down and used with the next command: `sudo 433Utils/RPi_utils/codesend 5592512` to switch on/off sockets.
+The next step is to press each of the six buttons on the remote control that is included into the RF socket set. Each button will produce a code and it can be captured by using the terminal command `sudo 433Utils/RPi_utils/RFSniffer`. The command's output is something like this: `Received 5592332`. The codes are then written down and used with the next command: `sudo 433Utils/RPi_utils/codesend 5592512` to switch on/off the sockets.
 
 #### Control sockets using home temperature and timer
 
