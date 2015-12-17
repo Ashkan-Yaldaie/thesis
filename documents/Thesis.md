@@ -854,7 +854,7 @@ elif [ "$1" = "4" ] && [ "$2" = "on" ]; then
 elif [ "$1" = "4" ] && [ "$2" = "off" ]; then
 	sudo /home/pi/433Utils/RPi_utils/codesend 5592392
 else
-	echo 'Status of WIFI socket:'
+	echo 'Status of the WIFI socket:'
 	echo '6864001e636c<MAC>202020202020<Reverse-MAC>202020202020' | xxd -r -p \
 | nc -u -w2 -p '10000' '10.0.0.104' '10000' | xxd -p | cut -c47-49
 fi
