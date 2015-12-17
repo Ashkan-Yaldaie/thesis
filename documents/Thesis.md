@@ -843,7 +843,7 @@ elif [ "$1" = "1" ] && [ "$2" = "off" ]; then
 	echo '686400176463<MAC>2020202020200000000000' | xxd -r -p \
 | nc -n -4u -w1 '10.0.0.104' '10000'
 elif [ "$1" = "2" ] && [ "$2" = "on" ]; then
-	sudo /home/pi/433Utils/RPi_utils/codesend 5592319
+	sudo /home/pi/433Utils/RPi_utils/codesend 5592332
 elif [ "$1" = "2" ] && [ "$2" = "off" ]; then
 	sudo /home/pi/433Utils/RPi_utils/codesend 5592328
 elif [ "$1" = "3" ] && [ "$2" = "on" ]; then
