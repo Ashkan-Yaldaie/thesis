@@ -45,7 +45,8 @@ HAAGA-HELIA University of Applied Sciences
 
 &nbsp;[References](#references)  
 &nbsp;[Appendices](#appendices)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Appendix 1. Devices used for this project and the purchase information](#appendix-1-devices-used-for-this-project-and-the-purchase-information)
+&nbsp;&nbsp;&nbsp;&nbsp;[Appendix 1. Devices used for this project and the purchase information](#appendix-1-devices-used-for-this-project-and-the-purchase-information)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Appendix 2. The bash script used to control the sockets](appendix-2-the-bash-script-used-to-control-the-sockets)
 
 ## Figures and Tables
 
@@ -827,7 +828,7 @@ Upton, Eben & Halfacree, Gareth. 2014. Raspberry Pi User Guide 2nd ed. John Wile
   </tbody>
 </table>
 
-### Appendix 2. Bash script used to control the sockets
+### Appendix 2. The bash script used to control the sockets
 
 ``` bash
 #!/bin/bash
