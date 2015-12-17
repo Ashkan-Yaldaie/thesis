@@ -80,6 +80,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>Communication with the WIFI socket</td>
     </tr>
     <tr>
+      <td><a href="#figure-8">Figure 8</a></td>
+      <td>433MHz RF transmitter and receiver's connection to the RasPi</td>
+    </tr>
+    <tr>
       <td><a href="#table-1">Table 1</a></td>
       <td>Raspberry Pi 2 vs Beaglebone hardware chart</td>
     </tr>
@@ -549,6 +553,11 @@ The RF codes are needed to control the sockets shown in Figure 4 as item number 
 `make all`
 
 After installing the software and its dependencies, the RF transmitter and the receiver are connected to the RasPi as shown in Figure 8 with their data pins attached to the GPIO 0 and the GPIO 2. The receiver is just needed to record the RF codes transmitted by the sockets remote control and it can be disconnected from the RasPi once the data is captured.
+
+<a name="figure-8" />
+
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/rf-connection.jpg">  
+Figure 8: 433MHz RF transmitter and receiver's connection to the RasPi
 
 #### Control sockets using home temperature and timer
 
