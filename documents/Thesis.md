@@ -538,6 +538,8 @@ Here is an example of a MAC address 00:0a:95:9d:68:16. The code above requires t
 
 The RF codes are needed to control the sockets shown in Figure 4 as item number (3). These codes can be found by using an RF receiver attached to the RasPi and an open source software that is provided by Ninja Blocks (2015) called "433Utils". The software can detect and send RF433MHz signals. Installation instructions can be found below:
 
+`sudo apt-get update`  
+`sudo apt-get install git-core`  
 `git clone git://git.drogon.net/wiringPi`  
 `cd wiringPi/wiringPi`  
 `sudo ./build`  
@@ -558,8 +560,6 @@ It makes sense to control the home automation system using the web interface fro
 
 In order to add the voice control feature to the project a microphone is required. As stated in the subchapter "List of required sensors and devices", a webcam is used for this purpose. The other requirements are a speaker and an open source software "PiAUISuite" that is provided by Hickson (2015). After connecting the webcam and the speaker to the RasPi, the software is installed:
 
-`sudo apt-get update`  
-`sudo apt-get install git-core`  
 `git clone git://github.com/StevenHickson/PiAUISuite.git`  
 `cd PiAUISuite/Install/`  
 `./InstallAUISuite.sh`
