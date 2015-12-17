@@ -832,6 +832,7 @@ Upton, Eben & Halfacree, Gareth. 2014. Raspberry Pi User Guide 2nd ed. John Wile
 
 ``` bash
 #!/bin/bash
+#sockets.sh
 # WIFI socket's IP address 10.0.0.104
 echo '6864001e636c<MAC>202020202020<Reverse-MAC>202020202020' | xxd -r -p \
 | nc -u -w2 -p '10000' '10.0.0.104' '10000' | xxd -r
