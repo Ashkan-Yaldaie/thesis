@@ -842,17 +842,17 @@ elif [ "$1" = "1" ] && [ "$2" = "off" ]; then
 	echo '686400176463<MAC>2020202020200000000000' | xxd -r -p \
 | nc -n -4u -w1 '10.0.0.104' '10000'
 elif [ "$1" = "2" ] && [ "$2" = "on" ]; then
-	sudo /home/pi/RFSource/codesend 5592319
+	sudo /home/pi/433Utils/RPi_utils/ 5592319
 elif [ "$1" = "2" ] && [ "$2" = "off" ]; then
-	sudo /home/pi/RFSource/codesend 5592328
+	sudo /home/pi/433Utils/RPi_utils/ 5592328
 elif [ "$1" = "3" ] && [ "$2" = "on" ]; then
-	sudo /home/pi/RFSource/codesend 5592363
+	sudo /home/pi/433Utils/RPi_utils/ 5592363
 elif [ "$1" = "3" ] && [ "$2" = "off" ]; then
-	sudo /home/pi/RFSource/codesend 5592372
+	sudo /home/pi/433Utils/RPi_utils/ 5592372
 elif [ "$1" = "4" ] && [ "$2" = "on" ]; then
-	sudo /home/pi/RFSource/codesend 5592383
+	sudo /home/pi/433Utils/RPi_utils/ 5592383
 elif [ "$1" = "4" ] && [ "$2" = "off" ]; then
-	sudo /home/pi/RFSource/codesend 5592392
+	sudo /home/pi/433Utils/RPi_utils/ 5592392
 else
 	echo 'Status of WIFI socket:'
 	echo '6864001e636c<MAC>202020202020<Reverse-MAC>202020202020' | xxd -r -p \
