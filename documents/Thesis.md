@@ -34,8 +34,7 @@ HAAGA-HELIA University of Applied Sciences
     - [Adding a wireless motion sensor](#adding-a-wireless-motion-sensor)
     - [Sending SMS and triggering an alarm if motion is detected](#sending-sms-and-triggering-an-alarm-if-motion-is-detected)
     - [Implementation of a panic button](#implementation-of-a-panic-button)
-    - [Connecting a camera to the system](#connecting-a-camera-to-the-system)
-    - [Capturing a video clip of an intrusion](#capturing-a-video-clip-of-an-intrusion)
+    - [Connecting a camera to the system to capture a video clip of an intrusion](#connecting-a-camera-to-the-system)
     - [Uploading the video to the cloud and sending an email notification](#uploading-the-video-to-the-cloud-and-sending-an-email-notification)
     - [Controlling the security system via Bluetooth](#controlling-the-security-system-via-bluetooth)
   - [Creating a graphical user interface for the system](#creating-a-graphical-user-interface-for-the-system)
@@ -634,9 +633,7 @@ During the project development, it is discovered that most of the time the PC do
 
 #### Implementation of a panic button
 
-#### Connecting a camera to the system
-
-#### Capturing a video clip of an intrusion
+#### Connecting a camera to the system to capture a video clip of an intrusion
 
 #### Uploading the video to the cloud and sending an email notification
 
