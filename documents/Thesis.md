@@ -549,7 +549,7 @@ The RF codes are needed to control the sockets shown in Figure 4 as item number 
 `sudo ./build`  
 `cd`  
 `git clone git://github.com/ninjablocks/433Utils.git`  
-`cd 433Kit/RPi_utils`  
+`cd 433Utils/RPi_utils`  
 `make all`
 
 After installing the software and its dependencies, the RF transmitter and the receiver are connected to the RasPi as shown in Figure 8 with their data pins attached to the GPIO 0 and the GPIO 2. The receiver is just needed to record the RF codes transmitted by the sockets remote control and it can be disconnected from the RasPi once the data is captured.
