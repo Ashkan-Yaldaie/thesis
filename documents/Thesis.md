@@ -538,12 +538,12 @@ Here is an example of a MAC address 00:0a:95:9d:68:16. The code above requires t
 
 The RF codes are needed to control the sockets shown in Figure 4 as item number (3). These codes can be found by using an RF receiver attached to the RasPi and an open source software that is provided by Ninja Blocks (2015) called "433Utils". The software can detect and send RF433MHz signals. Installation instructions can be found below:
 
-`git clone git://git.drogon.net/wiringPi`
-`cd wiringPi/wiringPi`
-`sudo ./build`
-`cd`
-`git clone git://github.com/ninjablocks/433Utils.git`
-`cd 433Kit/RPi_utils`
+`git clone git://git.drogon.net/wiringPi`  
+`cd wiringPi/wiringPi`  
+`sudo ./build`  
+`cd`  
+`git clone git://github.com/ninjablocks/433Utils.git`  
+`cd 433Kit/RPi_utils`  
 `make all`
 
 #### Control sockets using home temperature and timer
