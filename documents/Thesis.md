@@ -85,6 +85,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>433MHz RF transmitter and receiver's connection to the RasPi</td>
     </tr>
     <tr>
+      <td><a href="#figure-8">Figure 9</a></td>
+      <td>Wiring diagram for the digital thermometer</td>
+    </tr>
+    <tr>
       <td><a href="#table-1">Table 1</a></td>
       <td>Raspberry Pi 2 vs Beaglebone hardware chart</td>
     </tr>
@@ -569,6 +573,11 @@ The bash script "sockets.sh" presented in the previous subchapter "WIFI sockets"
 The DS18B20, marked as (11) in Figure 4, is a waterproof digital thermometer that can be powered using a power supply in the range of 3V to 5.5V and it can measure temperatures from -55°C to +125°C with an accuracy of ±0.5°C from -10°C to +85°C. The DS18B20 contains a unique silicon serial number which means multiple thermometers can exist on the same 1-Wire bus. The waterproof DS18B20 has three cables: ground, data in/out and one for the power supply. (Maxim Integrated 2008)
 
 In order to connect the DS18B20 to the RasPi, a ready-made Shield Module is used. The data wire is attached to the GPIO 7 and the complete wiring diagram is shown in Figure 9. It is important to mention that the GPIO numbering for this project is based on the GPIO table presented in Appendix 2.
+
+<a name="figure-9" />
+
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/thermometer.jpg">  
+Figure 9: Wiring diagram for the digital thermometer
 
 #### Voice control
 
