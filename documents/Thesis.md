@@ -370,7 +370,7 @@ One of the most important parts of any project is planning. It is essential to k
 
 Le’s go through the list of requirements and see what is needed to be done to fulfill each of them. The first item on the list says, "Ability to switch on/off some home devices", to complete this, the system should be able to control some power sockets. Moreover, a professional license is needed to work with the main current. Due to the absence of the license, there are two alternatives left, either to use the radio frequency or WIFI controlled outlets.
 
-As for measurement of the temperature, if the option is not used, then there is no need to have it. But in case the house owner has pets, it is important to keep them at the temperature that is not too hot, for instance, not higher than 24 degrees Celsius. For this purpose, one of the outlets must be programmed to switch on a cooling device if the temperature rises above 24 degrees.
+As for measurement of the temperature, if the option is not used, then there is no need to have it. But in case the house owner has pets, it is important to keep them at the temperature that is not too hot, for instance, not higher than 24 degrees Celsius. For this purpose, one of the outlets must be programmed to switch on a cooling device if the temperature rises above 24°C.
 
 Another requirement is setting time to turn on and off some home devices. If the residents of the apartment travel quite often, the timing feature is needed in order to show as if someone is home by switching on the light at a particular time. This is a way to protect the house from the potential thieves. This option can also be quite useful if we want to save up and automate the Christmas lights, so they just switch on when it is dark.
 
