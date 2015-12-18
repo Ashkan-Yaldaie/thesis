@@ -652,7 +652,7 @@ The cron table is also used for the final part of this subchapter which is contr
 `00 16 * * * /bin/bash -l /home/pi/sockets.sh 3 on`  
 `00 08 * * * /bin/bash -l /home/pi/sockets.sh 3 off`
 
-This will switch on the socket number 3 that is connected to the Christmas lights at 16:00 and switch them off at 08:00. Table 2 contains the details about the cron commands.
+This will switch on the socket number 3 that is connected to the Christmas lights at 16:00 o’clock and switch them off at 08:00 o’clock. Table 2 contains the details about the cron commands.
 
 The tasks related to controlling the sockets by using home temperature and timer are completed in this subchapter. Their automation description can be found in the chapter devoted to the creation of a graphical user interface.
 
