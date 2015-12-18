@@ -718,7 +718,7 @@ if con == 'off':
 		time.sleep(5)
 ```
 
-During the project development, it is discovered that most of the time the PC does not switch off by sending just one shutdown package to it, that is why in the code a for-loop will send the package more than once. In addition proper, Windows configuration is provided but the detailed information on the subject is out of the scope of the paper.
+During the project development, it is discovered that most of the time the PC does not switch off by sending just one shutdown package to it, that is why in the code a for-loop will send the package more than once. In addition, proper Windows configuration is provided but the detailed information on the subject is out of the scope of the paper.
 
 ### Security system
 
