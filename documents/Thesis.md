@@ -576,7 +576,7 @@ In order to connect the DS18B20 to the RasPi, a ready-made Shield Module is used
 
 <a name="figure-9" />
 
-<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/thermometer.jpg">  
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/w-thermometer.jpg">  
 Figure 9: Wiring diagram for the digital thermometer
 
 #### Voice control
