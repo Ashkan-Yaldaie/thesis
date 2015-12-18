@@ -85,8 +85,12 @@ HAAGA-HELIA University of Applied Sciences
       <td>433MHz RF transmitter and receiver's connection to the RasPi</td>
     </tr>
     <tr>
-      <td><a href="#figure-8">Figure 9</a></td>
+      <td><a href="#figure-9">Figure 9</a></td>
       <td>Wiring diagram for the digital thermometer</td>
+    </tr>
+        <tr>
+      <td><a href="#figure-10">Figure 10</a></td>
+      <td>Reading the room temperature</td>
     </tr>
     <tr>
       <td><a href="#table-1">Table 1</a></td>
@@ -578,6 +582,22 @@ In order to connect the DS18B20 to the RasPi, a ready-made Shield Module is used
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/w-thermometer.jpg">  
 Figure 9: Wiring diagram for the digital thermometer
+
+After attaching the DS18B20 and the RasPi, the connection is tested by entering the following terminal commands:
+
+`sudo modprobe w1-gpio`
+`sudo modprobe w1-therm`
+`cd /sys/bus/w1/devices`
+`ls`
+`cd 28-000006dde1c6`
+`cat w1_slave`
+
+The output of the entered commands above is shown in Figure 10. The current temperature is printed as the value of `t=` which in this case is `t=23562` that equals to 23.56°C.
+
+<a name="figure-10" />
+
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/w1_slave.jpg">  
+Figure 10: Reading the room temperature
 
 #### Voice control
 
