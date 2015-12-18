@@ -827,6 +827,10 @@ Upton, Eben & Halfacree, Gareth. 2014. Raspberry Pi User Guide 2nd ed. John Wile
   </tbody>
 </table>
 
+### Appendix 2. table of GPIO pins and their numbers (wiringPi, BCM_GPIO and physical pin numbers)
+
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/gpio.jpg">
+
 ### Appendix 3. The bash script used to control the sockets
 
 ``` bash
