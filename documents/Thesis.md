@@ -647,6 +647,15 @@ The script "temp.py" is used to build the cron job. The following  command is en
 
 This way the temperature will be checked regularly and in response, the socket number 2 that is connected to an air conditioner will be switched on when the room temperature is above 24°C.
 
+The cron table is also used for the final part of this subchapter which is controlling a socket with timer. Since all the preparations are done the only thing that is needed is to enter the following lines to the cron table.
+
+`00 16 * * * /bin/bash -l /home/pi/sockets.sh 3 on`  
+`00 08 * * * /bin/bash -l /home/pi/sockets.sh 3 off`
+
+This will switch on the socket number 3 that is connected to the Christmas lights at 16:00 and switch them off at 08:00.
+
+The tasks related to controlling the sockets by using home temperature and timer are completed in this subchapter. Their automation description can be found in the chapter devoted to the creation of a graphical user interface.
+
 #### Voice control
 
 There are some challenges in the way of building a smart home, one of them is to discover a way to control the home devices. Of course, some routine tasks can be automated like turning on the air conditioner when the home temperature rises or to turn on/off the fish tank's air pump at the specific time. But what about turning on the printer in the other room while working with a laptop or to turn off the desktop PC in the bedroom while cooking in the kitchen. It is necessary to have some sort of controlling scheme for the smart home.
