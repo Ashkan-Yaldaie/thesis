@@ -45,7 +45,7 @@ HAAGA-HELIA University of Applied Sciences
 &nbsp;[References](#references)  
 &nbsp;[Appendices](#appendices)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Appendix 1. Devices used for this project and the purchase information](#appendix-1-devices-used-for-this-project-and-the-purchase-information)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Appendix 2. The bash script used to control the sockets](#appendix-2-the-bash-script-used-to-control-the-sockets)
+&nbsp;&nbsp;&nbsp;&nbsp;[Appendix 3. The bash script used to control the sockets](#appendix-3-the-bash-script-used-to-control-the-sockets)
 
 ## Figures and Tables
 
@@ -552,7 +552,7 @@ The RF codes are needed to control the sockets shown in Figure 4, marked as numb
 `cd 433Utils/RPi_utils`  
 `make all`
 
-After installing the software and its dependencies, to see the RasPi's GPIO table and pin numbering details, the terminal command `gpio readall` is used and the output is shown in Appendix 3. The RF transmitter and the receiver are connected to the RasPi, as shown in Figure 8 with their data pins attached to the GPIO 0 and the GPIO 2. The receiver is just needed to record the RF codes transmitted by the sockets remote control and it can be disconnected from the RasPi once the data is captured.
+After installing the software and its dependencies, to see the RasPi's GPIO table and pin numbering details, the terminal command `gpio readall` is used and the output is shown in Appendix 2. The RF transmitter and the receiver are connected to the RasPi, as shown in Figure 8 with their data pins attached to the GPIO 0 and the GPIO 2. The receiver is just needed to record the RF codes transmitted by the sockets remote control and it can be disconnected from the RasPi once the data is captured.
 
 <a name="figure-8" />
 
@@ -561,7 +561,7 @@ Figure 8: 433MHz RF transmitter and receiver's connection to the RasPi
 
 The next step is to press each of the six buttons on the remote control that is included into the RF socket set. Each button will produce a code and it can be captured by using the terminal command `sudo 433Utils/RPi_utils/RFSniffer`. The command's output is something like this: `Received 5592332`. The codes are then written down and used with the next command: `sudo 433Utils/RPi_utils/codesend 5592332` to switch on/off the sockets. During the development phase, it is discovered that the RF transmitter does not work well if there is a distance between the transmitter itself and the sockets. The problem is fixed by soldering an antenna to the transmitter.
 
-The bash script "sockets.sh" presented in the previous subchapter "WIFI sockets" can be completed by using the available information about the RF sockets. A full script can be found in Appendix 2. The new bash script will accept two arguments, the first one is to identify a socket and the second one is the on/off command. The script is also used for the next subchapter in order to control the sockets by using the home temperature and the timer.
+The bash script "sockets.sh" presented in the previous subchapter "WIFI sockets" can be completed by using the available information about the RF sockets. A full script can be found in Appendix 3. The new bash script will accept two arguments, the first one is to identify a socket and the second one is the on/off command. The script is also used for the next subchapter in order to control the sockets by using the home temperature and the timer.
 
 #### Controling the sockets using home temperature and timer
 
@@ -827,7 +827,7 @@ Upton, Eben & Halfacree, Gareth. 2014. Raspberry Pi User Guide 2nd ed. John Wile
   </tbody>
 </table>
 
-### Appendix 2. The bash script used to control the sockets
+### Appendix 3. The bash script used to control the sockets
 
 ``` bash
 #!/bin/bash
