@@ -44,6 +44,7 @@ HAAGA-HELIA University of Applied Sciences
 
 &nbsp;[References](#references)  
 &nbsp;[Appendices](#appendices)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Appendix 2. table of GPIO pins and their numbers (wiringPi, BCM_GPIO and physical pin numbers)](#appendix-1-devices-used-for-this-project-and-the-purchase-information)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Appendix 1. Devices used for this project and the purchase information](#appendix-1-devices-used-for-this-project-and-the-purchase-information)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Appendix 3. The bash script used to control the sockets](#appendix-3-the-bash-script-used-to-control-the-sockets)
 
