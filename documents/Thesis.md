@@ -641,6 +641,10 @@ if con == 'l' :
 		os.system('/bin/bash -l /home/pi/sockets.sh 2 off')
 ```
 
+The script "temp.py" is used to build the cron job. The following command is entered to the cron table in order to execute the "temp.py" script in the background every minute. This way the temperature will be checked regularly.
+
+`*/1 * * * * nohup sudo python /home/pi/temp.py l 23 > /dev/null 2>&1&`
+
 #### Voice control
 
 There are some challenges in the way of building a smart home, one of them is to discover a way to control the home devices. Of course, some routine tasks can be automated like turning on the air conditioner when the home temperature rises or to turn on/off the fish tank's air pump at the specific time. But what about turning on the printer in the other room while working with a laptop or to turn off the desktop PC in the bedroom while cooking in the kitchen. It is necessary to have some sort of controlling scheme for the smart home.
