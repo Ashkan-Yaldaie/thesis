@@ -116,6 +116,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>General Purpose Input/Output</td>
     </tr>
     <tr>
+      <td><strong>GUI</strong></td>
+      <td>Graphical User Interface</td>
+    </tr>
+    <tr>
       <td><strong>HDMI</strong></td>
       <td>High-Definition Multimedia Interface</td>
     </tr>
@@ -654,7 +658,7 @@ The cron table is also used for the final part of this subchapter which is contr
 
 This will switch on the socket number 3 that is connected to the Christmas lights at 16:00 o’clock and switch them off at 08:00 o’clock. Table 2 contains the details about the cron commands.
 
-The tasks related to controlling the sockets by using home temperature and timer are completed in this subchapter. The cron table entry automation can be found in the chapter devoted to the creation of a graphical user interface.
+The tasks related to controlling the sockets by using home temperature and timer are completed in this subchapter. The cron table modification can be done through a GUI and the details can be found in the chapter devoted to the creation of a graphical user interface.
 
 #### Voice control
 
