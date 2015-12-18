@@ -671,6 +671,8 @@ Kyas, Othmar. 2013. How To Smart Home. Key Concept Press.
 
 Lutz, Mark. 2013. Learning Python. 5th ed. O'Reilly Media. 
 
+Maxim Integrated. 2008. DS18B20 Programmable Resolution 1-Wire Digital Thermometer. Maxim Integrated.
+
 Netcraft, 2015. Web Server Survey. URL: http://news.netcraft.com/archives/category/most-popular/. Accessed: 07.12.2015.
 
 Ninja Blocks, 2015. URL: https://ninjablocks.com/. Accessed: 17.12.2015.
