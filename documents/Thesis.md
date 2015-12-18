@@ -552,7 +552,7 @@ The RF codes are needed to control the sockets shown in Figure 4, marked as numb
 `cd 433Utils/RPi_utils`  
 `make all`
 
-After installing the software and its dependencies, to see the RasPi's GPIO table and pin numbering details, the terminal command `gpio readall` is used. The RF transmitter and the receiver are connected to the RasPi, as shown in Figure 8 with their data pins attached to the GPIO 0 and the GPIO 2. The receiver is just needed to record the RF codes transmitted by the sockets remote control and it can be disconnected from the RasPi once the data is captured.
+After installing the software and its dependencies, to see the RasPi's GPIO table and pin numbering details, the terminal command `gpio readall` is used and the output is shown in Appendix 3. The RF transmitter and the receiver are connected to the RasPi, as shown in Figure 8 with their data pins attached to the GPIO 0 and the GPIO 2. The receiver is just needed to record the RF codes transmitted by the sockets remote control and it can be disconnected from the RasPi once the data is captured.
 
 <a name="figure-8" />
 
