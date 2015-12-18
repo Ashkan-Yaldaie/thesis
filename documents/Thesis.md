@@ -601,6 +601,46 @@ Figure 10: Reading the room temperature
 
 Once the DS18B20 is tested the room temperature can is used to control one of the RF sockets by using a crontab command and the following Python script which accepts two arguments: the first one is the conditional argument and the second one is value for temperature. The first argument can be "l" or "m" that stand for "less than" or "more than". For example, if  the argument values are "l" and "23", the socket will switch on when the room temperature is less than 23°C. And it will switch off if the temperature rises above 23°C.
 
+``` python
+#! /usr/bin/python
+#temp.py
+import os
+import glob
+import time
+from sys import argv
+none, con, val = argv
+os.system('modprobe w1-gpio')
+os.system('modprobe w1-therm')
+base_dir = '/sys/bus/w1/devices/'
+device_folder = glob.glob(base_dir + '28*')[0]
+device_file = device_folder + '/w1_slave'
+def read_temp_raw():
+    f = open(device_file, 'r')
+    lines = f.readlines()
+    f.close()
+    return lines
+def read_temp():
+    lines = read_temp_raw()
+    while lines[0].strip()[-3:] != 'YES':
+        time.sleep(0.2)
+        lines = read_temp_raw()
+    equals_pos = lines[1].find('t=')
+    if equals_pos != -1:
+        temp_string = lines[1][equals_pos+2:]
+        temp_c = float(temp_string) / 1000.0
+        return int(round(temp_c))	
+if con == 'm' :
+	if read_temp() > int(val) :
+		os.system('/bin/bash -l /home/pi/sockets.sh 2 on')
+	else:
+		os.system('/bin/bash -l /home/pi/sockets.sh 2 off')
+if con == 'l' :
+	if read_temp() < int(val) :
+		os.system('/bin/bash -l /home/pi/sockets.sh 2 off')
+	else:
+		os.system('/bin/bash -l /home/pi/sockets.sh 2 off')
+```
+
 #### Voice control
 
 There are some challenges in the way of building a smart home, one of them is to discover a way to control the home devices. Of course, some routine tasks can be automated like turning on the air conditioner when the home temperature rises or to turn on/off the fish tank's air pump at the specific time. But what about turning on the printer in the other room while working with a laptop or to turn off the desktop PC in the bedroom while cooking in the kitchen. It is necessary to have some sort of controlling scheme for the smart home.
