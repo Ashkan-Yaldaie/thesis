@@ -28,7 +28,7 @@ HAAGA-HELIA University of Applied Sciences
   - [Home automation](#home-automation)
     - [WIFI sockets](#wifi-sockets)
     - [Radio frequency sockets](#radio-frequency-sockets)
-    - [Controling the sockets using home temperature and timer](#controling-the-sockets-using-home-temperature-and-timer)
+    - [Controlling the sockets using home temperature and timer](#controlling-the-sockets-using-home-temperature-and-timer)
     - [Voice control](#voice-control)
   - [Security system](#security-system)
     - [Adding a wireless motion sensor](#adding-a-wireless-motion-sensor)
@@ -572,7 +572,7 @@ The next step is to press each of the six buttons on the remote control that is 
 
 The bash script "sockets.sh" presented in the previous subchapter "WIFI sockets" can be completed by using the available information about the RF sockets. A full script can be found in Appendix 3. The new bash script will accept two arguments, the first one is to identify a socket and the second one is the on/off command. The script is also used for the next subchapter in order to control the sockets by using the home temperature and the timer.
 
-#### Controling the sockets using home temperature and timer
+#### Controlling the sockets using home temperature and timer
 
 The DS18B20, marked as (11) in Figure 4, is a waterproof digital thermometer that can be powered using a power supply in the range of 3V to 5.5V and it can measure temperatures from -55°C to +125°C with an accuracy of ±0.5°C from -10°C to +85°C. The DS18B20 contains a unique silicon serial number which means multiple thermometers can exist on the same 1-Wire bus. The waterproof DS18B20 has three cables: ground, data in/out and one for the power supply. (Maxim Integrated 2008)
 
