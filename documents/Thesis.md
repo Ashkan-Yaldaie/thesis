@@ -585,11 +585,11 @@ Figure 9: Wiring diagram for the digital thermometer
 
 After attaching the DS18B20 and the RasPi, the connection is tested by entering the following terminal commands:
 
-`sudo modprobe w1-gpio`
-`sudo modprobe w1-therm`
-`cd /sys/bus/w1/devices`
-`ls`
-`cd 28-000006dde1c6`
+`sudo modprobe w1-gpio`  
+`sudo modprobe w1-therm`  
+`cd /sys/bus/w1/devices`  
+`ls`  
+`cd 28-000006dde1c6`  
 `cat w1_slave`
 
 The output of the entered commands above is shown in Figure 10. The current temperature is printed as the value of `t=` which in this case is `t=23562` that equals to 23.56°C.
