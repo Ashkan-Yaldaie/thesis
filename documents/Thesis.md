@@ -603,7 +603,7 @@ The output of the entered commands above is shown in Figure 10. The current temp
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/w1_slave.jpg">  
 Figure 10: Reading the room temperature
 
-Once the DS18B20 is tested the room temperature can is used to control one of the RF sockets by using a crontab command and the following Python script which accepts two arguments: the first one is the conditional argument and the second one is value for temperature. The first argument can be "l" or "m" that stand for "less than" or "more than". For example, if  the argument values are "l" and "23", the socket will switch on when the room temperature is less than 23°C. And it will switch off if the temperature rises above 23°C.
+Once the DS18B20 is tested the room temperature can is used to control one of the RF sockets by using a crontab command and the following Python script which accepts two arguments: the first one is the conditional argument and the second one is value for temperature. The first argument can be "l" or "m" that stand for "less than" or "more than". For example, if  the argument values are "l" and "23", the socket will switch on when the room temperature is less than 23°C and it will switch off if the temperature rises above 23°C.
 
 ``` python
 #! /usr/bin/python
