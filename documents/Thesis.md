@@ -31,7 +31,7 @@ HAAGA-HELIA University of Applied Sciences
     - [Controlling the sockets using home temperature and timer](#controlling-the-sockets-using-home-temperature-and-timer)
     - [Voice control](#voice-control)
   - [Security system](#security-system)
-    - [Adding a wireless motion sensor](#adding-a-wireless-motion-sensor)
+    - [Creating a wireless motion sensor](#creating-a-wireless-motion-sensor)
     - [Sending SMS and triggering an alarm if motion is detected](#sending-sms-and-triggering-an-alarm-if-motion-is-detected)
     - [Implementation of a panic button](#implementation-of-a-panic-button)
     - [Connecting a camera to the system to capture a video clip of an intrusion](#connecting-a-camera-to-the-system-to-capture-a-video-clip-of-an-intrusion)
@@ -724,7 +724,7 @@ During the project development, it is discovered that most of the time the PC do
 
 The current chapter is set to complete the previous one by adding a security system to the smart home product. The goals and the required devices for this chapter are mentioned in the planning part of this bachelor thesis. The chapter contains instructions on sending an SMS and email notifications to the homeowner in case of an intrusion. A video clip  of the incident will be captured and uploaded to the cloud. The chapter also gives guidance on how to create a panic button and a wireless motion detector. Finally, the security system will be controlled by using a Bluetooth device.
 
-#### Adding a wireless motion sensor
+#### Creating a wireless motion sensor
 
 #### Sending SMS and triggering an alarm if motion is detected
 
