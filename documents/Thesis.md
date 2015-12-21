@@ -722,7 +722,7 @@ During the project development, it is discovered that most of the time the PC do
 
 ### Security system
 
-The current chapter is set to complete the previous one by adding a security system to the smart home product. The goals and the required devices for this chapter are mentioned in the planning part of this bachelor thesis. The chapter contains instructions on sending an SMS and email notifications to the homeowner in case of an intrusion. A video clip  of the incident will be captured and uploaded to the cloud. The chapter also gives guidance on how to create a panic button and a wireless motion detector. Finally, the security system is controlled by using a Bluetooth device.
+The current chapter is set to complete the previous one by adding a security system to the smart home product. The goals and the required devices for this chapter are mentioned in the planning part of this bachelor thesis. The chapter contains instructions on sending an SMS and email notifications to the homeowner in case of an intrusion. A video clip  of the incident will be captured and uploaded to the cloud. The chapter also gives guidance on how to create a panic button and a wireless motion detector. Finally, the security system will be controlled by using a Bluetooth device.
 
 #### Adding a wireless motion sensor
 
