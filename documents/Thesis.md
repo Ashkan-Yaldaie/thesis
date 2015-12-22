@@ -750,6 +750,8 @@ Clas ohlson. 2015. URL: http://www.clasohlson.com/fi/b/S%C3%A4hk%C3%B6/%C3%84lyk
 
 Dennis, Andrew. 2013. Raspberry Pi Home Automation with Arduino. Packt Publishing Ltd.
 
+Edney, Andrew. 2014. How to build a wireless motion sensor for your Raspberry Pi. URL: http://connecteddigitalworld.com/2014/02/15/build-wireless-motion-sensor-raspberry-pi/. Accessed: 22.12.2015
+
 G4S Kotiturva. 2015. URL: http://www.kotiturva.fi/. Accessed: 11.11.2015.
 
 Gus. 2015. Beaglebone Vs Raspberry Pi 2: Choosing The Right Board. URL: http://pimylifeup.com/beaglebone-vs-raspberry-pi/. Accessed: 06.11.2015.
