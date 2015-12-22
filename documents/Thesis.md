@@ -88,9 +88,13 @@ HAAGA-HELIA University of Applied Sciences
       <td><a href="#figure-9">Figure 9</a></td>
       <td>Wiring diagram for the digital thermometer</td>
     </tr>
-        <tr>
+    <tr>
       <td><a href="#figure-10">Figure 10</a></td>
       <td>Reading the room temperature</td>
+    </tr>
+    <tr>
+      <td><a href="#figure-11">Figure 11</a></td>
+      <td>Wiring diagram for the wireless motion detector transmitter</td>
     </tr>
     <tr>
       <td><a href="#table-1">Table 1</a></td>
@@ -728,9 +732,12 @@ The current chapter is set to complete the previous one by adding a security sys
 
 For this subchapter, a wireless remote control and receiver are used, marked as (b) and (c) in Figure 4. The transmitter and the receiver are linked together and use fixed RF codes to communicate. The remote control has four buttons and by pressing each button, the receiver will release a high voltage of 5V through its output pins.
 
-This part is based on a tutorial presented by Edney (2014). In order to create a wireless motion detector transmitter, two wires are soldered to each side of a button on the remote as shown in Figure 10. Connecting the two wires must simulate a keypress.
+This part is based on a tutorial presented by Edney (2014). In order to create a wireless motion detector transmitter, two wires are soldered to each side of a button on the remote as shown in Figure 11. Connecting the two wires must simulate a keypress. The NPN transistor will work like a switch and connect the two cables from the remote together when a high signal comes from the PIR. Figure 11 shows the complete wiring diagram for the wireless motion detector transmitter.
 
-The NPN transistor will work like a switch and connect the two cables from the remote together when a high signal comes from the PIR. Figure 10 shows the complete wiring diagram for the wireless motion detector transmitter.
+<a name="figure-11" />
+
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/motion-sensor-transmitter.jpg">  
+Figure 11: Wiring diagram for the wireless motion detector transmitter
 
 #### Sending SMS and triggering an alarm if motion is detected
 
