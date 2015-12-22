@@ -726,6 +726,12 @@ The current chapter is set to complete the previous one by adding a security sys
 
 #### Creating a wireless motion sensor
 
+For this subchapter, a wireless remote control and receiver are used, marked as (b) and (c) in Figure 4. The transmitter and the receiver are linked together and use fixed RF codes to communicate. The remote control has four buttons and by pressing each button, the receiver will release a high voltage of 5V through its output pins.
+
+This part is based on a tutorial presented by Edney (2014). In order to create a wireless motion detector transmitter, two wires are soldered to each side of a button on the remote as shown in Figure 10. Connecting the two wires must simulate a keypress.
+
+The NPN transistor will work like a switch and connect the two cables from the remote together when a high signal comes from the PIR. Figure 10 shows the complete wiring diagram for the wireless motion detector transmitter.
+
 #### Sending SMS and triggering an alarm if motion is detected
 
 #### Implementation of a panic button
