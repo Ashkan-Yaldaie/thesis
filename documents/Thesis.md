@@ -750,6 +750,31 @@ Having built the wireless transmitter, the receiver component is created next us
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/motion-sensor-receiver.jpg">  
 Figure 12: Wiring diagram for the wireless motion detector's receiver
 
+To test the wireless motion sensor, the following Python script is used:
+
+``` python
+import RPi.GPIO as GPIO
+import time
+
+sensor = 12
+
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(sensor, GPIO.IN, GPIO.PUD_DOWN)
+
+previous_state = True
+current_state = True
+
+while True:
+    time.sleep(0.1)
+    previous_state = current_state
+    current_state = GPIO.input(sensor)
+    if current_state != previous_state:
+        new_state = "Reset" if current_state else "Motion is detected"
+        print("GPIO pin %s: %s" % (sensor, new_state))
+```
+
+Basically, the script reacts to the changes in the status of the BCM pin 12. A while-loop checks the pins status regularly and prints the corresponding text accordingly. The same script is modified in the next subchapter in order to send an SMS and trigger an alarm if the motion is detected.
+
 #### Sending SMS and triggering an alarm if motion is detected
 
 #### Implementation of a panic button
