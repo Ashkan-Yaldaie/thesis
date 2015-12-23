@@ -755,15 +755,12 @@ The next step is to test the wireless motion sensor and in order to do that the 
 ``` python
 import RPi.GPIO as GPIO
 import time
-
+#motion.py
 sensor = 12
-
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(sensor, GPIO.IN, GPIO.PUD_DOWN)
-
 previous_state = True
 current_state = True
-
 while True:
     time.sleep(0.1)
     previous_state = current_state
