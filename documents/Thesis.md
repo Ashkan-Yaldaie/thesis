@@ -750,7 +750,7 @@ Having built the wireless transmitter, the receiver component is created next us
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/motion-sensor-receiver.jpg">  
 Figure 12: Wiring diagram for the wireless motion detector's receiver
 
-To test the wireless motion sensor, the following Python script is used:
+The next step is to test the wireless motion sensor and in order to do that the following Python script is executed:
 
 ``` python
 import RPi.GPIO as GPIO
