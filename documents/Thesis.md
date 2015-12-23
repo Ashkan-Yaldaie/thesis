@@ -739,6 +739,8 @@ This part is based on a tutorial presented by Edney (2014). In order to create a
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/motion-sensor-transmitter.jpg">  
 Figure 11: Wiring diagram for the wireless motion detector transmitter
 
+Having built the wireless transmitter, the receiver component is created next using a breadboard, marked as item (h) in Figure 4, to connect the parts to each other. As shown in Figure 12, a high voltage of 3.3V is being sent to GPIO 26 which is BCM pin 12 according to the table presented in Appendix 2. Due to the transistor in the circuit, the voltage will drop to 3.2V when the receiver senses an RF signal and that is why the status of GPIO 26 will change from high to low. In short, the GPIO pin is high when the signal is not received from the wireless motion detector transmitter and it will be changed to low as soon as the signal is received. Since the RasPi GPIO pins must not be subjected to the 5V current, it is important to make sure that the receiver is not connected directly to the RasPi.
+
 #### Sending SMS and triggering an alarm if motion is detected
 
 #### Implementation of a panic button
