@@ -950,7 +950,7 @@ Upton, Eben & Halfacree, Gareth. 2014. Raspberry Pi User Guide 2nd ed. John Wile
   </tbody>
 </table>
 
-### Appendix 2. table of GPIO pins and their numbers (wiringPi, BCM, GPIO and physical pin numbers)
+### Appendix 2. Table of GPIO pins and their numbers (wiringPi, BCM, GPIO and physical pin numbers)
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/gpio.jpg">
 
