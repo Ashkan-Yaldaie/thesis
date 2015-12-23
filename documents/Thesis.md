@@ -648,7 +648,7 @@ if con == 'm' :
 		os.system('/bin/bash -l /home/pi/sockets.sh 2 off')
 if con == 'l' :
 	if read_temp() < int(val) :
-		os.system('/bin/bash -l /home/pi/sockets.sh 2 off')
+		os.system('/bin/bash -l /home/pi/sockets.sh 2 on')
 	else:
 		os.system('/bin/bash -l /home/pi/sockets.sh 2 off')
 ```
