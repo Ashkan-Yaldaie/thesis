@@ -32,7 +32,7 @@ HAAGA-HELIA University of Applied Sciences
     - [Voice control](#voice-control)
   - [Security system](#security-system)
     - [Creating a wireless motion sensor](#creating-a-wireless-motion-sensor)
-    - [Sending SMS and triggering an alarm if motion is detected](#sending-sms-and-triggering-an-alarm-if-motion-is-detected)
+    - [Sending an SMS and triggering an alarm if motion is detected](#sending-an-sms-and-triggering-an-alarm-if-motion-is-detected)
     - [Implementation of a panic button](#implementation-of-a-panic-button)
     - [Connecting a camera to the system to capture a video clip of an intrusion](#connecting-a-camera-to-the-system-to-capture-a-video-clip-of-an-intrusion)
     - [Uploading the video to the cloud and sending an email notification](#uploading-the-video-to-the-cloud-and-sending-an-email-notification)
@@ -772,7 +772,7 @@ while True:
 
 Basically, the script reacts to the changes in the status of the BCM pin 12. A while-loop checks the pins status regularly and prints the corresponding text accordingly. The same script is modified in the next subchapter in order to send an SMS and trigger an alarm if the motion is detected.
 
-#### Sending SMS and triggering an alarm if motion is detected
+#### Sending an SMS and triggering an alarm if motion is detected
 
 #### Implementation of a panic button
 
