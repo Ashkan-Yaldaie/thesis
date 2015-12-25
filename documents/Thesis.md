@@ -785,7 +785,7 @@ A 3G USB modem is used in order to send an SMS, the device is shown in Figure 4 
 
 The other issue is that the 3G modem is by default on the storage or CD mode. It is easy to change the device's settings using a GUI like a browser, but all that is available for this project is the terminal window, so the 3G modem's setting is changed automatically after every reboot from CD mode to web mode and finally to the serial mode. There can be other modems which are more compatible with the RasPi but the current 3G modem is used, since one of the goals of the project is to use the available devices.
 
-In order to change the settings from CD mode to web mode, the following lines are added to the `/etc/usb_modeswitch.conf` file using the nano text editor:
+In order to change the settings from CD mode to web mode, the following lines are added to the "/etc/usb_modeswitch.conf" file using the nano text editor:
 
 ```
 # Huawei E353 (3.se)
