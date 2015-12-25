@@ -845,7 +845,7 @@ def PIR():
 	if SMS:
 		print "SMS Sent!"
 		SMS_TIME = datetime.now() + timedelta(minutes=10)
-		os.system("sudo -H -u pi echo 'Check the camera!' | gammu --sendsms TEXT +3584076XXXXX 2> /dev/null &")
+		os.system("sudo -H -u pi echo 'Motion is detected!' | gammu --sendsms TEXT +3584076XXXXX 2> /dev/null &")
 		SMS = False
 	os.system("sudo -H -u pi cvlc /var/www/smarthome/data/scripts/alarm.mp3 vlc://quit")
 	return
