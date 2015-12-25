@@ -817,7 +817,7 @@ To send an SMS using the 3G modem a software is required, Gammu is used in order
 
 <a name="figure-13" />
 
-<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/gammu.jpg">  
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/gammu-id.jpg">  
 Figure 13: Connection to the 3G modem
 
 #### Implementation of a panic button
