@@ -757,7 +757,7 @@ Figure 12: Wiring diagram for the wireless motion detector's receiver
 The next step is to test the wireless motion sensor and in order to do that the following Python script is executed:
 
 ``` python
-#!/usr/bin/env python
+#! /usr/bin/python
 #motion.py v1.00
 import RPi.GPIO as GPIO
 import time
@@ -824,7 +824,7 @@ Figure 13: Connection to the 3G modem
 Moving on to the next requirement which is playing an alarm sound, a program called VLC is installed `sudo apt-get install vlc`. An MP3 file is also prepared to be played as an alarm, it can be the sound of a barking dog, speaking crowd or simply a sound of an alarm. Both SMS notification and triggering the alarm can be added to the security system by modifying the code `motion.py` presented in the previous subchapter.
 
 ``` python
-#!/usr/bin/env python
+#! /usr/bin/python
 #motion.py v2.00
 import os
 import commands
