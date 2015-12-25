@@ -820,6 +820,10 @@ To send an SMS using the 3G modem a software is required, Gammu is used in order
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/gammu-id.jpg">  
 Figure 13: Connection to the 3G modem
 
+Moving on to the next requirement which is playing an alarm sound, a program called VLC is installed `sudo apt-get install vlc`. An MP3 file is also paired to be played as an alarm, it can be the sound of a barking dog, speaking croud or simply a sound of an alarm.
+
+Both SMS notification and triggering the alarm can be added to the security system by modifying the code `motion.py` presented in the previous subchapter. 
+
 #### Implementation of a panic button
 
 #### Connecting a camera to the system to capture a video clip of an intrusion
