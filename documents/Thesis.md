@@ -778,9 +778,9 @@ Basically, the script reacts to the changes in the status of the BCM pin 12. A w
 
 #### Sending an SMS and triggering the alarm if motion is detected
 
-The security system has to be able to notify the homeowner by sending an SMS if a home intrusion occurs. Based on the planning chapter, the system must also be able to trigger an alarm if a motion is detected while the owner is not home. The current subchapter is focused on the both issues mentioned above.
+The security system has to be able to notify the homeowner by sending an SMS if a home intrusion occurs. Based on the planning chapter, the system must also be able to trigger an alarm if a motion is detected while the owner is not home. The current subchapter is focused on the both issues mentioned above. The information used in this part is collected from the Raspberry Pi Foundation (2015) forums.
 
-A 3G USB modem is used in order to send an SMS, the device is shown in Figure 4 as number (8). One of the issues with this device is power consumption, since it needs to have its own power supply, items (9) and (10) are also added to the list of devices required to complete this project. The information used in this part is collected from the Raspberry Pi Foundation (2015) forums.
+A 3G USB modem is used in order to send an SMS, the device is shown in Figure 4 as number (8). One of the issues with this device is power consumption, since it needs to have its own power supply, items (9) and (10) are also added to the list of devices required to complete this project.
 
 The other issue is that the 3G modem is by default on the storage or CD mode. It is easy to change the device's settings using a GUI like a browser, but all that is available for this project is the terminal window, so the 3G modem's setting is changed automatically after every reboot from CD mode to web mode and finally to the serial mode. There can be other modems which are more compatible with the RasPi but the current 3G modem is used, since one of the goals of the project is to use the available devices.
 
