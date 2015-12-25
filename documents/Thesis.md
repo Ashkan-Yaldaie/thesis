@@ -757,9 +757,10 @@ Figure 12: Wiring diagram for the wireless motion detector's receiver
 The next step is to test the wireless motion sensor and in order to do that the following Python script is executed:
 
 ``` python
+#!/usr/bin/env python
+#motion.py v1.00
 import RPi.GPIO as GPIO
 import time
-#motion.py v1.00
 sensor = 12
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(sensor, GPIO.IN, GPIO.PUD_DOWN)
@@ -820,7 +821,48 @@ To send an SMS using the 3G modem a software is required, Gammu is used in order
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/gammu-id.jpg">  
 Figure 13: Connection to the 3G modem
 
-Moving on to the next requirement which is playing an alarm sound, a program called VLC is installed `sudo apt-get install vlc`. An MP3 file is also prepared to be played as an alarm, it can be the sound of a barking dog, speaking crowd or simply a sound of an alarm. Both SMS notification and triggering the alarm can be added to the security system by modifying the code `motion.py` presented in the previous subchapter. 
+Moving on to the next requirement which is playing an alarm sound, a program called VLC is installed `sudo apt-get install vlc`. An MP3 file is also prepared to be played as an alarm, it can be the sound of a barking dog, speaking crowd or simply a sound of an alarm. Both SMS notification and triggering the alarm can be added to the security system by modifying the code `motion.py` presented in the previous subchapter.
+
+``` python
+#!/usr/bin/env python
+#motion.py v2.00
+import os
+import commands
+import RPi.GPIO as GPIO
+import time
+from datetime import datetime, timedelta
+sensor = 12
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(sensor, GPIO.IN, GPIO.PUD_DOWN)
+previous_state = True
+current_state = True
+NOW = datetime.now()
+SMS = True
+SMS_TIME = datetime.now() + timedelta(days=300)
+def PIR():
+	global SMS
+	global SMS_TIME
+	if SMS:
+		print "SMS Sent!"
+		SMS_TIME = datetime.now() + timedelta(minutes=10)
+		os.system("sudo -H -u pi echo 'Check the camera!' | gammu --sendsms TEXT +3584076XXXXX 2> /dev/null &")
+		SMS = False
+	os.system("sudo -H -u pi cvlc /var/www/smarthome/data/scripts/alarm.mp3 vlc://quit")
+	return
+while True:
+	NOW = datetime.now()
+	if SMS_TIME <= NOW:
+		SMS = True
+	time.sleep(0.1)
+	previous_state = current_state
+	current_state = GPIO.input(sensor)
+ 	if current_state != previous_state:
+		if (current_state == False):
+			print "Motion is detected" + datetime.now().strftime("%d-%m-%Y %H:%M")
+			PIR()
+		elif (current_state == True):
+			print "Sensor reset!"
+```
 
 #### Implementation of a panic button
 
