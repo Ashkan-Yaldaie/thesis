@@ -759,7 +759,7 @@ The next step is to test the wireless motion sensor and in order to do that the 
 ``` python
 import RPi.GPIO as GPIO
 import time
-#motion.py
+#motion.py v1.00
 sensor = 12
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(sensor, GPIO.IN, GPIO.PUD_DOWN)
