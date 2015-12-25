@@ -774,6 +774,8 @@ Basically, the script reacts to the changes in the status of the BCM pin 12. A w
 
 #### Sending an SMS and triggering the alarm if motion is detected
 
+The security system has to be able to notify the homeowner by sending an SMS if a home intrusion occurs. Based on the planning chapter, the system must also be able to trigger an alarm if a motion is detected while the owner is not home. The current subchapter is focused on the both issues mentioned above.
+
 #### Implementation of a panic button
 
 #### Connecting a camera to the system to capture a video clip of an intrusion
