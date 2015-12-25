@@ -864,6 +864,8 @@ while True:
 			print "Sensor reset!"
 ```
 
+The above mentioned Python script will send an SMS to the wanted phone number and plays the "alarm.mp3" if a motion is detected. In order to avoid sending rapid SMSs for each movement that occurs in the range of the PIR, a practice of waiting for ten minutes is adopted before sending a new text message. But the script’s execution will continue since the alarm file will be played within these ten minutes.
+
 #### Implementation of a panic button
 
 #### Connecting a camera to the system to capture a video clip of an intrusion
