@@ -780,6 +780,36 @@ A 3G USB modem is used in order to send an SMS, the device is shown in Figure 4 
 
 The other issue is that the 3G modem is by default on the storage or CD mode. It is easy to change the device's settings using a GUI like a browser, but all that is available for this project is the terminal window, so the 3G modem's setting is changed automatically after every reboot from CD mode to web mode and finally to the serial mode. There can be other modems which are more compatible with the RasPi but the current 3G modem is used, since one of the goals of the project is to use the available devices.
 
+In order to change the settings from CD mode to web mode, the following lines are added to the /etc/usb_modeswitch.conf` file using the nano text editor:
+
+```
+# Huawei E353 (3.se)
+DefaultVendor=0x12d1
+DefaultProduct=0x1f01
+TargetVendor=  0x12d1
+TargetProduct= 0x14db
+MessageContent="55534243123456780000000000000a11062000000000000100000000000000"
+```
+
+The second step which is changing the settings from the web mode to the serial mode is done using a bash script:
+
+``` bash
+#!/bin/bash
+#superscript.sh
+url="http://192.168.1.1/api/device/mode"
+xmlheader="<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
+data="<request><mode>0</mode></request>"
+
+ifconfig eth1 192.168.1.10 netmask 255.255.255.0
+wget --post-data="$xmlheader$data" $url -qO-
+```
+
+The above script is then called after every reboot using the crontab's entry:
+
+```
+@reboot sudo sh /home/pi/superscript.sh
+```
+
 #### Implementation of a panic button
 
 #### Connecting a camera to the system to capture a video clip of an intrusion
