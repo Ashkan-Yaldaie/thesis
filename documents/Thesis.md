@@ -101,6 +101,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>Wiring diagram for the wireless motion detector's receiver</td>
     </tr>
     <tr>
+      <td><a href="#figure-13">Figure 13</a></td>
+      <td>Connection to the 3G modem</td>
+    </tr>
+    <tr>
       <td><a href="#table-1">Table 1</a></td>
       <td>Raspberry Pi 2 vs Beaglebone hardware chart</td>
     </tr>
@@ -810,6 +814,11 @@ The above script is then called after every reboot using the crontab's entry:
 ```
 
 To send an SMS using the 3G modem a software is required, Gammu is used in order to control the modem used for this project. To install the Gammu the following command is used: `sudo apt-get install gammu`. In order to test the 3G modem's connection, the command `sudo gammu --identify` is entered to the terminal and the output is shown in Figure 13.
+
+<a name="figure-13" />
+
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/gammu.jpg">  
+Figure 13: Connection to the 3G modem
 
 #### Implementation of a panic button
 
