@@ -776,6 +776,10 @@ Basically, the script reacts to the changes in the status of the BCM pin 12. A w
 
 The security system has to be able to notify the homeowner by sending an SMS if a home intrusion occurs. Based on the planning chapter, the system must also be able to trigger an alarm if a motion is detected while the owner is not home. The current subchapter is focused on the both issues mentioned above.
 
+A 3G USB modem is used in order to send an SMS, the device is shown in Figure 4 as number (8). One of the issues with this device is power consumption, since it needs to have its own power supply, items (9) and (10) are also added to the list of devices required to complete this project.
+
+The other issue is that the 3G modem is by default on the storage or CD mode. It is easy to change the device's settings using a GUI like a browser, but all that is available for this project is the terminal window, so the 3G modem's setting is changed automatically after every reboot from CD mode to web mode and finally to the serial mode. There can be more modems which are more compatible with the RasPi but since one of the goals of the project is to use the available devices, the current 3G modem is used.
+
 #### Implementation of a panic button
 
 #### Connecting a camera to the system to capture a video clip of an intrusion
