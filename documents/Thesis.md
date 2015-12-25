@@ -8,7 +8,7 @@ Ashkan Yaldaie
 
 Bachelor Thesis  
 HAAGA-HELIA University of Applied Sciences  
-17 December 2015
+25 December 2015
 
 ## Table of contents
 &nbsp;[Figures and Tables](#figures-and-tables)  
