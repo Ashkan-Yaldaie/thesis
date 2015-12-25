@@ -784,7 +784,7 @@ In order to change the settings from CD mode to web mode, the following lines ar
 
 ```
 # Huawei E353 (3.se)
-DefaultVendor=0x12d1
+DefaultVendor= 0x12d1
 DefaultProduct=0x1f01
 TargetVendor=  0x12d1
 TargetProduct= 0x14db
@@ -799,7 +799,6 @@ The second step which is changing the settings from the web mode to the serial m
 url="http://192.168.1.1/api/device/mode"
 xmlheader="<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
 data="<request><mode>0</mode></request>"
-
 ifconfig eth1 192.168.1.10 netmask 255.255.255.0
 wget --post-data="$xmlheader$data" $url -qO-
 ```
