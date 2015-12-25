@@ -847,7 +847,7 @@ def PIR():
 		SMS_TIME = datetime.now() + timedelta(minutes=10)
 		os.system("sudo -H -u pi echo 'Motion is detected!' | gammu --sendsms TEXT +3584076XXXXX")
 		SMS = False
-	os.system("sudo -H -u pi cvlc /var/www/smarthome/data/scripts/alarm.mp3 vlc://quit")
+	os.system("sudo -H -u pi cvlc /home/pi/alarm.mp3 vlc://quit")
 	return
 while True:
 	NOW = datetime.now()
