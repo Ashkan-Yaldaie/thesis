@@ -896,7 +896,7 @@ while True:
     current_state = GPIO.input(sensor)
     if current_state == True:
 	print("GPIO pin %s is %s" % (sensor, "PRESSED"))
-	os.system("sudo -H -u pi echo 'Check the camera!' | gammu --sendsms TEXT +358407642277 2> /dev/null &")
+	os.system("sudo -H -u pi echo 'Check the camera!' | gammu --sendsms TEXT +3584076XXXXX 2> /dev/null &")
 	time.sleep(20)
 ```
 
