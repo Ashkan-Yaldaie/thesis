@@ -105,6 +105,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>Connection to the 3G modem</td>
     </tr>
     <tr>
+      <td><a href="#figure-14">Figure 14</a></td>
+      <td>Wiring diagram for the panic button</td>
+    </tr>
+    <tr>
       <td><a href="#table-1">Table 1</a></td>
       <td>Raspberry Pi 2 vs Beaglebone hardware chart</td>
     </tr>
