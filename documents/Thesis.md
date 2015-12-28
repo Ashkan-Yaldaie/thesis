@@ -868,6 +868,36 @@ The above-mentioned Python script will send an SMS to the added phone number and
 
 #### Implementation of a panic button
 
+Based on the project requirement, a panic button is implemented to be used in the case of an emergency, if a home resident wants to inform others. The system is set to send a text message notification by pushing the button. The button is connected to the GPIO 28 which is BCM pin 20 and the complete wiring diagram is given in Figure 14.
+
+<a name="figure-14" />
+
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/panic-button.jpg">  
+Figure 14: Wiring diagram for the panic button
+
+As shown in Figure 14, the a 3.3V current is connected to the GPIO pin through the button. A high signal will be sent to the GPIO 28, if the panic button is pushed using the Python script below:
+
+``` python
+#! /usr/bin/python
+#panic.py
+import RPi.GPIO as GPIO
+import time
+import os
+sensor = 20
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(sensor, GPIO.IN, GPIO.PUD_DOWN)
+current_state = False
+while True:
+    time.sleep(0.3)
+    current_state = GPIO.input(sensor)
+    if current_state == True:
+	print("GPIO pin %s is %s" % (sensor, "PRESSED"))
+	os.system("sudo -H -u pi echo 'Check the camera!' | gammu --sendsms TEXT +358407642277 2> /dev/null &")
+	time.sleep(20)
+```
+
+The script is set to be executed after every reboot through the cron table `@reboot sudo python /home/pi/panic.py`. In order to avoid sending several SMSs at a time, the code's execution will be paused for 20 seconds after sending a text message. The panic button is sharing the 3.3V pin with the wiring diagram that is shown in Figure 12 and that might interfere with the wireless motion detector, but this is not an issue for this project since the panic button is set to be used when at least one of the residents is home, so the motion detector is disarmed.
+
 #### Connecting a camera to the system to capture a video clip of an intrusion
 
 #### Uploading the video to the cloud and sending an email notification
