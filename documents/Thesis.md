@@ -904,6 +904,22 @@ The script is set to be executed after every reboot through the cron table `@reb
 
 #### Connecting a camera to the system to capture a video clip of an intrusion
 
+One of the requirements set for this thesis project is to capture a video clip of a home intrusion. The camera which is already connected to the RasPi for the voice control functionality is used in this subchapter as well. It is shown in Figure 4 as item (1). The VLC player which installation was described in an earlier subchapter, can record the video clip by using the following terminal command:
+
+``` bash
+cvlc v4l2:///dev/video0 :sout='#transcode{vcodec=mp4v,vb=5000,scale=1,fps=30,acodec=mpga,ab=128,channels=1,samplerate=44100}:duplicate{dst=std{access=file,mux=ts,dst=clip.mpg}}' --run-time=10 vlc://quit
+```
+
+This will record a ten seconds clip and save it as "clip.mpg". The command will overwrite the file on each execution, but the problem is fixed in the next subchapter by using a Python script.
+
+Besides, a USB webcam that is adopted for this project other devices such as a wireless IP camera can be used to record a video through a RasPi. Such devices may have The Real Time Streaming Protocol (RTSP) to stream their captured video. The RTSP address can usually be found from the settings of the IP camera as shown in Figure 15. To connect to the IP camera and record its captured video, the following terminal command can be applied:
+
+``` bash
+cvlc rtsp://username:password@10.0.0.101:port/udp/av0_0 --sout=clip.mpg --run-time=10 vlc://quit
+```
+
+The next subchapter contains the description of how to send an email notification and upload a video file to the cloud by using the RasPi and a Google Application Program Interface (API).
+
 #### Uploading the video to the cloud and sending an email notification
 
 #### Controlling the security system via Bluetooth
