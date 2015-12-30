@@ -128,6 +128,10 @@ HAAGA-HELIA University of Applied Sciences
 
 <table>
   <tbody>
+  <tr>
+      <td><strong>API</strong></td>
+      <td>Application Program Interface</td>
+    </tr>
     <tr>
       <td><strong>DIY</strong></td>
       <td>Do It Yourself</td>
@@ -192,6 +196,10 @@ HAAGA-HELIA University of Applied Sciences
     <tr>
       <td><strong>RF</strong></td>
       <td>Radio Frequency</td>
+    </tr>
+    <tr>
+      <td><strong>RTSP</strong></td>
+      <td>The Real Time Streaming Protocol</td>
     </tr>
     <tr>
       <td><strong>SMS</strong></td>
