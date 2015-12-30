@@ -928,7 +928,7 @@ This will record a ten seconds clip and save it as "clip.mpg". The command was o
 
 ``` python
 #! /usr/bin/python
-#vlc.py
+#vlc.py v1.00
 import os
 from datetime import datetime
 i = datetime.now()
