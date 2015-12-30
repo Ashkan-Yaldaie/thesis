@@ -1174,3 +1174,47 @@ else
 | nc -u -w2 -p '10000' '10.0.0.104' '10000' | xxd -p | cut -c47-49
 fi
 ```
+
+### Appendix 4. The final version of motion.py
+
+``` python
+#! /usr/bin/python
+#motion.py v2.00
+import os
+import commands
+import RPi.GPIO as GPIO
+import time
+from datetime import datetime, timedelta
+sensor = 12
+GPIO.setmode(GPIO.BCM)
+GPIO.setup(sensor, GPIO.IN, GPIO.PUD_DOWN)
+previous_state = True
+current_state = True
+NOW = datetime.now()
+SMS = True
+SMS_TIME = datetime.now() + timedelta(days=300)
+def PIR():
+    global SMS
+    global SMS_TIME
+    if SMS:
+        print "SMS Sent!"
+        SMS_TIME = datetime.now() + timedelta(minutes=10)
+        os.system("sudo -H -u pi echo 'Motion is detected!' | gammu --sendsms TEXT +3584076XXXXX")
+        SMS = False
+    os.system("sudo -H -u pi cvlc /home/pi/alarm.mp3 vlc://quit 2> /dev/null &")
+    os.system("sudo -H -u pi python /home/pi/vlc.py")
+    return
+while True:
+    NOW = datetime.now()
+    if SMS_TIME <= NOW:
+        SMS = True
+    time.sleep(0.1)
+    previous_state = current_state
+    current_state = GPIO.input(sensor)
+    if current_state != previous_state:
+        if (current_state == False):
+            print "Motion is detected" + datetime.now().strftime("%d-%m-%Y %H:%M")
+            PIR()
+        elif (current_state == True):
+            print "Sensor reset!"
+```
