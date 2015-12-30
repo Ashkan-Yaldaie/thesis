@@ -829,7 +829,7 @@ To send an SMS using the 3G modem a software is required, Gammu is used in order
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/gammu-id.jpg">  
 Figure 13: Connection to the 3G modem
 
-Moving on to the next requirement which is playing an alarm sound, a program called VLC is installed `sudo apt-get install vlc`. An MP3 file is also prepared to be played as an alarm, it can be the sound of a barking dog, speaking crowd or simply a sound of an alarm. Both SMS notification and triggering the alarm can be added to the security system by modifying the code `motion.py` presented in the previous subchapter.
+Moving on to the next requirement which is playing an alarm sound, a program called VLC is installed `sudo apt-get install vlc`. An MP3 file is also prepared to be played as an alarm, it can be the sound of a barking dog, speaking crowd or simply a sound of an alarm. Both SMS notification and triggering the alarm can be added to the security system by modifying the code "motion.py" presented in the previous subchapter.
 
 ``` python
 #! /usr/bin/python
@@ -915,7 +915,21 @@ cvlc v4l2:///dev/video0 \:sout='#transcode{vcodec=mp4v,vb=5000,scale=1,fps=30,ac
 channels=1,samplerate=44100}:duplicate{dst=std{access=file,mux=ts,dst=clip.mpg}}' --run-time=10 vlc://quit
 ```
 
-This will record a ten seconds clip and save it as "clip.mpg". The command will overwrite the file on each execution, but the problem is fixed in the next subchapter by using a Python script.
+This will record a ten seconds clip and save it as "clip.mpg". The command will overwrite the file on each execution, but the problem is fixed in the Python script below:
+
+``` python
+#! /usr/bin/python
+# vlc.py
+import os
+from datetime import datetime
+
+i = datetime.now()
+
+fileName = i.strftime('%d-%m-%Y_%H.%M.%S') + ".mpg"
+os.system("cvlc v4l2:///dev/video0 :sout='#transcode{vcodec=mp4v,vb=5000,scale=1,fps=30,acodec=mpga,ab=128,channels=1,samplerate=44100}:duplicate{dst=std{access=file,mux=ts,dst=/mnt/other/clip_"+ str(fileName) +"}}' --run-time=10 vlc://quit")
+```
+
+The script will basically add date and time including seconds to the name of the file, so every file is going to have a unique name. This Python script can then be executed whenever a motion is detected by modifying the "motion.py" script. The final version of it can be found in Appendix 4.
 
 <a name="figure-15" />
 
