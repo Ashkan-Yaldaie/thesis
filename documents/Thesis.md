@@ -967,6 +967,8 @@ The next subchapter contains the description of how to send an email notificatio
 
 ## References
 
+Blythe, Jeremy. 2015. URL: http://jeremyblythe.blogspot.fi/2015/06/motion-google-drive-uploader-for-oauth.html. Accessed: 30.12.2015.
+
 Clas ohlson. 2015. URL: http://www.clasohlson.com/fi/b/S%C3%A4hk%C3%B6/%C3%84lykoti/Aloituspaketit. Accessed: 09.11.2015.
 
 Dennis, Andrew. 2013. Raspberry Pi Home Automation with Arduino. Packt Publishing Ltd.
