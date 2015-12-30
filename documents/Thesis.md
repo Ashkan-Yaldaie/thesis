@@ -955,7 +955,7 @@ The next subchapter contains the description of how to send an email notificatio
 
 #### Uploading the video to the cloud and sending an email notification
 
-The video that will be captured on motion detection from the previous subchapter is stored on the RasPi's local storage. It is important to keep the RasPi in a safe and hidden place in the house since it also takes care of home security. But the RasPi can be damaged during a possible robbery and to avoid that the file will be uploaded to the cloud. This part is based on the instruction provided by Blythe (2015).
+The video that will be captured on motion detection from the previous subchapter instructions is stored on the RasPi's local storage. It is important to keep the RasPi in a safe and hidden place in the house since it also takes care of home security. But the RasPi can be damaged during a possible robbery and to avoid that the file will be uploaded to the cloud. This part is based on the instruction provided by Blythe (2015).
 
 #### Controlling the security system via Bluetooth
 
