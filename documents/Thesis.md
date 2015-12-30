@@ -911,9 +911,8 @@ The script is set to be executed after every reboot through the cron table `@reb
 One of the requirements set for this thesis project is to capture a video clip of a home intrusion. The camera which is already connected to the RasPi for the voice control functionality is used in this subchapter as well. It is shown in Figure 4 as item (1). The VLC player which installation was described in an earlier subchapter, can record the video clip by using the following terminal command:
 
 ``` bash
-cvlc v4l2:///dev/video0 \:sout='#transcode{vcodec=mp4v,vb=5000,scale=1,fps=30,\
-acodec=mpga,ab=128,channels=1,samplerate=44100}\
-:duplicate{dst=std{access=file,mux=ts,dst=clip.mpg}}' --run-time=10 vlc://quit
+cvlc v4l2:///dev/video0 \:sout='#transcode{vcodec=mp4v,vb=5000,scale=1,fps=30,acodec=mpga,ab=128,\
+channels=1,samplerate=44100}:duplicate{dst=std{access=file,mux=ts,dst=clip.mpg}}' --run-time=10 vlc://quit
 ```
 
 This will record a ten seconds clip and save it as "clip.mpg". The command will overwrite the file on each execution, but the problem is fixed in the next subchapter by using a Python script.
