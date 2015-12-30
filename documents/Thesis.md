@@ -930,7 +930,7 @@ channels=1,samplerate=44100}:duplicate{dst=std{access=file,\
 mux=ts,dst=clip_"+ str(fileName) +"}}' --run-time=10 vlc://quit")
 ```
 
-The script will basically add date and time including seconds to the name of the file, so every file is going to have a unique name. This Python script can then be executed whenever a motion is detected by modifying the "motion.py" script. The final version of it can be found in Appendix 4.
+The script will basically add date and time including seconds to the name of the file, so every file is going to have a unique name. This Python code can then be executed whenever a motion is detected by modifying the "motion.py" script. The final version of it can be found in Appendix 4.
 
 <a name="figure-15" />
 
