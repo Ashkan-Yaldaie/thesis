@@ -109,6 +109,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>Wiring diagram for the panic button</td>
     </tr>
     <tr>
+      <td><a href="#figure-15">Figure 15</a></td>
+      <td>IP camera RTSP address</td>
+    </tr>
+    <tr>
       <td><a href="#table-1">Table 1</a></td>
       <td>Raspberry Pi 2 vs Beaglebone hardware chart</td>
     </tr>
@@ -911,6 +915,11 @@ cvlc v4l2:///dev/video0 :sout='#transcode{vcodec=mp4v,vb=5000,scale=1,fps=30,aco
 ```
 
 This will record a ten seconds clip and save it as "clip.mpg". The command will overwrite the file on each execution, but the problem is fixed in the next subchapter by using a Python script.
+
+<a name="figure-15" />
+
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/ip-cam.jpg">  
+Figure 15: IP camera RTSP address
 
 Besides, a USB webcam that is adopted for this project other devices such as a wireless IP camera can be used to record a video through a RasPi. Such devices may have The Real Time Streaming Protocol (RTSP) to stream their captured video. The RTSP address can usually be found from the settings of the IP camera as shown in Figure 15. To connect to the IP camera and record its captured video, the following terminal command can be applied:
 
