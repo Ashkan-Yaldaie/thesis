@@ -46,7 +46,8 @@ HAAGA-HELIA University of Applied Sciences
 &nbsp;[Appendices](#appendices)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Appendix 1. Devices used for this project and the purchase information](#appendix-1-devices-used-for-this-project-and-the-purchase-information)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Appendix 2. Table of GPIO pins and their numbers (wiringPi, BCM, GPIO and physical pin numbers)](#appendix-2-table-of-gpio-pins-and-their-numbers-wiringpi-bcm-gpio-and-physical-pin-numbers)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Appendix 3. The bash script used to control the sockets](#appendix-3-the-bash-script-used-to-control-the-sockets)
+&nbsp;&nbsp;&nbsp;&nbsp;[Appendix 3. The bash script used to control the sockets](#appendix-3-the-bash-script-used-to-control-the-sockets)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Appendix 4. The final version of motion.py](#appendix-4-the-bash-script-used-to-control-the-sockets)
 
 ## Figures and Tables
 
@@ -1179,7 +1180,7 @@ fi
 
 ``` python
 #! /usr/bin/python
-#motion.py v2.00
+#motion.py v2.50
 import os
 import commands
 import RPi.GPIO as GPIO
