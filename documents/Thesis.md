@@ -927,7 +927,7 @@ from datetime import datetime
 i = datetime.now()
 
 fileName = i.strftime('%d-%m-%Y_%H.%M.%S') + ".mpg"
-os.system("cvlc v4l2:///dev/video0 :sout='#transcode{vcodec=mp4v,vb=5000,scale=1,fps=30,acodec=mpga,ab=128,channels=1,samplerate=44100}:duplicate{dst=std{access=file,mux=ts,dst=/mnt/other/clip_"+ str(fileName) +"}}' --run-time=10 vlc://quit")
+os.system("cvlc v4l2:///dev/video0 :sout='#transcode{vcodec=mp4v,vb=5000,scale=1,fps=30,acodec=mpga,ab=128,channels=1,samplerate=44100}:duplicate{dst=std{access=file,mux=ts,dst=clip_"+ str(fileName) +"}}' --run-time=10 vlc://quit")
 ```
 
 The script will basically add date and time including seconds to the name of the file, so every file is going to have a unique name. This Python script can then be executed whenever a motion is detected by modifying the "motion.py" script. The final version of it can be found in Appendix 4.
