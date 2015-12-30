@@ -916,7 +916,7 @@ cvlc v4l2:///dev/video0 \:sout='#transcode{vcodec=mp4v,vb=5000,scale=1,fps=30,ac
 channels=1,samplerate=44100}:duplicate{dst=std{access=file,mux=ts,dst=clip.mpg}}' --run-time=10 vlc://quit
 ```
 
-This will record a ten seconds clip and save it as "clip.mpg". The command will overwrite the file on each execution, but the problem is fixed in the Python script below:
+This will record a ten seconds clip and save it as "clip.mpg". The command was overwriting the file on each execution, but the problem was fixed in the Python script below:
 
 ``` python
 #! /usr/bin/python
