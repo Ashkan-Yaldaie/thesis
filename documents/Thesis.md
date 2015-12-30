@@ -919,7 +919,7 @@ This will record a ten seconds clip and save it as "clip.mpg". The command will 
 
 ``` python
 #! /usr/bin/python
-# vlc.py
+#vlc.py
 import os
 from datetime import datetime
 
