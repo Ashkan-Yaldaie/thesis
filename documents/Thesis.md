@@ -977,7 +977,7 @@ The commands below then entered in the terminal window:
 
 The next step is to modify the "uploader.cfg" file using the nano editor. The file must contain the login information for the created Gmail account, the path to the JSON file "/home/pi/", the name of the Google drive folder to store video file and an email address to get the notification.
 
-To test the API and related configuration the terminal command `uploader.py uploader.cfg clip.mpg` is executed in the folder "motion-uploader". This will upload the file "clip.mpg" to the Google Drive. During the first use, the system asked for "Authorization Code" that can be found in the given link by the notification message.
+To test the API and related configuration the terminal command `uploader.py uploader.cfg clip.mpg` is executed in the folder "motion-uploader". This will upload the file "clip.mpg" to the Google Drive. For the first time use, the system asked for "Authorization Code" that can be found in the given link by the notification message.
 
 The final step of this subchapter is to edit the python script "vlc.py" from the previous subchapter.
 
