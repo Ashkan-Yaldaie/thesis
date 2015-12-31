@@ -676,7 +676,7 @@ if con == 'l' :
 
 The script "temp.py" is used to build the cron job. The following  command is entered to the cron table in order to execute the "temp.py" script in the background every minute: 
 
-`*/1 * * * * nohup sudo python /home/pi/temp.py m 24 > /dev/null 2>&1&`.
+`*/1 * * * * nohup sudo python /home/pi/temp.py m 24 > /dev/null 2>&1&`
 
 This way the temperature will be checked regularly and in response, the socket number 2 that is connected to an air conditioner will be switched on when the room temperature is above 24°C.
 
