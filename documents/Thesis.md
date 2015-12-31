@@ -996,7 +996,7 @@ os.system("/home/pi/motion-uploader/uploader.py /home/pi/motion-uploader/uploade
 
 The code basically uploads the captured file to the Google Drive by using the given configuration from the file "uploader.cfg".
 
-By now the smart home's security system can detect a home intrusion by using the created wireless motion sensor and inform the homeowner through an SMS and an email notifications. It can also capture a video file of the instruction and store it to the internal storage and to the cloud.
+By now the smart home's security system can detect a home intrusion by using the created wireless motion sensor and trigger an alarm, it can then inform the homeowner through an SMS and an email notifications. It can also capture a video file of the instruction and store it to the internal storage and to the cloud.
 
 #### Controlling the security system via Bluetooth
 
