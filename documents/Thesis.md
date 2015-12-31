@@ -981,6 +981,18 @@ To test the API and related configuration the terminal command `uploader.py uplo
 
 The final step of this subchapter is to edit the python script "vlc.py" from the previous subchapter.
 
+``` python
+#! /usr/bin/python
+#vlc.py v1.50
+import os
+from datetime import datetime
+i = datetime.now()
+fileName = i.strftime('%d-%m-%Y_%H.%M.%S') + ".mpg"
+os.system("cvlc v4l2:///dev/video0 :sout='#transcode{vcodec=mp4v,vb=5000,scale=1,fps=30,acodec=mpga,ab=128,\
+channels=1,samplerate=44100}:duplicate{dst=std{access=file,\
+mux=ts,dst=clip_"+ str(fileName) +"}}' --run-time=10 vlc://quit")
+os.system("/home/pi/motion-uploader/uploader.py /home/pi/motion-uploader/uploader.cfg clip_"+ str(fileName))
+```
 
 The code basically uploads the captured file to the Google Drive by using the given configuration from the file "uploader.cfg".
 
