@@ -957,6 +957,35 @@ The next subchapter contains the description of how to send an email notificatio
 
 The video that will be captured on motion detection from the previous subchapter instructions is stored on the RasPi's local storage. It is important to keep the RasPi in a safe and hidden place in the house since it also takes care of home security. But the RasPi can be damaged during a possible robbery and to avoid that the file will be uploaded to the cloud. This part is based on the instruction provided by Blythe (2015).
 
+It is a good idea to have a separate Google account for this part of the project and not to use any personal account. Google Drive then can be used to store video files by enabling the Drive API within the Google Developers Console which is configured through the following instructions:
+
+- Go to https://code.google.com/apis/console
+- Create a project called "Uploader"
+- Choose "Enable and manage APIs" then "Drive API" and click on the "Enable API" button
+- Click on "Go to Credentials", then "client ID" and click "Configure Consent Screen"
+- Set the product name to "Uploader"
+- Choose "Other" and click "Create"
+- Click on the created client and download the JSON file
+- Rename it to client_secrets.json and put it in RasPi storage "/home/pi/"
+
+The commands below then entered in the terminal window:
+
+`git clone https://github.com/jerbly/motion-uploader.git`  
+`sudo pip install --upgrade google-api-python-client`  
+`cd motion-uploader`  
+`chmod a+x uploader.py`
+
+The next step is to modify the "uploader.cfg" file using the nano editor. The file must contain the login information for the created Gmail account, the path to the JSON file "/home/pi/", the name of the Google drive folder to store video file and an email address to get the notification.
+
+To test the API and related configuration the terminal command `uploader.py uploader.cfg clip.mpg` is executed in the folder "motion-uploader". This will upload the file "clip.mpg" to the Google Drive. During the first use, the system asked for "Authorization Code" that can be found in the given link by the notification message.
+
+The final step of this subchapter is to edit the python script "vlc.py" from the previous subchapter.
+
+
+The code basically uploads the captured file to the Google Drive by using the given configuration from the file "uploader.cfg".
+
+By now the smart home's security system can detect a home intrusion by using the created wireless motion sensor and inform the homeowner through an SMS and an email notifications. It can also capture a video file of the instruction and store it to the internal storage and to the cloud.
+
 #### Controlling the security system via Bluetooth
 
 ### Creating a graphical user interface for the system
