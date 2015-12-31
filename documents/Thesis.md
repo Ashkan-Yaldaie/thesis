@@ -963,7 +963,7 @@ It is a good idea to have a separate Google account for this part of the project
 - Create a project called "Uploader"
 - Choose "Enable and manage APIs" then "Drive API" and click on the "Enable API" button
 - Click on "Go to Credentials", then "client ID" and click "Configure Consent Screen"
-- Set the product name to "Uploader"
+- Set the product name to "Uploader" and click "Save"
 - Choose "Other" and click "Create"
 - Click on the created client and download the JSON file
 - Rename it to client_secrets.json and put it in RasPi storage "/home/pi/"
