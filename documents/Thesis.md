@@ -114,6 +114,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>IP camera RTSP address</td>
     </tr>
     <tr>
+      <td><a href="#figure-17">Figure 17</a></td>
+      <td>Bluetooth's battery use</td>
+    </tr>
+    <tr>
       <td><a href="#table-1">Table 1</a></td>
       <td>Raspberry Pi 2 vs Beaglebone hardware chart</td>
     </tr>
@@ -1030,6 +1034,13 @@ while True:
 ```
 
 There is no need to pair the Bluetooth devices with the Bluetooth dongle. As shown in the script above, in order for the script to work the MAC addresses of the Bluetooth devices are required. Samsung Galaxy S2 is used to turn on/off the security system automatically without a need of pressing any button or entering any code.
+
+<a name="figure-17" />
+
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/bluetooth-baterry.jpg">  
+Figure 17: Bluetooth's battery use
+
+The MAC address can be found in the settings menu of the phone and there is no need to be worried about the battery use since the Bluetooth must set to be on all the time. Figure 17 shows the Bluetooth's battery use for 2 days 20 hours and 35 minutes.
 
 ### Creating a graphical user interface for the system
 
