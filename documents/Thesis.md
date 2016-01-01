@@ -114,6 +114,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>IP camera RTSP address</td>
     </tr>
     <tr>
+      <td><a href="#figure-16">Figure 16</a></td>
+      <td>Devices which can be used to control the security system</td>
+    </tr>
+    <tr>
       <td><a href="#figure-17">Figure 17</a></td>
       <td>Bluetooth's battery use</td>
     </tr>
@@ -1005,6 +1009,11 @@ By now the smart home's security system can detect a home intrusion by using the
 #### Controlling the security system via Bluetooth
 
 To be completed, the security system needs to be turn on/off at the right time. This can be done by using a keypad to enter the security code or by having a Radio-Frequency Identification (RFID). But these methods are not utilized for this project.
+
+<a name="figure-16" />
+
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/security.jpg">  
+Figure 16: Devices which can be used to control the security system
 
 To turn on/off the security system a Bluetooth device is used. This can be a Bluetooth tag or the Bluetooth device from a smartphone. To adopt this technique the following packages were installed:
 
