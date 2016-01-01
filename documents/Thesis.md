@@ -1000,6 +1000,15 @@ By now the smart home's security system can detect a home intrusion by using the
 
 #### Controlling the security system via Bluetooth
 
+To be completed, the security system needs to be turn on/off at the right time. This can be done by using a keypad to enter the security code or by having a Radio-Frequency Identification (RFID). But these methods are not utilized for this project.
+
+To turn on/off the security system a Bluetooth device is used. This can be a Bluetooth tag or the Bluetooth device from a smartphone. To adopt this technique the following packages were installed:
+
+`sudo apt-get install bluez`  
+`sudo apt-get install python-bluez`
+
+The Bluetooth dongle marked as (6) in Figure 4, is connected to a USB port of the RasPi and the connection is tested by entering the terminal command `lsusb`. The Python script below is executing the code "motion.py" when none of the Bluetooth devices included in the script are within  the range of the Bluetooth dongle. The script kills the process as soon as a device is within the range:
+
 ### Creating a graphical user interface for the system
 
 ## Testing
