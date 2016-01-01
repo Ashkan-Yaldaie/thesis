@@ -1029,6 +1029,8 @@ while True:
 		time.sleep(0.1)
 ```
 
+There is no need to pair the Bluetooth devices with the Bluetooth dongle. As shown in the script above, in order for the script to work the MAC addresses of the Bluetooth devices are required. Samsung Galaxy S2 is used to turn on/off the security system automatically without a need of pressing any button or entering any code.
+
 ### Creating a graphical user interface for the system
 
 ## Testing
