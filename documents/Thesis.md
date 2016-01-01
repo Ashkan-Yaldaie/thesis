@@ -1009,6 +1009,26 @@ To turn on/off the security system a Bluetooth device is used. This can be a Blu
 
 The Bluetooth dongle marked as (6) in Figure 4, is connected to a USB port of the RasPi and the connection is tested by entering the terminal command `lsusb`. The Python script below is executing the code "motion.py" when none of the Bluetooth devices included in the script are within  the range of the Bluetooth dongle. The script kills the process as soon as a device is within the range:
 
+``` python
+#!/usr/bin/python
+#start_bt.py
+import bluetooth
+import time
+import os
+while True:
+	print "Checking " + time.strftime("%a, %d %b %Y %H:%M:%S", time.gmtime())
+	p1 = bluetooth.lookup_name('1C:66:AA:XX:XX:XX', timeout=5)
+	p2 = bluetooth.lookup_name('80:77:12:XX:XX:XX', timeout=5)
+	if (p1 != None or p2 != None):
+		print "You are home"
+		os.system("nohup sudo python motion.py > /dev/null 2>&1&")
+		time.sleep(300)
+	else:
+		print "You are not home"
+		os.system("sudo pkill -9 -f motion.py")
+		time.sleep(0.1)
+```
+
 ### Creating a graphical user interface for the system
 
 ## Testing
