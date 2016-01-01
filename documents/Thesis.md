@@ -115,7 +115,7 @@ HAAGA-HELIA University of Applied Sciences
     </tr>
     <tr>
       <td><a href="#figure-16">Figure 16</a></td>
-      <td>Devices which can be used to control the security system</td>
+      <td>Devices which can be used to control a security system</td>
     </tr>
     <tr>
       <td><a href="#figure-17">Figure 17</a></td>
@@ -1013,7 +1013,7 @@ To be completed, the security system needs to be turn on/off at the right time. 
 <a name="figure-16" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/security.jpg">  
-Figure 16: Devices which can be used to control the security system
+Figure 16: Devices which can be used to control a security system
 
 To turn on/off the security system a Bluetooth device is used. This can be a Bluetooth tag shown as (c) in Figure 16 or the Bluetooth device of a smartphone. To adopt this technique the following packages were installed:
 
