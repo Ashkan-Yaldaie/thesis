@@ -1008,14 +1008,14 @@ By now the smart home's security system can detect a home intrusion by using the
 
 #### Controlling the security system via Bluetooth
 
-To be completed, the security system needs to be turn on/off at the right time. This can be done by using a keypad to enter the security code or by having a Radio-Frequency Identification (RFID). But these methods are not utilized for this project.
+To be completed, the security system needs to be turn on/off at the right time. This can be done by using a keypad shown as (b) in Figure 16 to enter the security code or by having a Radio-Frequency Identification (RFID), item (a) in Figure 16. But these methods are not utilized for this project.
 
 <a name="figure-16" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/security.jpg">  
 Figure 16: Devices which can be used to control the security system
 
-To turn on/off the security system a Bluetooth device is used. This can be a Bluetooth tag or the Bluetooth device from a smartphone. To adopt this technique the following packages were installed:
+To turn on/off the security system a Bluetooth device is used. This can be a Bluetooth tag shown as (c) in Figure 16 or the Bluetooth device of a smartphone. To adopt this technique the following packages were installed:
 
 `sudo apt-get install bluez`  
 `sudo apt-get install python-bluez`
