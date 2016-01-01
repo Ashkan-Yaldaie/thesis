@@ -1040,7 +1040,7 @@ There is no need to pair the Bluetooth devices with the Bluetooth dongle. As sho
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/bluetooth-baterry.jpg">  
 Figure 17: Bluetooth's battery use
 
-The MAC address can be found in the settings menu of the phone and there is no need to be worried about the battery use since the Bluetooth must set to be on all the time. Figure 17 shows the Bluetooth's battery use for 2 days 20 hours and 35 minutes.
+The MAC address can be found in the settings menu of the phone and the Bluetooth must set to be on all the time but there is no need to be worried about the battery use. Figure 17 shows the Bluetooth's battery use for 2 days 20 hours and 35 minutes.
 
 ### Creating a graphical user interface for the system
 
