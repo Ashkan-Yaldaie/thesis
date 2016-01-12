@@ -156,11 +156,11 @@ HAAGA-HELIA University of Applied Sciences
       <td><strong>HDMI</strong></td>
       <td>High-Definition Multimedia Interface</td>
     </tr>
-     <tr>
+    <tr>
       <td><strong>HTTP</strong></td>
       <td>The Hypertext Transfer Protocol</td>
     </tr>
-     <tr>
+    <tr>
       <td><strong>IP</strong></td>
       <td>Internet Protocol</td>
     </tr>
@@ -207,6 +207,10 @@ HAAGA-HELIA University of Applied Sciences
     <tr>
       <td><strong>RTSP</strong></td>
       <td>The Real Time Streaming Protocol</td>
+    </tr>
+     <tr>
+      <td><strong>SSH</strong></td>
+      <td>Secure Shel</td>
     </tr>
     <tr>
       <td><strong>SMS</strong></td>
