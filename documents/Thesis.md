@@ -1060,6 +1060,10 @@ The last subchapter of the implementation part is dedicated to the creation of a
 
 HTML, CSS, PHP and JavaScript are used to create the GUI. The first step is to install the necessary packages as shown below:
 
+`sudo apt-get update`
+`sudo apt-get install apache2 -y`
+`sudo apt-get install php5 libapache2-mod-php5 -y`
+
 ## Testing
 
 ## Ways to improve future implementations
