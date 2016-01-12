@@ -1056,6 +1056,10 @@ The MAC address can be found in the settings menu of the phone and the Bluetooth
 
 ### Creating a graphical user interface for the system
 
+The last subchapter of the implementation part is dedicated to the creation of a GUI in order to control the home automation and the security system through a web page. It is also possible to establish a connection to the RasPi via SSH remotely but once the SSH connection is compromised the hackers can have an extensive control over the system. A compromised web page, on the other hand, gives limited control to the system.
+
+HTML, CSS, PHP and JavaScript are used to create the GUI. The first step is to install the necessary packages as shown below:
+
 ## Testing
 
 ## Ways to improve future implementations
