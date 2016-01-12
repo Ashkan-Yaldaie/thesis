@@ -208,13 +208,13 @@ HAAGA-HELIA University of Applied Sciences
       <td><strong>RTSP</strong></td>
       <td>The Real Time Streaming Protocol</td>
     </tr>
-     <tr>
-      <td><strong>SSH</strong></td>
-      <td>Secure Shell</td>
-    </tr>
     <tr>
       <td><strong>SMS</strong></td>
       <td>Short Message Service</td>
+    </tr>
+    <tr>
+      <td><strong>SSH</strong></td>
+      <td>Secure Shell</td>
     </tr>
     <tr>
       <td><strong>UDP</strong></td>
