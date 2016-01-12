@@ -136,7 +136,7 @@ HAAGA-HELIA University of Applied Sciences
 
 <table>
   <tbody>
-  <tr>
+    <tr>
       <td><strong>API</strong></td>
       <td>Application Program Interface</td>
     </tr>
@@ -173,7 +173,6 @@ HAAGA-HELIA University of Applied Sciences
       <td>Light-Emitting Diode</td>
     </tr>
     <tr>
-    <tr>
       <td><strong>MAC address</strong></td>
       <td>Media Access Control address</td>
     </tr>
@@ -194,10 +193,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>Passive Infrared Sensor</td>
     </tr>
     <tr>
-    <tr>
       <td><strong>RAM</strong></td>
       <td>Random Access Memory</td>
     </tr>
+    <tr>
       <td><strong>RasPi</strong></td>
       <td>Raspberry Pi is a single-board computer</td>
     </tr>
