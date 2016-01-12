@@ -210,7 +210,7 @@ HAAGA-HELIA University of Applied Sciences
     </tr>
      <tr>
       <td><strong>SSH</strong></td>
-      <td>Secure Shel</td>
+      <td>Secure Shell</td>
     </tr>
     <tr>
       <td><strong>SMS</strong></td>
