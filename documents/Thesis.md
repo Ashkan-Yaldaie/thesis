@@ -1095,6 +1095,26 @@ Figure 18: RasPi's IP address
 
 A web page is then created to act as a control panel of the system and in order to access the control panel, a login page is created. To protect the password a cryptographic hash function called "SHA-1" is used. A PHP script will check the entered password against the "SHA-1" hash and if a match is found it sets a "SESSION" called "loggedIn" to true. The control panel page will check the "SESSION" and allows access if it is true. The following code is copied from the login page to show how the password is checked:
 
+``` php
+<?php
+$password = 'SHA-1 Hash';
+session_start();
+if (!isset($_SESSION['loggedIn'])) {
+    $_SESSION['loggedIn'] = false;
+}
+if ($_SESSION['loggedIn']) {
+    header( "Location: home.php" );
+}
+if (isset($_POST['password'])) {
+    if (sha1($_POST['password']) == $password) {
+        $_SESSION['loggedIn'] = true;
+		header( "Location: home.php" );
+    } else {
+        header( "Location: index.php" );
+    }
+}
+```
+
 ## Testing
 
 ## Ways to improve future implementations
