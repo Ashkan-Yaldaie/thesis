@@ -1093,6 +1093,8 @@ The file "test.php" must be accessible and executable from any browser on the LA
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/ifconfig.jpg">  
 Figure 18: RasPi's IP address
 
+A web page is then created to act as a control panel of the system and in order to access the control panel, a login page is created. To protect the password a cryptographic hash function called "SHA-1" is used. A PHP script will check the entered password against the "SHA-1" hash and if a match is found it sets a "SESSION" called "loggedIn" to true. The control panel page will check the "SESSION" and allows access if it is true. The following code is copied from the login page to show how the password is checked:
+
 ## Testing
 
 ## Ways to improve future implementations
