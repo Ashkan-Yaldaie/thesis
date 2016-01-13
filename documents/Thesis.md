@@ -1066,14 +1066,14 @@ HTML, CSS, PHP and JavaScript are used to create the GUI. The first step is to i
 
 A simple test is performed to verify the installation of the Apache web server and the PHP. A file called "test.php" is created in the directory "/var/www" with the following code:
 
-``` php
+``` html
 <html>
  <head>
   <title>PHP Test</title>
  </head>
  <body>
   <?php echo '<p>Hello World</p>'; ?>
-  <?php echo '<p>'. 2*2 . '</p>'; ?> 
+  <?php echo '<p>' . 2*2 . '</p>'; ?> 
  </body>
 </html>
 ```
