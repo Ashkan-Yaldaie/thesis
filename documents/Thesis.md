@@ -1097,6 +1097,8 @@ A web page is then created to act as a control panel of the system and in order 
 
 ``` php
 <?php
+// login page = index.php
+// control panel = home.php
 $password = 'SHA-1 Hash';
 session_start();
 if (!isset($_SESSION['loggedIn'])) {
