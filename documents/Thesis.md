@@ -1064,6 +1064,22 @@ HTML, CSS, PHP and JavaScript are used to create the GUI. The first step is to i
 `sudo apt-get install apache2 -y`  
 `sudo apt-get install php5 libapache2-mod-php5 -y`
 
+A simple test is performed to verify the installation of the Apache web server and the PHP. A file called "test.php" is created in the directory "/var/www" with the following code:
+
+``` php
+<html>
+ <head>
+  <title>PHP Test</title>
+ </head>
+ <body>
+  <?php echo '<p>Hello World</p>'; ?>
+  <?php echo '<p>'. 2*2 . '</p>'; ?> 
+ </body>
+</html>
+```
+
+The file "test.php" must be accessible and executable from any browser on the LAN by entering the URL: `http://10.0.0.102/test.php`. The IP address in the URL is assigned to the RasPi and can be found by entering the terminal command `ifconfig`, the command’s result is shown in Figure 18.
+
 ## Testing
 
 ## Ways to improve future implementations
