@@ -1113,6 +1113,7 @@ if (isset($_POST['password'])) {
         header( "Location: index.php" );
     }
 }
+?>
 ```
 
 ## Testing
