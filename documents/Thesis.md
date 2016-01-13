@@ -122,6 +122,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>Bluetooth's battery use</td>
     </tr>
     <tr>
+      <td><a href="#figure-18">Figure 18</a></td>
+      <td>RasPi's IP address</td>
+    </tr>
+    <tr>
       <td><a href="#table-1">Table 1</a></td>
       <td>Raspberry Pi 2 vs Beaglebone hardware chart</td>
     </tr>
@@ -219,6 +223,10 @@ HAAGA-HELIA University of Applied Sciences
     <tr>
       <td><strong>UDP</strong></td>
       <td>User Datagram Protocol</td>
+    </tr>
+    <tr>
+      <td><strong>URL</strong></td>
+      <td>Uniform Resource Locator</td>
     </tr>
     <tr>
       <td><strong>USB</strong></td>
@@ -1079,6 +1087,11 @@ A simple test is performed to verify the installation of the Apache web server a
 ```
 
 The file "test.php" must be accessible and executable from any browser on the LAN by entering the URL: `http://10.0.0.102/test.php`. The IP address in the URL is assigned to the RasPi and can be found by entering the terminal command `ifconfig`, the command’s result is shown in Figure 18.
+
+<a name="figure-18" />
+
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/ifconfig.jpg">  
+Figure 18: RasPi's IP address
 
 ## Testing
 
