@@ -1208,8 +1208,8 @@ $cron_file = "/var/tmp/crontab.txt"
 if ( isset ($_GET["option"]) && isset($_GET["celsius"])) {
 	$option = strip_tags($_GET["option"]);
 	$celsius = strip_tags($_GET["celsius"]);
-	$contentTemperature="*/1 * * * * nohup sudo python /home/pi/temp.py ".$option." ".$celsius." > /dev/null 2>&1&";
-	file_put_contents($cron_file, $output.$contentTemperature.PHP_EOL);
+	$contentTemp="*/1 * * * * nohup sudo python /home/pi/temp.py ".$option." ".$celsius." > /dev/null 2>&1&";
+	file_put_contents($cron_file, $output.$contentTemp.PHP_EOL);
 	echo exec("crontab $cron_file");
 }
 ?>
