@@ -1215,7 +1215,7 @@ if ( isset ($_GET["option"]) && isset($_GET["celsius"])) {
 ?>
 ```
 
-And to remove the cron entry, the below code examines the crontab file line by line and if a line contains the given string it will be removed from the crontab. The following code is added to the file "code.php":
+And to remove a cron entry, the below code examines the crontab file line by line and if a line contains the given string it will be removed from the crontab. The following code is added to the file "code.php":
 
 ``` php
 <?php
