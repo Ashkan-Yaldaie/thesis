@@ -1170,7 +1170,7 @@ if (isset ($_GET["computer"])) {
 ?>
 ```
 
-The PC's current status can be found by sending a "ping" request to its IP address, based on the result the "Computer" button's position is determined when a user login to the control panel. The following code is copied from the control panel page called:
+The PC's current status can be found by sending a "ping" request to its IP address, based on the result the "Computer" button's position is determined when a user login to the control panel. The following code is copied from the control panel page:
 
 ``` php
 <?php
