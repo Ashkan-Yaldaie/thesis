@@ -1067,7 +1067,7 @@ The MAC address can be found in the settings menu of the phone and the Bluetooth
 
 The last subchapter of the implementation part is dedicated to the creation of a GUI in order to control the home automation and the security system through a web page. It is also possible to establish a connection to the RasPi via SSH remotely but once the SSH connection is compromised the hackers can have an extensive control over the system. A compromised web page, on the other hand, gives limited control to the system.
 
-Since the objective of this paper is to find out the possibilities to create a programmable home automation and security system by using the RasPi, this subchapter does not offer any tutorial or complete instruction to create a GUI. However, the paper offers the description of how to build a GUI for the smart home system. HTML, CSS, PHP and JavaScript are used to create the GUI. The first step is to install the necessary packages as shown below:
+Since the objective of this paper is to find out the possibilities to create a programmable home automation and security system by using the RasPi, this subchapter does not offer any tutorial or complete instruction to create a GUI. However, the paper offers the description of the methods used to build a GUI for the smart home system. HTML, CSS, PHP and JavaScript are used to create the GUI. The first step is to install the necessary packages as shown below:
 
 `sudo apt-get update`  
 `sudo apt-get install apache2 -y`  
