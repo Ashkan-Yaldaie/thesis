@@ -1203,6 +1203,8 @@ For all other buttons, a similar procedure is adopted. The last example of this 
 
 ``` php
 <?php
+$output = shell_exec('crontab -l');
+$cron_file = "/var/tmp/crontab.txt"
 if ( isset ($_GET["option"]) && isset($_GET["celsius"])) {
 	$option = strip_tags($_GET["option"]);
 	$celsius = strip_tags($_GET["celsius"]);
@@ -1217,7 +1219,8 @@ And to remove the cron entry, the following code is added to the file "code.php"
 
 ``` php
 <?php
-$cron_file = "/var/tmp/crontab.txt";
+$output = shell_exec('crontab -l');
+$cron_file = "/var/tmp/crontab.txt"
 if(!empty($_GET["del"])) {
 	foreach(preg_split("/((\r?\n)|(\r\n?))/", $output) as $line){
 		if (!strpos($line,$_GET["del"]) && strlen ($line)> 2) {
