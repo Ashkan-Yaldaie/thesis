@@ -1153,6 +1153,53 @@ button_11.addEventListener("click", function () {
 } );
 ```
 
+The button will react to user’s click. If it is in the off position, a "GET" request will be sent to the PHP file called "code.php" to turn on the PC. At the same time the button's position will be changed to on and the opposite will occur in order to turn off the PC. The PHP file "code.php" contains the code that executes the "wol.py" accordingly.
+
+``` php
+<?php
+if (isset ($_GET["computer"])) {
+	$computer = strip_tags($_GET["computer"]);
+	if ($computer == "on"){
+		echo exec('nohup sudo python /var/www/smarthome/data/scripts/wol.py on > /dev/null 2>&1&');
+	}
+	
+	if ($computer == "off"){
+		echo exec('nohup sudo python /var/www/smarthome/data/scripts/wol.py off > /dev/null 2>&1&');	
+	}
+}
+?>
+```
+
+The PC's current status can be found by sending a "ping" request to its IP address, based on the result the "Computer" button's position is determined when a user login to the control panel. The following code is copied from the control panel page called:
+
+``` php
+<?php
+function pingAddress($ip) {
+	$pingresult = exec("ping -c 1 $ip", $outcome, $status);
+	if (0 == $status) {
+		return true;
+	} else {
+		return false;
+	}
+}
+echo '<tr>';
+echo '<td class="description">';
+echo 'Computer';
+echo '</td>';
+echo '<td class="buttons">';
+//if on
+if (pingAddress("10.0.0.100")) {
+	echo ("<img id='button_11' src='data/img/on.png' alt='on'/>");
+}
+//if off
+else {
+	echo ("<img id='button_11' src='data/img/off.png' alt='off'/>");
+}
+echo '</td>';
+echo '</tr>';
+?>
+```
+
 ## Testing
 
 ## Ways to improve future implementations
