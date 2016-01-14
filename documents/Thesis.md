@@ -1129,7 +1129,28 @@ It is enough to assign false to the "loggedIn" session in order to logout.
 ?>
 ```
 
-The control panel page contains eight buttons one for the WIFI socket, three for the RF sockets, one to turn on/off a desktop PC, two buttons for the security role of the system and one to turn on/off the voice control functionality. JavaScript is used to change the status of the buttons to on/off and call the related PHP functions. Appendix 5 contains some pictures of the GUI.
+The control panel page contains eight buttons one for the WIFI socket, three for the RF sockets, one to turn on/off a desktop PC, two buttons for the security role of the system and one to turn on/off the voice control functionality. JavaScript is used to change the status of the buttons to on/off and call the related PHP functions. Appendix 5 contains some pictures of the GUI. The JavaScript code below is used for the desktop PC button:
+
+``` javascript
+button_11.addEventListener("click", function () { 
+	if ( button_11.alt === "off" ) {
+		var request = new XMLHttpRequest();
+		request.open( "GET" , "code.php?computer=on");
+		request.send(null);
+		button_11.alt = "on"
+		button_11.src = "data/img/on.png";
+		return 0;
+	}
+	if ( button_11.alt === "on" ) {
+		var request = new XMLHttpRequest();
+		request.open( "GET" , "code.php?computer=off");
+		request.send(null);
+		button_11.alt = "off"
+		button_11.src = "data/img/off.png";
+		return 0;
+	}
+} );
+```
 
 ## Testing
 
