@@ -1199,6 +1199,37 @@ echo '</tr>';
 ?>
 ```
 
+For all other buttons, a similar procedure is adopted. The last example of this part covers the "Remote TEMP switch" which controls the RF socket using the home temperature. PHP script is used to add and remove the cron entry that is covered in subchapter "Controlling the sockets using home temperature and timer". The crontab is basically a file that can be modified with the following code:
+
+``` php
+<?php
+if ( isset ($_GET["option"]) && isset($_GET["celsius"])) {
+$option = strip_tags($_GET["option"]);
+$celsius = strip_tags($_GET["celsius"]);
+$contentTemperature="*/1 * * * * nohup sudo python /var/www/smarthome/data/scripts/temp.py ".$option." ".$celsius." > /dev/null 2>&1&";
+file_put_contents($cron_file, $output.$contentTemperature.PHP_EOL);
+echo exec("crontab $cron_file");
+?>
+}
+```
+
+And to remove the cron entry, the following code is added to the file "code.php":
+
+``` php
+<?php
+$cron_file = "/var/tmp/crontab.txt";
+if(!empty($_GET["del"])) {
+	foreach(preg_split("/((\r?\n)|(\r\n?))/", $output) as $line){
+		if (!strpos($line,$_GET["del"]) && strlen ($line)> 2) {
+			$remove_cron = $remove_cron.$line.PHP_EOL;
+		}
+	}
+	file_put_contents($cron_file, $remove_cron);
+	echo exec("crontab $cron_file");
+}
+?>
+```
+
 ## Testing
 
 ## Ways to improve future implementations
