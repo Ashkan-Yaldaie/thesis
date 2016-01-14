@@ -1119,7 +1119,7 @@ if (isset($_POST['password'])) {
 ?>
 ```
 
-It is enough to assign false to the "loggedIn" session in order to logout.
+It is enough to assign false to the "loggedIn" session in order to log out.
 
 ``` php
 <?php
