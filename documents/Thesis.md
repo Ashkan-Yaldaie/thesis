@@ -1160,10 +1160,10 @@ The button will react to user’s click. If it is in the off position, a "GET" r
 if (isset ($_GET["computer"])) {
 	$computer = strip_tags($_GET["computer"]);
 	if ($computer == "on"){
-		echo exec('nohup sudo python /var/www/smarthome/data/scripts/wol.py on > /dev/null 2>&1&');
+		echo exec('nohup sudo python /home/pi/wol.py on > /dev/null 2>&1&');
 	}
 	if ($computer == "off"){
-		echo exec('nohup sudo python /var/www/smarthome/data/scripts/wol.py off > /dev/null 2>&1&');	
+		echo exec('nohup sudo python /home/pi/wol.py off > /dev/null 2>&1&');	
 	}
 }
 ?>
@@ -1206,7 +1206,7 @@ For all other buttons, a similar procedure is adopted. The last example of this 
 if ( isset ($_GET["option"]) && isset($_GET["celsius"])) {
 	$option = strip_tags($_GET["option"]);
 	$celsius = strip_tags($_GET["celsius"]);
-	$contentTemperature="*/1 * * * * nohup sudo python /var/www/smarthome/data/scripts/temp.py ".$option." ".$celsius." > /dev/null 2>&1&";
+	$contentTemperature="*/1 * * * * nohup sudo python /home/pi/temp.py ".$option." ".$celsius." > /dev/null 2>&1&";
 	file_put_contents($cron_file, $output.$contentTemperature.PHP_EOL);
 	echo exec("crontab $cron_file");
 }
