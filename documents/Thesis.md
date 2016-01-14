@@ -1204,13 +1204,13 @@ For all other buttons, a similar procedure is adopted. The last example of this 
 ``` php
 <?php
 if ( isset ($_GET["option"]) && isset($_GET["celsius"])) {
-$option = strip_tags($_GET["option"]);
-$celsius = strip_tags($_GET["celsius"]);
-$contentTemperature="*/1 * * * * nohup sudo python /var/www/smarthome/data/scripts/temp.py ".$option." ".$celsius." > /dev/null 2>&1&";
-file_put_contents($cron_file, $output.$contentTemperature.PHP_EOL);
-echo exec("crontab $cron_file");
-?>
+	$option = strip_tags($_GET["option"]);
+	$celsius = strip_tags($_GET["celsius"]);
+	$contentTemperature="*/1 * * * * nohup sudo python /var/www/smarthome/data/scripts/temp.py ".$option." ".$celsius." > /dev/null 2>&1&";
+	file_put_contents($cron_file, $output.$contentTemperature.PHP_EOL);
+	echo exec("crontab $cron_file");
 }
+?>
 ```
 
 And to remove the cron entry, the following code is added to the file "code.php":
