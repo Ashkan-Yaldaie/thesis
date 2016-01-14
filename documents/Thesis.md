@@ -1162,7 +1162,6 @@ if (isset ($_GET["computer"])) {
 	if ($computer == "on"){
 		echo exec('nohup sudo python /var/www/smarthome/data/scripts/wol.py on > /dev/null 2>&1&');
 	}
-	
 	if ($computer == "off"){
 		echo exec('nohup sudo python /var/www/smarthome/data/scripts/wol.py off > /dev/null 2>&1&');	
 	}
