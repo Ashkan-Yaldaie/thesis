@@ -1199,7 +1199,7 @@ echo '</tr>';
 ?>
 ```
 
-For all other buttons, a similar procedure is adopted. The last example of this part covers the "Remote TEMP switch" which controls the RF socket using the home temperature. PHP script is used to add and remove the cron entry that is covered in subchapter "Controlling the sockets using home temperature and timer". The crontab is basically a file that can be modified with the following code:
+For all other buttons, a similar structure is adopted. The last example of this part covers the "Remote TEMP switch" which controls the RF socket using the home temperature. PHP script is used to add and remove the cron entry that is covered in subchapter "Controlling the sockets using home temperature and timer". The crontab is basically a file that can be modified with the following code:
 
 ``` php
 <?php
