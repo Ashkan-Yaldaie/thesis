@@ -1233,6 +1233,10 @@ if(!empty($_GET["del"])) {
 ?>
 ```
 
+It is also important to mention that the required permission must be given to the user "www-data" by adding this line `www-data ALL=(ALL)NOPASSWD: ALL` to the file called "/etc/sudoers".
+
+In order to control other functions, for example the Bluetooth identification which is covered in the subchapter "Controlling the security system via Bluetooth", the control panel must be also able to start a process using the PHP command `echo exec('nohup sudo python /home/pi/start_bt.py > /dev/null 2>&1&');` and to stop a process by executing the PHP script `echo exec("sudo pkill -9 -f '".$_GET["start_bt.py"]."'");`.
+
 ## Testing
 
 ## Ways to improve future implementations
