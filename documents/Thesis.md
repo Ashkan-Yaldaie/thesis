@@ -1235,7 +1235,7 @@ if(!empty($_GET["del"])) {
 
 It is also important to mention that the required permission must be given to the user "www-data" by adding this line `www-data ALL=(ALL)NOPASSWD: ALL` to the file called "/etc/sudoers".
 
-In order to control other functions, for example the Bluetooth identification which is covered in the subchapter "Controlling the security system via Bluetooth", the control panel must be also able to start a process using the PHP command `echo exec('nohup sudo python /home/pi/start_bt.py > /dev/null 2>&1&');` and to stop a process by executing the PHP script `echo exec("sudo pkill -9 -f '".$_GET["start_bt.py"]."'");`. The first command will be used when the "Bluetooth security" button is turned on and the second command kills the process if the button is turned off.
+In order to control other functions, for example the Bluetooth identification which is covered in the subchapter "Controlling the security system via Bluetooth", the control panel must be also able to start a process using the PHP command `echo exec('nohup sudo python /home/pi/start_bt.py > /dev/null 2>&1&');` and to stop a process by executing the PHP script `echo exec("sudo pkill -9 -f start_bt.py");`. The first command will be used when the "Bluetooth security" button is turned on and the second command kills the process if the button is turned off.
 
 By now the thesis paper has covered three stages of the system development life cycle which are requirement analysis, design and implementation. The next two chapters are dedicated to the testing and evaluation of the presented system. The testing stage has uncovered some of the system's performance issues which are described in details in the related chapter.
 
