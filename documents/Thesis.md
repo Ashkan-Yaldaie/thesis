@@ -1291,6 +1291,8 @@ Securitas 24Koti. 2015. URL: https://www.securitas.com/fi/fi/turvallisuuspalvelu
 
 Slange. 2015. Orvibo S20 WIFI Power Socket. URL: http://blog.slange.co.uk/author/slange-b/. Accessed: 2.12.2015. 
 
+Lewis, William. 2005. Software Testing and Continuous Quality Improvement 2nd ed. CRC Press LLC.
+
 Velte, Toby & Elsenpeter, Robert. 2003. Build Your Own Smart Home. The McGraw-Hill Companies.
 
 Upton, Eben & Halfacree, Gareth. 2014. Raspberry Pi User Guide 2nd ed. John Wiley & Sons Ltd.
