@@ -281,7 +281,7 @@ Security system:
 - The system will trigger an alarm in the case of home intrusion
 - The system also will capture a short video clip of the incident
 - The security system will upload the video to an online server
-- It must be able to send notifications to the homeowner via SMS and e-mail
+- It must be able to send notifications to the homeowner via SMS and email
 - There will be a panic button which can be utilized to notify somebody in emergency situations
 
 ### Project's purpose and scope
