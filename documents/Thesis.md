@@ -1266,6 +1266,14 @@ The walkthrough test revealed concerns about the voice control functionality of 
 
 The other recommendation has affected the GUI and was related to the naming of the buttons so, instead of using numbers and letters for the buttons a more suitable naming is adopted. The test also uncovered that sometimes the RasPi does not recognise the USB webcam connected to it and further investigation led to solving the problem by changing the power adapter for the RasPi to a proper one which is capable of producing 5V 2000mA DC output current.
 
+The final method used for testing the product was through the possible real-life situations, for example, what will happen if the residents leave the house but they have to come back immediately to get something they forgot. The test is conducted to examine the behavior of the Bluetooth controlling the security system. The current version of the Python script "start_bt.py" is the result of a successful test.
+
+The other situation considered the possibility of destroying the PIR in the case of an intrusion immediately after entering the house. Will the owner still receive the SMS notification? The test result confirmed the  success of the security system although it is possible to damage the RasPi within 12 seconds to avoid uploading the video to the cloud and sending the SMS notification. So, it is recommended to keep the product somewhere hidden in the house. It is also recommended to hide the router and secure it with a good password.
+
+One of the requirements is to control the system remotely over the internet. "Port Forwarding" is a method that can be used for this purpose. The default port for the Apache server is 80 but the port number can be changed by modifying the Apache's configuration. The "Port Forwarding" can be done through the router's control panel, though the description of the complete procedure is out of the scope of this paper. The current system's GUI is tested to be accessible remotely from anywhere via an internet browser.
+
+During the Christmas holidays, the decorative lights were controlled without any discovered problems using the home automation feature of the product. The lights were turned on/off at the specific time for several days. The security system was also up and running 24/7 from 6.1.2015 till 13.1.2016 during a holiday trip of residents without having any false alarms or known errors.
+
 ## Ways to improve future implementations
 
 ## Conclusion
