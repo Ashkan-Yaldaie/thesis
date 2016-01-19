@@ -1302,6 +1302,8 @@ Ninja Blocks, 2015. URL: https://ninjablocks.com/. Accessed: 17.12.2015.
 
 Norris, Donald. 2014. Raspberry Pi Projects for the Evil Genius. McGraw-Hill Education.
 
+Perry, William. 2006. Effective Methods for Software Testing 3rd ed. Wiley Publishing, Inc.
+
 Raspberry Pi Foundation. 2015. URL: https://www.raspberrypi.org/. Accessed: 26.11.2015.
 
 Richardson, Matt & Wallace, Shawn. 2013. Getting Started with Raspberry Pi. O'Reilly Media.
