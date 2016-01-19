@@ -1258,7 +1258,11 @@ The other discovered issue was getting random false alarms. The wiring is first 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/pir.jpg">  
 Figure 19: PIR sensor
 
-As stated earlier, at this stage the current DIY project is meant for the personal use and based on that information a walkthrough test is conducted by two current users of the system.
+As stated earlier, at this stage the current DIY project is meant for the personal use and based on the information that a walkthrough test is conducted by two current users of the system to make sure that all the system's components can work together as a unit.
+
+A walkthrough serves two purposes: to find out about the activities that system user performs and to see how the system will be used. The walkthrough can be conducted with less than seven participants and can last no more than two hours. There should be a break if more time is needed and the walkthrough will determine whether the product is accepted as it is, accepted with recommended change or totally rejected. (Perry 2006, 213 & Lewis 2005, 513-514)
+
+The walkthrough test revealed concerns about the voice control functionality of the project. It is estimated that on average one out of three commands must be repeated in order for the system to react. The other recommendation has affected the GUI and was related to the naming of the buttons so, instead of using numbers and letters for the buttons a more suitable naming is adopted. The test also uncovered that sometimes the RasPi does not recognise the USB webcam connected to it and further investigation led to solving the problem by changing the power adapter for the RasPi to a proper one which is capable of producing 5V 2000mA DC output current.
 
 ## Ways to improve future implementations
 
