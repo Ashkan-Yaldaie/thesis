@@ -127,6 +127,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>RasPi's IP address</td>
     </tr>
     <tr>
+      <td><a href="#figure-19">Figure 19</a></td>
+      <td>PIR sensor</td>
+    </tr>
+    <tr>
       <td><a href="#table-1">Table 1</a></td>
       <td>Raspberry Pi 2 vs Beaglebone hardware chart</td>
     </tr>
@@ -1247,7 +1251,10 @@ It is not possible to test everything and all defects can not be detected during
 
 Although the testing chapter is almost at the end of this thesis paper it is essential to specify that the codes and the description are the results of a tested and working product. The testing during the design has revealed some defects in the system which were fixed. For example, the problem of receiving multiple SMSs due to the motion detection is fixed by adding a ten minutes delay between text messages in the related Python script called "motion.py".
 
-The other discovered issue was getting random false alarms. The wiring is first checked and the script is inspected for possible bugs. The next step was to adjust the PIR sensitivity by using the trimpot on the back of the device that is shown in Figure 19. However, it is discovered that the issue is caused by a defected PIR. The problem is solved by replacing the PIR for a new one.
+The other discovered issue was getting random false alarms. The wiring is first checked and the script is inspected for possible bugs. The next step was to adjust the PIR sensitivity by using the trimpot on the back of the device that is shown in Figure 19. However, it is discovered that the issue is caused by a defected PIR. The problem is solved by replacing the PIR sensor for a new one.
+
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/pir.jpg">  
+Figure 19: PIR sensor
 
 As stated earlier, at this stage the current DIY project is meant for the personal use and based on that information a walkthrough test is conducted by two current users of the system.
 
