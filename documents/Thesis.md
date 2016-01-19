@@ -1290,7 +1290,7 @@ Klosowski, Thorin. 2013. How to Pick the Right Electronics Board for Your DIY Pr
 
 Kyas, Othmar. 2013. How To Smart Home. Key Concept Press.
 
-Lewis, William. 2005. Software Testing and Continuous Quality Improvement 2nd ed. CRC Press LLC.
+Lewis, William. 2005. Software Testing and Continuous Quality Improvement. 2nd ed. CRC Press LLC.
 
 Lutz, Mark. 2013. Learning Python. 5th ed. O'Reilly Media. 
 
@@ -1302,7 +1302,7 @@ Ninja Blocks, 2015. URL: https://ninjablocks.com/. Accessed: 17.12.2015.
 
 Norris, Donald. 2014. Raspberry Pi Projects for the Evil Genius. McGraw-Hill Education.
 
-Perry, William. 2006. Effective Methods for Software Testing 3rd ed. Wiley Publishing, Inc.
+Perry, William. 2006. Effective Methods for Software Testing. 3rd ed. Wiley Publishing, Inc.
 
 Raspberry Pi Foundation. 2015. URL: https://www.raspberrypi.org/. Accessed: 26.11.2015.
 
@@ -1316,7 +1316,7 @@ Slange. 2015. Orvibo S20 WIFI Power Socket. URL: http://blog.slange.co.uk/author
 
 Velte, Toby & Elsenpeter, Robert. 2003. Build Your Own Smart Home. The McGraw-Hill Companies.
 
-Upton, Eben & Halfacree, Gareth. 2014. Raspberry Pi User Guide 2nd ed. John Wiley & Sons Ltd.
+Upton, Eben & Halfacree, Gareth. 2014. Raspberry Pi User Guide. 2nd ed. John Wiley & Sons Ltd.
 
 ## Appendices
 
