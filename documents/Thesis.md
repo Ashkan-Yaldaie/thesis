@@ -1241,6 +1241,16 @@ By now the thesis paper has covered three stages of the system development life 
 
 ## Testing
 
+Testing is performed to make sure that the developed system follows the listed requirements in the subchapter "Project questions and objectives". This chapter contains the description of the methods used to test the presented product. 
+
+It is not possible to test everything and all defects can not be detected during the testing phase, however, product testing must ensure that  all the required features are working properly. It is advised to start the testing during the design phase since possible errors can cost 20 to 100 times more  during operations and maintenance. (Lewis 2005, 8-10)
+
+Although the testing chapter is almost at the end of this thesis paper it is essential to specify that the codes and the description are the results of a tested and working product. The testing during the design has revealed some defects in the system which were fixed. For example, the problem of receiving multiple SMSs due to the motion detection is fixed by adding a ten minutes delay between text messages in the related Python script called "motion.py".
+
+The other discovered issue was getting random false alarms. The wiring is first checked and the script is inspected for possible bugs. The next step was to adjust the PIR sensitivity by using the trimpot on the back of the device that is shown in Figure 19. However, it is discovered that the issue is caused by a defected PIR. The problem is solved by replacing the PIR for a new one.
+
+As stated earlier, at this stage the current DIY project is meant for the personal use and based on that information a walkthrough test is conducted by two current users of the system.
+
 ## Ways to improve future implementations
 
 ## Conclusion
