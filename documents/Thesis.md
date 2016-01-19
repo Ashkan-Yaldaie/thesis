@@ -1253,6 +1253,8 @@ Although the testing chapter is almost at the end of this thesis paper it is ess
 
 The other discovered issue was getting random false alarms. The wiring is first checked and the script is inspected for possible bugs. The next step was to adjust the PIR sensitivity by using the trimpot on the back of the device that is shown in Figure 19. However, it is discovered that the issue is caused by a defected PIR. The problem is solved by replacing the PIR sensor for a new one.
 
+<a name="figure-19" />
+
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/pir.jpg">  
 Figure 19: PIR sensor
 
