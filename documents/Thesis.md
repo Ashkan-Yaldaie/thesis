@@ -1272,7 +1272,7 @@ The other situation considered the possibility of destroying the PIR in the case
 
 One of the requirements is to control the system remotely over the internet. "Port Forwarding" is a method that can be used for this purpose. The default port for the Apache server is 80 but the port number can be changed by modifying the Apache's configuration. The "Port Forwarding" can be done through the router's control panel, though the description of the complete procedure is out of the scope of this paper. The current system's GUI is tested to be accessible remotely from anywhere via an internet browser.
 
-During the Christmas holidays, the decorative lights were controlled without any discovered problems using the home automation feature of the product. The lights were turned on/off at the specific time for several days. The security system was also up and running 24/7 from 6.1.2015 till 13.1.2016 during a holiday trip of residents without having any false alarms or known errors.
+During the Christmas holidays, the decorative lights were controlled without any discovered problems using the home automation feature of the product. The lights were turned on/off at a specific time for several days. The security system was also up and running 24/7 from 6.1.2015 till 13.1.2016 during a holiday trip of residents without having any false alarms or known errors.
 
 ## Ways to improve future implementations
 
