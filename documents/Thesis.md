@@ -1276,6 +1276,16 @@ During the Christmas holidays, the decorative lights were controlled without any
 
 ## Ways to improve future implementations
 
+It is true that the current product has fulfilled the paper's requirements and the testing chapter successfully reviewed this fact. However,  there is always room for improvement in the future implementations.
+
+The first function which can be modified is the voice control feature of the product. The system is using an API called Speech To Text (STT) that is responsible for extracting the user's command from a recorded voice. As mentioned in the testing chapter, the function is not 100% accurate. To fix the issue several APIs can be used instead of one and their outputs can be compared to get  more precise results.
+
+It is also possible to add more sensors to the product in order to increase the capability of the home automation and the security system, for example a RF doorbell, a RF light bulb holder and a smoke detector. Figure 20 contains some pictures of such sensors.
+
+Another part which can be improved is the GUI. It is required to modify the system's code in order to add and control new sensors and features to the current product. If developed, an administrator or configuration area can make the process easier.
+
+The security of the entire product needs improvement as well and to do so a complete research about the potential security threat is expected. The Open Web Application Security Project (OWASP) report which contains top 10 security risks can be utilized to improve the product's security. The physical security risks must also be improved, for example a total blackout can compromise the security system since the RasPi is connected to the main power. The easy solution  for this issue is to add a power back in order to act as a power supply for the product.
+
 ## Conclusion
 
 ## References
