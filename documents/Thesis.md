@@ -131,6 +131,10 @@ HAAGA-HELIA University of Applied Sciences
       <td>PIR sensor</td>
     </tr>
     <tr>
+      <td><a href="#figure-20">Figure 20</a></td>
+      <td>Extra sensors</td>
+    </tr>
+    <tr>
       <td><a href="#table-1">Table 1</a></td>
       <td>Raspberry Pi 2 vs Beaglebone hardware chart</td>
     </tr>
@@ -1281,6 +1285,11 @@ It is true that the current product has fulfilled the paper's requirements and t
 The first function which can be modified is the voice control feature of the product. The system is using an API called Speech To Text (STT) that is responsible for extracting the user's command from a recorded voice. As mentioned in the testing chapter, the function is not 100% accurate. To fix the issue several APIs can be used instead of one and their outputs can be compared to get  more precise results.
 
 It is also possible to add more sensors to the product in order to increase the capability of the home automation and the security system, for example a RF doorbell, a RF light bulb holder and a smoke detector. Figure 20 contains some pictures of such sensors.
+
+<a name="figure-20" />
+
+<img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/sensors.jpg">  
+Figure 20: Extra sensors
 
 Another part which can be improved is the GUI. It is required to modify the system's code in order to add and control new sensors and features to the current product. If developed, an administrator or configuration area can make the process easier.
 
