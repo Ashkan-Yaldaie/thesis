@@ -132,7 +132,7 @@ HAAGA-HELIA University of Applied Sciences
     </tr>
     <tr>
       <td><a href="#figure-20">Figure 20</a></td>
-      <td>Extra sensors to improve a product</td>
+      <td>Extra sensors to improve the product</td>
     </tr>
     <tr>
       <td><a href="#table-1">Table 1</a></td>
@@ -1289,7 +1289,7 @@ It is also possible to add more sensors to the product in order to increase the 
 <a name="figure-20" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/sensors.jpg">  
-Figure 20: Extra sensors to improve a product 
+Figure 20: Extra sensors to improve the product 
 
 Another part which can be improved is the GUI. It is required to modify the system's code in order to add and control new sensors and features to the current product. If developed, an administrator or configuration area can make the process easier.
 
