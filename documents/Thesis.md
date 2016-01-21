@@ -1295,6 +1295,8 @@ Another part which can be improved is the GUI. It is required to modify the syst
 
 The security of the entire product needs improvement as well and to do so a complete research about the potential security threat is expected. The Open Web Application Security Project (OWASP) report which contains top 10 security risks can be utilized to improve the product's security. The physical security risks must also be improved, for example a total blackout can compromise the security system since the RasPi is connected to the main power. The easy solution  for this issue is to add a power back in order to act as a power supply for the product.
 
+During the completion of this thesis paper, the Raspberry Pi Foundation (2015) has released a new version of the RasPi named The Raspberry Pi Zero and they call it the $5 computer. The RasPi zero is more affordable than the board used for this project (The Raspberry Pi 2 Model B). Considering the new RasPi's price, it is cost efficient to use two boards for this DIY project. It is better to dedicate one RasPi for the security system and one for the home automation. If needed the two RasPis can communicate with each other using UDP packages or RF signals.
+
 ## Conclusion
 
 ## References
