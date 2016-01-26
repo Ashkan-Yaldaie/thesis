@@ -1349,6 +1349,16 @@ During the completion of this thesis paper, the Raspberry Pi Foundation (2015) h
 
 ## Conclusion
 
+The paper's objectives were set at early stages of this thesis work and in order to complete the project, a list of required sensors and devices were created based on the project objectives and the planning phase.
+
+The RasPi was chosen to serve as the main part of the developed device based on its abilities and features. The RasPi has proven to accomplish its purpose for this project which was creating a home automation and security system. All the objectives were met and the thesis questions were answered. Appendix 1 contains the money cost of the details for this project and the device has met the expectations which were set in the chapter "Project questions and objectives".
+
+The implementation phase gives an insight to the project development and to make the work more understandable extra pictures and diagrams were added to the relevant chapters. The diagrams are all related to this thesis work and were created during the implementation phase.
+
+Without the testing phase in the project development lifecycle, it is very difficult to make sure about a project's stability and issues. The testing phase for this project has discovered some problems which were fixed during and after the implementation. The paper also contains a chapter that suggests some modifications and additions for the future developments.
+
+The thesis advisor's comments were very useful in order to find good sources and create a better work. The advisor has monitored the thesis work closely and regularly through an online service called GitHub.
+
 ## References
 
 Blythe, Jeremy. 2015. URL: http://jeremyblythe.blogspot.fi/2015/06/motion-google-drive-uploader-for-oauth.html. Accessed: 30.12.2015.
