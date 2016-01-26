@@ -1285,7 +1285,7 @@ During the Christmas holidays, the decorative lights were controlled without any
 
 ## Ways to improve future implementations
 
-It is true that the current product has fulfilled the paper's requirements and the testing chapter successfully reviewed this fact. However,  there is always room for improvement in the future implementations. Appendix 6 contains some pictures of the device that is created for this thesis work.
+It is true that the current product has fulfilled the paper's requirements and the testing chapter successfully reviewed this fact. Appendix 6 contains some pictures of the device that is created for this thesis work. However,  there is always room for improvement in the future implementations.
 
 The first function which can be modified is the voice control feature of the product. The system is using an API called Speech To Text (STT) that is responsible for extracting the user's command from a recorded voice. As mentioned in the testing chapter, the function is not 100% accurate. To fix the issue several APIs can be used instead of one and their outputs can be compared to get  more precise results.
 
