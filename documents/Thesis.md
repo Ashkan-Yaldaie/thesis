@@ -10,6 +10,8 @@ Bachelor Thesis
 HAAGA-HELIA University of Applied Sciences  
 26 January 2016
 
+## Abstract
+
 <table>
   <tbody>
     <tr>
