@@ -8,7 +8,50 @@ Ashkan Yaldaie
 
 Bachelor Thesis  
 HAAGA-HELIA University of Applied Sciences  
-19 January 2016
+26 January 2016
+
+<table>
+  <tbody>
+    <tr>
+      <td colspan="2">
+      <strong>Author(s)</strong>
+      <br />
+      Ashkan Yaldaie
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+      <strong>Degree programme</strong>
+      <br />
+      Degree Programme in Business Information Technology
+      </td>
+    </tr>
+    <tr>
+      <td>
+      <strong>Report/thesis title</strong>
+      <br />
+      Home automation and security system with the Raspberry Pi
+      </td>
+      <td>
+      <strong>Number of pages and appendix pages</strong>
+      <br />
+      &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+      &nbsp;
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+      <strong>Keywords</strong>
+      <br />
+      raspberry pi, home automation, security system
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## Table of contents
 &nbsp;[Figures and Tables](#figures-and-tables)  
