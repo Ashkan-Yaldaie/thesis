@@ -1329,7 +1329,7 @@ Lewis, William. 2005. Software Testing and Continuous Quality Improvement. 2nd e
 
 Lutz, Mark. 2013. Learning Python. 5th ed. O'Reilly Media. 
 
-Maksimović, Mirjana & Vujović, Vladimir & Davidović, Nikola & Milošević, Vladimir & Perišić, Branko. 2014. Raspberry Pias Internet of Things hardware: Performances and Constraints. ResearchGate.
+Maksimović, Mirjana & Vujović, Vladimir & Davidović, Nikola & Milošević, Vladimir & Perišić, Branko. 2014. Raspberry Pi as Internet of Things hardware: Performances and Constraints. ResearchGate.
 
 Maxim Integrated. 2008. DS18B20 Programmable Resolution 1-Wire Digital Thermometer.
 
