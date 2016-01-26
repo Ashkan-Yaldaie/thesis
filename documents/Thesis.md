@@ -25,7 +25,7 @@ HAAGA-HELIA University of Applied Sciences
       <td colspan="2">
       <strong>Degree programme</strong>
       <br />
-      Degree Programme in Business Information Technology
+      Business Information Technology
       </td>
     </tr>
     <tr>
@@ -55,7 +55,7 @@ The RasPi is used for this project based on its abilities and features and it is
       <td colspan="2">
       <strong>Keywords</strong>
       <br />
-      raspberry pi, home automation, security system
+      raspberry pi, home automation, security system, smart home, php, javascript, python, bash
       </td>
     </tr>
   </tbody>
