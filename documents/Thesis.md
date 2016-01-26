@@ -42,6 +42,7 @@ HAAGA-HELIA University of Applied Sciences
     </tr>
     <tr>
       <td colspan="2">
+<br />
 The current paper is a bachelor thesis work which examines the possibility of developing a home automation and security system by using the RasPi. The paper covers the theoretical background, planning, implementation, testing and evaluation phases of the project.
 <br /><br />
 The paper offers details to show that creating such a product is possible, by explaining how to connect external sensors and devices to the RasPi. The product can be controlled locally and remotely through a GUI however, a complete tutorial on the programming is out of the scope. The paper also presents some pictures and diagrams in order to make the work more understandable.
