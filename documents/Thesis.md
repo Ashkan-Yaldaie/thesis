@@ -342,7 +342,7 @@ Security system:
 
 ### Project's purpose and scope
 
-The purpose of this thesis is to give the insight about different ways of using the Raspberry Pi as a multifunctional device in particular as a basic home automation and a security system. For this reason, the Raspberry Pi capacities, as well as the main features of the device, will be explored. There will be a detailed insight into the technical part of the project, special attention will be paid to the way the home automation and home security was created. Furthermore, the information about the costs of the project will be provided.
+The purpose of this thesis is to give the insight about different ways of using the Raspberry Pi as a multifunctional device in particular as a basic home automation and a security system. For this reason, the Raspberry Pi capacities, as well as the main features of the device, will be explored. There will be a detailed insight into the technical part of the project, special attention will be paid to the way the home automation and home security were created. Furthermore, the information about the costs of the project will be provided.
 
 ### Methodology
 
