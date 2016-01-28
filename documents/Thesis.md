@@ -488,7 +488,7 @@ Securitas is another security company in Finland that offers security packages, 
 - Two motion sensor
 - Devices in order to control the security system
 
-The customer must sign a contract for at least 36 months. It costs €1,384 in total for this particular package. The company will send its staff to check the premises in the case of motion or smoke detection, the expense is €50 for Mo 06:00 - Fr 18:00 and €100 for Fr 18:00 - Mo 06:00 including other holidays. (Securitas 24Koti 2015)
+The customer must sign a contract for at least 36 months. It costs €1,384 in total for this particular package. The company will send its staff to check the premises in case of motion or smoke detection, the expense is €50 for Mo 06:00 - Fr 18:00 and €100 for Fr 18:00 - Mo 06:00 including other holidays. (Securitas 24Koti 2015)
 
 ## Planning
 
