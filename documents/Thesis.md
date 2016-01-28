@@ -47,7 +47,7 @@ The current paper is a bachelor thesis work which examines the possibility of de
 <br /><br />
 The content of the paper demonstrates that creation of such a product is possible by explaining how to connect external sensors and devices to the RasPi. The product can be controlled locally and remotely through a GUI, nevertheless, a complete tutorial on the programming is out of the scope. The paper also presents some pictures and diagrams in order to make the work more understandable.
 <br /><br />
-The RasPi is used for this project based on its abilities and features and it is proven to fulfill its purpose for this project. All the thesis objectives were met and the questions were answered but there is always a room for improvement in the future implementations and a chapter called "Ways to improve future implementations" is dedicated to improve the current product.
+The RasPi is used for this project based on its abilities and features and it is proven to fulfill its purpose for this project. All the thesis objectives were met and the questions were answered but there is always a room for improvement in the future implementations and a chapter called "Ways to improve future implementations" is dedicated to improving the current product.
 <br /><br />
       </td>
     </tr>
