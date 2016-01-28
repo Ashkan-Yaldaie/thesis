@@ -314,7 +314,7 @@ The system in question is a programmable smart home, it gives the opportunity to
 
 The home automation market is rather new and there is a great room for development. There was a shifting from carrying out quite basic tasks to more complicated ones. (Othmar 2013, 13-14) Nowadays people can get the running water from the tap automatically just by placing their hands under it. There are plenty of smart devices like smartphones and smart televisions for sale but still there are so many other things which can be created.
 
-Building the more complicated things like a smart cooker or an advanced robot requires funding to be invented, but even simple devices for automating some routine tasks at the affordable price may satisfy the customers.
+Building the more complicated things like a smart cooker or an advanced robot requires funding, but even simple devices for automating some routine tasks at the affordable price may satisfy the customers.
 
 ### Project questions and objectives
 
