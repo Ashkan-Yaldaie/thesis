@@ -47,7 +47,7 @@ The current paper is a bachelor thesis work which examines the possibility of de
 <br /><br />
 The content of the paper demonstrates that creation of such a product is possible by explaining how to connect external sensors and devices to the RasPi. The product can be controlled locally and remotely through a GUI, nevertheless, a complete tutorial on the programming is out of the scope. The paper also presents some pictures and diagrams in order to make the work more understandable.
 <br /><br />
-The RasPi is used for this project based on its abilities and features and it is proven to fulfill its purpose for this project. All the thesis objectives were met and the questions were answered but there is always a room for improvement in the future implementations and a chapter called "Ways to improve future implementations" is dedicated to improving the current product.
+The RasPi is used for this project based on its abilities and features and it fulfilled its purpose for this project. All the thesis objectives were met and the questions were answered but there is always a room for improvement in the future implementations and a chapter called "Ways to improve future implementations" is dedicated to improving the current product.
 <br /><br />
       </td>
     </tr>
@@ -502,7 +502,7 @@ Another requirement is setting time to turn on and off some home devices. If the
 
 To control the smart home system, creating a website is required. That can be done using the RasPi as a web-server by installing the Apache and PHP. It is easy to manage the system from a long distance through a website, but to control the system locally a voice control is required. The home automation must be simple because nobody is going to log on to a website to turn on a fan if it is just two meters away. In this situation, a voice controlled switch can come in handy.
 
-Security system requirements are to trigger an alarm and capture a video of an incident if the home intrusion occurs. It is not wise to keep the video on the RasPi's storage, so the system must upload the data to an online server. Those people who tend to travel a lot, sometimes may lack the internet connection and, in this case, it is not enough to send an email notification about the home intrusion, but an SMS has to be sent as well. If the surrounding area is not safe enough or lacks a good reputation, a panic button can be really useful in order to notify somebody in the case of emergency.
+Security system requirements are to trigger an alarm and capture a video of an incident if the home intrusion occurs. It is not wise to keep the video on the RasPi's storage, so the system must upload the data to an online server. Those people who tend to travel a lot, sometimes may lack the internet connection and, in this case, it is not enough to send an email notification about the home intrusion, but an SMS has to be sent as well. If the surrounding area is not safe enough or lacks a good reputation, a panic button can be really useful in order to notify somebody in case of emergency.
 
 <a name="figure-2" />
 
