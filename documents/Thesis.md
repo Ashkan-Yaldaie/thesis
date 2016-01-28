@@ -318,7 +318,7 @@ Building the more complicated things like a smart cooker or an advanced robot re
 
 ### Project questions and objectives
 
-The paper's objectives are to check what kind of functions the Raspberry Pi can offer in relation to the building of a home automation and security system and what are its benefits.  Answering to the following questions will help to understand how wide the scope is when working with this tiny computer:
+The paper's objectives are to check what kind of functions the Raspberry Pi can offer in relation to the building of a home automation and security system and what are its benefits. Answering to the following questions will help to understand how wide the scope is when working with this tiny computer:
 
 - What are the possibilities to create a programmable home automation and security system by using the RasPi?
  - What is the money cost for completing the project?
@@ -342,13 +342,13 @@ Security system:
 
 ### Project's purpose and scope
 
-The purpose of this thesis is to give the insight about different ways of using the Raspberry Pi as a multifunctional device in particular as a basic home automation and a security system. For this reason, the Raspberry Pi capacities, as well as the main features of the device, will be explored. There will be a detailed insight into the technical part of the project, special attention will be paid to the way the home automation and home security were created. Furthermore, the information about the costs of the project will be provided.
+The purpose of this thesis is to give the insight about different ways of using the Raspberry Pi as a multifunctional device, in particular as a basic home automation and a security system. For this reason, the Raspberry Pi capacities, as well as the main features of the device, will be explored. There will be a detailed insight into the technical part of the project, special attention will be paid to the way the home automation and home security were created. Furthermore, the information about the costs of the project will be provided.
 
 ### Methodology
 
-The current paper is a thesis project. In order to be accomplished, the following stages were gone through: planning, implementation, testing and documenting the results. During the planning phase, the scope of the project was determined and some insight into the resources was done. Moreover, for the better understanding of the different functions that can be included into the system build, different sources, like books and other instructions were looked through.
+The current paper is a thesis project. In order to be accomplished, the following stages were gone through: planning, implementation, testing and documenting the results. During the planning phase, the scope of the project was determined and some insight into the resources was done. Moreover, for the better understanding of the different functions that can be included into the system built, different sources, like books and other instructions were looked through.
 
-Having finished the preparatory work, the system was implemented and testing based on the real-life situations and scenarios was done. Mainly the details needed to build the system were bought from the internet shops. The budget was quite flexible, but it was made sure that it does not exceed the reasonable sum which is around €200. There were some obstacles which were causing some disruption for the project plans. These were mostly due to the slow work of the internet shops and sometimes because of the poor quality of the purchased components.
+Having finished the preparatory work, the system was implemented and the testing, based on the real-life situations and scenarios, was done. Mainly the components needed to build the system were bought from the internet shops. The budget was quite flexible, but it was made sure that it does not exceed the reasonable sum which is around €200. There were some obstacles which were causing some disruption for the project plans. These were mostly due to the slow work of the internet shops and sometimes because of the poor quality of the purchased components.
 
 ## Background
 
