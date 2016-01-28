@@ -140,7 +140,7 @@ The RasPi is used for this project based on its abilities and features and it is
     </tr>
     <tr>
       <td><a href="#figure-9">Figure 9</a></td>
-      <td>Wiring diagram for the digital thermometer</td>
+      <td>Wiring diagram for the temperature sensor</td>
     </tr>
     <tr>
       <td><a href="#figure-10">Figure 10</a></td>
@@ -698,7 +698,7 @@ In order to connect the DS18B20 to the RasPi, a ready-made Shield Module is used
 <a name="figure-9" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/w-thermometer.jpg">  
-Figure 9: Wiring diagram for the digital thermometer
+Figure 9: Wiring diagram for the temperature sensor
 
 After attaching the DS18B20 and the RasPi, the connection is tested by entering the following terminal commands:
 
