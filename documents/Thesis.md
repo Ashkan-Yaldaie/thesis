@@ -352,7 +352,7 @@ Having finished the preparatory work, the system was implemented and the testing
 
 ## Background
 
-In the current chapter, three budget boards will be analysed. The most suitable board is chosen for the project, based on the comparison of the available functions and advantages.
+In the current chapter, three budget boards will be analysed. The most suitable board for the project is chosen based on the comparison of the available functions and advantages.
 
 The subject of home automation has been discussed during the past years. This chapter will briefly go through the concepts of the home automation and security. There are home automation products available off-the-shelf. The problem is that they are quite expensive and sometimes do not offer a solution to some personal needs. The chapter elaborates some of these problems.
 
