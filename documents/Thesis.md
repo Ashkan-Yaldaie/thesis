@@ -545,7 +545,7 @@ The total cost of all the details and devices used to complete the bachelor thes
 
 ## Implementation of a home automation and security system
 
-Project background and the planning phase is followed with the description of the implementation of a basic smart home system. The chapter is divided into four major parts. The first part is about setting up the RasPi, the second one is dedicated to the home automation features of the project, another subchapter is about creating the security system and the last section covers the creation of a graphical user interface. Despite the fact that this chapter is divided into the subchapters and each subchapter is devoted to a functionality of the system, the whole part must be considered as one unit, since the goal is to create a smart home system with all the functions working together.
+Project background and the planning phase is followed by the description of the implementation of a basic smart home system. The chapter is divided into four major parts. The first part is about setting up the RasPi, the second one is dedicated to the home automation features of the project, another subchapter is about creating the security system and the last section covers the creation of a graphical user interface. Despite the fact that this chapter is divided into the subchapters and each subchapter is devoted to a functionality of the system, the whole part must be considered as one unit, since the goal is to create a smart home system with all the functions working together.
 
 ### Setting up the Raspberry Pi
 
@@ -627,15 +627,15 @@ The cron table can be used in order to execute a command at a given time. These 
 
 Table 2: Example of a crontab command (Hows & Membrey 2012, 107)
 
-The example presented in Table 2 `10 6 * * 0 sudo reboot` will reboot the system once per week on Sunday at 6:10 AM. In order to update the time and date once per hour, the following cron job is entered to the cron table: `0 * * * * sudo dpkg-reconfigure ntp`. This concludes the basic setup for the RasPi, of course, the rest of installations is covered in the related sections of the paper.
+The example presented in Table 2 `10 6 * * 0 sudo reboot` will reboot the system once per week on Sunday at 6:10 AM. In order to update the time and date once per hour, the following cron job is entered into the cron table: `0 * * * * sudo dpkg-reconfigure ntp`. This concludes the basic setup for the RasPi, of course, the rest of installations is covered in the related sections of the paper.
 
 ### Home automation
 
-This subchapter is devoted to the development of the home automation part of the project. It contains the description about how to manage remote controlled power sockets with the RasPi as well as how to use the home temperature and time in order to control some home devices. The part also explains how to handle home automation's functionalities with voice commands.
+This subchapter is devoted to the development of the home automation part of the project. It contains the description of how to manage remote controlled power sockets with the RasPi as well as how to use the home temperature and time in order to control some home devices. The part also explains how to handle home automation's functionalities with voice commands.
 
 #### WIFI sockets
 
-Slange (2015) offers a description about the device used for this project. As stated earlier it is possible for the RasPi to use UDP as a mean of communication with a WIFI socket. The difficult part is to find out about the content of these packages. That can be done by monitoring the LAN while turning the device on/off using its related application. Wireshark is a free and an open source application that can be used to monitor the home network's activity. Figure 7 shows the UDP packages that are captured specifically for this paper by using the Wireshark packet analyzer. The blurred area contains some confidential information like the MAC address of the WIFI socket and should not be shared.
+Slange (2015) offers a description of the device used for this project. As stated earlier, it is possible for the RasPi to use UDP as a mean of communication with a WIFI socket. The difficult part is to find out about the content of these packages. That can be done by monitoring the LAN while turning the device on/off using its related application. Wireshark is a free and an open source application that can be used to monitor the home network's activity. Figure 7 shows the UDP packages that are captured specifically for this paper by using the Wireshark packet analyzer. The blurred area contains some confidential information like the MAC address of the WIFI socket and should not be shared.
 
 <a name="figure-7" />
 
@@ -764,7 +764,7 @@ The script "temp.py" is used to build the cron job. The following  command is en
 
 This way the temperature will be checked regularly and in response, the socket number 2 that is connected to an air conditioner will be switched on when the room temperature is above 24°C.
 
-The cron table is also used for the final part of this subchapter which is controlling a socket with timer. Since all the preparations are done the only thing that is needed is to enter the following lines to the cron table:
+The cron table is also used for the final part of this subchapter which is controlling a socket with a timer. Since all the preparations are done the only thing that is needed is to enter the following lines to the cron table:
 
 `00 16 * * * /bin/bash -l /home/pi/sockets.sh 3 on`  
 `00 08 * * * /bin/bash -l /home/pi/sockets.sh 3 off`
@@ -777,7 +777,7 @@ The tasks related to controlling the sockets by using home temperature and timer
 
 There are some challenges in the way of building a smart home, one of them is to discover a way to control the home devices. Of course, some routine tasks can be automated like turning on the air conditioner when the home temperature rises or to turn on/off the fish tank's air pump at the specific time. But what about turning on the printer in the other room while working with a laptop or to turn off the desktop PC in the bedroom while cooking in the kitchen. It is necessary to have some sort of controlling scheme for the smart home.
 
-One of the  things that comes to mind when talking about controlling devices is to have infrared remote control, but this method is not very useful for a 21st century smart home since even today's television can be controlled by using hand gestures. So having an infrared remote for this project is out of question.
+One of the  things that comes to mind when talking about controlling devices is to have infrared remote control, but this method is not very useful for a 21st century smart home since even today's television can be controlled by using hand gestures. So having an infrared remote for this project is out of the question.
 
 It makes sense to control the home automation system using the web interface from a distance but using a mobile web browser to control the system locally does not make sense. That is why a voice control function is added to the project in order to control the home devices locally.
 
@@ -811,7 +811,7 @@ turn off PC==sudo python /home/pi/wol.py off;tts "done"
 
 If the WIFI socket is connected to a desk lamp, it will be turned on by saying "turn on lamp". The program will reply "done" after turning on the lamp and the same process is valid for turning off the lamp.
 
-There are other things that can be done using the voice control, for instance, turning on/off a Windows PC, if both RasPi and the PC are in the same LAN. This can be done with the following code:
+There are other things that can be done using the voice control, for instance, turning on/off a Windows PC, if both RasPi and the PC are on the same LAN. This can be done with the following code:
 
 ``` python
 #!/usr/bin/env python
@@ -1324,7 +1324,7 @@ A walkthrough serves two purposes: to find out about the activities that system 
 
 The walkthrough test revealed issues about the voice control functionality of the project. It is estimated that on average one out of three commands must be repeated in order for the system to react. The issue does not cause any vulnerability to the security system since the voice control is just connected to the home automation part of the project.
 
-The other recommendation has affected the GUI and was related to the naming of the buttons so, instead of using numbers and letters for the buttons a more suitable naming is adopted. The test also uncovered that sometimes the RasPi does not recognise the USB webcam connected to it and further investigation led to solving the problem by changing the power adapter for the RasPi to a proper one which is capable of producing 5V 2000mA DC output current.
+The other recommendation has affected the GUI and was related to the naming of the buttons so, instead of using numbers and letters for the buttons a more suitable naming is adopted. The test also uncovered that sometimes the RasPi does not recognize the USB webcam connected to it and further investigation led to solving the problem by changing the power adapter for the RasPi to a proper one which is capable of producing 5V 2000mA DC output current.
 
 The final method used for testing the product was through the possible real-life situations, for example, what will happen if the residents leave the house but they have to come back immediately to get something they forgot. The test is conducted to examine the behavior of the Bluetooth controlling the security system. The current version of the Python script "start_bt.py" is the result of a successful test.
 
@@ -1340,7 +1340,7 @@ It is true that the current product has fulfilled the paper's requirements and t
 
 The first function which can be modified is the voice control feature of the product. The system is using an API called Speech To Text (STT) that is responsible for extracting the user's command from a recorded voice. As mentioned in the testing chapter, the function is not 100% accurate. To fix the issue, several APIs can be used instead of one and their outputs can be compared to get  more precise results.
 
-It is also possible to add more sensors to the product in order to increase the capability of the home automation and the security system, for example a RF doorbell, a RF light bulb holder and a smoke detector. Figure 20 contains some pictures of such sensors.
+It is also possible to add more sensors to the product in order to increase the capability of the home automation and the security system, for example, an RF doorbell, an RF light bulb holder and a smoke detector. Figure 20 contains some pictures of such sensors.
 
 <a name="figure-20" />
 
@@ -1349,7 +1349,7 @@ Figure 20: Extra sensors to improve the product
 
 Another part which can be improved is the GUI. It is required to modify the system's code in order to add and control new sensors and features to the current product. If developed, an administrator or configuration area can make the process easier.
 
-The security of the entire product needs improvement as well and to do so a complete research about the potential security threat is expected. The Open Web Application Security Project (OWASP) report which contains top 10 security risks can be utilized to improve the product's security. The physical security risks must also be improved, for example a total blackout can compromise the security system since the RasPi is connected to the main power. The easy solution  for this issue is to add a power back in order to act as a power supply for the product.
+The security of the entire product needs improvement as well and to do so a complete research about the potential security threat is expected. The Open Web Application Security Project (OWASP) report which contains top 10 security risks can be utilized to improve the product's security. The physical security risks must also be improved, for example, a total blackout can compromise the security system since the RasPi is connected to the main power. The easy solution  for this issue is to add a power back in order to act as a power supply for the product.
 
 During the completion of this thesis paper, the Raspberry Pi Foundation (2015) has released a new version of the RasPi named The Raspberry Pi Zero and they call it the $5 computer. The RasPi zero is more affordable than the board used for this project (The Raspberry Pi 2 Model B). Considering the new RasPi's price, it is cost efficient to use two boards for this DIY project. It is better to dedicate one RasPi for the security system and one for the home automation. If needed the two RasPis can communicate with each other using UDP packages or RF signals.
 
@@ -1359,7 +1359,7 @@ The paper's objectives were set at early stages of this thesis work and in order
 
 The RasPi was chosen to serve as the main part of the developed device based on its abilities and features. The RasPi has proven to accomplish its purpose for this project which was creating a home automation and security system. All the objectives were met and the thesis questions were answered. Appendix 1 contains the money cost of the details for this project and the device has met the expectations which were set in the chapter "Project questions and objectives".
 
-The implementation phase gives an insight to the project development and to make the work more understandable extra pictures and diagrams were added to the relevant chapters. The diagrams are all related to this thesis work and were created during the implementation phase.
+The implementation phase gives an insight into the project development and to make the work more understandable extra pictures and diagrams were added to the relevant chapters. The diagrams are all related to this thesis work and were created during the implementation phase.
 
 Without the testing phase in the project development lifecycle, it is very difficult to make sure about a project's stability and issues. The testing phase for this project has discovered some problems which were fixed during and after the implementation. The paper also contains a chapter that suggests some modifications and additions for the future developments.
 
