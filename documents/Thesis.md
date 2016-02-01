@@ -556,7 +556,7 @@ RasPi does not come with an OS preinstalled on it, so to start working with the 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/df-h.jpg">  
 Figure 5: Output of the df -h command
 
-Raspberry Pi Foundation (2015) Have a complete documentation on the subject. The `.img` file can be copied to the MicroSD card using the `dd` tool. In order to find the name and address of the MicroSD card, `df -h` command is used, one thing to pay attention to is that the image must be copied to the whole card not just to a partition. The `df -h` commands output `/dev/mmcblk0p1` is shown in Figure 5, but the image must be copied to `/dev/mmcblk0` since `p1` stands for partition one. It is important to unmount the MicroSD card by using the command `umount /dev/mmcblk0p1` before proceeding further. The complete terminal command for copying the image is the following:
+Raspberry Pi Foundation (2015) has a complete documentation on the subject. The `.img` file can be copied to the MicroSD card using the `dd` tool. In order to find the name and address of the MicroSD card, `df -h` command is used, one thing to pay attention to is that the image must be copied to the whole card not just to a partition. The `df -h` command's output `/dev/mmcblk0p1` is shown in Figure 5, but the image must be copied to `/dev/mmcblk0` since `p1` stands for partition one. It is important to unmount the MicroSD card by using the command `umount /dev/mmcblk0p1` before proceeding further. The complete terminal command for copying the image is the following:
 
 ``` bash
 dd bs=4M if=2015-05-05-raspbian-wheezy.img of=/dev/mmcblk0
@@ -573,7 +573,7 @@ The current project does not require to have a display since it is possible to c
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/nmap.jpg">  
 Figure 6: Output of the nmap command
 
-In order to establish a connection to the RasPi for the first time, the default username "pi" and the password "raspberry" is used. The command `ssh pi@10.0.0.102` creates the connection. Having connected to the RasPi the following configuration is made by using the command `sudo raspi-config` that will open the "Configuration Tool" software:
+In order to establish a connection to the RasPi for the first time, the default username "pi" and the password "raspberry" is used. The command `ssh pi@10.0.0.102` creates the connection. Having connected to the RasPi, the following configuration is made by using the command `sudo raspi-config` that will open the "Configuration Tool" software:
 
 - Expanding the file system
 - Changing the user password
@@ -627,7 +627,7 @@ The cron table can be used in order to execute a command at a given time. These 
 
 Table 2: Example of a crontab command (Hows & Membrey 2012, 107)
 
-The example presented in Table 2 `10 6 * * 0 sudo reboot` will reboot the system once per week on Sunday 6:10 AM. In order to update the time and date once per hour the following cron job is entered to the cron table: `0 * * * * sudo dpkg-reconfigure ntp`. This concludes the basic setup for the RasPi, of course, the rest of installations is covered in the related sections of the paper.
+The example presented in Table 2 `10 6 * * 0 sudo reboot` will reboot the system once per week on Sunday at 6:10 AM. In order to update the time and date once per hour, the following cron job is entered to the cron table: `0 * * * * sudo dpkg-reconfigure ntp`. This concludes the basic setup for the RasPi, of course, the rest of installations is covered in the related sections of the paper.
 
 ### Home automation
 
@@ -635,7 +635,7 @@ This subchapter is devoted to the development of the home automation part of the
 
 #### WIFI sockets
 
-Slange (2015) offers a description about the device used for this project. As stated earlier it is possible for the RasPi to use UDP as a mean of communication with a WIFI socket. The difficult part is to find out about the content of these packages. That can be done by monitoring the LAN while turning the device on/off using its related application. Wireshark is a free and open source application that can be used to monitor the home network's activity. Figure 7 shows the UDP packages that are captured specifically for this paper by using the Wireshark packet analyzer. The blurred area contains some confidential information like the MAC address of the WIFI socket and should not be shared.
+Slange (2015) offers a description about the device used for this project. As stated earlier it is possible for the RasPi to use UDP as a mean of communication with a WIFI socket. The difficult part is to find out about the content of these packages. That can be done by monitoring the LAN while turning the device on/off using its related application. Wireshark is a free and an open source application that can be used to monitor the home network's activity. Figure 7 shows the UDP packages that are captured specifically for this paper by using the Wireshark packet analyzer. The blurred area contains some confidential information like the MAC address of the WIFI socket and should not be shared.
 
 <a name="figure-7" />
 
@@ -666,7 +666,7 @@ Here is an example of a MAC address 00:0a:95:9d:68:16. The code above requires t
 
 #### Radio frequency sockets
 
-The RF codes are needed to control the sockets shown in Figure 4, marked as number (3). These codes can be found by using an RF receiver attached to the RasPi and an open source software that is provided by Ninja Blocks (2015) called "433Utils". The software can detect and send 433MHz RF signals. Installation instructions can be found below:
+The RF codes needed to control the sockets are shown in Figure 4, marked as number (3). These codes can be found by using an RF receiver attached to the RasPi and an open source software that is provided by Ninja Blocks (2015) called "433Utils". The software can detect and send 433MHz RF signals. Installation instructions can be found below:
 
 `sudo apt-get update`  
 `sudo apt-get install git-core`  
@@ -716,7 +716,7 @@ The output of the entered commands above is shown in Figure 10. The current temp
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/w1_slave.jpg">  
 Figure 10: Reading the room temperature
 
-Once the DS18B20 is tested the room temperature can is used to control one of the RF sockets by using a crontab command and the following Python script which accepts two arguments: the first one is the conditional argument and the second one is value for temperature. The first argument can be "l" or "m" that stand for "less than" or "more than". For example, if  the argument values are "l" and "23", the socket will switch on when the room temperature is less than 23°C and it will switch off if the temperature rises above 23°C.
+Once the DS18B20 is tested the room temperature can be used to control one of the RF sockets by using a crontab command and the following Python script which accepts two arguments: the first one is the conditional argument and the second one is value for temperature. The first argument can be "l" or "m" that stand for "less than" or "more than". For example, if  the argument values are "l" and "23", the socket will switch on when the room temperature is less than 23°C and it will switch off if the temperature rises above 23°C.
 
 ``` python
 #! /usr/bin/python
@@ -777,7 +777,7 @@ The tasks related to controlling the sockets by using home temperature and timer
 
 There are some challenges in the way of building a smart home, one of them is to discover a way to control the home devices. Of course, some routine tasks can be automated like turning on the air conditioner when the home temperature rises or to turn on/off the fish tank's air pump at the specific time. But what about turning on the printer in the other room while working with a laptop or to turn off the desktop PC in the bedroom while cooking in the kitchen. It is necessary to have some sort of controlling scheme for the smart home.
 
-One of the  things that comes to mind when talking about controlling devices is to have infrared remote control, but this method is not very useful for a 21st century smart home since even today's television can be controlled by using hand gestures. So having an infrared remote for this project is out of the question.
+One of the  things that comes to mind when talking about controlling devices is to have infrared remote control, but this method is not very useful for a 21st century smart home since even today's television can be controlled by using hand gestures. So having an infrared remote for this project is out of question.
 
 It makes sense to control the home automation system using the web interface from a distance but using a mobile web browser to control the system locally does not make sense. That is why a voice control function is added to the project in order to control the home devices locally.
 
@@ -848,7 +848,7 @@ This part is based on a tutorial presented by Edney (2014). In order to create a
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/motion-sensor-transmitter.jpg">  
 Figure 11: Wiring diagram for the wireless motion detector's transmitter
 
-Having built the wireless transmitter, the receiver component is created next using a breadboard, marked as item (h) in Figure 4, to connect the parts to each other. As shown in Figure 12, a high voltage of 3.3V is being sent to GPIO 26 which is BCM pin 12 according to the table presented in Appendix 2. Due to the transistor in the circuit, the voltage will drop to 3.2V when the receiver senses an RF signal and that is why the status of GPIO 26 will change from high to low. In short, the GPIO pin is high when the signal is not received from the wireless motion detector's transmitter and it will be changed to low as soon as the signal is received. Since the RasPi GPIO pins must not be subjected to the 5V current, it is important to make sure that the receiver's output pin is not connected directly to the RasPi.
+Having built the wireless transmitter, the receiver component is created next using a breadboard, marked as item (h) in Figure 4, to connect the parts to each other. As shown in Figure 12, a high voltage of 3.3V is sent to GPIO 26 which is BCM pin 12 according to the table presented in Appendix 2. Due to the transistor in the circuit, the voltage will drop to 3.2V when the receiver senses an RF signal and that is why the status of GPIO 26 will change from high to low. In short, the GPIO pin is high when the signal is not received from the wireless motion detector's transmitter and it will be changed to low as soon as the signal is received. Since the RasPi GPIO pins must not be subjected to the 5V current, it is important to make sure that the receiver's output pin is not connected directly to the RasPi.
 
 <a name="figure-12" />
 
@@ -969,7 +969,7 @@ The above-mentioned Python script will send an SMS to the added phone number and
 
 #### Implementation of a panic button
 
-Based on the project requirement, a panic button is implemented to be used in the case of an emergency, if a home resident wants to inform others. The system is set to send a text message notification by pushing the button. The button is connected to the GPIO 28 which is BCM pin 20 and the complete wiring diagram is given in Figure 14.
+Based on the project requirement, a panic button is implemented to be used in the case of emergency, if a home resident wants to inform others. The system is set to send a text message notification by pushing the button. The button is connected to the GPIO 28 which is BCM pin 20 and the complete wiring diagram is given in Figure 14.
 
 <a name="figure-14" />
 
@@ -1039,7 +1039,7 @@ The next subchapter contains the description of how to send an email notificatio
 
 #### Uploading the video to the cloud and sending an email notification
 
-The video that will be captured on motion detection from the previous subchapter instructions is stored on the RasPi's local storage. It is important to keep the RasPi in a safe and hidden place in the house since it also takes care of home security. But the RasPi can be damaged during a possible robbery and to avoid that the file will be uploaded to the cloud. This part is based on the instruction provided by Blythe (2015).
+The video that will be captured on motion detection from the previous subchapter instructions is stored on the RasPi's local storage. It is important to keep the RasPi in a safe and hidden place in the house since it also takes care of home security. The RasPi can be damaged during a possible robbery and to avoid that the file will be uploaded to the cloud. This part is based on the instruction provided by Blythe (2015).
 
 It is a good idea to have a separate Google account for this part of the project and not to use any personal account. Google Drive then can be used to store video files by enabling the Drive API within the Google Developers Console which is configured through the following instructions:
 
@@ -1052,7 +1052,7 @@ It is a good idea to have a separate Google account for this part of the project
 - Click on the created client and download the JSON file
 - Rename it to client_secrets.json and put it in RasPi storage "/home/pi/"
 
-The commands below then entered in the terminal window:
+The commands below are then entered in the terminal window:
 
 `git clone https://github.com/jerbly/motion-uploader.git`  
 `sudo pip install --upgrade google-api-python-client`  
@@ -1061,7 +1061,7 @@ The commands below then entered in the terminal window:
 
 The next step is to modify the "uploader.cfg" file using the nano editor. The file must contain the login information for the created Gmail account, the path to the JSON file "/home/pi/", the name of the Google drive folder to store video file and an email address to get the notification.
 
-To test the API and related configuration the terminal command `uploader.py uploader.cfg /home/pi/clip.mpg` is executed in the folder "motion-uploader". This will upload the file "clip.mpg" to the Google Drive. For the first time use, the system asked for "Authorization Code" that can be found via the given link by the notification message.
+To test the API and related configuration, the terminal command `uploader.py uploader.cfg /home/pi/clip.mpg` is executed in the folder "motion-uploader". This will upload the file "clip.mpg" to the Google Drive. For the first time use, the system asked for "Authorization Code" that can be found via the given link by the notification message.
 
 The final step of this subchapter is to edit the python script "vlc.py" from the previous subchapter.
 
@@ -1096,7 +1096,7 @@ To turn on/off the security system a Bluetooth device is used. This can be a Blu
 `sudo apt-get install bluez`  
 `sudo apt-get install python-bluez`
 
-The Bluetooth dongle marked as (6) in Figure 4, is connected to a USB port of the RasPi and the connection is tested by entering the terminal command `lsusb`. The Python script below is executing the code "motion.py" when none of the Bluetooth devices included in the script are within  the range of the Bluetooth dongle. The script kills the process as soon as a device is within the range:
+The Bluetooth dongle, marked as (6) in Figure 4, is connected to a USB port of the RasPi and the connection is tested by entering the terminal command `lsusb`. The Python script below is executing the code "motion.py" when none of the Bluetooth devices included in the script are within  the range of the Bluetooth dongle. The script kills the process as soon as a device is within the range:
 
 ``` python
 #!/usr/bin/python
@@ -1118,7 +1118,7 @@ while True:
 		time.sleep(0.1)
 ```
 
-There is no need to pair the Bluetooth devices with the Bluetooth dongle. As shown in the script above, in order for the script to work the MAC addresses of the Bluetooth devices are required. Samsung Galaxy S2 is used to turn on/off the security system automatically without a need of pressing any button or entering any code.
+There is no need to pair the Bluetooth devices with the Bluetooth dongle. As shown in the script above, the MAC addresses of the Bluetooth devices are required in order for the script to work. Samsung Galaxy S2 is used to turn on/off the security system automatically without a need of pressing any button or entering any code.
 
 <a name="figure-17" />
 
@@ -1158,7 +1158,7 @@ The file "test.php" must be accessible and executable from any browser on the LA
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/ifconfig.jpg">  
 Figure 18: RasPi's IP address
 
-A web page is then created to act as a control panel of the system and in order to access the control panel, a login page is created. To protect the password a cryptographic hash function called "SHA-1" is used. A PHP script will check the entered password against the "SHA-1" hash and if a match is found it sets a "SESSION" called "loggedIn" to true. The control panel page will check the "SESSION" and allows access if it is true. The following code is copied from the login page to show how the password is checked:
+A web page is then created to act as a control panel of the system and in order to access the control panel, a login page is created. To protect the password a cryptographic hash function called "SHA-1" is used. A PHP script will check the entered password against the "SHA-1" hash and if a match is found, it sets a "SESSION" called "loggedIn" to true. The control panel page will check the "SESSION" and allows access if it is true. The following code is copied from the login page to show how the password is checked:
 
 ``` php
 <?php
@@ -1193,7 +1193,7 @@ It is enough to assign false to the "loggedIn" session in order to log out.
 ?>
 ```
 
-The control panel page contains eight buttons one for the WIFI socket, three for the RF sockets, one to turn on/off a desktop PC, two buttons for the security role of the system and one to turn on/off the voice control functionality. JavaScript is used to change the status of the buttons to on/off and call the related PHP functions. Appendix 5 contains some pictures of the GUI. The JavaScript code below is used for the "Computer" button:
+The control panel page contains eight buttons: one for the WIFI socket, three for the RF sockets, one to turn on/off a desktop PC, two buttons for the security role of the system and one to turn on/off the voice control functionality. JavaScript is used to change the status of the buttons to on/off and call the related PHP functions. Appendix 5 contains some pictures of the GUI. The JavaScript code below is used for the "Computer" button:
 
 ``` javascript
 var button_11 = document.getElementById("button_11");
@@ -1279,7 +1279,7 @@ if ( isset ($_GET["option"]) && isset($_GET["celsius"])) {
 ?>
 ```
 
-And to remove a cron entry, the below code examines the crontab file line by line and if a line contains the given string it will be removed from the crontab. The following code is added to the file "code.php":
+And to remove a cron entry, the code below examines the crontab file line by line and if a line contains the given string it will be removed from the crontab. The following code is added to the file "code.php":
 
 ``` php
 <?php
@@ -1299,7 +1299,7 @@ if(!empty($_GET["del"])) {
 
 It is also important to mention that the required permission must be given to the user "www-data" by adding this line `www-data ALL=(ALL)NOPASSWD: ALL` to the file called "/etc/sudoers".
 
-In order to control other functions, for example the Bluetooth identification which is covered in the subchapter "Controlling the security system via Bluetooth", the control panel must be also able to start a process using the PHP command `echo exec('nohup sudo python /home/pi/start_bt.py > /dev/null 2>&1&');` and to stop a process by executing the PHP script `echo exec("sudo pkill -9 -f start_bt.py");`. The first command will be used when the "Bluetooth security" button is turned on and the second command kills the process if the button is turned off.
+In order to control other functions, for example the Bluetooth identification which is covered in the subchapter "Controlling the security system via Bluetooth", the control panel must also be able to start a process using the PHP command `echo exec('nohup sudo python /home/pi/start_bt.py > /dev/null 2>&1&');` and to stop a process by executing the PHP script `echo exec("sudo pkill -9 -f start_bt.py");`. The first command will be used when the "Bluetooth security" button is turned on and the second command kills the process if the button is turned off.
 
 By now the thesis paper has covered three stages of the system development life cycle which are requirement analysis, design and implementation. The next two chapters are dedicated to the testing and evaluation of the presented system. The testing stage has uncovered some of the system's performance issues which are described in details in the related chapter.
 
@@ -1307,11 +1307,11 @@ By now the thesis paper has covered three stages of the system development life 
 
 Testing is performed to make sure that the developed system follows the listed requirements in the subchapter "Project questions and objectives". This chapter contains the description of the methods used to test the presented product. 
 
-It is not possible to test everything and all defects can not be detected during the testing phase, however, product testing must ensure that  all the required features are working properly. It is advised to start the testing during the design phase since possible errors can cost 20 to 100 times more  during operations and maintenance. (Lewis 2005, 8-10)
+It is not possible to test everything and all defects cannot be detected during the testing phase, however, product testing must ensure that  all the required features are working properly. It is advised to start the testing during the design phase since possible errors can cost 20 to 100 times more  during operations and maintenance. (Lewis 2005, 8-10)
 
 Although the testing chapter is almost at the end of this thesis paper it is essential to specify that the codes and the description are the results of a tested and working product. The testing during the design has revealed some defects in the system which were fixed. For example, the problem of receiving multiple SMSs due to the motion detection is fixed by adding a ten minutes delay between text messages in the related Python script called "motion.py".
 
-The other discovered issue was getting random false alarms. The wiring is first checked and the script is inspected for possible bugs. The next step was to adjust the PIR sensitivity by using the trimpot on the back of the device that is shown in Figure 19. However, it is discovered that the issue is caused by a defected PIR. The problem is solved by replacing the PIR sensor for a new one.
+The other discovered issue was getting random false alarms. The wiring is checked first and the script is inspected for possible bugs. The next step was to adjust the PIR sensitivity by using the trimpot on the back of the device that is shown in Figure 19. However, it is discovered that the issue is caused by a defected PIR. The problem is solved by replacing the PIR sensor for a new one.
 
 <a name="figure-19" />
 
@@ -1328,7 +1328,7 @@ The other recommendation has affected the GUI and was related to the naming of t
 
 The final method used for testing the product was through the possible real-life situations, for example, what will happen if the residents leave the house but they have to come back immediately to get something they forgot. The test is conducted to examine the behavior of the Bluetooth controlling the security system. The current version of the Python script "start_bt.py" is the result of a successful test.
 
-The other situation considered the possibility of destroying the PIR in the case of an intrusion immediately after entering the house. Will the owner still receive the SMS notification? The test result confirmed the success of the security system although it is possible to damage the RasPi within 12 seconds after the PIR’s signal is received. This way the the video  will not be uploaded to the cloud and the SMS notification will not be sent. So, it is recommended to keep the product somewhere hidden in the house. It is also recommended to hide the router and secure it with a good password.
+The other situation considered the possibility of destroying the PIR in the case of an intrusion immediately after entering the house. Will the owner still receive the SMS notification? The test result confirmed the success of the security system although it is possible to damage the RasPi within 12 seconds after the PIR’s signal is received. This way the video will not be uploaded to the cloud and the SMS notification will not be sent. So, it is recommended to keep the product somewhere hidden in the house. It is also recommended to hide the router and secure it with a good password.
 
 One of the requirements is to control the system remotely over the internet. "Port Forwarding" is a method that can be used for this purpose. The default port for the Apache server is 80 but the port number can be changed by modifying the Apache's configuration. The "Port Forwarding" can be done through the router's control panel, though the description of the complete procedure is out of the scope of this paper. The current system's GUI is tested to be accessible remotely from anywhere via an internet browser.
 
@@ -1338,7 +1338,7 @@ During the Christmas holidays, the decorative lights were controlled without any
 
 It is true that the current product has fulfilled the paper's requirements and the testing chapter successfully reviewed this fact. Appendix 6 contains some pictures of the device that is created for this thesis work. However,  there is always room for improvement in the future implementations.
 
-The first function which can be modified is the voice control feature of the product. The system is using an API called Speech To Text (STT) that is responsible for extracting the user's command from a recorded voice. As mentioned in the testing chapter, the function is not 100% accurate. To fix the issue several APIs can be used instead of one and their outputs can be compared to get  more precise results.
+The first function which can be modified is the voice control feature of the product. The system is using an API called Speech To Text (STT) that is responsible for extracting the user's command from a recorded voice. As mentioned in the testing chapter, the function is not 100% accurate. To fix the issue, several APIs can be used instead of one and their outputs can be compared to get  more precise results.
 
 It is also possible to add more sensors to the product in order to increase the capability of the home automation and the security system, for example a RF doorbell, a RF light bulb holder and a smoke detector. Figure 20 contains some pictures of such sensors.
 
