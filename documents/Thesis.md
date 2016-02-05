@@ -764,7 +764,7 @@ The script "temp.py" is used to build the cron job. The following  command is en
 
 This way the temperature will be checked regularly and in response, the socket number 2 that is connected to an air conditioner will be switched on when the room temperature is above 24°C.
 
-The cron table is also used for the final part of this subchapter which is controlling a socket with a timer. Since all the preparations are done the only thing that is needed is to enter the following lines to the cron table:
+The cron table is also used for the final part of this subchapter which is controlling a socket with a timer. Since all the preparations are done, the only thing needed is to enter the following lines to the cron table:
 
 `00 16 * * * /bin/bash -l /home/pi/sockets.sh 3 on`  
 `00 08 * * * /bin/bash -l /home/pi/sockets.sh 3 off`
