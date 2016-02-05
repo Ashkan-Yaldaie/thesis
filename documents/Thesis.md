@@ -700,7 +700,7 @@ In order to connect the DS18B20 to the RasPi, a ready-made Shield Module is used
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/w-thermometer.jpg">  
 Figure 9: Wiring diagram for the temperature sensor
 
-After attaching the DS18B20 and the RasPi, the connection is tested by entering the following terminal commands:
+After attaching the DS18B20 to the RasPi, the connection is tested by entering the following terminal commands:
 
 `sudo modprobe w1-gpio`  
 `sudo modprobe w1-therm`  
