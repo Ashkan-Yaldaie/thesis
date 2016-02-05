@@ -811,7 +811,7 @@ turn off PC==sudo python /home/pi/wol.py off;tts "done"
 
 If the WIFI socket is connected to a desk lamp, it will be turned on by saying "turn on lamp". The program will reply "done" after turning on the lamp and the same process is valid for turning off the lamp.
 
-There are other things that can be done using the voice control, for instance, turning on/off a Windows PC, if both RasPi and the PC are on the same LAN. This can be done with the following code:
+There are other things that can be done using the voice control, for instance, turning on/off a Windows PC, if both RasPi and the PC are on the same LAN. This is reflected in the following code:
 
 ``` python
 #!/usr/bin/env python
