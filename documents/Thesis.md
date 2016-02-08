@@ -1001,7 +1001,7 @@ The script is set to be executed after every reboot through the cron table `@reb
 
 #### Connecting a camera to the system to capture a video clip of an intrusion
 
-One of the requirements set for this thesis project is to capture a video clip of a home intrusion. The camera which is already connected to the RasPi for the voice control functionality is used in this subchapter as well. It is shown in Figure 4 as item (1). The VLC player which installation was described in an earlier subchapter, can record the video clip by using the following terminal command:
+One of the requirements set for this thesis project is to capture a video clip of a home intrusion. The camera which is already connected to the RasPi for the voice control functionality is used in this subchapter as well. It is shown in Figure 4 as item (1). The VLC player's installation was described in an earlier subchapter. It can record the video clip by using the following terminal command:
 
 ``` bash
 cvlc v4l2:///dev/video0 \:sout='#transcode{vcodec=mp4v,vb=5000,scale=1,fps=30,acodec=mpga,ab=128,\
