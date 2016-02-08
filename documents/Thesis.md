@@ -1318,7 +1318,7 @@ The other discovered issue was getting random false motion alarms. The wiring is
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/pir.jpg">  
 Figure 19: PIR sensor
 
-As stated earlier, at this stage the current DIY project is meant for the personal use and based on the information that a walkthrough test is conducted by two current users of the system to make sure that all the system's components can work together as a unit.
+As stated earlier, at this stage the current DIY project is meant for the personal use and based on this information a walkthrough test is conducted by two current users of the system to make sure that all the system's components can work together as a unit.
 
 A walkthrough serves two purposes: to find out about the activities that system user performs and to see how the system will be used. The walkthrough can be conducted with less than seven participants and can last no more than two hours. There should be a break if more time is needed and the walkthrough will determine whether the product is accepted as it is, accepted with recommended change or totally rejected. (Perry 2006, 213 & Lewis 2005, 513-514)
 
