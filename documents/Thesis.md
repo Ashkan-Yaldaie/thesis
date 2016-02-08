@@ -1347,7 +1347,7 @@ It is also possible to add more sensors to the product in order to increase the 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/sensors.jpg">  
 Figure 20: Extra sensors to improve the product 
 
-Another part which can be improved is the GUI. It is required to modify the system's code in order to add and control new sensors and features to the current product. If developed, an administrator or configuration area can make the process easier.
+Another part which can be improved is the GUI. It is required to modify the system's code in order to add and control new sensors and features. If developed, an administrator or configuration area can make the process easier.
 
 The security of the entire product needs improvement as well and to do so a complete research about the potential security threat is expected. The Open Web Application Security Project (OWASP) report which contains top 10 security risks can be utilized to improve the product's security. The physical security risks must also be improved, for example, a total blackout can compromise the security system since the RasPi is connected to the main power. The easy solution  for this issue is to add a power back in order to act as a power supply for the product.
 
