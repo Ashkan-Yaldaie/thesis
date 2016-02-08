@@ -1311,7 +1311,7 @@ It is not possible to test everything and all defects cannot be detected during 
 
 Although the testing chapter is almost at the end of this thesis paper it is essential to specify that the codes and the description are the results of a tested and working product. The testing during the design has revealed some defects in the system which were fixed. For example, the problem of receiving multiple SMSs due to the motion detection is fixed by adding a ten minutes delay between text messages in the related Python script called "motion.py".
 
-The other discovered issue was getting random false alarms. The wiring is checked first and the script is inspected for possible bugs. The next step was to adjust the PIR sensitivity by using the trimpot on the back of the device that is shown in Figure 19. However, it is discovered that the issue is caused by a defected PIR. The problem is solved by replacing the PIR sensor for a new one.
+The other discovered issue was getting random false motion alarms. The wiring is checked first and the script is inspected for possible bugs. The next step was to adjust the PIR sensitivity by using the trimpot on the back of the device that is shown in Figure 19. However, it is discovered that the issue is caused by a defected PIR. The problem is solved by replacing the PIR sensor for a new one.
 
 <a name="figure-19" />
 
