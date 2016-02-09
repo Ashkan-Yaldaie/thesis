@@ -331,6 +331,7 @@ Home automation:
 - System will be able to control home devices based on the home temperature
 - The home automation system will be able to set time for turning on/off home devices
 - A website is needed in order to control the system
+- A voice control function is also required
 
 Security system:
 
