@@ -1364,7 +1364,7 @@ The implementation phase gives an insight into the project development and to ma
 
 Without the testing phase in the project development lifecycle, it is very difficult to make sure about a project's stability and issues. The testing phase for this project has discovered some problems which were fixed during and after the implementation. The paper also contains a chapter that suggests some modifications and additions for the future developments.
 
-The thesis advisor's comments were very useful in order to find good sources and do a better work. The advisor Tero Karvinen has monitored the thesis work closely and regularly through an online service called GitHub. He teaches Linux and embedded systems at HAAGA-HELIA University of Applied Sciences. He has published five books on the open source platform.
+The thesis advisor's comments were very useful in order to find good sources and do a better work. The advisor, Tero Karvinen, has monitored the thesis work closely and regularly through an online service called GitHub. He teaches Linux and embedded systems at HAAGA-HELIA University of Applied Sciences. He has published five books on the open source platform.
 
 ## References
 
