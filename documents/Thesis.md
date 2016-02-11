@@ -70,7 +70,7 @@ The chapter "Background" contains some information about the software and the ha
   - [Project's purpose and scope](#projects-purpose-and-scope)
   - [Methodology](#methodology)
 2. [Background](#background)
-  - [Why Raspberry Pi?](#why-raspberry-pi)
+  - [Choosing the development board](#choosing-the-development-board)
   - [Home automation and security system](#home-automation-and-security-system)
 3. [Planning](#planning)
   - [List of required sensors and devices](#list-of-required-sensors-and-devices)
@@ -357,7 +357,7 @@ In the current chapter, three budget boards will be analyzed. The most suitable 
 
 The subject of home automation has been discussed during the past years. This chapter will briefly go through the concepts of the home automation and security. There are home automation products available off-the-shelf. The problem is that they are quite expensive and sometimes do not offer a solution to some personal needs. The chapter elaborates some of these problems.
 
-### Why Raspberry Pi?
+### Choosing the development board
 
 Today’s computer science students do not have the same skills like students in 1990’s, that is how Eben Upton felt. It might be due to the rise of more powerful computers and game consoles, so people do not have the programming skills of the earlier generation. That was the reason for the RasPi to come into the world with the help of Eben and his colleagues at the Cambridge University. (Richardson & Wallace 2013, vii)
 
