@@ -231,11 +231,11 @@ The chapter "Background" contains some information about the software and the ha
     </tr>
     <tr>
       <td><strong>LAN</strong></td>
-      <td>Local-Area Network</td>
+      <td>Local Area Network</td>
     </tr>
     <tr>
       <td><strong>LED</strong></td>
-      <td>Light-Emitting Diode</td>
+      <td>Light Emitting Diode</td>
     </tr>
     <tr>
       <td><strong>MAC address</strong></td>
