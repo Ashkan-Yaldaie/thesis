@@ -567,7 +567,7 @@ The input file `if=` is the downloaded `.img` file from the Raspberry Pi Foundat
 
 The RasPi does not have any on/off switch, after inserting the prepared MicroSD it is enough to use a power adapter to turn the device on. The RasPi has two LEDs, the red one is the power LED and the green light shows the MicroSD's activity, so everything is correct if the red light is on and green light is flashing.
 
-The current project does not require to have a display since it is possible to configure and modify everything using `ssh` connection. The RasPi can be connected to the local area network  just by attaching an ethernet cable to it. To use `ssh` for connection, the IP address of the RasPi must be found. The command `nmap -sP` will do the trick, Ubuntu Linux's terminal is used for entering the command, the output is shown in Figure 6. To make sure not to scan a host outside of the LAN, the internet cable was disconnected from the router before executing the command.
+The current project does not require to have a display since it is possible to configure and modify everything using `ssh` connection. The RasPi can be connected to the LAN just by attaching an ethernet cable to it. To use `ssh` for connection, the IP address of the RasPi must be found. The command `nmap -sP` will do the trick, Ubuntu Linux's terminal is used for entering the command, the output is shown in Figure 6. To make sure not to scan a host outside of the LAN, the internet cable was disconnected from the router before executing the command.
 
 <a name="figure-6" />
 
