@@ -1356,9 +1356,9 @@ During the completion of this thesis paper, the Raspberry Pi Foundation (2015) h
 
 ## Conclusion
 
-The paper's objectives were set at early stages of this thesis work and in order to complete the project, a list of required sensors and devices were created based on the project objectives and the planning phase.
+The current product is capable of controlling home devices through the RF and the WIFI sockets. Devices like the air conditioner or the electric kettle can be turned on/off based on the room's temperature or at a specific time. The system can be managed with voice commands and a GUI. The product's security features are also tested and working according to the conditions which can be found in the chapter "Project questions and objectives". If a home intrusion occurs, the system notifies the homeowner after triggering the alarm and saves a video clip of the incident to the cloud. A panic button is added to the system in order to inform someone in case of emergency.
 
-The RasPi was chosen to serve as the main part of the developed device based on its abilities and features. The RasPi has proven to accomplish its purpose for this project which was creating a home automation and security system. All the objectives were met and the thesis questions were answered. Appendix 1 contains the money cost of the details for this project and the device has met the expectations which were set in the chapter "Project questions and objectives".
+The RasPi was chosen to serve as the main part of the developed device based on its abilities and features. The money cost and details for this project are shown in Appendix 1. The RasPi has proven to accomplish its purpose of this thesis work. The board is capable of handling several tasks at the same time and that feature is required for this thesis project.
 
 The implementation phase gives an insight into the project development and to make the work more understandable extra pictures and diagrams were added to the relevant chapters. The diagrams are all related to this thesis work and were created during the implementation phase.
 
