@@ -550,7 +550,7 @@ Project background and the planning phase is followed by the description of the 
 
 ### Setting up the Raspberry Pi
 
-RasPi does not come with an OS preinstalled on it, so to start working with the board, a MicroSD card must be arranged. For the purpose of this thesis Ubuntu Linux is adopted to copy the recommended OS image for this project which is Raspbian Wheezy on the MicroSD card. The image can be downloaded directly from the Raspberry Pi Foundation's website.
+RasPi does not come with an OS preinstalled on it, so to start working with the board, a MicroSD card must be arranged. For the purpose of this thesis Ubuntu Linux is adopted to copy the recommended OS image which is Raspbian Wheezy on the MicroSD card. The image can be downloaded directly from the Raspberry Pi Foundation's website.
 
 <a name="figure-5" />
 
