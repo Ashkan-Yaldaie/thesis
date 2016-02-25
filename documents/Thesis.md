@@ -916,7 +916,7 @@ The above script is then called after every reboot using the crontab's entry:
 @reboot sudo sh /home/pi/superscript.sh
 ```
 
-To send an SMS using the 3G modem a software is required, Gammu is used in order to control the modem used for this project. To install the Gammu the following command is used: `sudo apt-get install gammu`. In order to test the 3G modem's connection, the command `sudo gammu --identify` is entered to the terminal and the output is shown in Figure 13.
+To send an SMS using the 3G modem a software is required, Gammu is used in order to control the modem for this project. To install the Gammu the following command is used: `sudo apt-get install gammu`. In order to test the 3G modem's connection, the command `sudo gammu --identify` is entered to the terminal and the output is shown in Figure 13.
 
 <a name="figure-13" />
 
