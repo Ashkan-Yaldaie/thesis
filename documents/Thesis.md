@@ -977,7 +977,7 @@ Based on the project requirement, a panic button is implemented to be used in th
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/panic-button.jpg">  
 Figure 14: Wiring diagram for the panic button
 
-As shown in Figure 14, the a 3.3V current is connected to the GPIO pin through the button. A high signal will be sent to the GPIO 28, if the panic button is pushed using the Python script below:
+As shown in Figure 14, a 3.3V current is connected to the GPIO pin through the button. A high signal will be sent to the GPIO 28, if the panic button is pushed using the Python script below:
 
 ``` python
 #! /usr/bin/python
