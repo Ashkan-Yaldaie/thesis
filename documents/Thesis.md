@@ -308,7 +308,7 @@ The chapter "Background" contains some information about the software and the ha
 
 Automation of the processes makes everyday life easier and tasks are carried out faster. Smart homes do not just make the life more comfortable and help to save energy but also provide the security for the people’s dwellings. (Othmar 2013, 13-14) Sometimes it may be difficult to make a decision what system to acquire. There is a wide choice of home automation and security systems which can match with any budget, from simple alarms to fully-equipped home automation systems. However, more or less functional ones are rather expensive and not necessarily meet all the needs of a customer. What is more, security systems are given to a customer for a monthly fee, examples are listed in the subchapter "Home automation and security system".
 
-The purpose of this project was to create a system that could meet the personal needs of an owner, therefore, the configurations can vary depending on the individual requirements. The current system is meant for the personal use, however, if developed further, there can be a room for such a system to be introduced to the market.
+The purpose of this project was to create a system that could meet the personal needs of an owner, therefore, the configurations can vary depending on the individual requirements. The current system is meant for the personal use, however, if developed further, such a system could be introduced to the market.
 
 The system in question is a programmable smart home, it gives the opportunity to combine both home automation and security provision. It is built using a Raspberry Pi and the paper gives the understanding of how useful it can be.
 
