@@ -47,7 +47,7 @@ There are home automation products available off-the-shelf. The problem is that 
 <br /><br />
 The content of the paper demonstrates that creation of such a product is possible by explaining how to connect external sensors and devices to the Raspberry Pi. The product can be controlled locally and remotely through a graphical user interface, nevertheless, a complete tutorial on the programming is out of the scope. The paper also presents some pictures and diagrams in order to make the work more understandable.
 <br /><br />
-The chapter "Background" contains some information about the software and the hardware which are utilized for this thesis paper and the Raspberry Pi is used as the main development board based on its abilities and features. The Raspberry Pi fulfilled its purpose for this project. All the thesis objectives were met and the questions were answered but there is always a room for improvement in the future implementations and a chapter called "Ways to improve future implementations" is dedicated to the further development of the current product.
+The chapter "Background" contains some information about the software and the hardware which are utilized for this thesis paper and the Raspberry Pi is used as the main development board based on its abilities and features. The Raspberry Pi fulfilled its purpose for this project. All the thesis objectives were met and the questions were answered but there is always a room for improvement in the future implementations and the chapter called "Ways to improve future implementations" is dedicated to the further development of the current product.
 <br /><br />
       </td>
     </tr>
