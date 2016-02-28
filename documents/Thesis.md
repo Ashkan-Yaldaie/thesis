@@ -881,7 +881,7 @@ Basically, the script reacts to the changes in the status of the BCM pin 12. A w
 
 #### Sending an SMS and triggering the alarm if motion is detected
 
-The security system has to be able to notify the homeowner by sending an SMS if a home intrusion occurs. Based on the planning chapter, the system must also be able to trigger an alarm if a motion is detected while the owner is not home. The current subchapter is focused on the both issues mentioned above. The information used in this part is collected from the Raspberry Pi Foundation (2015) forums.
+The security system has to be able to notify the homeowner by sending an SMS if a home intrusion occurs. Based on the planning chapter, the system must also be able to trigger an alarm if a motion is detected while the owner is not home. The current subchapter is focused on both issues mentioned above. The information used in this part is collected from the Raspberry Pi Foundation (2015) forums.
 
 A 3G USB modem is used in order to send an SMS, the device is shown in Figure 4 as number (8). One of the issues with this device is power consumption, since it needs to have its own power supply, items (9) and (10) are also added to the list of devices required to complete this project.
 
@@ -1312,7 +1312,7 @@ It is not possible to test everything and all defects cannot be detected during 
 
 Although the testing chapter is almost at the end of this thesis paper it is essential to specify that the codes and the description are the results of a tested and working product. The testing during the design has revealed some defects in the system which were fixed. For example, the problem of receiving multiple SMSs due to the motion detection is fixed by adding a ten minutes delay between text messages in the related Python script called "motion.py".
 
-The other discovered issue was getting random false motion alarms. The wiring is checked first and the script is inspected for possible bugs. The next step was to adjust the PIR sensitivity by using the trimpot on the back of the device that is shown in Figure 19. However, it is discovered that the issue is caused by a defected PIR. The problem is solved by replacing the PIR sensor for a new one.
+The other discovered issue was getting random false motion alarms. The wiring is checked first and the script is inspected for possible bugs. The next step was to adjust the PIR sensitivity by using the trimpot on the back of the device that is shown in Figure 19. However, it is discovered that the issue is caused by a defected PIR. The problem is solved by replacing the PIR sensor with a new one.
 
 <a name="figure-19" />
 
@@ -1329,7 +1329,7 @@ The other recommendation has affected the GUI and was related to the naming of t
 
 The final method used for testing the product was through the possible real-life situations, for example, what will happen if the residents leave the house but they have to come back immediately to get something they forgot. The test is conducted to examine the behavior of the Bluetooth controlling the security system. The current version of the Python script "start_bt.py" is the result of a successful test.
 
-The other situation considered the possibility of destroying the PIR in the case of an intrusion immediately after entering the house. Will the owner still receive the SMS notification? The test result confirmed the success of the security system although it is possible to damage the RasPi within 12 seconds after the PIR’s signal is received. This way the video will not be uploaded to the cloud and the SMS notification will not be sent. So, it is recommended to keep the product somewhere hidden in the house. It is also recommended to hide the router and secure it with a good password.
+The other situation considered the possibility of destroying the PIR in the case of intrusion immediately after entering the house. Will the owner still receive the SMS notification? The test result confirmed the success of the security system although it is possible to damage the RasPi within 12 seconds after the PIR’s signal is received. This way the video will not be uploaded to the cloud and the SMS notification will not be sent. So, it is recommended to keep the product somewhere hidden in the house. It is also recommended to hide the router and secure it with a good password.
 
 One of the requirements is to control the system remotely over the internet. "Port Forwarding" is a method that can be used for this purpose. The default port for the Apache server is 80 but the port number can be changed by modifying the Apache's configuration. The "Port Forwarding" can be done through the router's control panel, though the description of the complete procedure is out of the scope of this paper. The current system's GUI is tested to be accessible remotely from anywhere via an internet browser.
 
@@ -1352,7 +1352,7 @@ Another part which can be improved is the GUI. It is required to modify the syst
 
 The security of the entire product needs improvement as well and to do so a complete research about the potential security threat is expected. The Open Web Application Security Project (OWASP) report which contains top 10 security risks can be utilized to improve the product's security. The physical security risks must also be improved, for example, a total blackout can compromise the security system since the RasPi is connected to the main power. The easy solution  for this issue is to add a power back in order to act as a power supply for the product.
 
-During the completion of this thesis paper, the Raspberry Pi Foundation (2015) has released a new version of the RasPi named The Raspberry Pi Zero and they call it the $5 computer. The RasPi zero is more affordable than the board used for this project (The Raspberry Pi 2 Model B). Considering the new RasPi's price, it is cost efficient to use two boards for this DIY project. It is better to dedicate one RasPi for the security system and one for the home automation. If needed the two RasPis can communicate with each other using UDP packages or RF signals.
+During the completion of this thesis paper, the Raspberry Pi Foundation (2015) has released a new version of the RasPi named The Raspberry Pi Zero and they call it the $5 computer. The RasPi zero is more affordable than the board used for this project (The Raspberry Pi 2 Model B). Considering the new RasPi's price, it is cost efficient to use two boards for this DIY project. It is better to dedicate one RasPi for the security system and one for the home automation. If needed, the two RasPis can communicate with each other using UDP packages or RF signals.
 
 ## Conclusion
 
@@ -1360,7 +1360,7 @@ The current product is capable of controlling home devices through the RF and th
 
 The RasPi was chosen to serve as the main part of the developed device based on its abilities and features. The money cost and details for this project are shown in Appendix 1. The RasPi has proven to accomplish its purpose for this thesis work. The board is capable of handling several tasks at the same time and that feature is required for this project.
 
-The implementation phase gives an insight into the project development and to make the work more understandable extra pictures and diagrams were added to the relevant chapters. The diagrams are all related to this thesis work and were created during the implementation phase.
+The implementation phase gives an insight into the project development and to make the work more understandable extra pictures and diagrams were added to the relevant chapters. All the diagrams are related to this thesis work and were created during the implementation phase.
 
 Without the testing phase in the project development lifecycle, it is very difficult to make sure about a project's stability and issues. The testing phase for this project has discovered some problems which were fixed during and after the implementation. The paper also contains a chapter that suggests some modifications and additions for the future developments.
 
