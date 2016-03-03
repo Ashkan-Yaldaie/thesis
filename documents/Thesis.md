@@ -55,7 +55,7 @@ The chapter "Background" contains some information about the software and the ha
       <td colspan="2">
       <strong>Keywords</strong>
       <br />
-      raspberry pi, home automation, security system, smart home, php, javascript, python, bash
+      raspberry pi, home automation, security system, smart home, python, bash
       </td>
     </tr>
   </tbody>
@@ -495,7 +495,7 @@ The customer must sign a contract for at least 36 months. It costs €1,384 in t
 
 One of the most important parts of any project is planning. It is essential to know what must be done in order to turn the list of requirements into a reality. The requirements are presented in the subchapter "Project questions and objectives".
 
-In the planning phase, the list of requirements is examined and the steps needed to fulfill them are outlined. The first item on the list says, "Ability to switch on/off some home devices", to complete this, the system should be able to control some power sockets. Moreover, a professional license is needed to work with the main current. Due to the absence of the license, there are two alternatives left, either to use the radio frequency or WIFI controlled outlets.
+In the planning phase, the list of requirements is examined and the steps needed to fulfil them are outlined. The first item on the list says, "Ability to switch on/off some home devices", to complete this, the system should be able to control some power sockets. Moreover, a professional license is needed to work with the main current. Due to the absence of the license, there are two alternatives left, either to use the radio frequency or WIFI controlled outlets.
 
 As for temperature measurement, if the option is not used, then there is no need to have it. But in case the house owner has pets, it is important to keep them at the temperature that is not too hot, for instance, not higher than 24 degrees Celsius. For this purpose, one of the outlets must be programmed to switch on a cooling device if the temperature rises above 24°C.
 
