@@ -514,7 +514,7 @@ An example of an apartment that accommodates two people is shown in Figure 2. Th
 
 This is why the main attention is paid to the hallway. Shown in Figure 2, the motion sensor marked as (c) and the camera marked as (d) are facing the window and the door. For the security reasons the camera is pointed at the corner that the owner is concerned about, it does not capture any video of the bedroom or the living room.
 
-The other requirement is to switch on the camera and the security system only when nobody is home. There is no need to enter any code or press any button to enable/disable the security system, that can be done by using a phone’s Bluetooth. The smart home system can recognize that nobody is home, if there is no authorized Bluetooth device found, this is how it switches on the security system and the camera.
+The other requirement is to switch on the camera and the security system only when nobody is home. There is no need to enter any code or press any button to enable/disable the security system and that can be done by using a phone’s Bluetooth. The smart home system can recognize that nobody is home, if there is no authorized Bluetooth device found, this is how it switches on the security system and the camera.
 
 ### List of required sensors and devices
 
