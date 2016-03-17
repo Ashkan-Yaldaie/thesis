@@ -722,6 +722,8 @@ Once the DS18B20 is tested the room temperature can be used to control one of th
 ``` python
 #! /usr/bin/python
 #temp.py
+#The code is based on the following link. Adafruit (2015)
+#https://learn.adafruit.com/adafruits-raspberry-pi-lesson-11-ds18b20-temperature-sensing/software
 import os
 import glob
 import time
@@ -1367,6 +1369,8 @@ Without the testing phase in the project development lifecycle, it is very diffi
 The thesis advisor's comments were very useful in order to find good sources and do a better work. The advisor, Tero Karvinen, has monitored the thesis work closely and regularly through an online service called GitHub. He teaches Linux and embedded systems at HAAGA-HELIA University of Applied Sciences. Tero has published five books on the open source platform.
 
 ## References
+
+Adafruit. 2015. URL: https://www.adafruit.com/. Accessed: 17.03.2016.
 
 Blythe, Jeremy. 2015. URL: http://jeremyblythe.blogspot.fi/2015/06/motion-google-drive-uploader-for-oauth.html. Accessed: 30.12.2015.
 
