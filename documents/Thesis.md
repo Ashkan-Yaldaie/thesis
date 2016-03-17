@@ -1390,9 +1390,9 @@ Gus. 2015. Beaglebone Vs Raspberry Pi 2: Choosing The Right Board. URL: http://p
 
 Hickson, Steven. 2015. Voice Command v2.0 for the Raspberry Pi. URL: http://stevenhickson.blogspot.fi/2013/05/voice-command-v20-for-raspberry-pi.html. Accessed: 10.12.2015.
 
-How-To Geek. 2006. URL: http://www.howtogeek.com/. Accessed: 17.03.2016.
-
 Hows, David & Membrey, Peter. 2012. Learn Raspberry Pi with Linux. Apress.
+
+How-To Geek. 2006. URL: http://www.howtogeek.com/. Accessed: 17.03.2016.
 
 HP, 2015. Internet of Things  Security Study:  Home Security Systems Report.
 
