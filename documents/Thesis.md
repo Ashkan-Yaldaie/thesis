@@ -864,7 +864,7 @@ The next step is to test the wireless motion sensor and in order to do that the 
 
 ``` python
 #! /usr/bin/python
-#motion.py v1.00
+#motion.py v1.00, Raspberry Pi Foundation (2015)
 import RPi.GPIO as GPIO
 import time
 sensor = 12
@@ -931,7 +931,7 @@ Moving on to the next requirement which is playing an alarm sound, a program cal
 
 ``` python
 #! /usr/bin/python
-#motion.py v2.00
+#motion.py v2.00, Raspberry Pi Foundation (2015)
 import os
 import commands
 import RPi.GPIO as GPIO
@@ -985,7 +985,7 @@ As shown in Figure 14, a 3.3V current is connected to the GPIO pin through the b
 
 ``` python
 #! /usr/bin/python
-#panic.py
+#panic.py, Raspberry Pi Foundation (2015)
 import RPi.GPIO as GPIO
 import time
 import os
@@ -1573,7 +1573,7 @@ Upton, Eben & Halfacree, Gareth. 2014. Raspberry Pi User Guide. 2nd ed. John Wil
 ``` bash
 #!/bin/bash
 #sockets.sh v2.00
-# WIFI socket's IP address 10.0.0.104
+#WIFI socket's IP address 10.0.0.104
 echo '6864001e636c<MAC>202020202020<Reverse-MAC>202020202020' | xxd -r -p \
 | nc -u -w2 -p '10000' '10.0.0.104' '10000' | xxd -r
 if [ "$1" = "1" ] && [ "$2" = "on" ]; then
@@ -1605,7 +1605,7 @@ fi
 
 ``` python
 #! /usr/bin/python
-#motion.py v2.50
+#motion.py v2.50, Raspberry Pi Foundation (2015)
 import os
 import commands
 import RPi.GPIO as GPIO
