@@ -8,7 +8,7 @@ Ashkan Yaldaie
 
 Bachelor Thesis  
 HAAGA-HELIA University of Applied Sciences  
-28 February 2016
+17 March 2016
 
 ## Abstract
 
@@ -43,7 +43,7 @@ HAAGA-HELIA University of Applied Sciences
     <tr>
       <td colspan="2">
 <br />
-There are home automation products available off-the-shelf. The problem is that they are quite expensive and sometimes do not offer a solution to some personal needs. One of the alternatives is to create the product yourself and not to purchase one. The current paper is a bachelor thesis which examines the possibility of developing a home automation and security system by using the Raspberry Pi. The paper covers the theoretical background, planning, implementation, testing and evaluation phases of the project. The thesis work duration was from October 2015 until February 2016.
+There are home automation products available off-the-shelf. The problem is that they are quite expensive and sometimes do not offer a solution to some personal needs. One of the alternatives is to create the product yourself and not to purchase one. The current paper is a bachelor thesis which examines the possibility of developing a home automation and security system by using the Raspberry Pi. The paper covers the theoretical background, planning, implementation, testing and evaluation phases of the project. The thesis work duration was from October 2015 until March 2016.
 <br /><br />
 The content of the paper demonstrates that creation of such a product is possible by explaining how to connect external sensors and devices to the Raspberry Pi. The product can be controlled locally and remotely through a graphical user interface, nevertheless, a complete tutorial on the programming is out of the scope. The paper also presents some pictures and diagrams in order to make the work more understandable.
 <br /><br />
