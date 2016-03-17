@@ -636,7 +636,7 @@ This subchapter is devoted to the development of the home automation part of the
 
 #### WIFI sockets
 
-Slange (2015) offers a description of the device used for this project. As stated earlier, it is possible for the RasPi to use UDP as a mean of communication with a WIFI socket. The difficult part is to find out about the content of these packages. That can be done by monitoring the LAN while turning the device on/off using its related application. Wireshark is a free and an open source application that can be used to monitor the home network's activity. Figure 7 shows the UDP packages that are captured specifically for this paper by using the Wireshark packet analyzer. The blurred area contains some confidential information like the MAC address of the WIFI socket and should not be shared.
+Štikonas (2015) offers a description of how to reverse engineer the device used for this project. As stated earlier, it is possible for the RasPi to use UDP as a mean of communication with a WIFI socket. The difficult part is to find out about the content of these packages. That can be done by monitoring the LAN while turning the device on/off using its related application. Wireshark is a free and an open source application that can be used to monitor the home network's activity. Figure 7 shows the UDP packages that are captured specifically for this paper by using the Wireshark packet analyzer. The blurred area contains some confidential information like the MAC address of the WIFI socket and should not be shared.
 
 <a name="figure-7" />
 
@@ -648,7 +648,7 @@ It is possible to use the terminal in order to control the socket, once the pack
 ``` bash
 #!/bin/bash
 #sockets.sh v1.00
-# WIFI socket's IP address is 10.0.0.104
+#WIFI socket's IP address is 10.0.0.104
 echo '6864001e636c<MAC>202020202020<Reverse-MAC>202020202020' | xxd -r -p \
 | nc -u -w2 -p '10000' '10.0.0.104' '10000' | xxd -r
 if [ "$1" = "on" ]; then
@@ -1416,7 +1416,7 @@ Schmidt, Maik. 2014. Raspberry Pi: A Quick-Start Guide. 2nd ed. Pragmatic Booksh
 
 Securitas 24Koti. 2015. URL: https://www.securitas.com/fi/fi/turvallisuuspalvelut/kodin-turvallisuuspalvelut/24koti/. Accessed: 06.12.2015.
 
-Slange. 2015. Orvibo S20 WIFI Power Socket. URL: http://blog.slange.co.uk/author/slange-b/. Accessed: 2.12.2015.
+Štikonas, Andrius. 2015. Reverse engineering Orvibo S20 socket. URL: https://stikonas.eu/wordpress/2015/02/24/reverse-engineering-orvibo-s20-socket/. Accessed: 17.03.2016.
 
 Velte, Toby & Elsenpeter, Robert. 2003. Build Your Own Smart Home. The McGraw-Hill Companies.
 
