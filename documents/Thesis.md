@@ -1106,6 +1106,8 @@ The Bluetooth dongle, marked as (6) in Figure 4, is connected to a USB port of t
 ``` python
 #!/usr/bin/python
 #start_bt.py
+#The code is based on the following link. instructables (2016)
+#http://www.instructables.com/id/Raspberry-Pi-Bluetooth-InOut-Board-or-Whos-Hom/
 import bluetooth
 import time
 import os
@@ -1393,6 +1395,8 @@ How-To Geek. 2006. URL: http://www.howtogeek.com/. Accessed: 17.03.2016.
 Hows, David & Membrey, Peter. 2012. Learn Raspberry Pi with Linux. Apress.
 
 HP, 2015. Internet of Things  Security Study:  Home Security Systems Report.
+
+instructables. 2016. URL: http://www.instructables.com/. Accessed: 17.03.2016.
 
 Jenson, Scott. 2014. The home automation paradox. URL: http://radar.oreilly.com/2014/02/the-home-automation-paradox.html. Accessed: 09.11.2015.
 
