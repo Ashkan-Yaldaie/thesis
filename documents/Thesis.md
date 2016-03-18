@@ -1281,7 +1281,7 @@ For all other buttons, a similar structure is adopted. The last example of this 
 
 ``` php
 <?php
-// The PHP Group (2016)
+// stackoverflow (2016)
 $output = shell_exec('crontab -l');
 $cron_file = "/var/tmp/crontab.txt"
 if ( isset ($_GET["option"]) && isset($_GET["celsius"])) {
@@ -1298,7 +1298,7 @@ And to remove a cron entry, the code below examines the crontab file line by lin
 
 ``` php
 <?php
-// The PHP Group (2016)
+// stackoverflow (2016)
 $output = shell_exec('crontab -l');
 $cron_file = "/var/tmp/crontab.txt"
 if(!empty($_GET["del"])) {
@@ -1436,6 +1436,8 @@ Richardson, Matt & Wallace, Shawn. 2013. Getting Started with Raspberry Pi. O'Re
 Schmidt, Maik. 2014. Raspberry Pi: A Quick-Start Guide. 2nd ed. Pragmatic Bookshelf.
 
 Securitas 24Koti. 2015. URL: https://www.securitas.com/fi/fi/turvallisuuspalvelut/kodin-turvallisuuspalvelut/24koti/. Accessed: 06.12.2015.
+
+stackoverflow. 2016. Use PHP to create, edit and delete crontab jobs. URL: http://stackoverflow.com/questions/4421020/use-php-to-create-edit-and-delete-crontab-jobs/4421284. Accessed: 17.03.2016.
 
 Štikonas, Andrius. 2015. Reverse engineering Orvibo S20 socket. URL: https://stikonas.eu/wordpress/2015/02/24/reverse-engineering-orvibo-s20-socket/. Accessed: 17.03.2016.
 
