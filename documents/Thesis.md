@@ -906,7 +906,7 @@ The second step which is changing the settings from the web mode to the serial m
 
 ``` bash
 #!/bin/bash
-#superscript.sh
+#superscript.sh, Raspberry Pi Foundation (2015)
 url="http://192.168.1.1/api/device/mode"
 xmlheader="<?xml version=\"1.0\" encoding=\"UTF-8\"?>"
 data="<request><mode>0</mode></request>"
