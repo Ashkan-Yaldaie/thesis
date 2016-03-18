@@ -1207,6 +1207,7 @@ It is enough to assign false to the "loggedIn" session in order to log out.
 The control panel page contains eight buttons: one for the WIFI socket, three for the RF sockets, one to turn on/off a desktop PC, two buttons for the security role of the system and one to turn on/off the voice control functionality. JavaScript is used to change the status of the buttons to on/off and call the related PHP functions. Appendix 5 contains some pictures of the GUI. The JavaScript code below is used for the "Computer" button:
 
 ``` javascript
+// W3Schools (2016)
 var button_11 = document.getElementById("button_11");
 button_11.addEventListener("click", function () { 
 	if ( button_11.alt === "off" ) {
@@ -1445,6 +1446,8 @@ Velte, Toby & Elsenpeter, Robert. 2003. Build Your Own Smart Home. The McGraw-Hi
 VideoLAN's Wiki. 2015. Streaming HowTo/Command Line Examples. URL: https://wiki.videolan.org/Documentation:Streaming_HowTo/Command_Line_Examples/. Accessed: 17.03.2016.
 
 Upton, Eben & Halfacree, Gareth. 2014. Raspberry Pi User Guide. 2nd ed. John Wiley & Sons Ltd.
+
+W3Schools. 2016. JavaScript Tutorial. URL: http://www.w3schools.com/js/default.asp. Accessed: 17.03.2016.
 
 ## Appendices
 
