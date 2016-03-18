@@ -1171,6 +1171,7 @@ A web page is then created to act as a control panel of the system and in order 
 
 ``` php
 <?php
+// The PHP Group (2016)
 // login page = index.php
 // control panel = home.php
 $password = 'SHA-1 Hash';
@@ -1196,6 +1197,7 @@ It is enough to assign false to the "loggedIn" session in order to log out.
 
 ``` php
 <?php
+// The PHP Group (2016)
     session_start();
     $_SESSION['loggedIn'] = false;
 	header( "Location: index.php" ); // Go back to the login page
@@ -1230,6 +1232,7 @@ The button will react to user’s click. If it is in the off position, a "GET" r
 
 ``` php
 <?php
+// The PHP Group (2016)
 if (isset ($_GET["computer"])) {
 	$computer = strip_tags($_GET["computer"]);
 	if ($computer == "on"){
@@ -1246,6 +1249,7 @@ The PC's current status can be found by sending a "ping" request to its IP addre
 
 ``` php
 <?php
+// The PHP Group (2016)
 function pingAddress($ip) {
 	$pingresult = exec("ping -c 1 $ip", $outcome, $status);
 	if (0 == $status) {
@@ -1276,6 +1280,7 @@ For all other buttons, a similar structure is adopted. The last example of this 
 
 ``` php
 <?php
+// The PHP Group (2016)
 $output = shell_exec('crontab -l');
 $cron_file = "/var/tmp/crontab.txt"
 if ( isset ($_GET["option"]) && isset($_GET["celsius"])) {
@@ -1292,6 +1297,7 @@ And to remove a cron entry, the code below examines the crontab file line by lin
 
 ``` php
 <?php
+// The PHP Group (2016)
 $output = shell_exec('crontab -l');
 $cron_file = "/var/tmp/crontab.txt"
 if(!empty($_GET["del"])) {
@@ -1431,6 +1437,8 @@ Schmidt, Maik. 2014. Raspberry Pi: A Quick-Start Guide. 2nd ed. Pragmatic Booksh
 Securitas 24Koti. 2015. URL: https://www.securitas.com/fi/fi/turvallisuuspalvelut/kodin-turvallisuuspalvelut/24koti/. Accessed: 06.12.2015.
 
 Štikonas, Andrius. 2015. Reverse engineering Orvibo S20 socket. URL: https://stikonas.eu/wordpress/2015/02/24/reverse-engineering-orvibo-s20-socket/. Accessed: 17.03.2016.
+
+The PHP Group. 2016. URL: http://php.net/. Accessed: 17.03.2016.
 
 Velte, Toby & Elsenpeter, Robert. 2003. Build Your Own Smart Home. The McGraw-Hill Companies.
 
