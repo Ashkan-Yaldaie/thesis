@@ -1009,6 +1009,7 @@ The script is set to be executed after every reboot through the cron table `@reb
 One of the requirements set for this thesis project is to capture a video clip of a home intrusion. The camera which is already connected to the RasPi for the voice control functionality is used in this subchapter as well. It is shown in Figure 4 as item (1). The VLC player's installation was described in an earlier subchapter. It can record the video clip by using the following terminal command:
 
 ``` bash
+#VideoLAN's Wiki (2015)
 cvlc v4l2:///dev/video0 \:sout='#transcode{vcodec=mp4v,vb=5000,scale=1,fps=30,acodec=mpga,ab=128,\
 channels=1,samplerate=44100}:duplicate{dst=std{access=file,mux=ts,dst=clip.mpg}}' --run-time=10 vlc://quit
 ```
@@ -1017,7 +1018,7 @@ This will record a ten seconds clip and save it as "clip.mpg". The command was o
 
 ``` python
 #! /usr/bin/python
-#vlc.py v1.00
+#vlc.py v1.00, VideoLAN's Wiki (2015)
 import os
 from datetime import datetime
 i = datetime.now()
@@ -1037,6 +1038,7 @@ Figure 15: IP camera RTSP address
 Besides, a USB webcam that is adopted for this project other devices such as a wireless IP camera can be used to record a video through a RasPi. Such devices may have The Real Time Streaming Protocol (RTSP) to stream their captured video. The RTSP address can usually be found from the settings of the IP camera as shown in Figure 15. To connect to the IP camera and record its captured video, the following terminal command can be applied:
 
 ``` bash
+#VideoLAN's Wiki (2015)
 cvlc rtsp://username:password@10.0.0.101:port/udp/av0_0 --sout=clip.mpg --run-time=10 vlc://quit
 ```
 
@@ -1072,7 +1074,7 @@ The final step of this subchapter is to edit the python script "vlc.py" from the
 
 ``` python
 #! /usr/bin/python
-#vlc.py v1.50
+#vlc.py v1.50, VideoLAN's Wiki (2015)
 import os
 from datetime import datetime
 i = datetime.now()
@@ -1085,7 +1087,7 @@ os.system("/home/pi/motion-uploader/uploader.py /home/pi/motion-uploader/uploade
 
 The code basically uploads the captured file to the Google Drive by using the given configuration from the file "uploader.cfg".
 
-By now the smart home's security system can detect a home intrusion by using the created wireless motion sensor and trigger an alarm, it can then inform the homeowner through an SMS and an email notifications. It can also capture a video file of the instruction and store it to the internal storage and to the cloud.
+By now the smart home's security system can detect a home intrusion by using the created wireless motion sensor and trigger an alarm, it can then inform the homeowner through an SMS and an email notification. It can also capture a video file of the instruction and store it to the internal storage and to the cloud.
 
 #### Controlling the security system via Bluetooth
 
@@ -1431,6 +1433,8 @@ Securitas 24Koti. 2015. URL: https://www.securitas.com/fi/fi/turvallisuuspalvelu
 Štikonas, Andrius. 2015. Reverse engineering Orvibo S20 socket. URL: https://stikonas.eu/wordpress/2015/02/24/reverse-engineering-orvibo-s20-socket/. Accessed: 17.03.2016.
 
 Velte, Toby & Elsenpeter, Robert. 2003. Build Your Own Smart Home. The McGraw-Hill Companies.
+
+VideoLAN's Wiki. 2015. Streaming HowTo/Command Line Examples. URL: https://wiki.videolan.org/Documentation:Streaming_HowTo/Command_Line_Examples/. Accessed: 17.03.2016.
 
 Upton, Eben & Halfacree, Gareth. 2014. Raspberry Pi User Guide. 2nd ed. John Wiley & Sons Ltd.
 
