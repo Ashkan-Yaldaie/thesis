@@ -23,7 +23,7 @@ It is also important to look at the market in order to keep the system up-to-dat
 
 ### Summary
 
-To summarize, I can point out the following as the practical challenges creating a Home automation system.
+To summarize, I can point out the following as the practical challenges creating a home automation system.
 
 - Collecting the right requirements
 - Finding the right platform
