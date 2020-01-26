@@ -1047,6 +1047,7 @@ The script will basically add date and time including seconds to the name of the
 <a name="figure-15" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/ip-cam.jpg">  
+
 Figure 15: IP camera RTSP address
 
 Besides, a USB webcam that is adopted for this project other devices such as a wireless IP camera can be used to record a video through a RasPi. Such devices may have The Real Time Streaming Protocol (RTSP) to stream their captured video. The RTSP address can usually be found from the settings of the IP camera as shown in Figure 15. To connect to the IP camera and record its captured video, the following terminal command can be applied:
