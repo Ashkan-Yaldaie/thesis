@@ -374,6 +374,7 @@ The Raspberry Pi despite its small size is a functional computer capable of hand
 <a name="figure-1" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/connectors.jpg">  
+
 Figure 1: The Raspberry Pi and its connectors
 
 Each GPIO can be controlled using a programming language like Python. A GPIO can be used as an input or output pin. Although RasPi’s operating voltage is 5V DC, it is important to remember that 3.3V DC is the maximum voltage a GPIO can be subjected to. Connecting a 5V supply to a GPIO will damage the RasPi. (Upton & Halfacree 2014, 222-223)
