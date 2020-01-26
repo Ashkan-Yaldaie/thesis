@@ -509,6 +509,7 @@ Security system requirements are to trigger an alarm and capture a video of an i
 <a name="figure-2" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/plan.jpg">  
+
 Figure 2: An example of a floor plan that shows the position of the security devices
 
 An example of an apartment that accommodates two people is shown in Figure 2. The building has two floors and the apartment is located on the second floor. The staircase from the street leads to the entrance. In this example, the most probable way for a thief is to enter through the main door marked as (a) or to break the window marked as (b). The bedroom and the living room windows are more difficult to reach due to the height of the building.
@@ -524,6 +525,7 @@ Besides RasPi and its MicroSD, a variety of devices and sensors is used to compl
 <a name="figure-3" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/wireless-pir.jpg">  
+
 Figure 3: Items used to create a wireless motion sensor
 
 The items needed to create the wireless motion sensor are shown in Figure 3. The motion detector marked as (e), is also referred to as PIR or passive infrared sensor, can recognize motion based on the changes in the infrared spectrum. The PIR is a complex piece of technology, but it is easy to work with. The "HC-SR501" motion sensor used for this project needs an input voltage of 5V and it sends a high signal of 3.3V, so it can be connected directly to the RasPi. (Schmidt 2015, 109-110) Since the goal is to create a wireless motion sensor the PIR cannot drain the power from the RasPi, the 9V battery marked as (f) used as a power supply for the PIR.
@@ -535,6 +537,7 @@ The other items in Figure 3 are resistors marked as (g) and a 2N2222 NPN transis
 <a name="figure-4" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/items-collection.jpg">  
+
 Figure 4: Devices used for creating the smart home functionality
 
 The webcam shown in Figure 4 as item (1) is a Logitech C170 webcam. It has two objectives to carry out concerning this project: to be used as a microphone for the voice control and a video recording device for the security system. Item (2) is a WIFI controlled socket. It is not required to use WIFI sockets for home automation since they are quite expensive in comparison with the item (3) which is a set of three radio frequency controlled outlets. However, it is possible to find the current status of a WIFI socket by sending a UDP package to it. This is the feature that RF sockets lack.
@@ -556,6 +559,7 @@ RasPi does not come with an OS preinstalled on it, so to start working with the 
 <a name="figure-5" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/df-h.jpg">  
+
 Figure 5: Output of the df -h command
 
 Raspberry Pi Foundation (2015) has a complete documentation on the subject. The `.img` file can be copied to the MicroSD card using the `dd` tool. In order to find the name and address of the MicroSD card, `df -h` command is used, one thing to pay attention to is that the image must be copied to the whole card not just to a partition. The `df -h` command's output `/dev/mmcblk0p1` is shown in Figure 5, but the image must be copied to `/dev/mmcblk0` since `p1` stands for partition one. It is important to unmount the MicroSD card by using the command `umount /dev/mmcblk0p1` before proceeding further. The complete terminal command for copying the image is the following:
@@ -573,6 +577,7 @@ The current project does not require to have a display since it is possible to c
 <a name="figure-6" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/nmap.jpg">  
+
 Figure 6: Output of the nmap command
 
 In order to establish a connection to the RasPi for the first time, the default username "pi" and the password "raspberry" is used. The command `ssh pi@10.0.0.102` creates the connection. Having connected to the RasPi, the following configuration is made by using the command `sudo raspi-config` that will open the "Configuration Tool" software:
@@ -642,6 +647,7 @@ This subchapter is devoted to the development of the home automation part of the
 <a name="figure-7" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/wireshark.jpg">  
+
 Figure 7: Communication with the WIFI socket
 
 It is possible to use the terminal in order to control the socket, once the packages are discovered. The shell script below can do the task, the script accepts arguments which can turn on/off the device. Executing the script without any argument will return the current status of the WIFI socket.
@@ -685,6 +691,7 @@ After installing the software and its dependencies, to see the RasPi's GPIO tabl
 <a name="figure-8" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/rf-connection.jpg">  
+
 Figure 8: 433MHz RF transmitter and receiver's connection to the RasPi
 
 The next step is to press each of the six buttons on the remote control that is included into the RF socket set. Each button will produce a code and it can be captured by using the terminal command `sudo 433Utils/RPi_utils/RFSniffer`. The command's output is something like this: `Received 5592332`. The codes are then written down and used with the next command: `sudo 433Utils/RPi_utils/codesend 5592332` to switch on/off the sockets. During the development phase, it is discovered that the RF transmitter does not work well if there is a distance between the transmitter itself and the sockets. The problem is fixed by soldering an antenna to the transmitter.
@@ -700,6 +707,7 @@ In order to connect the DS18B20 to the RasPi, a ready-made Shield Module is used
 <a name="figure-9" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/w-thermometer.jpg">  
+
 Figure 9: Wiring diagram for the temperature sensor
 
 After attaching the DS18B20 to the RasPi, the connection is tested by entering the following terminal commands:
@@ -716,6 +724,7 @@ The output of the entered commands above is shown in Figure 10. The current temp
 <a name="figure-10" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/w1_slave.jpg">  
+
 Figure 10: Reading the room temperature
 
 Once the DS18B20 is tested the room temperature can be used to control one of the RF sockets by using a crontab command and the following Python script which accepts two arguments: the first one is the conditional argument and the second one is value for temperature. The first argument can be "l" or "m" that stand for "less than" or "more than". For example, if  the argument values are "l" and "23", the socket will switch on when the room temperature is less than 23°C and it will switch off if the temperature rises above 23°C.
@@ -852,6 +861,7 @@ This part is based on a tutorial presented by Edney (2014). In order to create a
 <a name="figure-11" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/motion-sensor-transmitter.jpg">  
+
 Figure 11: Wiring diagram for the wireless motion detector's transmitter
 
 Having built the wireless transmitter, the receiver component is created next using a breadboard, marked as item (h) in Figure 4, to connect the parts to each other. As shown in Figure 12, a high voltage of 3.3V is sent to GPIO 26 which is BCM pin 12 according to the table presented in Appendix 2. Due to the transistor in the circuit, the voltage will drop to 3.2V when the receiver senses an RF signal and that is why the status of GPIO 26 will change from high to low. In short, the GPIO pin is high when the signal is not received from the wireless motion detector's transmitter and it will be changed to low as soon as the signal is received. Since the RasPi GPIO pins must not be subjected to the 5V current, it is important to make sure that the receiver's output pin is not connected directly to the RasPi.
@@ -859,6 +869,7 @@ Having built the wireless transmitter, the receiver component is created next us
 <a name="figure-12" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/motion-sensor-receiver.jpg">  
+
 Figure 12: Wiring diagram for the wireless motion detector's receiver
 
 The next step is to test the wireless motion sensor and in order to do that the following Python script is executed:
@@ -926,6 +937,7 @@ To send an SMS using the 3G modem a software is required, Gammu is used in order
 <a name="figure-13" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/gammu-id.jpg">  
+
 Figure 13: Connection to the 3G modem
 
 Moving on to the next requirement which is playing an alarm sound, a program called VLC is installed `sudo apt-get install vlc`. An MP3 file is also prepared to be played as an alarm, it can be the sound of a barking dog, speaking crowd or simply a sound of an alarm. Both SMS notification and triggering the alarm can be added to the security system by modifying the code "motion.py" presented in the previous subchapter.
@@ -980,6 +992,7 @@ Based on the project requirement, a panic button is implemented to be used in th
 <a name="figure-14" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/panic-button.jpg">  
+
 Figure 14: Wiring diagram for the panic button
 
 As shown in Figure 14, a 3.3V current is connected to the GPIO pin through the button. A high signal will be sent to the GPIO 28, if the panic button is pushed using the Python script below:
@@ -1097,6 +1110,7 @@ To be completed, the security system needs to be turn on/off at the right time. 
 <a name="figure-16" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/security.jpg">  
+
 Figure 16: Devices which can be used to control a security system
 
 To turn on/off the security system a Bluetooth device is used. This can be a Bluetooth tag shown as (c) in Figure 16 or the Bluetooth device of a smartphone. To adopt this technique the following packages were installed:
@@ -1133,6 +1147,7 @@ There is no need to pair the Bluetooth devices with the Bluetooth dongle. As sho
 <a name="figure-17" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/bluetooth-baterry.jpg">  
+
 Figure 17: Bluetooth's battery use
 
 The MAC address can be found in the settings menu of the phone and the Bluetooth must set to be on all the time but there is no need to be worried about the battery use. Figure 17 shows the Bluetooth's battery use for 2 days 20 hours and 35 minutes which is just 3 percent. In order to add the new functionality to the security system of the smart home project, the cron job `@reboot nohup sudo python /home/pi/start_bt.py > /dev/null 2>&1&` is entered to the cron table.
@@ -1166,6 +1181,7 @@ The file "test.php" must be accessible and executable from any browser on the LA
 <a name="figure-18" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/ifconfig.jpg">  
+
 Figure 18: RasPi's IP address
 
 A web page is then created to act as a control panel of the system and in order to access the control panel, a login page is created. To protect the password a cryptographic hash function called "SHA-1" is used. A PHP script will check the entered password against the "SHA-1" hash and if a match is found, it sets a "SESSION" called "loggedIn" to true. The control panel page will check the "SESSION" and allows access if it is true. The following code is copied from the login page to show how the password is checked:
@@ -1333,6 +1349,7 @@ The other discovered issue was getting random false motion alarms. The wiring is
 <a name="figure-19" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/pir.jpg">  
+
 Figure 19: PIR sensor
 
 As stated earlier, at this stage the current DIY project is meant for the personal use and based on this information a walkthrough test is conducted by two current users of the system to make sure that all the components can work together as a unit.
@@ -1362,6 +1379,7 @@ It is also possible to add more sensors and devices to the product in order to i
 <a name="figure-20" />
 
 <img src="https://github.com/Ashkan-Yaldaie/thesis/blob/master/documents/img/sensors.jpg">  
+
 Figure 20: Extra sensors to improve the product 
 
 Another part which can be improved is the GUI. It is required to modify the system's code in order to add and control new sensors and features. If developed, an administrator or configuration area can make the process easier.
